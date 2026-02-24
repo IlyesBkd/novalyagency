@@ -102,11 +102,11 @@ export function HeroSection() {
               ))}
             </div>
             <span className="text-text-secondary text-sm ml-1">5.0</span>
-            <span className="text-text-secondary/60 text-xs ml-1">sur +45 avis</span>
+            <span className="text-text-secondary/60 text-xs ml-1">sur +1872 avis</span>
           </div>
 
           {/* Scroll-down nudge */}
-          <a href="#nouvelle-approche" className="inline-flex flex-col items-center gap-2 mt-10 text-accent-lime/80 hover:text-accent-lime transition-colors duration-300 animate-reveal animate-delay-1800 group cursor-pointer">
+          <a href="#portfolio" className="inline-flex flex-col items-center gap-2 mt-10 text-accent-lime/80 hover:text-accent-lime transition-colors duration-300 animate-reveal animate-delay-1800 group cursor-pointer">
             <span className="text-sm font-medium">Pas sûr ? Voyez d&apos;abord comment ça fonctionne</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-down w-5 h-5 animate-bounce">
               <path d="m6 9 6 6 6-6" />

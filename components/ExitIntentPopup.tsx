@@ -1,12 +1,16 @@
 "use client";
 import { useState, useEffect, useCallback } from "react";
+import { createPortal } from "react-dom";
 import { submitPopup } from "@/actions/submitForm";
 
 export function ExitIntentPopup() {
   const [show, setShow] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState("");
+
+  useEffect(() => setMounted(true), []);
 
   const handleMouseLeave = useCallback((e: MouseEvent) => {
     if (e.clientY <= 0 && !show) {
@@ -46,15 +50,18 @@ export function ExitIntentPopup() {
     }
   }
 
-  if (!show) return null;
+  if (!show || !mounted) return null;
 
-  return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
-      {/* Backdrop */}
-      <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" onClick={handleClose} />
+  return createPortal(
+    <div className="fixed inset-0 z-[9998] flex items-center justify-center">
+      {/* Backdrop — full screen dark overlay */}
+      <div
+        className="absolute inset-0 bg-black/80 backdrop-blur-sm"
+        onClick={handleClose}
+      />
 
-      {/* Modal */}
-      <div className="relative w-full max-w-md rounded-2xl bg-dark-900 border border-accent-lime/20 p-8 shadow-2xl shadow-black/50">
+      {/* Modal box — constrained width, centered */}
+      <div className="relative w-full max-w-md mx-4 rounded-2xl bg-dark-900 border border-accent-lime/20 p-8 shadow-2xl shadow-black/50">
         {/* Close */}
         <button
           onClick={handleClose}
@@ -131,6 +138,7 @@ export function ExitIntentPopup() {
           </>
         )}
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
