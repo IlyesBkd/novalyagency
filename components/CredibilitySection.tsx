@@ -96,12 +96,10 @@ export function CredibilitySection() {
         {/* Heading */}
         <div className="text-center mb-16 scroll-animate">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
-            <span className="text-text-primary">Ils nous ont</span>
-            <br />
-            <span className="gradient-text">fait confiance</span>
+            <span className="gradient-text">Pensé pour vous</span>
           </h2>
           <p className="text-lg text-text-secondary max-w-2xl mx-auto">
-            Des professionnels comme vous qui avaient besoin d&apos;un site rapidement.
+            Quel que soit votre secteur, notre offre s&apos;adapte à votre activité.
           </p>
         </div>
 

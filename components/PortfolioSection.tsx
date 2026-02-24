@@ -36,10 +36,10 @@ export function PortfolioSection({ imageNames }: PortfolioSectionProps) {
               Portfolio
             </p>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-text-primary mb-4">
-              Maquettes de sites web
+              Ils nous ont fait confiance
             </h2>
             <p className="text-lg text-text-secondary max-w-3xl mx-auto">
-              Voici les sites que j&apos;ai récemment créés pour mes clients.
+              Des professionnels comme vous qui avaient besoin d&apos;un site rapidement.
             </p>
           </div>
 

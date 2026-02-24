@@ -17,7 +17,7 @@ export function WhatsAppWidget() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Nous contacter sur WhatsApp"
-      className="fixed bottom-6 right-6 z-[9999] w-14 h-14 rounded-full flex items-center justify-center shadow-lg shadow-black/30 hover:scale-110 hover:shadow-xl transition-all duration-300"
+      className="fixed bottom-6 right-6 z-[99999] w-14 h-14 rounded-full flex items-center justify-center shadow-lg shadow-black/30 hover:scale-110 hover:shadow-xl transition-all duration-300"
       style={{ backgroundColor: "#25D366" }}
     >
       <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="white">
