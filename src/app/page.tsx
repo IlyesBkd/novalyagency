@@ -16,11 +16,17 @@ export default function Home() {
         <div className="absolute top-[80%] left-[20%] w-[400px] h-[400px] bg-accent-lime/[0.02] rounded-full blur-[80px]" />
       </div>
       <Hero />
+      <div className="py-12 md:py-20" />
       <Credibility />
+      <div className="py-12 md:py-20" />
       <Features />
+      <div className="py-12 md:py-20" />
       <Process />
+      <div className="py-12 md:py-20" />
       <Commander />
+      <div className="py-12 md:py-20" />
       <FAQ />
+      <div className="py-8 md:py-12" />
       <Footer />
     </div>
   );

@@ -95,10 +95,10 @@ export default function Hero() {
         <div className="mb-10 animate-reveal animate-delay-400">
           <a
             href="#commander"
-            className="btn-primary group inline-flex items-center gap-3 px-10 py-5 text-lg sm:text-xl"
+            className="btn-primary group inline-flex items-center gap-2 px-6 py-3 text-sm sm:text-base font-bold"
           >
             <span>Commander mon site</span>
-            <ArrowRight className="w-5 h-5 relative z-10 transition-transform duration-300 group-hover:translate-x-1" />
+            <ArrowRight className="w-4 h-4 relative z-10 transition-transform duration-300 group-hover:translate-x-1" />
           </a>
         </div>
 
