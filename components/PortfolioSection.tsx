@@ -28,7 +28,7 @@ export function PortfolioSection({ imageNames }: PortfolioSectionProps) {
     return (
       <button
         key={`${name}-${index}`}
-        className="portfolio-thumb snap-center"
+        className="portfolio-thumb"
         onClick={() => setActiveModal(index)}
         aria-label={`Ouvrir maquette ${label}`}
       >
@@ -57,14 +57,14 @@ export function PortfolioSection({ imageNames }: PortfolioSectionProps) {
           </div>
 
           {/* Mobile: native horizontal scroll with snap */}
-          <div className="md:hidden -mx-4 px-4 overflow-x-auto snap-x snap-mandatory flex gap-4 pb-4 portfolio-scroll-hide touch-pan-x">
+          <div className="portfolio-mobile-scroll">
             {imageNames.map((name, index) => makeCard(name, index))}
           </div>
 
           {/* Desktop: infinite marquee */}
           <div
             ref={marqueeRef}
-            className="hidden md:block portfolio-marquee"
+            className="portfolio-marquee-desktop"
             onTouchStart={handleTouchStart}
             onTouchEnd={handleTouchEnd}
           >
