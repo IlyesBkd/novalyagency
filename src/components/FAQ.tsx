@@ -6,39 +6,34 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const faqs = [
   {
-    question: "497\u20AC pour un site, c'est vraiment le prix final ?",
+    question: "497€ pour un site, c'est vraiment le prix final ?",
     answer:
-      "Oui. 497\u20AC tout compris : design, developpement, hebergement et nom de domaine offerts la premiere annee. Aucun frais cache, aucun supplement.",
+      "Oui. 497€ tout compris : design, développement, hébergement et nom de domaine offerts la première année. Aucun frais caché, aucun supplément.",
   },
   {
     question: "Mon site sera-t-il vraiment unique ?",
     answer:
-      "Aucun template, aucun modele recycle.\nChaque site est concu specifiquement pour votre activite, des reception de vos contenus.",
+      "Aucun template, aucun modèle recyclé.\nChaque site est conçu spécifiquement pour votre activité, dès réception de vos contenus.",
   },
   {
     question: "Et si je n'ai pas de logo ou de photos ?",
     answer:
-      "Aucun probleme.\nNous utilisons des images libres de droits de qualite professionnelle.\nLa creation d'un logo texte elegant est proposee en option a 49 \u20AC.\nVotre site conservera un rendu premium.",
+      "Aucun problème.\nNous utilisons des images libres de droits de qualité professionnelle.\nLa création d'un logo texte élégant est proposée en option à 49 €.\nVotre site conservera un rendu premium.",
   },
   {
     question: "Le site sera-t-il vraiment professionnel ?",
     answer:
-      "Absolument. On cree des sites modernes, rapides et optimises pour le referencement. Le design est soigne et adapte a votre activite. Si le resultat ne vous convient pas, on vous rembourse.",
+      "Absolument. On crée des sites modernes, rapides et optimisés pour le référencement. Le design est soigné et adapté à votre activité. Si le résultat ne vous convient pas, on vous rembourse.",
   },
   {
-    question: "Puis-je modifier mon site apres la livraison ?",
+    question: "Puis-je modifier mon site après la livraison ?",
     answer:
-      "Une revision est incluse apres la livraison pour ajuster les details. Pour des modifications ulterieures, on peut intervenir a la demande.",
-  },
-  {
-    question: "Je ne suis pas a l'aise avec la technique, c'est un probleme ?",
-    answer:
-      "Pas du tout. Vous n'avez rien de technique a faire. Envoyez-nous vos contenus, on s'occupe de tout. On vous guide a chaque etape avec un formulaire simple.",
+      "Une révision est incluse après la livraison pour ajuster les détails. Pour des modifications ultérieures, on peut intervenir à la demande.",
   },
   {
     question: "Que se passe-t-il si je ne suis pas satisfait ?",
     answer:
-      "On vous rembourse integralement. Notre objectif est votre satisfaction. Si le site ne correspond pas a vos attentes apres la revision incluse, vous recuperez votre argent.",
+      "On vous rembourse intégralement. Notre objectif est votre satisfaction. Si le site ne correspond pas à vos attentes après la révision incluse, vous récupérez votre argent.",
   },
 ];
 
@@ -63,7 +58,7 @@ export default function FAQ() {
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
               <span className="text-text-primary">Questions</span>
               <br />
-              <span className="gradient-text">frequentes</span>
+              <span className="gradient-text hand-underline">fréquentes</span>
             </h2>
             <p className="text-base sm:text-lg text-text-secondary">
               Tout ce que vous devez savoir avant de commander.

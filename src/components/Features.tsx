@@ -18,7 +18,7 @@ import {
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const feats = [
-  { icon: FileText, text: "Site 1 a 3 pages" },
+  { icon: FileText, text: "Site 1 à 3 pages" },
   { icon: Palette, text: "Design premium sur mesure" },
   { icon: Smartphone, text: "100% mobile responsive" },
   { icon: Zap, text: "Chargement ultra rapide" },
@@ -43,13 +43,13 @@ export default function Features() {
             className={`text-center mb-14 scroll-animate ${hV ? "visible" : ""}`}
           >
             <p className="text-accent-lime text-sm uppercase tracking-[0.25em] mb-4 font-medium">
-              L&apos;offre complete
+              {"L'offre complète"}
             </p>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-text-primary mb-4">
               Tout est inclus
             </h2>
             <p className="text-base sm:text-lg text-text-secondary max-w-xl mx-auto">
-              Un site professionnel cle en main
+              Un site professionnel clé en main
             </p>
           </div>
 
@@ -100,7 +100,7 @@ function PricePanel() {
           </div>
         </div>
         <p className="text-text-secondary text-sm mb-6 lg:mb-8">
-          Paiement unique - Pas d&apos;abonnement cache
+          {"Paiement unique - Pas d'abonnement caché"}
         </p>
         <div className="w-full flex justify-center lg:justify-start">
           <a
@@ -158,17 +158,17 @@ function HostingOffer() {
         </div>
         <div className="text-center mb-3">
           <p className="text-text-primary text-base font-semibold mb-1">
-            {"Hebergement + Nom de domaine"}
+            {"Hébergement + Nom de domaine"}
           </p>
           <p className="text-text-secondary text-xs leading-relaxed">
-            Votre site en ligne 24h/24 avec votre propre adresse
+            {"Votre site en ligne 24h/24 avec votre propre adresse"}
             <br />
-            (ex: votreentreprise.fr)
+            {"(ex: votreentreprise.fr)"}
           </p>
         </div>
         <div className="rounded-lg px-4 py-3 bg-dark-800/60 border border-white/10">
           <p className="text-text-primary text-sm font-medium text-center mb-0.5">
-            {"Puis 150 \u20AC/an a partir de la 2e annee"}
+            {"Puis 150 €/an à partir de la 2e année"}
           </p>
           <p className="text-text-secondary text-xs text-center opacity-70">
             Frais de renouvellement pour maintenir votre site actif
@@ -193,10 +193,10 @@ function DoubleGuarantee() {
           <ShieldCheck className="w-5 h-5 text-emerald-400 shrink-0" />
           <div>
             <p className="text-text-primary text-sm font-medium">
-              {"Satisfait ou rembourse"}
+              Satisfait ou remboursé
             </p>
             <p className="text-text-secondary text-xs">
-              {"Si le resultat ne vous plait pas"}
+              {"Si le résultat ne vous plaît pas"}
             </p>
           </div>
         </div>
@@ -204,10 +204,10 @@ function DoubleGuarantee() {
           <ShieldCheck className="w-5 h-5 text-emerald-400 shrink-0" />
           <div>
             <p className="text-text-primary text-sm font-medium">
-              1 revision incluse
+              1 révision incluse
             </p>
             <p className="text-text-secondary text-xs">
-              Pour ajuster les derniers details
+              Pour ajuster les derniers détails
             </p>
           </div>
         </div>

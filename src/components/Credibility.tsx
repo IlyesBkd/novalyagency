@@ -1,64 +1,37 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Users, Clock, Award, Target } from "lucide-react";
+import { Users, Clock, Award, TrendingUp } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const stats = [
-  { icon: Users, value: "50+", label: "Sites livres" },
-  { icon: Clock, value: "48h", label: "Delai moyen" },
-  { icon: Award, value: "100%", label: "Clients satisfaits" },
-  { icon: Target, value: "0", label: "Mauvaise surprise" },
+  { icon: Users, value: "50+", label: "Clients livrés" },
+  { icon: Clock, value: "48h", label: "Délai moyen" },
+  { icon: Award, value: "100%", label: "Satisfaction" },
+  { icon: TrendingUp, value: "0", label: "Réclamation" },
 ];
 
 const reviews = [
   {
-    initials: "BP",
-    name: "Bruno P.",
-    profession: "Magnetiseur",
-    text: "J'ai ete sincerement touche par le rendu du site. Le visuel est doux, fluide, et les personnes qui me contactent arrivent deja apaisees. Merci.",
+    initials: "M",
+    name: "Marc D.",
+    profession: "Plombier",
+    text: "\"Enfin un site qui me ressemble. Mes clients me trouvent facilement maintenant.\"",
+    stars: 5,
   },
   {
-    initials: "YH",
-    name: "Youba H.",
-    profession: "Facadier",
-    text: "Franchement propre. Site clair, rapide. Les gens appellent direct. Rien a dire.",
+    initials: "J",
+    name: "Julie R.",
+    profession: "Architecte d'intérieur",
+    text: "\"Design magnifique, rapide et efficace. Je recommande à 100% !\"",
+    stars: 5,
   },
   {
-    initials: "ND",
-    name: "Nicolas D.",
-    profession: "Exterminateur de nuisibles",
-    text: "Tres surpris par la qualite du site. Le visuel est vraiment pro et surtout ca rassure les clients. Tres satisfait du resultat !",
-  },
-  {
-    initials: "LJ",
-    name: "Lin J.",
-    profession: "Restaurateur",
-    text: "WOW. Le design est vraiment au-dessus de ce que j'imaginais. Plusieurs clients m'ont parle du site en arrivant au restaurant.",
-  },
-  {
-    initials: "SB",
-    name: "Selim B.",
-    profession: "Nettoyage professionnel",
-    text: "Le site est simple mais hyper pro. Visuellement ca fait tres serieux. Ca change clairement la perception de mon activite.",
-  },
-  {
-    initials: "YO",
-    name: "Yahia O.",
-    profession: "Restaurateur",
-    text: "Tres honnetement choque par le rendu. Le visuel est propre, moderne, ca donne une super image du restaurant.",
-  },
-  {
-    initials: "EJ",
-    name: "Edison J.",
-    profession: "Chauffeur VTC",
-    text: "Site vraiment style. Les clients me font plus confiance direct, ca se sent. Tres content du resultat !",
-  },
-  {
-    initials: "ND2",
-    name: "Nicolas D.",
-    profession: "Installation d'alarme",
-    text: "Deuxieme site commande. Toujours aussi bluffe par la qualite visuelle. Serieux, efficace, propre.",
+    initials: "T",
+    name: "Thomas B.",
+    profession: "Consultant",
+    text: "\"Rapport qualité/prix imbattable. Le site est exactement ce que j'imaginais.\"",
+    stars: 5,
   },
 ];
 
@@ -98,33 +71,24 @@ function StarIcon({ className }: { className?: string }) {
 
 function ReviewCard({ review }: { review: (typeof reviews)[0] }) {
   return (
-    <div className="flex-shrink-0 w-[280px] md:w-[340px] bg-dark-900/60 border border-dark-800 rounded-xl p-5 backdrop-blur-sm hover:border-dark-700 transition-all duration-300">
-      <div className="flex items-start gap-3 mb-3">
-        <div className="w-10 h-10 rounded-full bg-accent-lime/20 flex items-center justify-center text-accent-lime font-bold text-sm flex-shrink-0">
-          {review.initials}
-        </div>
-        <div className="flex-1 min-w-0">
-          <div className="flex items-center gap-2">
-            <span className="font-medium text-text-primary text-sm truncate">
-              {review.name}
-            </span>
-            <GoogleIcon className="w-4 h-4 flex-shrink-0" />
-          </div>
-          <p className="text-xs text-text-secondary truncate">
-            {review.profession}
-          </p>
-        </div>
-      </div>
+    <div className="flex-shrink-0 w-full sm:w-[280px] md:w-[300px] bg-dark-900/60 border border-dark-800 rounded-xl p-5 backdrop-blur-sm hover:border-dark-700 transition-all duration-300">
       <div className="flex gap-0.5 mb-3">
-        {[...Array(5)].map((_, i) => (
+        {[...Array(review.stars)].map((_, i) => (
           <StarIcon key={i} className="w-4 h-4" />
         ))}
       </div>
-      <p className="text-text-secondary text-sm leading-relaxed line-clamp-4">
-        {'"'}
+      <p className="text-text-secondary text-sm leading-relaxed mb-4">
         {review.text}
-        {'"'}
       </p>
+      <div className="flex items-center gap-3">
+        <div className="w-9 h-9 rounded-full bg-accent-lime/20 flex items-center justify-center text-accent-lime font-bold text-sm flex-shrink-0">
+          {review.initials}
+        </div>
+        <div>
+          <p className="text-text-primary text-sm font-medium">{review.name}</p>
+          <p className="text-text-secondary text-xs">{review.profession}</p>
+        </div>
+      </div>
     </div>
   );
 }
@@ -173,8 +137,7 @@ export default function Credibility() {
               <span className="gradient-text">fait confiance</span>
             </h2>
             <p className="text-base sm:text-lg text-text-secondary max-w-2xl mx-auto">
-              Des professionnels comme vous qui avaient besoin d&apos;un site
-              rapidement.
+              {"Des professionnels comme vous qui avaient besoin d'un site rapidement."}
             </p>
           </div>
 
@@ -202,7 +165,7 @@ export default function Credibility() {
             })}
           </div>
 
-          {/* Google Reviews Header */}
+          {/* Google Reviews Badge */}
           <div className="w-full overflow-hidden">
             <div className="flex items-center justify-center gap-2 mb-6">
               <GoogleIcon className="w-5 h-5" />
@@ -215,7 +178,7 @@ export default function Credibility() {
               <span className="text-text-secondary text-sm ml-1">5.0</span>
             </div>
 
-            {/* Desktop Reviews Marquee */}
+            {/* Reviews Carousel / Grid */}
             <div className="hidden md:block relative">
               <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-dark-950 to-transparent z-10 pointer-events-none" />
               <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-dark-950 to-transparent z-10 pointer-events-none" />
@@ -226,7 +189,7 @@ export default function Credibility() {
                   onMouseEnter={() => setIsPaused(true)}
                   onMouseLeave={() => setIsPaused(false)}
                 >
-                  {[...reviews, ...reviews].map((review, i) => (
+                  {[...reviews, ...reviews, ...reviews, ...reviews].map((review, i) => (
                     <ReviewCard key={i} review={review} />
                   ))}
                 </div>
@@ -234,11 +197,9 @@ export default function Credibility() {
             </div>
 
             {/* Mobile Reviews */}
-            <div className="md:hidden flex flex-col gap-4 px-2">
-              {reviews.slice(0, 4).map((review, i) => (
-                <div key={i} className="w-full">
-                  <ReviewCard review={review} />
-                </div>
+            <div className="md:hidden flex flex-col gap-4">
+              {reviews.map((review, i) => (
+                <ReviewCard key={i} review={review} />
               ))}
             </div>
           </div>

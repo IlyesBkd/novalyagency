@@ -22,15 +22,15 @@ export default function Commander() {
             className={`text-center mb-12 scroll-animate ${hV ? "visible" : ""}`}
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              <span className="text-text-primary">{"Pret a avoir"}</span>
+              <span className="text-text-primary">{"Prêt à avoir"}</span>
               <br />
               <span className="gradient-text">votre site premium ?</span>
             </h2>
             <p className="text-base sm:text-lg text-text-secondary max-w-2xl mx-auto mb-8 leading-relaxed">
-              {"Reservez un appel telephonique de 15 minutes."}
+              {"Réservez un appel téléphonique de 15 minutes."}
               <br />
               <br />
-              {"Nous cadrerons votre site, repondrons a vos questions et lancerons immediatement la creation (497 \u20AC, sans devis, sans engagement)."}
+              {"Nous cadrerons votre site, répondrons à vos questions et lancerons immédiatement la création (497 €, sans devis, sans engagement)."}
             </p>
             <div className="flex flex-wrap items-center justify-center gap-6 mb-10">
               <div className="flex items-center gap-2 text-text-secondary group">
@@ -42,7 +42,7 @@ export default function Commander() {
               <div className="flex items-center gap-2 text-text-secondary group">
                 <Shield className="w-5 h-5 text-accent-lime transition-transform duration-300 group-hover:scale-110" />
                 <span className="transition-colors duration-300 group-hover:text-text-primary">
-                  {"Satisfait ou rembourse"}
+                  Satisfait ou remboursé
                 </span>
               </div>
             </div>
@@ -72,7 +72,7 @@ export default function Commander() {
                 height="680"
                 frameBorder="0"
                 scrolling="no"
-                title="Reserver un appel - Calendly"
+                title="Réserver un appel - Calendly"
                 onLoad={() => setIsLoading(false)}
                 className="relative z-20"
                 style={{ border: "none" }}
@@ -84,7 +84,7 @@ export default function Commander() {
             className={`mt-8 text-center text-sm text-text-secondary scroll-animate ${hV ? "visible" : ""}`}
             style={{ transitionDelay: "400ms" }}
           >
-            {"Paiement securise. Aucun engagement avant l'appel."}
+            {"Paiement sécurisé. Aucun engagement avant l'appel."}
           </p>
         </div>
       </div>

@@ -9,21 +9,21 @@ const steps = [
     number: "1",
     title: "Appel de cadrage",
     description:
-      "15 min pour comprendre votre activite, vos besoins et definir ensemble le contenu de votre site.",
+      "15 min pour comprendre votre activité, vos besoins et définir ensemble le contenu de votre site.",
   },
   {
     icon: FileText,
     number: "2",
-    title: "Creation sur mesure",
+    title: "Création sur mesure",
     description:
-      "Notre equipe concoit votre site professionnel avec un design premium adapte a votre image.",
+      "Notre équipe conçoit votre site professionnel avec un design premium adapté à votre image.",
   },
   {
     icon: Rocket,
     number: "3",
     title: "Livraison en 48h",
     description:
-      "Votre site est en ligne, optimise et pret a recevoir vos premiers visiteurs.",
+      "Votre site est en ligne, optimisé et prêt à recevoir vos premiers visiteurs.",
   },
 ];
 
@@ -44,10 +44,10 @@ export default function Process() {
             className={`text-center mb-14 scroll-animate ${hV ? "visible" : ""}`}
           >
             <p className="text-accent-lime text-sm uppercase tracking-[0.2em] mb-4 font-medium">
-              Comment ca marche
+              Comment ça marche
             </p>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
-              <span className="text-text-primary">{"3 etapes."}</span>
+              <span className="text-text-primary">{"3 étapes."}</span>
               <br />
               <span className="gradient-text">48 heures.</span>
             </h2>

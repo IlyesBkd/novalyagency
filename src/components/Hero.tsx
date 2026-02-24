@@ -5,8 +5,14 @@ import { ArrowRight } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const professions = [
-  "Artisans", "Commercants", "Coachs", "Consultants",
-  "Therapeutes", "Restaurateurs", "Independants", "TPE / PME",
+  "Artisans",
+  "Commerçants",
+  "Coachs",
+  "Consultants",
+  "Thérapeutes",
+  "Restaurateurs",
+  "Indépendants",
+  "TPE / PME",
 ];
 
 export default function Hero() {
@@ -39,7 +45,6 @@ export default function Hero() {
             type="video/mp4"
           />
         </video>
-        {/* Dark overlay to ensure text readability */}
         <div className="absolute inset-0 bg-black/60" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/70" />
       </div>
@@ -52,7 +57,7 @@ export default function Hero() {
         <div className="mb-6 animate-reveal animate-delay-100">
           <h2 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black tracking-tighter">
             <span className="text-accent-lime">LIME</span>
-            <span className="text-white ml-3">77</span>
+            <span className="text-text-primary ml-1">77</span>
           </h2>
         </div>
 
@@ -69,20 +74,21 @@ export default function Hero() {
               "0 0 40px rgba(255,255,255,0.15), 0 0 80px rgba(255,255,255,0.1)",
           }}
         >
-          <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white">
-            Site premium a{" "}
-            <span className="text-accent-lime hand-underline">497&euro;</span>
+          <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-text-primary">
+            {"Site premium à "}
+            <span className="text-accent-lime hand-underline">{"497€"}</span>
           </span>
         </h1>
 
         {/* Description */}
         <p className="text-text-secondary text-base sm:text-lg max-w-2xl mx-auto mb-8 animate-reveal animate-delay-300 leading-relaxed">
-          Un site professionnel{" "}
-          <span className="text-white font-medium">sur mesure</span>, concu et
-          livre en{" "}
-          <span className="text-accent-lime font-semibold">48 heures</span>.
+          {"Un site professionnel "}
+          <span className="text-text-primary font-medium">sur mesure</span>
+          {", conçu et livré en "}
+          <span className="text-accent-lime font-semibold">48 heures</span>
+          {"."}
           <br className="hidden sm:block" />
-          {"Ideal pour les pros qui veulent une presence en ligne claire, moderne et efficace."}
+          {"Idéal pour les pros qui veulent une présence en ligne claire, moderne et efficace."}
         </p>
 
         {/* CTA */}
@@ -103,7 +109,7 @@ export default function Hero() {
         >
           {professions.map((prof, i) => (
             <span
-              key={prof}
+              key={i}
               className={`px-4 py-2 sm:px-5 sm:py-2.5 rounded-full text-xs sm:text-sm font-medium transition-all duration-500 cursor-default
                 bg-white/10 text-white/90 border border-white/20 backdrop-blur-sm
                 hover:border-accent-lime/40 hover:bg-accent-lime/10 hover:text-accent-lime
@@ -121,12 +127,12 @@ export default function Hero() {
           className={`text-center scroll-animate ${bottomVisible ? "visible" : ""}`}
           style={{ transitionDelay: "300ms" }}
         >
-          <p className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2">
-            {"Livre en "}
+          <p className="text-3xl sm:text-4xl md:text-5xl font-bold text-text-primary mb-2">
+            {"Livré en "}
             <span className="text-accent-lime">48h.</span>
           </p>
           <p className="text-lg text-white/80 font-medium">
-            {"Satisfait ou rembourse"}
+            Satisfait ou remboursé
           </p>
         </div>
       </div>
