@@ -1,26 +1,173 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-dark-950: oklch(0.145 0.005 285);
+  --color-dark-900: oklch(0.178 0.005 265);
+  --color-dark-800: oklch(0.215 0.008 195);
+  --color-dark-700: oklch(0.275 0.008 195);
+  --color-accent-lime: oklch(0.84 0.238 128);
+  --color-text-primary: oklch(0.97 0 0);
+  --color-text-secondary: oklch(0.715 0.015 260);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #0a0a0b;
+  color: #f5f5f5;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Noise Overlay */
+.noise-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0.03;
+  z-index: 1;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Gradient Text */
+.gradient-text {
+  background: linear-gradient(135deg, #a3e635, #65a30d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Hand Underline */
+.hand-underline {
+  position: relative;
+  display: inline-block;
+}
+.hand-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: #a3e635;
+  border-radius: 3px;
+  opacity: 0.6;
+}
+
+/* CTA Button */
+.btn-primary {
+  position: relative;
+  background: linear-gradient(135deg, #a3e635, #84cc16);
+  color: #0a0a0b;
+  font-weight: 700;
+  border-radius: 9999px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  box-shadow: 0 0 30px rgba(163, 230, 53, 0.2);
+}
+.btn-primary:hover {
+  box-shadow: 0 0 50px rgba(163, 230, 53, 0.35);
+  transform: translateY(-2px);
+}
+
+/* Card Hover */
+.card-hover {
+  transition: all 0.3s ease;
+}
+.card-hover:hover {
+  border-color: rgba(163, 230, 53, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Scroll Animations */
+.scroll-animate {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.scroll-animate.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.scroll-animate-scale {
+  opacity: 0;
+  transform: scale(0.95) translateY(20px);
+  transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.scroll-animate-scale.visible {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
+/* Reveal Animations */
+@keyframes reveal {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes revealScale {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.animate-reveal {
+  animation: reveal 0.8s ease forwards;
+}
+.animate-reveal-scale {
+  animation: revealScale 0.8s ease forwards;
+}
+.animate-delay-100 { animation-delay: 0.1s; opacity: 0; }
+.animate-delay-200 { animation-delay: 0.2s; opacity: 0; }
+.animate-delay-300 { animation-delay: 0.3s; opacity: 0; }
+.animate-delay-400 { animation-delay: 0.4s; opacity: 0; }
+
+/* Pulse Glow */
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.05; transform: translate(-50%, -50%) scale(1); }
+  50% { opacity: 0.08; transform: translate(-50%, -50%) scale(1.05); }
+}
+.animate-pulse-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
+/* Marquee */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+
+/* Calendly Spinner */
+.calendly-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.calendly-bounce1, .calendly-bounce2, .calendly-bounce3 {
+  width: 10px;
+  height: 10px;
+  margin: 0 3px;
+  background-color: #a3e635;
+  border-radius: 50%;
+  animation: calendlyBounce 1.4s ease-in-out infinite both;
+}
+.calendly-bounce1 { animation-delay: -0.32s; }
+.calendly-bounce2 { animation-delay: -0.16s; }
+@keyframes calendlyBounce {
+  0%, 80%, 100% { transform: scale(0); }
+  40% { transform: scale(1); }
 }
