@@ -87,8 +87,8 @@ export function OffersSection() {
           {/* ── Card 2 : Abonnement (premium) ── */}
           <div className="scroll-animate-scale h-full" style={{ transitionDelay: "100ms" }}>
             <div className="group relative h-full">
-              {/* Subtle lime glow behind card */}
-              <div className="absolute -inset-1 rounded-3xl bg-gradient-to-b from-accent-lime/30 via-accent-lime/10 to-accent-lime/30 blur-sm opacity-50 group-hover:opacity-70 transition-opacity duration-500" />
+              {/* Subtle lime glow behind card — hidden on mobile for GPU perf */}
+              <div className="hidden md:block absolute -inset-1 rounded-3xl bg-gradient-to-b from-accent-lime/30 via-accent-lime/10 to-accent-lime/30 blur-sm opacity-50 group-hover:opacity-70 transition-opacity duration-500" />
 
               <div className="relative h-full bg-black/30 backdrop-blur-md border border-accent-lime/20 rounded-3xl p-8 sm:p-10 flex flex-col hover:-translate-y-1 transition-all duration-300">
                 {/* Badge "Recommandé" */}

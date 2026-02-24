@@ -13,6 +13,8 @@ export function HeroSection() {
           loop
           muted
           playsInline
+          preload="metadata"
+          poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1' height='1'%3E%3Crect fill='%23000'/%3E%3C/svg%3E"
           className="absolute inset-0 w-full h-full object-cover"
         >
           <source src="/assets/space" type="video/mp4" />
@@ -53,10 +55,10 @@ export function HeroSection() {
             </span>
           </h1>
 
-          <p className="text-2xl sm:text-3xl md:text-4xl font-semibold text-text-primary mb-2 animate-reveal animate-delay-800">
+          <p className="text-xl sm:text-3xl md:text-4xl font-semibold text-text-primary mb-2 animate-reveal animate-delay-800">
             Livré en <span className="text-accent-lime">48h.</span>
           </p>
-          <p className="text-lg sm:text-xl text-text-secondary mb-6 animate-reveal animate-delay-1200">
+          <p className="text-base sm:text-xl text-text-secondary mb-6 animate-reveal animate-delay-1200">
             Sans devis. Sans surprise. Sans Blabla.
           </p>
 

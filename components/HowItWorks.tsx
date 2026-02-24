@@ -43,7 +43,7 @@ export function HowItWorks() {
     <Section id="how-it-works">
       <div className="max-w-6xl mx-auto px-4">
         {/* Heading */}
-        <div className="text-center mb-16 scroll-animate">
+        <div className="text-center mb-10 md:mb-16 scroll-animate">
           <p className="text-accent-lime text-sm uppercase tracking-[0.2em] mb-4 font-medium">
             Comment ça marche
           </p>

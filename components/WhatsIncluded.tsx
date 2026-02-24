@@ -104,7 +104,7 @@ export function WhatsIncluded() {
     <Section id="whats-included" glow>
       <div className="max-w-6xl mx-auto px-4">
             {/* Heading */}
-            <div className="text-center mb-16 scroll-animate">
+            <div className="text-center mb-10 md:mb-16 scroll-animate">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent-lime/10 border border-accent-lime/20 mb-6">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-accent-lime"><path d="m16 16 2 2 4-4"/><path d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.5"/><path d="m7.5 4.27 9 5.15"/><polyline points="3.29 7 12 12 20.71 7"/><line x1="12" y1="22" x2="12" y2="12"/></svg>
                 <span className="text-sm text-accent-lime font-medium">L&apos;offre complète</span>
@@ -119,7 +119,7 @@ export function WhatsIncluded() {
             </div>
 
             {/* Features grid */}
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4 mb-8 md:mb-12">
               {FEATURES.map((feature, i) => (
                 <div
                   key={feature.title}

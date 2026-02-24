@@ -1,14 +1,5 @@
 import { Section } from "./Section";
 
-const COMPARISONS = [
-  {
-    before: "Agence classique",
-    beforeDetails: ["Devis interminable", "3 à 6 mois de délai", "Budgets opaques", "Processus complexe"],
-    after: "Notre approche",
-    afterDetails: ["Tarif clair, sans surprise", "Livraison en 48h", "100 % personnalisé", "Zéro engagement caché"],
-  },
-];
-
 export function NouvelleApproche() {
   return (
     <Section id="nouvelle-approche">
@@ -54,7 +45,7 @@ export function NouvelleApproche() {
 
             {/* After */}
             <div className="relative bg-black/30 backdrop-blur-md border border-accent-lime/30 rounded-2xl p-6">
-              <div className="absolute -inset-px rounded-2xl bg-gradient-to-b from-accent-lime/20 to-transparent opacity-40 pointer-events-none" />
+              <div className="hidden md:block absolute -inset-px rounded-2xl bg-gradient-to-b from-accent-lime/20 to-transparent opacity-40 pointer-events-none" />
               <p className="text-accent-lime text-sm uppercase tracking-[0.18em] mb-4 font-medium">
                 Notre approche
               </p>

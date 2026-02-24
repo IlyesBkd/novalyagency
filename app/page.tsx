@@ -1,5 +1,5 @@
+import dynamic from "next/dynamic";
 import { HeroSection } from "@/components/HeroSection";
-import { PortfolioSection } from "@/components/PortfolioSection";
 import { CredibilitySection } from "@/components/CredibilitySection";
 import { ComparisonTable } from "@/components/ComparisonTable";
 import { NouvelleApproche } from "@/components/NouvelleApproche";
@@ -7,12 +7,26 @@ import { HowItWorks } from "@/components/HowItWorks";
 import { WhatsIncluded } from "@/components/WhatsIncluded";
 import { OffersSection } from "@/components/OffersSection";
 import { GuaranteeSection } from "@/components/GuaranteeSection";
-import { FinalCta } from "@/components/FinalCta";
 import { FooterSection } from "@/components/FooterSection";
-import { ScrollAnimateInit } from "@/components/ScrollAnimateInit";
-import { WhatsAppWidget } from "@/components/WhatsAppWidget";
 import { SectionCta } from "@/components/SectionCta";
 import { getPortfolioImageNames } from "@/lib/portfolio";
+
+const PortfolioSection = dynamic(
+  () => import("@/components/PortfolioSection").then((m) => m.PortfolioSection),
+  { ssr: true }
+);
+const FinalCta = dynamic(
+  () => import("@/components/FinalCta").then((m) => m.FinalCta),
+  { ssr: false }
+);
+const WhatsAppWidget = dynamic(
+  () => import("@/components/WhatsAppWidget").then((m) => m.WhatsAppWidget),
+  { ssr: false }
+);
+const ScrollAnimateInit = dynamic(
+  () => import("@/components/ScrollAnimateInit").then((m) => m.ScrollAnimateInit),
+  { ssr: false }
+);
 
 export default function HomePage() {
   const portfolioImages = getPortfolioImageNames();
@@ -22,8 +36,8 @@ export default function HomePage() {
       {/* Noise texture overlay */}
       <div className="noise-overlay" />
 
-      {/* Global ambient blobs */}
-      <div className="fixed inset-0 pointer-events-none">
+      {/* Global ambient blobs — hidden on mobile for GPU perf */}
+      <div className="hidden md:block fixed inset-0 pointer-events-none">
         <div className="absolute top-[20%] left-[10%] w-[600px] h-[600px] bg-accent-lime/[0.03] rounded-full blur-[120px]" />
         <div className="absolute top-[50%] right-[5%] w-[500px] h-[500px] bg-accent-lime/[0.03] rounded-full blur-[100px]" />
         <div className="absolute top-[80%] left-[20%] w-[400px] h-[400px] bg-accent-lime/[0.02] rounded-full blur-[80px]" />

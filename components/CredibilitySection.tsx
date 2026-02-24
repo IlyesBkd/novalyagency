@@ -94,7 +94,7 @@ export function CredibilitySection() {
     <Section id="credibility">
       <div className="max-w-6xl mx-auto px-4">
         {/* Heading */}
-        <div className="text-center mb-16 scroll-animate">
+        <div className="text-center mb-10 md:mb-16 scroll-animate">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
             <span className="gradient-text">Pensé pour vous</span>
           </h2>
@@ -104,7 +104,7 @@ export function CredibilitySection() {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-10 md:mb-16">
           {STATS.map(({ icon, value, label }, i) => (
             <div
               key={label}
