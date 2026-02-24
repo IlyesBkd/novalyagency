@@ -1,13 +1,13 @@
 "use client";
 import { useState } from "react";
-import { submitForm } from "@/actions/submitForm";
+import { submitContact } from "@/actions/submitForm";
 
 export function FinalCta() {
-  const [form, setForm] = useState({ name: "", email: "", phone: "", plan: "", project: "" });
+  const [form, setForm] = useState({ email: "", phone: "", message: "" });
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState("");
 
-  function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) {
+  function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   }
 
@@ -16,7 +16,7 @@ export function FinalCta() {
     setStatus("sending");
     setErrorMsg("");
     try {
-      const result = await submitForm(form);
+      const result = await submitContact(form);
       if (result.success) {
         setStatus("sent");
       } else {
@@ -64,88 +64,52 @@ export function FinalCta() {
                     <p className="text-text-secondary">Nous vous recontactons sous 24h pour lancer votre projet.</p>
                   </div>
                 ) : (
-                  <form onSubmit={handleSubmit} className="space-y-6">
-                    {/* Name + Email row */}
-                    <div className="grid sm:grid-cols-2 gap-6">
-                      <div>
-                        <label className="block text-sm font-medium text-text-primary mb-2">
-                          Nom complet <span className="text-accent-lime">*</span>
-                        </label>
-                        <input
-                          type="text"
-                          name="name"
-                          required
-                          value={form.name}
-                          onChange={handleChange}
-                          placeholder="Jean Dupont"
-                          className="w-full rounded-xl bg-black/50 border border-gray-700 focus:border-accent-lime/50 focus:outline-none focus:ring-1 focus:ring-accent-lime/30 px-4 py-3.5 text-white placeholder-gray-400 text-sm transition-all duration-200"
-                        />
-                      </div>
-                      <div>
-                        <label className="block text-sm font-medium text-text-primary mb-2">
-                          Adresse e-mail <span className="text-accent-lime">*</span>
-                        </label>
-                        <input
-                          type="email"
-                          name="email"
-                          required
-                          value={form.email}
-                          onChange={handleChange}
-                          placeholder="vous@exemple.fr"
-                          className="w-full rounded-xl bg-black/50 border border-gray-700 focus:border-accent-lime/50 focus:outline-none focus:ring-1 focus:ring-accent-lime/30 px-4 py-3.5 text-white placeholder-gray-400 text-sm transition-all duration-200"
-                        />
-                      </div>
+                  <form onSubmit={handleSubmit} className="space-y-7">
+                    {/* Email */}
+                    <div>
+                      <label className="block text-sm font-medium text-text-primary mb-2">
+                        Adresse e-mail <span className="text-accent-lime">*</span>
+                      </label>
+                      <input
+                        type="email"
+                        name="email"
+                        required
+                        value={form.email}
+                        onChange={handleChange}
+                        placeholder="vous@exemple.fr"
+                        className="w-full rounded-xl bg-black/50 border border-gray-700 focus:border-accent-lime/50 focus:outline-none focus:ring-1 focus:ring-accent-lime/30 px-5 py-4 text-white placeholder-gray-400 text-base transition-all duration-200"
+                      />
                     </div>
 
-                    {/* Phone + Plan row */}
-                    <div className="grid sm:grid-cols-2 gap-6">
-                      <div>
-                        <label className="block text-sm font-medium text-text-primary mb-2">
-                          Numéro de téléphone{" "}
-                          <span className="text-text-secondary/60 text-xs font-normal">(facultatif)</span>
-                        </label>
-                        <input
-                          type="tel"
-                          name="phone"
-                          value={form.phone}
-                          onChange={handleChange}
-                          placeholder="+33 6 12 34 56 78"
-                          className="w-full rounded-xl bg-black/50 border border-gray-700 focus:border-accent-lime/50 focus:outline-none focus:ring-1 focus:ring-accent-lime/30 px-4 py-3.5 text-white placeholder-gray-400 text-sm transition-all duration-200"
-                        />
-                      </div>
-                      <div>
-                        <label className="block text-sm font-medium text-text-primary mb-2">
-                          Quel est votre besoin ? <span className="text-accent-lime">*</span>
-                        </label>
-                        <select
-                          name="plan"
-                          required
-                          value={form.plan}
-                          onChange={handleChange}
-                          className="w-full rounded-xl bg-black/50 border border-gray-700 focus:border-accent-lime/50 focus:outline-none focus:ring-1 focus:ring-accent-lime/30 px-4 py-3.5 text-white text-sm transition-all duration-200 appearance-none"
-                          style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%239ca3af' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 16px center' }}
-                        >
-                          <option value="" disabled className="bg-gray-900 text-gray-400">Choisissez une formule</option>
-                          <option value="one-shot-399" className="bg-gray-900 text-white">One Shot — 399€</option>
-                          <option value="abonnement-99" className="bg-gray-900 text-white">Abonnement — 99€/mois</option>
-                          <option value="autre" className="bg-gray-900 text-white">Autre demande</option>
-                        </select>
-                      </div>
+                    {/* Phone */}
+                    <div>
+                      <label className="block text-sm font-medium text-text-primary mb-2">
+                        Numéro de téléphone{" "}
+                        <span className="text-text-secondary/60 text-xs font-normal">(facultatif)</span>
+                      </label>
+                      <input
+                        type="tel"
+                        name="phone"
+                        value={form.phone}
+                        onChange={handleChange}
+                        placeholder="+33 6 12 34 56 78"
+                        className="w-full rounded-xl bg-black/50 border border-gray-700 focus:border-accent-lime/50 focus:outline-none focus:ring-1 focus:ring-accent-lime/30 px-5 py-4 text-white placeholder-gray-400 text-base transition-all duration-200"
+                      />
                     </div>
 
-                    {/* Project */}
+                    {/* Project description */}
                     <div>
                       <label className="block text-sm font-medium text-text-primary mb-2">
                         Décrivez votre projet <span className="text-accent-lime">*</span>
                       </label>
                       <textarea
-                        name="project"
+                        name="message"
                         required
-                        rows={5}
-                        value={form.project}
+                        rows={6}
+                        value={form.message}
                         onChange={handleChange}
                         placeholder="Ex: Je suis plombier à Lyon et j'ai besoin d'un site vitrine professionnel pour attirer de nouveaux clients..."
-                        className="w-full rounded-xl bg-black/50 border border-gray-700 focus:border-accent-lime/50 focus:outline-none focus:ring-1 focus:ring-accent-lime/30 px-4 py-3.5 text-white placeholder-gray-400 text-sm transition-all duration-200 resize-none"
+                        className="w-full rounded-xl bg-black/50 border border-gray-700 focus:border-accent-lime/50 focus:outline-none focus:ring-1 focus:ring-accent-lime/30 px-5 py-4 text-white placeholder-gray-400 text-base transition-all duration-200 resize-none"
                       />
                     </div>
 
@@ -158,7 +122,7 @@ export function FinalCta() {
                     <button
                       type="submit"
                       disabled={status === "sending"}
-                      className="btn-primary w-full group inline-flex items-center justify-center gap-3 px-8 py-4 text-lg disabled:opacity-70 disabled:cursor-not-allowed"
+                      className="btn-primary w-full group inline-flex items-center justify-center gap-3 px-8 py-5 text-lg disabled:opacity-70 disabled:cursor-not-allowed"
                     >
                       {status === "sending" ? (
                         <>

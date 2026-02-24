@@ -7,7 +7,8 @@ export function FooterSection() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="text-text-secondary text-sm">
-              © 2026 Lime 77 — Tous droits réservés
+              © 2026 Novaly Agency — Tous droits réservés ·{" "}
+              <a href="mailto:support@novalyagency.com" className="hover:text-accent-lime transition-colors">support@novalyagency.com</a>
             </div>
             <div className="flex items-center gap-4 text-sm text-text-secondary">
               <Link

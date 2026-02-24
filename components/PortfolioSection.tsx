@@ -22,7 +22,6 @@ export function PortfolioSection({ imageNames }: PortfolioSectionProps) {
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={url} alt={`Aperçu maquette ${index + 1}`} loading="lazy" decoding="async" />
-        <span className="portfolio-thumb-label">Maquette {label}</span>
       </button>
     );
   });
@@ -42,8 +41,7 @@ export function PortfolioSection({ imageNames }: PortfolioSectionProps) {
                   Maquettes de sites web
                 </h2>
                 <p className="text-lg text-text-secondary max-w-3xl mx-auto">
-                  Défilement horizontal automatique. Cliquez sur une carte pour afficher
-                  la maquette complète.
+                  Voici les sites que j&apos;ai récemment créés pour mes clients.
                 </p>
               </div>
 
@@ -57,9 +55,6 @@ export function PortfolioSection({ imageNames }: PortfolioSectionProps) {
                 </div>
               </div>
 
-              <p className="text-text-secondary text-sm mt-2">
-                Survolez pour mettre en pause, puis cliquez pour ouvrir une maquette complète.
-              </p>
             </div>
           </div>
         </section>

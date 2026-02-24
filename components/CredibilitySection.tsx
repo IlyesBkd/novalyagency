@@ -183,6 +183,25 @@ export function CredibilitySection() {
                   </div>
                 ))}
               </div>
+
+              {/* Métiers accompagnés */}
+              <div className="mt-12 scroll-animate px-6">
+                <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-text-secondary/70 text-sm">
+                  {[
+                    { icon: "✦", label: "Magnétiseur" },
+                    { icon: "✦", label: "Façadier" },
+                    { icon: "✦", label: "Restaurateur" },
+                    { icon: "✦", label: "VTC" },
+                    { icon: "✦", label: "Taxi" },
+                    { icon: "✦", label: "Nettoyage professionnel" },
+                  ].map(({ icon, label }) => (
+                    <span key={label} className="inline-flex items-center gap-1.5">
+                      <span className="text-accent-lime/60 text-xs">{icon}</span>
+                      {label}
+                    </span>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
       </section>

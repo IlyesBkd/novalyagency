@@ -40,7 +40,7 @@ export function Navbar() {
         <Link href="/" className="flex items-center gap-2">
           <Image
             src="/assets/logo"
-            alt="Lime 77"
+            alt="Novaly Agency"
             width={120}
             height={40}
             className="h-8 w-auto"

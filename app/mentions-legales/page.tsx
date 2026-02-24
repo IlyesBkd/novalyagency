@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Mentions légales | Lime 77",
-  description: "Mentions légales du site Lime 77",
+  title: "Mentions légales | Novaly Agency",
+  description: "Mentions légales du site Novaly Agency",
 };
 
 export default function MentionsLegales() {
@@ -25,11 +25,11 @@ export default function MentionsLegales() {
           <section>
             <h2 className="text-lg font-semibold text-white mb-3">1. Éditeur du site</h2>
             <p>
-              Le site <strong className="text-white">lime77.fr</strong> est édité par :<br />
-              <strong className="text-white">Lime 77</strong><br />
+              Le site <strong className="text-white">novalyagency.com</strong> est édité par :<br />
+              <strong className="text-white">Novaly Agency</strong><br />
               Statut : Micro-entreprise<br />
               Adresse : [Adresse à compléter]<br />
-              E-mail : contact@lime77.fr<br />
+              E-mail : support@novalyagency.com<br />
               Téléphone : [Numéro à compléter]<br />
               SIRET : [Numéro SIRET à compléter]
             </p>
@@ -55,21 +55,21 @@ export default function MentionsLegales() {
           <section>
             <h2 className="text-lg font-semibold text-white mb-3">4. Propriété intellectuelle</h2>
             <p>
-              L&apos;ensemble du contenu de ce site (textes, images, graphismes, logo, icônes, sons, logiciels, etc.) est la propriété exclusive de Lime 77, sauf mentions contraires. Toute reproduction, représentation, modification, publication ou adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite sans autorisation écrite préalable de Lime 77.
+              L&apos;ensemble du contenu de ce site (textes, images, graphismes, logo, icônes, sons, logiciels, etc.) est la propriété exclusive de Novaly Agency, sauf mentions contraires. Toute reproduction, représentation, modification, publication ou adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite sans autorisation écrite préalable de Novaly Agency.
             </p>
           </section>
 
           <section>
             <h2 className="text-lg font-semibold text-white mb-3">5. Limitation de responsabilité</h2>
             <p>
-              Lime 77 s&apos;efforce d&apos;assurer au mieux l&apos;exactitude et la mise à jour des informations diffusées sur ce site. Toutefois, Lime 77 ne peut garantir l&apos;exactitude, la précision ou l&apos;exhaustivité des informations mises à disposition. En conséquence, Lime 77 décline toute responsabilité pour les éventuelles imprécisions, inexactitudes ou omissions portant sur des informations disponibles sur le site.
+              Novaly Agency s&apos;efforce d&apos;assurer au mieux l&apos;exactitude et la mise à jour des informations diffusées sur ce site. Toutefois, Novaly Agency ne peut garantir l&apos;exactitude, la précision ou l&apos;exhaustivité des informations mises à disposition. En conséquence, Novaly Agency décline toute responsabilité pour les éventuelles imprécisions, inexactitudes ou omissions portant sur des informations disponibles sur le site.
             </p>
           </section>
 
           <section>
             <h2 className="text-lg font-semibold text-white mb-3">6. Liens hypertextes</h2>
             <p>
-              Le site peut contenir des liens hypertextes vers d&apos;autres sites internet. Lime 77 n&apos;exerce aucun contrôle sur le contenu de ces sites tiers et décline toute responsabilité quant à leur contenu.
+              Le site peut contenir des liens hypertextes vers d&apos;autres sites internet. Novaly Agency n&apos;exerce aucun contrôle sur le contenu de ces sites tiers et décline toute responsabilité quant à leur contenu.
             </p>
           </section>
 

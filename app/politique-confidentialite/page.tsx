@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Politique de confidentialité | Lime 77",
-  description: "Politique de confidentialité du site Lime 77",
+  title: "Politique de confidentialité | Novaly Agency",
+  description: "Politique de confidentialité du site Novaly Agency",
 };
 
 export default function PolitiqueConfidentialite() {
@@ -25,7 +25,7 @@ export default function PolitiqueConfidentialite() {
           <section>
             <h2 className="text-lg font-semibold text-white mb-3">1. Introduction</h2>
             <p>
-              La présente politique de confidentialité a pour but d&apos;informer les utilisateurs du site <strong className="text-white">lime77.fr</strong> sur la manière dont leurs données personnelles sont collectées, traitées et protégées, conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés.
+              La présente politique de confidentialité a pour but d&apos;informer les utilisateurs du site <strong className="text-white">novalyagency.com</strong> sur la manière dont leurs données personnelles sont collectées, traitées et protégées, conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés.
             </p>
           </section>
 
@@ -33,8 +33,8 @@ export default function PolitiqueConfidentialite() {
             <h2 className="text-lg font-semibold text-white mb-3">2. Responsable du traitement</h2>
             <p>
               Le responsable du traitement des données est :<br />
-              <strong className="text-white">Lime 77</strong><br />
-              E-mail : contact@lime77.fr
+              <strong className="text-white">Novaly Agency</strong><br />
+              E-mail : contact@novalyagency.com
             </p>
           </section>
 
@@ -81,7 +81,7 @@ export default function PolitiqueConfidentialite() {
           <section>
             <h2 className="text-lg font-semibold text-white mb-3">7. Destinataires des données</h2>
             <p>
-              Vos données ne sont en aucun cas vendues ni cédées à des tiers. Elles sont uniquement accessibles par l&apos;équipe de Lime 77, dans le cadre strict du traitement de votre demande.
+              Vos données ne sont en aucun cas vendues ni cédées à des tiers. Elles sont uniquement accessibles par l&apos;équipe de Novaly Agency, dans le cadre strict du traitement de votre demande.
             </p>
           </section>
 
@@ -105,7 +105,7 @@ export default function PolitiqueConfidentialite() {
               <li><strong className="text-white">Droit d&apos;opposition :</strong> vous opposer au traitement de vos données.</li>
             </ul>
             <p className="mt-3">
-              Pour exercer ces droits, contactez-nous à : <a href="mailto:contact@lime77.fr" className="text-accent-lime hover:underline">contact@lime77.fr</a>
+              Pour exercer ces droits, contactez-nous à : <a href="mailto:contact@novalyagency.com" className="text-accent-lime hover:underline">contact@novalyagency.com</a>
             </p>
           </section>
 
@@ -119,7 +119,7 @@ export default function PolitiqueConfidentialite() {
           <section>
             <h2 className="text-lg font-semibold text-white mb-3">11. Modification de la politique</h2>
             <p>
-              Lime 77 se réserve le droit de modifier la présente politique de confidentialité à tout moment. Toute modification sera publiée sur cette page. Nous vous invitons à la consulter régulièrement.
+              Novaly Agency se réserve le droit de modifier la présente politique de confidentialité à tout moment. Toute modification sera publiée sur cette page. Nous vous invitons à la consulter régulièrement.
             </p>
           </section>
 

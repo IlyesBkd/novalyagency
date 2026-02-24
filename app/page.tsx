@@ -1,16 +1,19 @@
 import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
-import { OffersSection } from "@/components/OffersSection";
-import { NouvelleApproche } from "@/components/NouvelleApproche";
 import { PortfolioSection } from "@/components/PortfolioSection";
 import { CredibilitySection } from "@/components/CredibilitySection";
+import { ComparisonTable } from "@/components/ComparisonTable";
+import { NouvelleApproche } from "@/components/NouvelleApproche";
 import { HowItWorks } from "@/components/HowItWorks";
 import { WhatsIncluded } from "@/components/WhatsIncluded";
+import { OffersSection } from "@/components/OffersSection";
 import { GuaranteeSection } from "@/components/GuaranteeSection";
 import { FinalCta } from "@/components/FinalCta";
-import { FaqSection } from "@/components/FaqSection";
 import { FooterSection } from "@/components/FooterSection";
 import { ScrollAnimateInit } from "@/components/ScrollAnimateInit";
+import { ExitIntentPopup } from "@/components/ExitIntentPopup";
+import { WhatsAppWidget } from "@/components/WhatsAppWidget";
+import { SectionCta } from "@/components/SectionCta";
 import { getPortfolioImageNames } from "@/lib/portfolio";
 
 export default function HomePage() {
@@ -34,18 +37,59 @@ export default function HomePage() {
       {/* Navigation */}
       <Navbar />
 
-      {/* Page sections */}
+      {/* === STRICT SECTION ORDER === */}
+
+      {/* S1 — Hero */}
       <HeroSection />
-      <OffersSection />
-      <NouvelleApproche />
+
+      {/* S2 — Portfolio */}
       <PortfolioSection imageNames={portfolioImages} />
+
+      {/* CTA after S2 */}
+      <div className="bg-dark-950 relative z-10 -mt-8 pb-8">
+        <SectionCta text="Être rappelé" />
+      </div>
+
+      {/* S3 — Ils nous ont fait confiance + Métiers */}
       <CredibilitySection />
+
+      {/* S4 — Pourquoi Novaly ? (Tableau comparatif) */}
+      <ComparisonTable />
+
+      {/* S5 — Un site 100 % personnalisé */}
+      <NouvelleApproche />
+
+      {/* CTA after S5 */}
+      <div className="bg-dark-950 relative z-10 -mt-8 pb-8">
+        <SectionCta text="Demander mon site" />
+      </div>
+
+      {/* S6 — Comment ça marche */}
       <HowItWorks />
+
+      {/* S7 — L'offre complète */}
       <WhatsIncluded />
+
+      {/* CTA after S7 */}
+      <div className="bg-dark-950 relative z-10 -mt-8 pb-8">
+        <SectionCta text="Être rappelé" />
+      </div>
+
+      {/* S8 — Deux formules + Badge urgence */}
+      <OffersSection />
+
+      {/* S9 — Double garantie */}
       <GuaranteeSection />
+
+      {/* S10 — Formulaire de contact */}
       <FinalCta />
-      <FaqSection />
+
+      {/* Footer */}
       <FooterSection />
+
+      {/* Global overlays */}
+      <ExitIntentPopup />
+      <WhatsAppWidget />
     </div>
   );
 }
