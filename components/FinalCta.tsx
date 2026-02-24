@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { submitContact } from "@/actions/submitForm";
+import { Section } from "./Section";
 
 export function FinalCta() {
   const [form, setForm] = useState({ email: "", phone: "", message: "" });
@@ -30,14 +31,8 @@ export function FinalCta() {
   }
 
   return (
-    <div id="contact-form">
-      <section className="relative overflow-hidden bg-dark-950">
-        <div className="absolute inset-0 bg-dark-950" />
-        <div className="absolute inset-0 bg-gradient-to-b from-accent-lime/[0.02] via-accent-lime/[0.04] to-accent-lime/[0.02]" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[900px] bg-accent-lime/[0.05] rounded-full blur-[150px] animate-pulse-glow" />
-
-        <div className="py-24 sm:py-32 relative z-10">
-          <div className="max-w-3xl mx-auto px-6 relative z-10">
+    <Section id="contact-form" glow>
+      <div className="max-w-3xl mx-auto px-4">
             {/* Heading */}
             <div className="text-center mb-12 scroll-animate">
               <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
@@ -77,7 +72,7 @@ export function FinalCta() {
                         value={form.email}
                         onChange={handleChange}
                         placeholder="vous@exemple.fr"
-                        className="w-full rounded-xl bg-black/50 border border-gray-700 focus:border-accent-lime/50 focus:outline-none focus:ring-1 focus:ring-accent-lime/30 px-5 py-4 text-white placeholder-gray-400 text-base transition-all duration-200"
+                        className="w-full rounded-xl bg-white/95 border border-gray-300 focus:border-accent-lime focus:outline-none focus:ring-2 focus:ring-accent-lime/30 px-5 py-4 text-gray-900 placeholder-gray-500 text-base transition-all duration-200"
                       />
                     </div>
 
@@ -93,7 +88,7 @@ export function FinalCta() {
                         value={form.phone}
                         onChange={handleChange}
                         placeholder="+33 6 12 34 56 78"
-                        className="w-full rounded-xl bg-black/50 border border-gray-700 focus:border-accent-lime/50 focus:outline-none focus:ring-1 focus:ring-accent-lime/30 px-5 py-4 text-white placeholder-gray-400 text-base transition-all duration-200"
+                        className="w-full rounded-xl bg-white/95 border border-gray-300 focus:border-accent-lime focus:outline-none focus:ring-2 focus:ring-accent-lime/30 px-5 py-4 text-gray-900 placeholder-gray-500 text-base transition-all duration-200"
                       />
                     </div>
 
@@ -109,7 +104,7 @@ export function FinalCta() {
                         value={form.message}
                         onChange={handleChange}
                         placeholder="Ex: Je suis plombier à Lyon et j'ai besoin d'un site vitrine professionnel pour attirer de nouveaux clients..."
-                        className="w-full rounded-xl bg-black/50 border border-gray-700 focus:border-accent-lime/50 focus:outline-none focus:ring-1 focus:ring-accent-lime/30 px-5 py-4 text-white placeholder-gray-400 text-base transition-all duration-200 resize-none"
+                        className="w-full rounded-xl bg-white/95 border border-gray-300 focus:border-accent-lime focus:outline-none focus:ring-2 focus:ring-accent-lime/30 px-5 py-4 text-gray-900 placeholder-gray-500 text-base transition-all duration-200 resize-none"
                       />
                     </div>
 
@@ -150,9 +145,7 @@ export function FinalCta() {
                 )}
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-    </div>
+      </div>
+    </Section>
   );
 }

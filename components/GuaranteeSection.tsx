@@ -1,3 +1,5 @@
+import { Section } from "./Section";
+
 const GUARANTEES = [
   {
     title: "Livraison 48h garantie",
@@ -32,14 +34,8 @@ const GUARANTEES = [
 
 export function GuaranteeSection() {
   return (
-    <div id="guarantee">
-      <section className="relative overflow-hidden bg-dark-950">
-        <div className="absolute inset-0 bg-dark-950" />
-        <div className="absolute inset-0 bg-gradient-to-b from-accent-lime/[0.02] via-accent-lime/[0.035] to-accent-lime/[0.02]" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-accent-lime/[0.035] rounded-full blur-[140px]" />
-
-        <div className="py-24 sm:py-32 relative z-10">
-          <div className="max-w-5xl mx-auto px-6 relative z-10">
+    <Section id="guarantee" glow>
+      <div className="max-w-6xl mx-auto px-4">
             {/* Heading */}
             <div className="text-center mb-16 scroll-animate">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent-lime/10 border border-accent-lime/20 mb-6 animate-pulse-glow">
@@ -74,9 +70,7 @@ export function GuaranteeSection() {
                 </div>
               ))}
             </div>
-          </div>
-        </div>
-      </section>
-    </div>
+      </div>
+    </Section>
   );
 }

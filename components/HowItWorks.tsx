@@ -1,3 +1,5 @@
+import { Section } from "./Section";
+
 const STEPS = [
   {
     num: "01",
@@ -38,59 +40,50 @@ const STEPS = [
 
 export function HowItWorks() {
   return (
-    <div id="how-it-works">
-      <section className="relative overflow-hidden bg-dark-950">
-        <div className="absolute inset-0 bg-dark-950" />
-        <div className="absolute inset-0 bg-gradient-to-b from-accent-lime/[0.02] via-accent-lime/[0.03] to-accent-lime/[0.02]" />
-        <div className="absolute top-1/2 right-0 w-[600px] h-[600px] bg-accent-lime/[0.03] rounded-full blur-[130px] translate-x-1/3" />
-        <div className="absolute top-1/2 left-0 w-[400px] h-[400px] bg-accent-lime/[0.02] rounded-full blur-[100px] -translate-x-1/3" />
-
-        <div className="py-24 sm:py-32 relative z-10">
-          <div className="max-w-5xl mx-auto px-6 relative z-10">
-            {/* Heading */}
-            <div className="text-center mb-16 scroll-animate">
-              <p className="text-accent-lime text-sm uppercase tracking-[0.2em] mb-4 font-medium">
-                Comment ça marche
-              </p>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
-                <span className="text-text-primary">3 étapes.</span>
-                <br />
-                <span className="gradient-text">48 heures.</span>
-              </h2>
-            </div>
-
-            {/* Steps */}
-            <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-              {STEPS.map(({ num, title, desc, icon }, i) => (
-                <div
-                  key={num}
-                  className="relative scroll-animate"
-                  style={{ transitionDelay: `${i * 100}ms` }}
-                >
-                  {/* connector line */}
-                  {i < STEPS.length - 1 && (
-                    <div className="hidden md:block absolute top-16 left-1/2 w-full h-px bg-gradient-to-r from-accent-lime/40 to-transparent" />
-                  )}
-                  <div className="text-center relative z-10 group">
-                    <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-accent-lime/10 border border-accent-lime/20 flex items-center justify-center transition-all duration-500 group-hover:bg-accent-lime/20 group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-accent-lime/20">
-                      {icon}
-                    </div>
-                    <div className="inline-flex items-center gap-2 bg-accent-lime/10 border border-accent-lime/20 rounded-full px-3 py-1 mb-4">
-                      <span className="text-accent-lime text-xs font-bold tracking-wider">
-                        Étape {num}
-                      </span>
-                    </div>
-                    <h3 className="text-xl font-semibold text-text-primary mb-3 transition-colors duration-300 group-hover:text-accent-lime">
-                      {title}
-                    </h3>
-                    <p className="text-text-secondary leading-relaxed">{desc}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
+    <Section id="how-it-works">
+      <div className="max-w-6xl mx-auto px-4">
+        {/* Heading */}
+        <div className="text-center mb-16 scroll-animate">
+          <p className="text-accent-lime text-sm uppercase tracking-[0.2em] mb-4 font-medium">
+            Comment ça marche
+          </p>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
+            <span className="text-text-primary">3 étapes.</span>
+            <br />
+            <span className="gradient-text">48 heures.</span>
+          </h2>
         </div>
-      </section>
-    </div>
+
+        {/* Steps */}
+        <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+          {STEPS.map(({ num, title, desc, icon }, i) => (
+            <div
+              key={num}
+              className="relative scroll-animate"
+              style={{ transitionDelay: `${i * 100}ms` }}
+            >
+              {/* connector line */}
+              {i < STEPS.length - 1 && (
+                <div className="hidden md:block absolute top-16 left-1/2 w-full h-px bg-gradient-to-r from-accent-lime/40 to-transparent" />
+              )}
+              <div className="text-center relative z-10 group">
+                <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-accent-lime/10 border border-accent-lime/20 flex items-center justify-center transition-all duration-500 group-hover:bg-accent-lime/20 group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-accent-lime/20">
+                  {icon}
+                </div>
+                <div className="inline-flex items-center gap-2 bg-accent-lime/10 border border-accent-lime/20 rounded-full px-3 py-1 mb-4">
+                  <span className="text-accent-lime text-xs font-bold tracking-wider">
+                    Étape {num}
+                  </span>
+                </div>
+                <h3 className="text-xl font-semibold text-text-primary mb-3 transition-colors duration-300 group-hover:text-accent-lime">
+                  {title}
+                </h3>
+                <p className="text-text-secondary leading-relaxed">{desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </Section>
   );
 }

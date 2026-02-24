@@ -1,3 +1,5 @@
+import { Section } from "./Section";
+
 const GOOGLE_LOGO = (
   <svg viewBox="0 0 24 24" className="w-5 h-5 flex-shrink-0">
     <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
@@ -89,48 +91,42 @@ const STATS = [
 
 export function CredibilitySection() {
   return (
-    <div id="credibility">
-      <section className="relative overflow-hidden bg-dark-950">
-        <div className="absolute inset-0 bg-dark-950" />
-        <div className="absolute inset-0 bg-gradient-to-b from-accent-lime/[0.02] via-accent-lime/[0.025] to-accent-lime/[0.02]" />
-        <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-accent-lime/[0.025] rounded-full blur-[120px] -translate-x-1/3" />
+    <Section id="credibility">
+      <div className="max-w-6xl mx-auto px-4">
+        {/* Heading */}
+        <div className="text-center mb-16 scroll-animate">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
+            <span className="text-text-primary">Ils nous ont</span>
+            <br />
+            <span className="gradient-text">fait confiance</span>
+          </h2>
+          <p className="text-lg text-text-secondary max-w-2xl mx-auto">
+            Des professionnels comme vous qui avaient besoin d&apos;un site rapidement.
+          </p>
+        </div>
 
-        <div className="py-24 sm:py-32 relative z-10">
-          <div className="max-w-5xl mx-auto px-6 relative z-10">
-            {/* Heading */}
-            <div className="text-center mb-16 scroll-animate">
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
-                <span className="text-text-primary">Ils nous ont</span>
-                <br />
-                <span className="gradient-text">fait confiance</span>
-              </h2>
-              <p className="text-lg text-text-secondary max-w-2xl mx-auto">
-                Des professionnels comme vous qui avaient besoin d&apos;un site rapidement.
-              </p>
+        {/* Stats */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
+          {STATS.map(({ icon, value, label }, i) => (
+            <div
+              key={label}
+              className="bg-black/30 backdrop-blur-md border border-white/10 rounded-xl p-6 text-center card-hover scroll-animate-scale"
+              style={{ transitionDelay: `${i * 100}ms` }}
+            >
+              <div className="w-10 h-10 mx-auto mb-4 rounded-lg bg-accent-lime/10 flex items-center justify-center">
+                {icon}
+              </div>
+              <div className="text-3xl font-bold text-text-primary mb-1">{value}</div>
+              <div className="text-sm text-text-secondary">{label}</div>
             </div>
+          ))}
+        </div>
+      </div>
 
-            {/* Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
-              {STATS.map(({ icon, value, label }, i) => (
-                <div
-                  key={label}
-                  className="bg-dark-900/40 border border-dark-800 rounded-xl p-6 text-center card-hover backdrop-blur-sm scroll-animate-scale"
-                  style={{ transitionDelay: `${i * 100}ms` }}
-                >
-                  <div className="w-10 h-10 mx-auto mb-4 rounded-lg bg-accent-lime/10 flex items-center justify-center">
-                    {icon}
-                  </div>
-                  <div className="text-3xl font-bold text-text-primary mb-1">{value}</div>
-                  <div className="text-sm text-text-secondary">{label}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Google Reviews Marquee - full width */}
-          <div className="w-full">
-            {/* Header badge */}
-            <div className="flex items-center justify-center gap-2 mb-6 scroll-animate px-6">
+      {/* Google Reviews Marquee - full width */}
+      <div className="w-full">
+        {/* Header badge */}
+        <div className="flex items-center justify-center gap-2 mb-6 scroll-animate px-4">
                 <svg viewBox="0 0 24 24" className="w-5 h-5">
                   <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
                   <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
@@ -183,28 +179,7 @@ export function CredibilitySection() {
                   </div>
                 ))}
               </div>
-
-              {/* Métiers accompagnés */}
-              <div className="mt-12 scroll-animate px-6">
-                <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-text-secondary/70 text-sm">
-                  {[
-                    { icon: "✦", label: "Magnétiseur" },
-                    { icon: "✦", label: "Façadier" },
-                    { icon: "✦", label: "Restaurateur" },
-                    { icon: "✦", label: "VTC" },
-                    { icon: "✦", label: "Taxi" },
-                    { icon: "✦", label: "Nettoyage professionnel" },
-                  ].map(({ icon, label }) => (
-                    <span key={label} className="inline-flex items-center gap-1.5">
-                      <span className="text-accent-lime/60 text-xs">{icon}</span>
-                      {label}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-      </section>
-    </div>
+      </div>
+    </Section>
   );
 }

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Section } from "./Section";
 
 const ROWS = [
   { label: "Prix", novaly: "99€/mois", agence: "3 000 – 8 000€", freelance: "Variable" },
@@ -31,90 +32,82 @@ function CellValue({ value }: { value: string }) {
 
 export function ComparisonTable() {
   return (
-    <div id="comparison">
-      <section className="relative overflow-hidden bg-dark-950">
-        <div className="absolute inset-0 bg-dark-950" />
-        <div className="absolute inset-0 bg-gradient-to-b from-accent-lime/[0.015] via-accent-lime/[0.025] to-accent-lime/[0.015]" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px] bg-accent-lime/[0.03] rounded-full blur-[140px]" />
-
-        <div className="py-24 sm:py-32 relative z-10">
-          <div className="max-w-5xl mx-auto px-6">
-            {/* Header */}
-            <div className="text-center mb-14 scroll-animate">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent-lime/10 border border-accent-lime/20 mb-6">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-accent-lime">
-                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M22 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                </svg>
-                <span className="text-sm text-accent-lime font-medium">Comparatif</span>
-              </div>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-                <span className="text-text-primary">Pourquoi Novaly</span>
-                <br />
-                <span className="gradient-text">plutôt qu&apos;une autre agence ?</span>
-              </h2>
-              <p className="text-lg text-text-secondary max-w-2xl mx-auto">
-                Comparez objectivement. La différence parle d&apos;elle-même.
-              </p>
-            </div>
-
-            {/* Table */}
-            <div className="overflow-x-auto scroll-animate-scale" style={{ transitionDelay: "150ms" }}>
-              <table className="w-full max-w-4xl mx-auto border-collapse">
-                <thead>
-                  <tr>
-                    <th className="text-left text-text-secondary text-sm font-medium py-4 px-4 w-1/4"></th>
-                    <th className="text-center py-4 px-4 w-1/4">
-                      <div className="inline-flex flex-col items-center gap-1">
-                        <span className="text-accent-lime font-bold text-base">Novaly Agency</span>
-                        <span className="text-accent-lime/60 text-xs">Recommandé</span>
-                      </div>
-                    </th>
-                    <th className="text-center text-text-secondary text-sm font-medium py-4 px-4 w-1/4">Agence classique</th>
-                    <th className="text-center text-text-secondary text-sm font-medium py-4 px-4 w-1/4">Freelance lambda</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {ROWS.map(({ label, novaly, agence, freelance }, i) => (
-                    <tr key={label} className={`border-t border-white/[0.06] ${i % 2 === 0 ? "bg-white/[0.01]" : ""}`}>
-                      <td className="py-5 px-4 text-text-primary text-sm font-medium">{label}</td>
-                      <td className="py-5 px-4 text-center">
-                        <div className="flex justify-center">
-                          <span className="text-accent-lime font-semibold text-sm">
-                            <CellValue value={novaly} />
-                          </span>
-                        </div>
-                      </td>
-                      <td className="py-5 px-4 text-center text-text-secondary text-sm">
-                        <div className="flex justify-center">
-                          <CellValue value={agence} />
-                        </div>
-                      </td>
-                      <td className="py-5 px-4 text-center text-text-secondary text-sm">
-                        <div className="flex justify-center">
-                          <CellValue value={freelance} />
-                        </div>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-
-            {/* CTA */}
-            <div className="text-center mt-12 scroll-animate">
-              <Link
-                href="#contact-form"
-                className="btn-primary group inline-flex items-center gap-3 px-8 py-4 text-base"
-              >
-                <span>Demander mon site</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform duration-300 group-hover:translate-x-1">
-                  <path d="M5 12h14" /><path d="m12 5 7 7-7 7" />
-                </svg>
-              </Link>
-            </div>
+    <Section id="comparison" glow>
+      <div className="max-w-6xl mx-auto px-4">
+        {/* Header */}
+        <div className="text-center mb-14 scroll-animate">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent-lime/10 border border-accent-lime/20 mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-accent-lime">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M22 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+            <span className="text-sm text-accent-lime font-medium">Comparatif</span>
           </div>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+            <span className="text-text-primary">Pourquoi Novaly</span>
+            <br />
+            <span className="gradient-text">plutôt qu&apos;une autre agence ?</span>
+          </h2>
+          <p className="text-lg text-text-secondary max-w-2xl mx-auto">
+            Comparez objectivement. La différence parle d&apos;elle-même.
+          </p>
         </div>
-      </section>
-    </div>
+
+        {/* Table */}
+        <div className="overflow-x-auto scroll-animate-scale" style={{ transitionDelay: "150ms" }}>
+          <table className="w-full max-w-4xl mx-auto border-collapse">
+            <thead>
+              <tr>
+                <th className="text-left text-text-secondary text-sm font-medium py-4 px-4 w-1/4"></th>
+                <th className="text-center py-4 px-4 w-1/4">
+                  <div className="inline-flex flex-col items-center gap-1">
+                    <span className="text-accent-lime font-bold text-base">Novaly Agency</span>
+                    <span className="text-accent-lime/60 text-xs">Recommandé</span>
+                  </div>
+                </th>
+                <th className="text-center text-text-secondary text-sm font-medium py-4 px-4 w-1/4">Agence classique</th>
+                <th className="text-center text-text-secondary text-sm font-medium py-4 px-4 w-1/4">Freelance lambda</th>
+              </tr>
+            </thead>
+            <tbody>
+              {ROWS.map(({ label, novaly, agence, freelance }, i) => (
+                <tr key={label} className={`border-t border-white/[0.06] ${i % 2 === 0 ? "bg-white/[0.01]" : ""}`}>
+                  <td className="py-5 px-4 text-text-primary text-sm font-medium">{label}</td>
+                  <td className="py-5 px-4 text-center">
+                    <div className="flex justify-center">
+                      <span className="text-accent-lime font-semibold text-sm">
+                        <CellValue value={novaly} />
+                      </span>
+                    </div>
+                  </td>
+                  <td className="py-5 px-4 text-center text-text-secondary text-sm">
+                    <div className="flex justify-center">
+                      <CellValue value={agence} />
+                    </div>
+                  </td>
+                  <td className="py-5 px-4 text-center text-text-secondary text-sm">
+                    <div className="flex justify-center">
+                      <CellValue value={freelance} />
+                    </div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        {/* CTA */}
+        <div className="text-center mt-12 scroll-animate">
+          <Link
+            href="#contact-form"
+            className="btn-primary group inline-flex items-center gap-3 px-8 py-4 text-base"
+          >
+            <span>Demander mon site</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform duration-300 group-hover:translate-x-1">
+              <path d="M5 12h14" /><path d="m12 5 7 7-7 7" />
+            </svg>
+          </Link>
+        </div>
+      </div>
+    </Section>
   );
 }

@@ -1,4 +1,3 @@
-import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
 import { PortfolioSection } from "@/components/PortfolioSection";
 import { CredibilitySection } from "@/components/CredibilitySection";
@@ -11,7 +10,6 @@ import { GuaranteeSection } from "@/components/GuaranteeSection";
 import { FinalCta } from "@/components/FinalCta";
 import { FooterSection } from "@/components/FooterSection";
 import { ScrollAnimateInit } from "@/components/ScrollAnimateInit";
-import { ExitIntentPopup } from "@/components/ExitIntentPopup";
 import { WhatsAppWidget } from "@/components/WhatsAppWidget";
 import { SectionCta } from "@/components/SectionCta";
 import { getPortfolioImageNames } from "@/lib/portfolio";
@@ -34,9 +32,6 @@ export default function HomePage() {
       {/* Scroll animation observer (client-side) */}
       <ScrollAnimateInit />
 
-      {/* Navigation */}
-      <Navbar />
-
       {/* === STRICT SECTION ORDER === */}
 
       {/* S1 — Hero */}
@@ -46,7 +41,7 @@ export default function HomePage() {
       <PortfolioSection imageNames={portfolioImages} />
 
       {/* CTA after S2 */}
-      <div className="bg-dark-950 relative z-10 -mt-8 pb-8">
+      <div className="relative z-10 -mt-8 pb-8">
         <SectionCta text="Être rappelé" />
       </div>
 
@@ -60,7 +55,7 @@ export default function HomePage() {
       <NouvelleApproche />
 
       {/* CTA after S5 */}
-      <div className="bg-dark-950 relative z-10 -mt-8 pb-8">
+      <div className="relative z-10 -mt-8 pb-8">
         <SectionCta text="Demander mon site" />
       </div>
 
@@ -71,7 +66,7 @@ export default function HomePage() {
       <WhatsIncluded />
 
       {/* CTA after S7 */}
-      <div className="bg-dark-950 relative z-10 -mt-8 pb-8">
+      <div className="relative z-10 -mt-8 pb-8">
         <SectionCta text="Être rappelé" />
       </div>
 
@@ -88,7 +83,6 @@ export default function HomePage() {
       <FooterSection />
 
       {/* Global overlays */}
-      <ExitIntentPopup />
       <WhatsAppWidget />
     </div>
   );
