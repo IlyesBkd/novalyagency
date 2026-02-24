@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useRef, useCallback } from "react";
 import { Section } from "./Section";
 
 type PortfolioSectionProps = {
@@ -8,16 +8,27 @@ type PortfolioSectionProps = {
 
 export function PortfolioSection({ imageNames }: PortfolioSectionProps) {
   const [activeModal, setActiveModal] = useState<number | null>(null);
+  const marqueeRef = useRef<HTMLDivElement>(null);
+
+  const handleTouchStart = useCallback(() => {
+    const track = marqueeRef.current?.querySelector(".portfolio-track") as HTMLElement | null;
+    if (track) track.style.animationPlayState = "paused";
+  }, []);
+
+  const handleTouchEnd = useCallback(() => {
+    const track = marqueeRef.current?.querySelector(".portfolio-track") as HTMLElement | null;
+    if (track) track.style.animationPlayState = "running";
+  }, []);
 
   if (!imageNames.length) return null;
 
-  const cards = imageNames.map((name, index) => {
+  const makeCard = (name: string, index: number) => {
     const url = `/assets/portfolio/${encodeURIComponent(name)}`;
     const label = String(index + 1).padStart(2, "0");
     return (
       <button
         key={`${name}-${index}`}
-        className="portfolio-thumb"
+        className="portfolio-thumb snap-center"
         onClick={() => setActiveModal(index)}
         aria-label={`Ouvrir maquette ${label}`}
       >
@@ -25,7 +36,9 @@ export function PortfolioSection({ imageNames }: PortfolioSectionProps) {
         <img src={url} alt={`Aperçu maquette ${index + 1}`} loading="lazy" decoding="async" />
       </button>
     );
-  });
+  };
+
+  const cards = imageNames.map((name, index) => makeCard(name, index));
 
   return (
     <>
@@ -43,8 +56,18 @@ export function PortfolioSection({ imageNames }: PortfolioSectionProps) {
             </p>
           </div>
 
-          {/* Marquee */}
-          <div className="portfolio-marquee">
+          {/* Mobile: native horizontal scroll with snap */}
+          <div className="md:hidden -mx-4 px-4 overflow-x-auto snap-x snap-mandatory flex gap-4 pb-4 portfolio-scroll-hide touch-pan-x">
+            {imageNames.map((name, index) => makeCard(name, index))}
+          </div>
+
+          {/* Desktop: infinite marquee */}
+          <div
+            ref={marqueeRef}
+            className="hidden md:block portfolio-marquee"
+            onTouchStart={handleTouchStart}
+            onTouchEnd={handleTouchEnd}
+          >
             <div className="portfolio-track">
               <div className="portfolio-group">{cards}</div>
               <div className="portfolio-group" aria-hidden="true">
