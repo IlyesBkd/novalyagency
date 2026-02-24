@@ -3,7 +3,7 @@ const COMPARISONS = [
     before: "Agence classique",
     beforeDetails: ["Devis interminable", "3 à 6 mois de délai", "Budgets opaques", "Processus complexe"],
     after: "Notre approche",
-    afterDetails: ["Prix fixe, transparent", "Livraison en 48h", "100 % personnalisé", "Zéro surprise"],
+    afterDetails: ["Tarif clair, sans surprise", "Livraison en 48h", "100 % personnalisé", "Zéro engagement caché"],
   },
 ];
 
@@ -25,13 +25,8 @@ export function NouvelleApproche() {
               <span className="text-sm text-accent-lime font-medium">Une nouvelle approche</span>
             </div>
 
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 space-y-2">
-              <div>
-                Un site <span className="gradient-text">100 % personnalisé.</span>
-              </div>
-              <div>
-                À prix <span className="text-accent-lime">100 % fixe.</span>
-              </div>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
+              Un site <span className="gradient-text">100 % personnalisé.</span>
             </h2>
 
             <p className="text-lg text-text-secondary max-w-2xl mx-auto">
@@ -67,7 +62,7 @@ export function NouvelleApproche() {
                   Notre approche
                 </p>
                 <ul className="space-y-3">
-                  {["Prix fixe, transparent", "Livraison en 48h", "100 % personnalisé", "Zéro surprise"].map((item) => (
+                  {["Tarif clair, sans surprise", "Livraison en 48h", "100 % personnalisé", "Zéro engagement caché"].map((item) => (
                     <li key={item} className="flex items-center gap-3 text-text-primary">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="flex-shrink-0 text-accent-lime">
                         <path d="M20 6 9 17l-5-5" />

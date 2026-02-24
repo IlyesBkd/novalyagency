@@ -11,7 +11,7 @@ const CHECK_ICON = (
     strokeWidth="2.5"
     strokeLinecap="round"
     strokeLinejoin="round"
-    className="flex-shrink-0 text-[#00b67a]"
+    className="flex-shrink-0 text-accent-lime"
   >
     <path d="M20 6 9 17l-5-5" />
   </svg>
@@ -94,7 +94,7 @@ export function OffersSection() {
                 >
                   {/* Glow border for premium */}
                   {offer.premium && (
-                    <div className="absolute -inset-px rounded-2xl bg-gradient-to-b from-accent-lime/60 via-accent-lime/20 to-accent-lime/60 opacity-50" />
+                    <div className="absolute -inset-px rounded-2xl ring-2 ring-blue-500 bg-gradient-to-b from-blue-500/40 via-blue-500/10 to-blue-500/40 opacity-60" />
                   )}
 
                   <article
@@ -170,7 +170,7 @@ export function OffersSection() {
 
                         {/* CTA */}
                         <Link
-                          href="#commander"
+                          href="#contact-form"
                           className={`w-full inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl font-semibold text-sm transition-all duration-300 ${
                             offer.premium
                               ? "bg-accent-lime text-dark-950 hover:shadow-lg hover:shadow-accent-lime/30 hover:scale-[1.02]"

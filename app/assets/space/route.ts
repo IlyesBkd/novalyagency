@@ -11,7 +11,7 @@ export async function GET() {
     return new Response(videoBytes, {
       headers: {
         "Content-Type": "video/mp4",
-        "Cache-Control": "public, max-age=31536000, immutable",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
       },
     });
   } catch {

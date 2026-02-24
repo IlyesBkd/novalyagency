@@ -48,13 +48,13 @@ export function HeroSection() {
             <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-text-primary">
               Site premium à{" "}
               <span className="text-accent-lime hand-underline">
-                99€/mois
+                99€
               </span>
             </span>
           </h1>
 
           <p className="text-2xl sm:text-3xl md:text-4xl font-semibold text-text-primary mb-2 animate-reveal animate-delay-800">
-            Livré en 48h. Prix fixe.
+            Livré en <span className="text-accent-lime">48h.</span>
           </p>
           <p className="text-lg sm:text-xl text-text-secondary mb-6 animate-reveal animate-delay-1200">
             Sans devis. Sans surprise. Sans Blabla.
@@ -63,7 +63,7 @@ export function HeroSection() {
           {/* CTA */}
           <div className="animate-reveal-scale animate-delay-1500">
             <Link
-              href="#commander"
+              href="#contact-form"
               className="btn-primary group inline-flex items-center gap-3 px-10 py-5 text-xl"
             >
               <span>Commander mon site</span>
@@ -85,36 +85,24 @@ export function HeroSection() {
             </Link>
           </div>
 
-          {/* Trustpilot badge */}
-          <div className="flex items-center justify-center gap-3 mt-8 animate-reveal animate-delay-1800">
-            <span className="text-white font-semibold text-sm tracking-tight">Excellent</span>
-            <div className="flex gap-[3px]">
+          {/* Google Avis badge */}
+          <div className="flex items-center justify-center gap-2 mt-6 animate-reveal animate-delay-1800">
+            <svg viewBox="0 0 24 24" className="w-5 h-5">
+              <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+              <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+              <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" />
+              <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" />
+            </svg>
+            <span className="text-text-primary font-medium text-sm">Avis Google</span>
+            <div className="flex gap-0.5 ml-1">
               {[...Array(5)].map((_, i) => (
-                <div key={i} className="w-[22px] h-[22px] bg-[#00b67a] flex items-center justify-center">
-                  <svg viewBox="0 0 24 24" fill="white" className="w-[14px] h-[14px]">
-                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                  </svg>
-                </div>
+                <svg key={i} viewBox="0 0 24 24" className="w-4 h-4 fill-[#FBBC05]">
+                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                </svg>
               ))}
             </div>
-            <div className="flex items-center gap-1.5">
-              <svg viewBox="0 0 24 24" fill="#00b67a" className="w-[18px] h-[18px]">
-                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-              </svg>
-              <span className="text-white font-semibold text-sm tracking-tight">Trustpilot</span>
-            </div>
-          </div>
-        </div>
-
-        {/* Bottom scroll indicator */}
-        <div className="text-center mb-12 absolute bottom-0 left-0 right-0 scroll-animate">
-          <div className="mb-6">
-            <p className="text-3xl sm:text-4xl md:text-5xl font-bold text-text-primary mb-2">
-              Livré en <span className="text-accent-lime">48h.</span>
-            </p>
-            <p className="text-lg text-text-primary font-medium mb-6">
-              Satisfait ou remboursé
-            </p>
+            <span className="text-text-secondary text-sm ml-1">5.0</span>
+            <span className="text-text-secondary/60 text-xs ml-1">sur +45 avis</span>
           </div>
         </div>
       </section>

@@ -1,3 +1,4 @@
+import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
 import { OffersSection } from "@/components/OffersSection";
 import { NouvelleApproche } from "@/components/NouvelleApproche";
@@ -29,6 +30,9 @@ export default function HomePage() {
 
       {/* Scroll animation observer (client-side) */}
       <ScrollAnimateInit />
+
+      {/* Navigation */}
+      <Navbar />
 
       {/* Page sections */}
       <HeroSection />
