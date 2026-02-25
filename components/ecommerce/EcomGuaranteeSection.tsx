@@ -2,8 +2,8 @@ import { Section } from "../Section";
 
 const GUARANTEES = [
   {
-    title: "Livraison 48h garantie",
-    desc: "Si votre boutique n'est pas livrée dans les 48h suivant la réception de vos contenus, vous êtes remboursé intégralement.",
+    title: "Livraison 72h garantie",
+    desc: "Si votre boutique n'est pas livrée dans les 72h suivant la réception de vos contenus, vous êtes remboursé intégralement.",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-clock w-6 h-6 text-accent-lime">
         <circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" />

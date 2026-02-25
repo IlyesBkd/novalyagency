@@ -50,7 +50,7 @@ export function NouvelleApproche() {
                 Notre approche
               </p>
               <ul className="space-y-3">
-                {["Tarif clair, sans surprise", "Livraison en 48h", "100 % personnalisé", "Zéro engagement caché"].map((item) => (
+                {["Tarif clair, sans surprise", "Livraison en 72h", "100 % personnalisé", "Zéro engagement caché"].map((item) => (
                   <li key={item} className="flex items-center gap-3 text-text-primary">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="flex-shrink-0 text-accent-lime">
                       <path d="M20 6 9 17l-5-5" />

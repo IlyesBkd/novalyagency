@@ -32,11 +32,11 @@ const ScrollAnimateInit = dynamic(
 export const metadata: Metadata = {
   title: "Création Boutique en Ligne | Novaly Agency",
   description:
-    "Lancez votre boutique en ligne professionnelle en 48h. Paiement intégré, catalogue produits, SEO. 899€ tout inclus.",
+    "Lancez votre boutique en ligne professionnelle en 72h. Paiement intégré, catalogue produits, SEO. 899€ tout inclus.",
   openGraph: {
     title: "Création Boutique en Ligne | Novaly Agency",
     description:
-      "Lancez votre boutique en ligne professionnelle en 48h. Paiement intégré, catalogue produits, SEO. 899€ tout inclus.",
+      "Lancez votre boutique en ligne professionnelle en 72h. Paiement intégré, catalogue produits, SEO. 899€ tout inclus.",
     type: "website",
     locale: "fr_FR",
     siteName: "Novaly Agency",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Création Boutique en Ligne | Novaly Agency",
-    description: "Boutique e-commerce sur mesure livrée en 48h. 899€ tout inclus.",
+    description: "Boutique e-commerce sur mesure livrée en 72h. 899€ tout inclus.",
   },
 };
 

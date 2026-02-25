@@ -26,7 +26,7 @@ const STEPS = [
   {
     num: "03",
     title: "Votre boutique est en ligne",
-    desc: "En moins de 48h, votre boutique e-commerce est livrée, prête à encaisser vos premières ventes.",
+    desc: "En moins de 72h, votre boutique e-commerce est livrée, prête à encaisser vos premières ventes.",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-rocket w-7 h-7 text-accent-lime transition-transform duration-500 group-hover:scale-110">
         <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" />
@@ -50,7 +50,7 @@ export function EcomHowItWorks() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
             <span className="text-text-primary">3 étapes.</span>
             <br />
-            <span className="gradient-text">48 heures.</span>
+            <span className="gradient-text">72 heures.</span>
           </h2>
         </div>
 

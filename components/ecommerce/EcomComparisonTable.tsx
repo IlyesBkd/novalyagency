@@ -3,7 +3,7 @@ import { Section } from "../Section";
 
 const ROWS = [
   { label: "Prix", novaly: "899€ tout inclus", agence: "5 000 – 15 000€", freelance: "Variable" },
-  { label: "Délai de livraison", novaly: "48h", agence: "6 – 12 semaines", freelance: "Inconnu" },
+  { label: "Délai de livraison", novaly: "72h", agence: "6 – 12 semaines", freelance: "Inconnu" },
   { label: "Paiement intégré", novaly: "check", agence: "check", freelance: "Parfois" },
   { label: "Design sur mesure", novaly: "check", agence: "check", freelance: "Rarement" },
   { label: "SEO e-commerce", novaly: "check", agence: "cross", freelance: "cross" },

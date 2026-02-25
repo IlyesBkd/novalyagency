@@ -57,7 +57,7 @@ export function HeroSection() {
           </h1>
 
           <p className="text-xl sm:text-3xl md:text-4xl font-semibold text-text-primary mb-2 animate-reveal animate-delay-800">
-            Livré en <span className="text-accent-lime">48h.</span>
+            Livré en <span className="text-accent-lime">72h.</span>
           </p>
           <p className="text-base sm:text-xl text-text-secondary mb-6 animate-reveal animate-delay-1200">
             Sans devis. Sans surprise. Sans Blabla.

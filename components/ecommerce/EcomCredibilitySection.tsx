@@ -16,12 +16,12 @@ const STAR = (
 );
 
 const REVIEWS = [
-  { initials: "CM", name: "Clara M.", role: "Créatrice de bijoux", text: "J'avais peur que créer une boutique en ligne soit compliqué. En 48h j'avais un site magnifique avec paiement Stripe intégré. Mes premières ventes sont arrivées la semaine suivante. Incroyable." },
+  { initials: "CM", name: "Clara M.", role: "Créatrice de bijoux", text: "J'avais peur que créer une boutique en ligne soit compliqué. En 72h j'avais un site magnifique avec paiement Stripe intégré. Mes premières ventes sont arrivées la semaine suivante. Incroyable." },
   { initials: "TL", name: "Thomas L.", role: "Boutique de vêtements", text: "On avait une boutique physique mais zéro présence en ligne. Novaly nous a livré un e-commerce pro avec catalogue produits, panier et tunnel d'achat. Les commandes en ligne représentent déjà 30% de notre CA." },
   { initials: "SH", name: "Sophie H.", role: "Artisane cosmétiques", text: "Le site est sublime, mes produits sont vraiment mis en valeur. Les clientes me disent que le parcours d'achat est super fluide. J'ai doublé mes ventes en un mois." },
   { initials: "AB", name: "Antoine B.", role: "Cave à vins", text: "Franchement bluffé. Le catalogue est clair, la fiche produit donne envie d'acheter. Les clients commandent directement en ligne et viennent retirer en boutique. Parfait." },
   { initials: "LR", name: "Laura R.", role: "Créatrice mode", text: "Je vendais uniquement sur Instagram. Avec ma boutique Novaly, j'ai enfin un vrai site pro. Le SEO fonctionne, je reçois des commandes de clients qui me trouvent sur Google." },
-  { initials: "MG", name: "Marc G.", role: "Épicerie fine", text: "Site livré en 48h comme promis. Le design est élégant, le paiement en ligne fonctionne parfaitement. Mes clients adorent pouvoir commander depuis chez eux." },
+  { initials: "MG", name: "Marc G.", role: "Épicerie fine", text: "Site livré en 72h comme promis. Le design est élégant, le paiement en ligne fonctionne parfaitement. Mes clients adorent pouvoir commander depuis chez eux." },
   { initials: "JD", name: "Julie D.", role: "Fleuriste", text: "J'hésitais entre plusieurs solutions. Novaly m'a créé un site e-commerce sur mesure, pas un template. La différence se voit et mes clients le remarquent." },
   { initials: "PV", name: "Pierre V.", role: "Artisan chocolatier", text: "Le tableau de bord commandes est top. Je gère tout facilement. Le site est rapide, beau, et surtout il convertit. Très satisfait du résultat !" },
   { initials: "NK", name: "Nadia K.", role: "Boutique déco", text: "Passage du physique au digital réussi. Le catalogue est magnifique, les fiches produits sont optimisées. J'ai reçu ma première commande en ligne le jour du lancement." },
@@ -83,7 +83,7 @@ const STATS = [
         <circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" />
       </svg>
     ),
-    value: "48h",
+    value: "72h",
     label: "Délai garanti",
   },
 ];

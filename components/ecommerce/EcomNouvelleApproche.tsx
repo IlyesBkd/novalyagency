@@ -19,7 +19,7 @@ export function EcomNouvelleApproche() {
 
           <p className="text-lg text-text-secondary max-w-2xl mx-auto">
             Oubliez les templates génériques. Nous créons une boutique en ligne unique,
-            optimisée pour la conversion, livrée en 48h.
+            optimisée pour la conversion, livrée en 72h.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ export function EcomNouvelleApproche() {
                 Notre approche
               </p>
               <ul className="space-y-3">
-                {["Design unique et premium", "Paiement unique de 899€", "Optimisé pour la conversion", "Livraison clé en main en 48h"].map((item) => (
+                {["Design unique et premium", "Paiement unique de 899€", "Optimisé pour la conversion", "Livraison clé en main en 72h"].map((item) => (
                   <li key={item} className="flex items-center gap-3 text-text-primary">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="flex-shrink-0 text-accent-lime">
                       <path d="M20 6 9 17l-5-5" />

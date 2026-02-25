@@ -126,7 +126,7 @@ export function OffersSection() {
                         <div className="w-8 h-8 rounded-lg bg-emerald-400/20 flex items-center justify-center flex-shrink-0">
                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-emerald-400"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                         </div>
-                        <p className="text-text-primary text-sm font-medium">Livré en 48h ou remboursé</p>
+                        <p className="text-text-primary text-sm font-medium">Livré en 72h ou remboursé</p>
                       </div>
                       <div className="bg-gradient-to-r from-emerald-500/10 to-emerald-400/5 border border-emerald-400/20 rounded-xl p-3 flex items-center gap-3">
                         <div className="w-8 h-8 rounded-lg bg-emerald-400/20 flex items-center justify-center flex-shrink-0">

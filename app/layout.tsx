@@ -19,18 +19,18 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Novaly Agency | Site Premium à 69€/mois — Livré en 48h",
+  title: "Novaly Agency | Site Premium à 69€/mois — Livré en 72h",
   description:
-    "Votre site web professionnel 100 % sur mesure, livré en 48h. Design premium, hébergement inclus, maintenance continue. À partir de 69€/mois. Satisfait ou remboursé.",
+    "Votre site web professionnel 100 % sur mesure, livré en 72h. Design premium, hébergement inclus, maintenance continue. À partir de 69€/mois. Satisfait ou remboursé.",
   icons: {
     icon: "/favicon.png",
     shortcut: "/favicon.png",
     apple: "/favicon.png",
   },
   openGraph: {
-    title: "Novaly Agency | Site Premium à 69€/mois — Livré en 48h",
+    title: "Novaly Agency | Site Premium à 69€/mois — Livré en 72h",
     description:
-      "Site web professionnel 100 % sur mesure, livré en 48h. Design premium, hébergement inclus. Satisfait ou remboursé.",
+      "Site web professionnel 100 % sur mesure, livré en 72h. Design premium, hébergement inclus. Satisfait ou remboursé.",
     type: "website",
     locale: "fr_FR",
     siteName: "Novaly Agency",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Novaly Agency | Site Premium à 69€/mois",
-    description: "Site web sur mesure livré en 48h. Satisfait ou remboursé.",
+    description: "Site web sur mesure livré en 72h. Satisfait ou remboursé.",
   },
 };
 
