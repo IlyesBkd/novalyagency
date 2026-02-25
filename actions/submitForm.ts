@@ -16,6 +16,12 @@ const resend = process.env.RESEND_API_KEY
   ? new Resend(process.env.RESEND_API_KEY)
   : null;
 
+if (!resend) {
+  console.warn("⚠️ Resend client NOT initialized — RESEND_API_KEY is missing");
+} else {
+  console.log("✅ Resend client initialized");
+}
+
 /* ── Auto-create leads table if it doesn't exist ── */
 let tableReady = false;
 
@@ -197,8 +203,8 @@ export async function submitContact(data: {
     );
 
     // Fire-and-forget: Discord + confirmation email (don't block response)
-    notifyDiscord({ email, phone, message, source: "Formulaire de contact" }).catch(() => {});
-    sendConfirmationEmail(email).catch(() => {});
+    notifyDiscord({ email, phone, message, source: "Formulaire de contact" }).catch((err) => console.error("Discord error:", err));
+    sendConfirmationEmail(email).catch((err) => console.error("Email error:", err));
 
     return { success: true };
   } catch (err) {
@@ -224,8 +230,8 @@ export async function submitPopup(data: {
        VALUES ($1, NULL, NULL, $2, NOW())`,
       [email, "exit-popup"]
     );
-    notifyDiscord({ email, source: "Exit-Intent Popup" }).catch(() => {});
-    sendConfirmationEmail(email).catch(() => {});
+    notifyDiscord({ email, source: "Exit-Intent Popup" }).catch((err) => console.error("Discord error:", err));
+    sendConfirmationEmail(email).catch((err) => console.error("Email error:", err));
     return { success: true };
   } catch (err) {
     console.error("submitPopup error:", err);
