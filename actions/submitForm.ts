@@ -53,10 +53,13 @@ async function notifyDiscord(payload: {
   source: string;
 }) {
   const webhookUrl = process.env.DISCORD_WEBHOOK_URL;
-  if (!webhookUrl) return;
+  if (!webhookUrl) {
+    console.warn("⚠️ DISCORD_WEBHOOK_URL missing — skipping Discord notification");
+    return false;
+  }
 
   try {
-    await fetch(webhookUrl, {
+    const response = await fetch(webhookUrl, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -75,8 +78,21 @@ async function notifyDiscord(payload: {
         ],
       }),
     });
+
+    if (!response.ok) {
+      const responseBody = await response.text().catch(() => "");
+      console.error("❌ Discord webhook non-OK response", {
+        status: response.status,
+        statusText: response.statusText,
+        body: responseBody,
+      });
+      return false;
+    }
+
+    return true;
   } catch (err) {
     console.error("Discord webhook error:", err);
+    return false;
   }
 }
 
@@ -84,7 +100,7 @@ async function notifyDiscord(payload: {
 async function sendConfirmationEmail(email: string) {
   if (!resend) {
     console.warn("⚠️ RESEND_API_KEY not set — skipping confirmation email");
-    return;
+    return false;
   }
 
   const fromAddress = process.env.RESEND_FROM_EMAIL || "Novaly Agency <onboarding@resend.dev>";
@@ -175,10 +191,20 @@ async function sendConfirmationEmail(email: string) {
 </body>
 </html>`,
     });
-    console.log(`✅ Confirmation email sent to ${email} (ID: ${result.data?.id})`);
+
+    if (result.error) {
+      console.error("❌ Resend API returned an error:", result.error);
+      console.error("Email details:", { to: email, from: fromAddress });
+      return false;
+    }
+
+    const messageId = result.data?.id ?? "n/a";
+    console.log(`✅ Confirmation email sent to ${email} (ID: ${messageId})`);
+    return true;
   } catch (err) {
     console.error("❌ Resend email error:", err);
     console.error("Email details:", { to: email, from: fromAddress });
+    return false;
   }
 }
 
@@ -202,9 +228,25 @@ export async function submitContact(data: {
       [email, phone || null, message, "contact-form"]
     );
 
-    // Fire-and-forget: Discord + confirmation email (don't block response)
-    notifyDiscord({ email, phone, message, source: "Formulaire de contact" }).catch((err) => console.error("Discord error:", err));
-    sendConfirmationEmail(email).catch((err) => console.error("Email error:", err));
+    // Await side effects so serverless runtime doesn't terminate them early.
+    const [discordResult, emailResult] = await Promise.allSettled([
+      notifyDiscord({ email, phone, message, source: "Formulaire de contact" }),
+      sendConfirmationEmail(email),
+    ]);
+
+    if (discordResult.status === "fulfilled" && !discordResult.value) {
+      console.warn("⚠️ Discord notification not delivered for submitContact");
+    }
+    if (discordResult.status === "rejected") {
+      console.error("Discord notification promise rejected:", discordResult.reason);
+    }
+
+    if (emailResult.status === "fulfilled" && !emailResult.value) {
+      console.warn("⚠️ Confirmation email not delivered for submitContact");
+    }
+    if (emailResult.status === "rejected") {
+      console.error("Confirmation email promise rejected:", emailResult.reason);
+    }
 
     return { success: true };
   } catch (err) {
@@ -230,8 +272,25 @@ export async function submitPopup(data: {
        VALUES ($1, NULL, NULL, $2, NOW())`,
       [email, "exit-popup"]
     );
-    notifyDiscord({ email, source: "Exit-Intent Popup" }).catch((err) => console.error("Discord error:", err));
-    sendConfirmationEmail(email).catch((err) => console.error("Email error:", err));
+    const [discordResult, emailResult] = await Promise.allSettled([
+      notifyDiscord({ email, source: "Exit-Intent Popup" }),
+      sendConfirmationEmail(email),
+    ]);
+
+    if (discordResult.status === "fulfilled" && !discordResult.value) {
+      console.warn("⚠️ Discord notification not delivered for submitPopup");
+    }
+    if (discordResult.status === "rejected") {
+      console.error("Discord notification promise rejected:", discordResult.reason);
+    }
+
+    if (emailResult.status === "fulfilled" && !emailResult.value) {
+      console.warn("⚠️ Confirmation email not delivered for submitPopup");
+    }
+    if (emailResult.status === "rejected") {
+      console.error("Confirmation email promise rejected:", emailResult.reason);
+    }
+
     return { success: true };
   } catch (err) {
     console.error("submitPopup error:", err);
