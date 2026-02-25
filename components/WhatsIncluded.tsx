@@ -137,24 +137,6 @@ export function WhatsIncluded() {
                 </div>
               ))}
             </div>
-
-            {/* Guarantee strip */}
-            <div className="relative scroll-animate" style={{ transitionDelay: "200ms" }}>
-              <div className="absolute -inset-px rounded-2xl bg-gradient-to-r from-accent-lime/30 via-accent-lime/10 to-accent-lime/30" />
-              <div className="relative rounded-2xl bg-dark-900/80 backdrop-blur-sm px-8 py-5 flex flex-wrap items-center justify-center gap-6 md:gap-10">
-                {[
-                  { label: "Livraison 48h", icon: "⏱" },
-                  { label: "Satisfait ou remboursé", icon: "✓" },
-                  { label: "100 % personnalisé", icon: "✦" },
-                  { label: "Sans engagement caché", icon: "⚡" },
-                ].map(({ label, icon }) => (
-                  <div key={label} className="flex items-center gap-2">
-                    <span className="text-accent-lime text-sm font-bold">{icon}</span>
-                    <span className="text-text-primary text-sm font-medium">{label}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
       </div>
     </Section>
   );

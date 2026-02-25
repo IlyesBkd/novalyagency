@@ -143,22 +143,6 @@ export function OffersSection() {
           </div>
 
         </div>
-
-        {/* Reassurance strip */}
-        <div className="mt-12 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-text-secondary/50 text-sm scroll-animate">
-          {[
-            { icon: "⏱", text: "Livraison 48h" },
-            { icon: "✓", text: "Satisfait ou remboursé" },
-            { icon: "✦", text: "100 % sur mesure" },
-            { icon: "⚡", text: "Sans engagement caché" },
-          ].map(({ icon, text }, i) => (
-            <span key={text} className="inline-flex items-center gap-1.5">
-              {i > 0 && <span className="text-white/10 mr-2">·</span>}
-              <span className="text-accent-lime/40">{icon}</span>
-              {text}
-            </span>
-          ))}
-        </div>
       </div>
     </Section>
   );
