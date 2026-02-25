@@ -17,7 +17,7 @@ export function EcomFinalCta() {
     setStatus("sending");
     setErrorMsg("");
     try {
-      const result = await submitContact({ ...form, source: "ecommerce" });
+      const result = await submitContact({ ...form, leadType: "ecommerce", offerPrice: 899 });
       if (result.success) {
         setStatus("sent");
         // Push GTM event with lead type and offer price

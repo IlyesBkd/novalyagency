@@ -35,9 +35,14 @@ async function ensureTable() {
         phone TEXT,
         message TEXT,
         source TEXT,
+        lead_type TEXT,
+        offer_price INTEGER,
         created_at TIMESTAMPTZ DEFAULT NOW()
       )
     `);
+    // Auto-add columns for existing tables
+    await pool.query(`ALTER TABLE leads ADD COLUMN IF NOT EXISTS lead_type TEXT`);
+    await pool.query(`ALTER TABLE leads ADD COLUMN IF NOT EXISTS offer_price INTEGER`);
     tableReady = true;
   } catch (err) {
     console.error("Failed to create leads table:", err);
@@ -51,12 +56,18 @@ async function notifyDiscord(payload: {
   phone?: string;
   message?: string;
   source: string;
+  leadType?: "vitrine" | "ecommerce";
+  offerPrice?: number;
 }) {
   const webhookUrl = process.env.DISCORD_WEBHOOK_URL;
   if (!webhookUrl) {
     console.warn("⚠️ DISCORD_WEBHOOK_URL missing — skipping Discord notification");
     return false;
   }
+
+  const embedColor = payload.leadType === "ecommerce" ? 0x6366f1 : 0x84cc16;
+  const typeLabel = payload.leadType === "ecommerce" ? "🛒 E-commerce" : "🌐 Vitrine";
+  const priceLabel = payload.offerPrice ? `${payload.offerPrice}€` : "—";
 
   try {
     const response = await fetch(webhookUrl, {
@@ -66,11 +77,12 @@ async function notifyDiscord(payload: {
         embeds: [
           {
             title: `📩 Nouveau lead — ${payload.source}`,
-            color: 0x84cc16,
+            color: embedColor,
             fields: [
               { name: "Email", value: payload.email, inline: true },
               { name: "Téléphone", value: payload.phone || "Non renseigné", inline: true },
-              { name: "Source", value: payload.source, inline: true },
+              { name: "Type", value: typeLabel, inline: true },
+              { name: "Offre", value: priceLabel, inline: true },
               { name: "Message", value: payload.message || "—" },
             ],
             timestamp: new Date().toISOString(),
@@ -208,15 +220,25 @@ async function sendConfirmationEmail(email: string) {
   }
 }
 
+/* ── Types ── */
+type LeadType = "vitrine" | "ecommerce";
+
+const OFFER_PRICES: Record<LeadType, number> = {
+  vitrine: 399,
+  ecommerce: 899,
+};
+
 /* ── Submit contact form ── */
 export async function submitContact(data: {
   email: string;
   phone: string;
   message: string;
-  source?: "vitrine" | "ecommerce";
+  leadType?: LeadType;
+  offerPrice?: number;
 }): Promise<{ success: boolean; error?: string }> {
-  const { email, phone, message, source } = data;
-  const leadSource = source ?? "vitrine";
+  const { email, phone, message } = data;
+  const leadType: LeadType = data.leadType && ["vitrine", "ecommerce"].includes(data.leadType) ? data.leadType : "vitrine";
+  const offerPrice: number = data.offerPrice ?? OFFER_PRICES[leadType];
 
   if (!email || !message) {
     return { success: false, error: "Veuillez remplir tous les champs obligatoires." };
@@ -225,9 +247,9 @@ export async function submitContact(data: {
   try {
     await ensureTable();
     await pool.query(
-      `INSERT INTO leads (email, phone, message, source, created_at)
-       VALUES ($1, $2, $3, $4, NOW())`,
-      [email, phone || null, message, leadSource]
+      `INSERT INTO leads (email, phone, message, source, lead_type, offer_price, created_at)
+       VALUES ($1, $2, $3, $4, $5, $6, NOW())`,
+      [email, phone || null, message, leadType, leadType, offerPrice]
     );
 
     // Await side effects so serverless runtime doesn't terminate them early.
@@ -236,7 +258,9 @@ export async function submitContact(data: {
         email,
         phone,
         message,
-        source: leadSource === "ecommerce" ? "Formulaire e-commerce" : "Formulaire vitrine",
+        source: leadType === "ecommerce" ? "Formulaire e-commerce" : "Formulaire vitrine",
+        leadType,
+        offerPrice,
       }),
       sendConfirmationEmail(email),
     ]);
@@ -275,8 +299,8 @@ export async function submitPopup(data: {
   try {
     await ensureTable();
     await pool.query(
-      `INSERT INTO leads (email, phone, message, source, created_at)
-       VALUES ($1, NULL, NULL, $2, NOW())`,
+      `INSERT INTO leads (email, phone, message, source, lead_type, offer_price, created_at)
+       VALUES ($1, NULL, NULL, $2, NULL, NULL, NOW())`,
       [email, "exit-popup"]
     );
     const [discordResult, emailResult] = await Promise.allSettled([
