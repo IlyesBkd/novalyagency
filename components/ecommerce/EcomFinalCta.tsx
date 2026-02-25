@@ -1,9 +1,9 @@
 "use client";
 import { useState } from "react";
 import { submitContact } from "@/actions/submitForm";
-import { Section } from "./Section";
+import { Section } from "../Section";
 
-export function FinalCta() {
+export function EcomFinalCta() {
   const [form, setForm] = useState({ email: "", phone: "", message: "" });
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState("");
@@ -25,8 +25,8 @@ export function FinalCta() {
           (window as any).dataLayer = (window as any).dataLayer || [];
           (window as any).dataLayer.push({
             event: "generate_lead_form",
-            lead_type: "vitrine",
-            offer_price: 399
+            lead_type: "ecommerce",
+            offer_price: 899
           });
         }
       } else {
@@ -45,12 +45,12 @@ export function FinalCta() {
             {/* Heading */}
             <div className="text-center mb-12 scroll-animate">
               <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                <span className="text-text-primary">Commandez</span>
+                <span className="text-text-primary">Lancez</span>
                 <br />
-                <span className="gradient-text">votre site premium</span>
+                <span className="gradient-text">votre boutique en ligne</span>
               </h2>
               <p className="text-lg sm:text-xl text-text-secondary max-w-xl mx-auto">
-                Décrivez votre projet et nous vous recontactons sous 24h pour lancer la création.
+                Décrivez votre projet e-commerce et nous vous recontactons sous 24h pour lancer la création.
               </p>
             </div>
 
@@ -65,7 +65,7 @@ export function FinalCta() {
                       </svg>
                     </div>
                     <h3 className="text-2xl font-bold text-text-primary mb-2">Message envoyé !</h3>
-                    <p className="text-text-secondary">Nous vous recontactons sous 24h pour lancer votre projet.</p>
+                    <p className="text-text-secondary">Nous vous recontactons sous 24h pour lancer votre boutique.</p>
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-7">
@@ -112,7 +112,7 @@ export function FinalCta() {
                         rows={6}
                         value={form.message}
                         onChange={handleChange}
-                        placeholder="Ex: Je suis plombier à Lyon et j'ai besoin d'un site vitrine professionnel pour attirer de nouveaux clients..."
+                        placeholder="Ex: Je suis créatrice de bijoux et je veux vendre mes créations en ligne avec paiement CB et suivi des commandes..."
                         className="w-full rounded-xl bg-white/95 border border-gray-300 focus:border-accent-lime focus:outline-none focus:ring-2 focus:ring-accent-lime/30 px-5 py-4 text-gray-900 placeholder-gray-500 text-base transition-all duration-200 resize-none"
                       />
                     </div>
@@ -126,6 +126,7 @@ export function FinalCta() {
                     <button
                       type="submit"
                       disabled={status === "sending"}
+                      id="cta-plan-ecommerce"
                       className="btn-primary w-full group inline-flex items-center justify-center gap-3 px-8 py-5 text-lg disabled:opacity-70 disabled:cursor-not-allowed"
                     >
                       {status === "sending" ? (
@@ -138,7 +139,7 @@ export function FinalCta() {
                         </>
                       ) : (
                         <>
-                          <span>Envoyer ma demande</span>
+                          <span>Lancer ma boutique</span>
                           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform duration-300 group-hover:translate-x-1">
                             <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
                           </svg>
@@ -148,7 +149,7 @@ export function FinalCta() {
 
                     {/* Trust line */}
                     <p className="text-center text-text-secondary/60 text-xs">
-                      Réponse garantie sous 24h · Satisfait ou remboursé · 100 % sur mesure
+                      Réponse garantie sous 24h · Satisfait ou remboursé · 899€ tout inclus
                     </p>
                   </form>
                 )}

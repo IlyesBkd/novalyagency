@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-
-export function HeroSection() {
+export function EcomHeroSection() {
   return (
     <div id="hero">
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black">
@@ -37,7 +36,7 @@ export function HeroSection() {
 
           {/* Eyebrow */}
           <p className="text-text-secondary text-sm sm:text-base uppercase tracking-[0.3em] mb-4 font-medium animate-reveal animate-delay-200">
-            Offre unique
+            Offre e-commerce
           </p>
 
           {/* H1 */}
@@ -49,27 +48,28 @@ export function HeroSection() {
             }}
           >
             <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-text-primary">
-              Site premium à{" "}
+              Boutique en ligne à{" "}
               <span className="text-accent-lime hand-underline">
-                69€
+                899€
               </span>
             </span>
           </h1>
 
           <p className="text-xl sm:text-3xl md:text-4xl font-semibold text-text-primary mb-2 animate-reveal animate-delay-800">
-            Livré en <span className="text-accent-lime">48h.</span>
+            Livrée en <span className="text-accent-lime">48h.</span>
           </p>
           <p className="text-base sm:text-xl text-text-secondary mb-6 animate-reveal animate-delay-1200">
-            Sans devis. Sans surprise. Sans Blabla.
+            Paiement intégré. Catalogue produits. Prêt à vendre.
           </p>
 
           {/* CTA */}
           <div className="animate-reveal-scale animate-delay-1500">
             <Link
               href="#contact-form"
+              id="cta-plan-ecommerce"
               className="btn-primary group inline-flex items-center gap-3 px-10 py-5 text-xl"
             >
-              <span>Commander mon site</span>
+              <span>Lancer ma boutique</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -110,7 +110,7 @@ export function HeroSection() {
 
           {/* Scroll-down nudge */}
           <a href="#portfolio" className="inline-flex flex-col items-center gap-2 mt-10 text-accent-lime/80 hover:text-accent-lime transition-colors duration-300 animate-reveal animate-delay-1800 group cursor-pointer">
-            <span className="text-sm font-medium">Pas sûr ? Voyez d&apos;abord comment ça fonctionne</span>
+            <span className="text-sm font-medium">Découvrez nos réalisations e-commerce</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-down w-5 h-5 animate-bounce">
               <path d="m6 9 6 6 6-6" />
             </svg>

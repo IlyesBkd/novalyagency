@@ -1,35 +1,35 @@
 import Link from "next/link";
-import { Section } from "./Section";
+import { Section } from "../Section";
 
 const INCLUDED_FEATURES = [
-  { label: "Site 1 à 3 pages", icon: "globe" },
-  { label: "Design premium sur mesure", icon: "sparkles" },
+  { label: "Boutique e-commerce complète", icon: "shopping-bag" },
+  { label: "Paiement intégré (Stripe)", icon: "credit-card" },
+  { label: "Catalogue produits illimité", icon: "package" },
+  { label: "Gestion des stocks", icon: "box" },
+  { label: "Panier + tunnel d'achat", icon: "cart" },
+  { label: "Tableau de bord commandes", icon: "chart" },
+  { label: "SEO e-commerce", icon: "search" },
   { label: "100% mobile responsive", icon: "smartphone" },
-  { label: "Chargement ultra rapide", icon: "zap" },
-  { label: "Optimisation SEO", icon: "search" },
-  { label: "Formulaire de contact", icon: "mail" },
-  { label: "Bouton appel direct", icon: "phone" },
-  { label: "Bouton WhatsApp", icon: "message" },
-  { label: "Widget avis Google", icon: "star" },
+  { label: "Certificat SSL (HTTPS)", icon: "shield" },
 ];
 
 function FeatureIcon({ name }: { name: string }) {
   const cls = "lucide w-4 h-4 text-accent-lime";
   switch (name) {
-    case "globe": return <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={cls}><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>;
-    case "sparkles": return <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={cls}><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/></svg>;
-    case "smartphone": return <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={cls}><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>;
-    case "zap": return <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={cls}><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>;
+    case "shopping-bag": return <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={cls}><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>;
+    case "credit-card": return <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={cls}><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>;
+    case "package": return <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={cls}><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>;
+    case "box": return <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={cls}><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>;
+    case "cart": return <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={cls}><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>;
+    case "chart": return <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={cls}><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>;
     case "search": return <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={cls}><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>;
-    case "mail": return <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={cls}><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>;
-    case "phone": return <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={cls}><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>;
-    case "message": return <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={cls}><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>;
-    case "star": return <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={cls}><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>;
+    case "smartphone": return <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={cls}><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>;
+    case "shield": return <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={cls}><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg>;
     default: return null;
   }
 }
 
-export function OffersSection() {
+export function EcomOffersSection() {
   return (
     <Section id="offers" glow>
       <div className="max-w-5xl mx-auto px-6">
@@ -37,7 +37,7 @@ export function OffersSection() {
         <div className="text-center mb-16 scroll-animate">
           <p className="text-accent-lime text-sm uppercase tracking-[0.25em] mb-4 font-medium">L&apos;offre complète</p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-text-primary mb-4">Tout est inclus</h2>
-          <p className="text-lg text-text-secondary max-w-xl mx-auto">Un site professionnel clé en main</p>
+          <p className="text-lg text-text-secondary max-w-xl mx-auto">Une boutique en ligne professionnelle clé en main</p>
         </div>
 
         {/* Premium card */}
@@ -66,17 +66,16 @@ export function OffersSection() {
 
                     <div className="mb-2">
                       <div className="flex items-start justify-center lg:justify-start">
-                        <span className="text-7xl sm:text-8xl lg:text-[6.5rem] font-bold text-text-primary leading-none tracking-tight">399</span>
+                        <span className="text-7xl sm:text-8xl lg:text-[6.5rem] font-bold text-text-primary leading-none tracking-tight">899</span>
                         <span className="text-2xl sm:text-3xl font-bold text-accent-lime mt-2 ml-2">EUR</span>
                       </div>
                     </div>
-                    <p className="text-text-secondary text-sm mb-1">Paiement unique</p>
-                    <p className="text-text-secondary text-sm mb-4 lg:mb-8">ou <span className="text-accent-lime font-semibold">69€/mois</span></p>
+                    <p className="text-text-secondary text-sm mb-4 lg:mb-8">Paiement unique - Pas d&apos;abonnement caché</p>
 
                     {/* Desktop CTA */}
                     <div className="hidden lg:flex lg:flex-col lg:items-start lg:gap-4 w-full">
-                      <Link href="#contact-form" className="btn-primary group inline-flex items-center gap-3 px-8 py-4 text-lg">
-                        <span>Commander mon site</span>
+                      <Link href="#contact-form" id="cta-plan-ecommerce" className="btn-primary group inline-flex items-center gap-3 px-8 py-4 text-lg">
+                        <span>Lancer ma boutique</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 relative z-10 transition-transform duration-300 group-hover:translate-x-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                       </Link>
                     </div>
@@ -106,11 +105,11 @@ export function OffersSection() {
                       </div>
                       <div className="text-center mb-4">
                         <p className="text-text-primary text-base font-semibold mb-1.5">Hébergement + Nom de domaine</p>
-                        <p className="text-text-secondary text-xs leading-relaxed">Votre site en ligne 24h/24 avec votre propre adresse<br />(ex: votreentreprise.fr)</p>
+                        <p className="text-text-secondary text-xs leading-relaxed">Votre boutique en ligne 24h/24 avec votre propre adresse<br />(ex: maboutique.fr)</p>
                       </div>
                       <div className="bg-dark-800/60 border border-white/10 rounded-lg px-4 py-3">
                         <p className="text-text-primary text-sm font-medium text-center mb-1">Puis 150 €/an à partir de la 2e année</p>
-                        <p className="text-text-secondary text-xs text-center opacity-70">Frais de renouvellement pour maintenir votre site actif</p>
+                        <p className="text-text-secondary text-xs text-center opacity-70">Frais de renouvellement pour maintenir votre boutique active</p>
                       </div>
                     </div>
                   </div>
@@ -126,7 +125,7 @@ export function OffersSection() {
                         <div className="w-8 h-8 rounded-lg bg-emerald-400/20 flex items-center justify-center flex-shrink-0">
                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-emerald-400"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                         </div>
-                        <p className="text-text-primary text-sm font-medium">Livré en 48h ou remboursé</p>
+                        <p className="text-text-primary text-sm font-medium">Livrée en 48h ou remboursé</p>
                       </div>
                       <div className="bg-gradient-to-r from-emerald-500/10 to-emerald-400/5 border border-emerald-400/20 rounded-xl p-3 flex items-center gap-3">
                         <div className="w-8 h-8 rounded-lg bg-emerald-400/20 flex items-center justify-center flex-shrink-0">
@@ -139,8 +138,8 @@ export function OffersSection() {
 
                   {/* Mobile CTA */}
                   <div className="lg:hidden mt-8 pt-6 border-t border-white/5 flex flex-col items-center gap-4">
-                    <Link href="#contact-form" className="btn-primary group inline-flex items-center gap-3 px-8 py-4 text-lg">
-                      <span>Commander mon site</span>
+                    <Link href="#contact-form" id="cta-plan-ecommerce" className="btn-primary group inline-flex items-center gap-3 px-8 py-4 text-lg">
+                      <span>Lancer ma boutique</span>
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 relative z-10 transition-transform duration-300 group-hover:translate-x-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                     </Link>
                   </div>
