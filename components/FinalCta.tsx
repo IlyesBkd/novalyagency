@@ -17,7 +17,7 @@ export function FinalCta() {
     setStatus("sending");
     setErrorMsg("");
     try {
-      const result = await submitContact(form);
+      const result = await submitContact({ ...form, source: "vitrine" });
       if (result.success) {
         setStatus("sent");
         // Push GTM event with lead type and offer price

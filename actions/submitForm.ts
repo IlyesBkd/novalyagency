@@ -103,7 +103,7 @@ async function sendConfirmationEmail(email: string) {
     return false;
   }
 
-  const fromAddress = process.env.RESEND_FROM_EMAIL || "Novaly Agency <onboarding@resend.dev>";
+  const fromAddress = process.env.RESEND_FROM || "Novaly Agency <contact@novalyagency.com>";
 
   try {
     const result = await resend.emails.send({
@@ -213,8 +213,10 @@ export async function submitContact(data: {
   email: string;
   phone: string;
   message: string;
+  source?: "vitrine" | "ecommerce";
 }): Promise<{ success: boolean; error?: string }> {
-  const { email, phone, message } = data;
+  const { email, phone, message, source } = data;
+  const leadSource = source ?? "vitrine";
 
   if (!email || !message) {
     return { success: false, error: "Veuillez remplir tous les champs obligatoires." };
@@ -225,12 +227,17 @@ export async function submitContact(data: {
     await pool.query(
       `INSERT INTO leads (email, phone, message, source, created_at)
        VALUES ($1, $2, $3, $4, NOW())`,
-      [email, phone || null, message, "contact-form"]
+      [email, phone || null, message, leadSource]
     );
 
     // Await side effects so serverless runtime doesn't terminate them early.
     const [discordResult, emailResult] = await Promise.allSettled([
-      notifyDiscord({ email, phone, message, source: "Formulaire de contact" }),
+      notifyDiscord({
+        email,
+        phone,
+        message,
+        source: leadSource === "ecommerce" ? "Formulaire e-commerce" : "Formulaire vitrine",
+      }),
       sendConfirmationEmail(email),
     ]);
 
