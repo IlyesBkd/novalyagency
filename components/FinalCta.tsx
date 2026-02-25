@@ -20,6 +20,9 @@ export function FinalCta() {
       const result = await submitContact(form);
       if (result.success) {
         setStatus("sent");
+        // Push GTM event
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({ event: "generate_lead_form" });
       } else {
         setStatus("error");
         setErrorMsg(result.error || "Une erreur est survenue.");
