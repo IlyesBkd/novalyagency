@@ -5,21 +5,7 @@ export function middleware(request: NextRequest) {
   const response = NextResponse.next()
   
   // Autorise GTM + GA4
-  const csp = `
-    default-src 'self';
-    script-src 'self' 'unsafe-inline' 'unsafe-eval' 
-      https://www.googletagmanager.com 
-      https://www.google-analytics.com 
-      https://www.googleadservices.com 
-      https://googleads.g.doubleclick.net;
-    script-src-elem 'self' 'unsafe-inline'
-      https://www.googletagmanager.com 
-      https://www.google-analytics.com 
-      https://www.googleadservices.com;
-    img-src 'self' data: https: blob:;
-    connect-src 'self' https://www.google-analytics.com https://*.googleapis.com;
-    frame-src 'self' https://www.googletagmanager.com;
-  `
+  const csp = "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com https://googleads.g.doubleclick.net; script-src-elem 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com; img-src 'self' data: https: blob:; connect-src 'self' https://www.google-analytics.com https://*.googleapis.com; frame-src 'self' https://www.googletagmanager.com;"
   
   response.headers.set('Content-Security-Policy', csp)
   
