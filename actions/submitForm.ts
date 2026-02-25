@@ -77,14 +77,14 @@ async function notifyDiscord(payload: {
 /* ── Confirmation email via Resend ── */
 async function sendConfirmationEmail(email: string) {
   if (!resend) {
-    console.warn("RESEND_API_KEY not set — skipping confirmation email");
+    console.warn("⚠️ RESEND_API_KEY not set — skipping confirmation email");
     return;
   }
 
   const fromAddress = process.env.RESEND_FROM_EMAIL || "Novaly Agency <onboarding@resend.dev>";
 
   try {
-    await resend.emails.send({
+    const result = await resend.emails.send({
       from: fromAddress,
       to: email,
       subject: "✅ Demande reçue — Novaly Agency",
@@ -169,8 +169,10 @@ async function sendConfirmationEmail(email: string) {
 </body>
 </html>`,
     });
+    console.log(`✅ Confirmation email sent to ${email} (ID: ${result.data?.id})`);
   } catch (err) {
-    console.error("Resend email error:", err);
+    console.error("❌ Resend email error:", err);
+    console.error("Email details:", { to: email, from: fromAddress });
   }
 }
 
