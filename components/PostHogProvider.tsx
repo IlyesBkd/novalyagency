@@ -3,7 +3,7 @@
 import posthog from "posthog-js";
 import { PostHogProvider as PHProvider } from "posthog-js/react";
 import { usePathname, useSearchParams } from "next/navigation";
-import { useEffect, useRef, type ReactNode } from "react";
+import { Suspense, useEffect, useRef, type ReactNode } from "react";
 
 /* ── Initialise PostHog une seule fois ───────────────────────── */
 if (
@@ -40,7 +40,9 @@ function PostHogPageview() {
 export function PostHogProvider({ children }: { children: ReactNode }) {
   return (
     <PHProvider client={posthog}>
-      <PostHogPageview />
+      <Suspense fallback={null}>
+        <PostHogPageview />
+      </Suspense>
       {children}
     </PHProvider>
   );
