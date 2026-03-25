@@ -9,7 +9,7 @@ import { usePricingAB } from "./usePricingAB";
 export function ABPriceCell() {
   const { priceLabel, isLoading } = usePricingAB();
 
-  if (isLoading || !priceLabel) {
+  if (isLoading) {
     return <span className="inline-block w-12 h-4 bg-accent-lime/20 rounded animate-pulse" />;
   }
 

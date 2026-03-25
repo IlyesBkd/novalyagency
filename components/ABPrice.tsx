@@ -9,7 +9,7 @@ import { usePricingAB } from "./usePricingAB";
 export function ABPriceInline() {
   const { priceLabel, isLoading } = usePricingAB();
 
-  if (isLoading || !priceLabel) {
+  if (isLoading) {
     return (
       <span className="text-accent-lime hand-underline inline-block">
         <span className="inline-block w-[3.5ch] h-[0.9em] bg-accent-lime/20 rounded-lg animate-pulse" />
@@ -31,7 +31,7 @@ export function ABPriceInline() {
 export function ABPriceCard() {
   const { price, isLoading } = usePricingAB();
 
-  if (isLoading || price === null) {
+  if (isLoading) {
     return (
       <div className="mb-2">
         <div className="flex items-start justify-center lg:justify-start">
