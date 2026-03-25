@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { Section } from "../Section";
+import { ABEcomPriceCell } from "../ABEcomPrice";
 
 const ROWS = [
-  { label: "Prix", novaly: "899€ tout inclus", agence: "5 000 – 15 000€", freelance: "Variable" },
+  { label: "Prix", novaly: "ab_ecom_price", agence: "5 000 – 15 000€", freelance: "Variable" },
   { label: "Délai de livraison", novaly: "72h", agence: "6 – 12 semaines", freelance: "Inconnu" },
   { label: "Paiement intégré", novaly: "check", agence: "check", freelance: "Parfois" },
   { label: "Design sur mesure", novaly: "check", agence: "check", freelance: "Rarement" },
@@ -27,6 +28,9 @@ function CellValue({ value }: { value: string }) {
         </svg>
       </span>
     );
+  }
+  if (value === "ab_ecom_price") {
+    return <ABEcomPriceCell />;
   }
   return <span>{value}</span>;
 }

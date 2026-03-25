@@ -1,6 +1,7 @@
 "use client";
 import { InlineWidget } from "react-calendly";
 import { Section } from "../Section";
+import { ABEcomPriceText } from "../ABEcomPrice";
 
 const CALENDLY_URL = "https://calendly.com/novalyagencyweb/new-meeting";
 
@@ -57,7 +58,7 @@ export function EcomFinalCta() {
                 </div>
                 <div className="flex items-center gap-1.5 text-text-secondary/50 text-xs">
                   <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-400/60"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
-                  <span>899€ tout inclus</span>
+                  <span><ABEcomPriceText /> tout inclus</span>
                 </div>
               </div>
             </div>

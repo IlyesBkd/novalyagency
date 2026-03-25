@@ -1,4 +1,5 @@
 import { Section } from "../Section";
+import { ABEcomPriceText } from "../ABEcomPrice";
 
 export function EcomNouvelleApproche() {
   return (
@@ -50,12 +51,12 @@ export function EcomNouvelleApproche() {
                 Notre approche
               </p>
               <ul className="space-y-3">
-                {["Design unique et premium", "Paiement unique de 899€", "Optimisé pour la conversion", "Livraison clé en main en 72h"].map((item) => (
+                {["Design unique et premium", "paiement_unique", "Optimisé pour la conversion", "Livraison clé en main en 72h"].map((item) => (
                   <li key={item} className="flex items-center gap-3 text-text-primary">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="flex-shrink-0 text-accent-lime">
                       <path d="M20 6 9 17l-5-5" />
                     </svg>
-                    {item}
+                    {item === "paiement_unique" ? <>Paiement unique de <ABEcomPriceText /></> : item}
                   </li>
                 ))}
               </ul>

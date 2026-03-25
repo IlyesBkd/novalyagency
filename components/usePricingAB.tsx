@@ -1,6 +1,7 @@
 "use client";
 
 import { useFeatureFlagVariantKey } from "posthog-js/react";
+import { useEffect, useState } from "react";
 import posthog from "posthog-js";
 
 /**
@@ -13,12 +14,23 @@ import posthog from "posthog-js";
  * Doc PostHog : le fallback est TOUJOURS le prix control (249€).
  * L'événement `$feature_flag_called` est envoyé automatiquement
  * quand `useFeatureFlagVariantKey` résout le flag.
+ *
+ * Anti-flickering : skeleton pendant max 1.5s, puis fallback 249€.
  */
 export function usePricingAB() {
   const variant = useFeatureFlagVariantKey("pricing_ab_test");
+  const [timedOut, setTimedOut] = useState(false);
 
-  // undefined = PostHog pas encore chargé → skeleton
-  const isLoading = variant === undefined;
+  // Timeout de sécurité : si PostHog ne répond pas en 1.5s,
+  // on arrête le skeleton et on affiche le prix fallback (249€).
+  useEffect(() => {
+    if (variant !== undefined) return; // déjà résolu
+    const t = setTimeout(() => setTimedOut(true), 1500);
+    return () => clearTimeout(t);
+  }, [variant]);
+
+  // Skeleton seulement si PostHog charge ET pas de timeout
+  const isLoading = variant === undefined && !timedOut;
 
   // Fallback & control → 249€ | test → 599€
   const price = variant === "test" ? 599 : 249;

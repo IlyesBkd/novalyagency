@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { ABEcomPriceInline, ABEcomCtaButton } from "../ABEcomPrice";
 
 export function EcomHeroSection() {
   return (
@@ -49,9 +50,7 @@ export function EcomHeroSection() {
           >
             <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-text-primary">
               Boutique en ligne à{" "}
-              <span className="text-accent-lime hand-underline">
-                899€
-              </span>
+              <ABEcomPriceInline />
             </span>
           </h1>
 
@@ -64,28 +63,7 @@ export function EcomHeroSection() {
 
           {/* CTA */}
           <div className="animate-reveal-scale animate-delay-1500">
-            <Link
-              href="#contact-form"
-              id="cta-plan-ecommerce"
-              className="btn-primary group inline-flex items-center gap-3 px-10 py-5 text-xl"
-            >
-              <span>Lancer ma boutique</span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-arrow-right w-5 h-5 relative z-10 transition-transform duration-300 group-hover:translate-x-1"
-              >
-                <path d="M5 12h14" />
-                <path d="m12 5 7 7-7 7" />
-              </svg>
-            </Link>
+            <ABEcomCtaButton text="Lancer ma boutique" id="cta-plan-ecommerce" className="px-10 py-5 text-xl" />
           </div>
 
           {/* Google Avis badge */}
