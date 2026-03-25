@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { Section } from "./Section";
+import { ABPriceCard, ABCtaButton } from "./ABPrice";
 
 const INCLUDED_FEATURES = [
   { label: "Site 1 à 3 pages", icon: "globe" },
@@ -64,21 +64,12 @@ export function OffersSection() {
                       Prix unique
                     </span>
 
-                    <div className="mb-2">
-                      <div className="flex items-start justify-center lg:justify-start">
-                        <span className="text-7xl sm:text-8xl lg:text-[6.5rem] font-bold text-text-primary leading-none tracking-tight">399</span>
-                        <span className="text-2xl sm:text-3xl font-bold text-accent-lime mt-2 ml-2">EUR</span>
-                      </div>
-                    </div>
-                    <p className="text-text-secondary text-sm mb-1">Paiement unique</p>
-                    <p className="text-text-secondary text-sm mb-4 lg:mb-8">ou <span className="text-accent-lime font-semibold">69€/mois</span></p>
+                    <ABPriceCard />
+                    <p className="text-text-secondary text-sm mb-4 lg:mb-8">Paiement unique — Sans abonnement</p>
 
                     {/* Desktop CTA */}
                     <div className="hidden lg:flex lg:flex-col lg:items-start lg:gap-4 w-full">
-                      <Link href="#contact-form" className="btn-primary group inline-flex items-center gap-3 px-8 py-4 text-lg">
-                        <span>Commander mon site</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 relative z-10 transition-transform duration-300 group-hover:translate-x-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                      </Link>
+                      <ABCtaButton text="Commander mon site" />
                     </div>
                   </div>
                 </div>
@@ -139,10 +130,7 @@ export function OffersSection() {
 
                   {/* Mobile CTA */}
                   <div className="lg:hidden mt-8 pt-6 border-t border-white/5 flex flex-col items-center gap-4">
-                    <Link href="#contact-form" className="btn-primary group inline-flex items-center gap-3 px-8 py-4 text-lg">
-                      <span>Commander mon site</span>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 relative z-10 transition-transform duration-300 group-hover:translate-x-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                    </Link>
+                    <ABCtaButton text="Commander mon site" />
                   </div>
                 </div>
 

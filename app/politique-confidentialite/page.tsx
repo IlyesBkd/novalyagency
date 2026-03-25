@@ -48,7 +48,7 @@ export default function PolitiqueConfidentialite() {
               <li>Adresse e-mail</li>
               <li>Numéro de téléphone (facultatif)</li>
               <li>Description du projet</li>
-              <li>Formule choisie (One Shot / Abonnement / Autre)</li>
+              <li>Formule choisie (Vitrine / E-commerce)</li>
             </ul>
           </section>
 

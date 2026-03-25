@@ -41,3 +41,7 @@ body {
 
 /* Missing Tailwind utility: md:grid-cols-2 */
 @media (min-width: 768px){.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.md\:gap-8{gap:2rem}}
+
+/* ── Calendly responsive container ─────────────────────────────── */
+.calendly-container{width:100%;height:950px;overflow:hidden;border-radius:12px}
+@media (min-width:768px){.calendly-container{height:700px}}

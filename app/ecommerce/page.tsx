@@ -11,6 +11,7 @@ import { EcomGuaranteeSection } from "@/components/ecommerce/EcomGuaranteeSectio
 import { FooterSection } from "@/components/FooterSection";
 import { SectionCta } from "@/components/SectionCta";
 import { getPortfolioImageNames } from "@/lib/portfolio";
+import { TrackedSection } from "@/components/TrackedSection";
 
 const PortfolioSection = dynamic(
   () => import("@/components/PortfolioSection").then((m) => m.PortfolioSection),
@@ -69,10 +70,14 @@ export default function EcommercePage() {
       {/* === STRICT SECTION ORDER === */}
 
       {/* S1 — Hero */}
-      <EcomHeroSection />
+      <TrackedSection sectionName="ecom-hero">
+        <EcomHeroSection />
+      </TrackedSection>
 
       {/* S2 — Portfolio */}
-      <PortfolioSection imageNames={portfolioImages} />
+      <TrackedSection sectionName="ecom-portfolio">
+        <PortfolioSection imageNames={portfolioImages} />
+      </TrackedSection>
 
       {/* CTA after S2 */}
       <div className="relative z-10 -mt-8 pb-8">
@@ -80,13 +85,19 @@ export default function EcommercePage() {
       </div>
 
       {/* S3 — Ils nous ont fait confiance */}
-      <EcomCredibilitySection />
+      <TrackedSection sectionName="ecom-credibility">
+        <EcomCredibilitySection />
+      </TrackedSection>
 
       {/* S4 — Pourquoi Novaly ? (Tableau comparatif) */}
-      <EcomComparisonTable />
+      <TrackedSection sectionName="ecom-comparison">
+        <EcomComparisonTable />
+      </TrackedSection>
 
       {/* S5 — Une boutique 100 % personnalisée */}
-      <EcomNouvelleApproche />
+      <TrackedSection sectionName="ecom-nouvelle-approche">
+        <EcomNouvelleApproche />
+      </TrackedSection>
 
       {/* CTA after S5 */}
       <div className="relative z-10 -mt-8 pb-8">
@@ -94,10 +105,14 @@ export default function EcommercePage() {
       </div>
 
       {/* S6 — Comment ça marche */}
-      <EcomHowItWorks />
+      <TrackedSection sectionName="ecom-how-it-works">
+        <EcomHowItWorks />
+      </TrackedSection>
 
       {/* S7 — L'offre complète */}
-      <EcomWhatsIncluded />
+      <TrackedSection sectionName="ecom-whats-included">
+        <EcomWhatsIncluded />
+      </TrackedSection>
 
       {/* CTA after S7 */}
       <div className="relative z-10 -mt-8 pb-8">
@@ -105,13 +120,19 @@ export default function EcommercePage() {
       </div>
 
       {/* S8 — Offre unique 899€ */}
-      <EcomOffersSection />
+      <TrackedSection sectionName="ecom-offers">
+        <EcomOffersSection />
+      </TrackedSection>
 
       {/* S9 — Double garantie */}
-      <EcomGuaranteeSection />
+      <TrackedSection sectionName="ecom-guarantee">
+        <EcomGuaranteeSection />
+      </TrackedSection>
 
-      {/* S10 — Formulaire de contact */}
-      <EcomFinalCta />
+      {/* S10 — Calendly */}
+      <TrackedSection sectionName="ecom-contact-form">
+        <EcomFinalCta />
+      </TrackedSection>
 
       {/* Footer */}
       <FooterSection />

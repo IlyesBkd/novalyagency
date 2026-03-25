@@ -10,6 +10,7 @@ import { GuaranteeSection } from "@/components/GuaranteeSection";
 import { FooterSection } from "@/components/FooterSection";
 import { SectionCta } from "@/components/SectionCta";
 import { getPortfolioImageNames } from "@/lib/portfolio";
+import { TrackedSection } from "@/components/TrackedSection";
 
 const PortfolioSection = dynamic(
   () => import("@/components/PortfolioSection").then((m) => m.PortfolioSection),
@@ -49,10 +50,14 @@ export default function HomePage() {
       {/* === STRICT SECTION ORDER === */}
 
       {/* S1 — Hero */}
-      <HeroSection />
+      <TrackedSection sectionName="hero">
+        <HeroSection />
+      </TrackedSection>
 
       {/* S2 — Portfolio */}
-      <PortfolioSection imageNames={portfolioImages} />
+      <TrackedSection sectionName="portfolio">
+        <PortfolioSection imageNames={portfolioImages} />
+      </TrackedSection>
 
       {/* CTA after S2 */}
       <div className="relative z-10 -mt-8 pb-8">
@@ -60,13 +65,19 @@ export default function HomePage() {
       </div>
 
       {/* S3 — Ils nous ont fait confiance + Métiers */}
-      <CredibilitySection />
+      <TrackedSection sectionName="credibility">
+        <CredibilitySection />
+      </TrackedSection>
 
       {/* S4 — Pourquoi Novaly ? (Tableau comparatif) */}
-      <ComparisonTable />
+      <TrackedSection sectionName="comparison">
+        <ComparisonTable />
+      </TrackedSection>
 
       {/* S5 — Un site 100 % personnalisé */}
-      <NouvelleApproche />
+      <TrackedSection sectionName="nouvelle-approche">
+        <NouvelleApproche />
+      </TrackedSection>
 
       {/* CTA after S5 */}
       <div className="relative z-10 -mt-8 pb-8">
@@ -74,24 +85,34 @@ export default function HomePage() {
       </div>
 
       {/* S6 — Comment ça marche */}
-      <HowItWorks />
+      <TrackedSection sectionName="how-it-works">
+        <HowItWorks />
+      </TrackedSection>
 
       {/* S7 — L'offre complète */}
-      <WhatsIncluded />
+      <TrackedSection sectionName="whats-included">
+        <WhatsIncluded />
+      </TrackedSection>
 
       {/* CTA after S7 */}
       <div className="relative z-10 -mt-8 pb-8">
         <SectionCta text="Être rappelé" />
       </div>
 
-      {/* S8 — Deux formules + Badge urgence */}
-      <OffersSection />
+      {/* S8 — Offre unique */}
+      <TrackedSection sectionName="offers">
+        <OffersSection />
+      </TrackedSection>
 
       {/* S9 — Double garantie */}
-      <GuaranteeSection />
+      <TrackedSection sectionName="guarantee">
+        <GuaranteeSection />
+      </TrackedSection>
 
-      {/* S10 — Formulaire de contact */}
-      <FinalCta />
+      {/* S10 — Calendly */}
+      <TrackedSection sectionName="contact-form">
+        <FinalCta />
+      </TrackedSection>
 
       {/* Footer */}
       <FooterSection />

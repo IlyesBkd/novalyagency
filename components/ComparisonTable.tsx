@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { Section } from "./Section";
+import { ABPriceCell } from "./ABPriceCell";
 
 const ROWS = [
-  { label: "Prix", novaly: "99€/mois", agence: "3 000 – 8 000€", freelance: "Variable" },
+  { label: "Prix", novaly: "ab_price", agence: "3 000 – 8 000€", freelance: "Variable" },
   { label: "Délai de livraison", novaly: "72h", agence: "4 – 8 semaines", freelance: "Inconnu" },
   { label: "Ingénieur certifié", novaly: "check", agence: "Parfois", freelance: "Rarement" },
   { label: "Maintenance incluse", novaly: "check", agence: "cross", freelance: "cross" },
@@ -26,6 +27,9 @@ function CellValue({ value }: { value: string }) {
         </svg>
       </span>
     );
+  }
+  if (value === "ab_price") {
+    return <ABPriceCell />;
   }
   return <span>{value}</span>;
 }
