@@ -10,7 +10,7 @@ export function PostHogProvider({ children }: { children: ReactNode }) {
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    const key = process.env.NEXT_PUBLIC_POSTHOG_KEY;
+    const key = process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN;
     if (!key) return;
 
     posthog.init(key, {
