@@ -1,0 +1,9 @@
+{
+  "embeds": [
+    {
+      "title": "🧪 Test webhook Discord",
+      "description": "Si tu reçois ce message, le webhook Discord fonctionne",
+      "color": 10471024
+    }
+  ]
+}

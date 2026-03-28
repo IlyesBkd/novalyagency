@@ -1,0 +1,21 @@
+{
+  "event": "invitee.created",
+  "payload": {
+    "event": {
+      "uri": "https://api.calendly.com/scheduled_events/test-123",
+      "name": "Appel découverte",
+      "start_time": "2026-03-29T10:00:00Z"
+    },
+    "invitee": {
+      "uri": "https://api.calendly.com/invitees/test-456",
+      "name": "Test User",
+      "email": "test@example.com",
+      "questions_and_answers": [
+        {
+          "question": "Quel est votre projet ?",
+          "answer": "Site vitrine pour mon entreprise"
+        }
+      ]
+    }
+  }
+}

@@ -1,11 +1,48 @@
 "use client";
+import { useEffect } from "react";
 import { InlineWidget } from "react-calendly";
 import { Section } from "../Section";
 import { ABEcomPriceText } from "../ABEcomPrice";
 
 const CALENDLY_URL = "https://calendly.com/novalyagencyweb/new-meeting";
 
+// Déclaration du type gtag pour TypeScript
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void;
+  }
+}
+
 export function EcomFinalCta() {
+  useEffect(() => {
+    function handleCalendlyEvent(e: MessageEvent) {
+      // Vérifie que c'est bien un événement Calendly de réservation confirmée
+      if (e.data?.event !== "calendly.event_scheduled") return;
+
+      // ── Action A : Google Ads Conversion ──
+      if (typeof window.gtag !== "undefined") {
+        const adsId = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID;
+        const conversionLabel = process.env.NEXT_PUBLIC_GOOGLE_ADS_CONVERSION_LABEL;
+        if (adsId && conversionLabel) {
+          window.gtag("event", "conversion", {
+            send_to: `${adsId}/${conversionLabel}`,
+          });
+          console.log("[Calendly Ecom] Google Ads conversion tracked");
+        }
+      }
+
+      // ── Action B : Discord Notification (via API sécurisée) ──
+      fetch("/api/webhooks/discord", { method: "POST" })
+        .then((res) => {
+          if (res.ok) console.log("[Calendly Ecom] Discord notification sent");
+          else console.error("[Calendly Ecom] Discord notification failed");
+        })
+        .catch((err) => console.error("[Calendly Ecom] Discord fetch error:", err));
+    }
+
+    window.addEventListener("message", handleCalendlyEvent);
+    return () => window.removeEventListener("message", handleCalendlyEvent);
+  }, []);
 
   return (
     <Section id="contact-form" glow>
