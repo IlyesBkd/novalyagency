@@ -30,7 +30,7 @@ export function TrackedSection({
       ([entry]) => {
         if (entry.isIntersecting && !fired.current) {
           fired.current = true;
-          posthog.capture("section_viewed", { section_name: sectionName });
+          posthog.capture("section_viewed", { section: sectionName });
           observer.disconnect();
         }
       },
