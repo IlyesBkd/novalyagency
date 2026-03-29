@@ -2,6 +2,7 @@
 import { useEffect } from "react";
 import { InlineWidget } from "react-calendly";
 import { Section } from "./Section";
+import { usePricingAB } from "./usePricingAB";
 
 const CALENDLY_URL = "https://calendly.com/novalyagencyweb/new-meeting";
 
@@ -12,6 +13,10 @@ const GA_CONVERSION_LABEL = process.env.NEXT_PUBLIC_GA_CONVERSION_LABEL;
 // Types gtag définis dans types/gtag.d.ts
 
 export function FinalCta() {
+  // Utilise le hook existant pour récupérer le prix affiché
+  const { price, isLoading } = usePricingAB();
+
+  // ── Tracking Calendly + Google Ads + Discord ──
   useEffect(() => {
     function handleCalendlyEvent(e: MessageEvent) {
       // Vérifie que c'est bien un événement Calendly de réservation confirmée
@@ -76,16 +81,32 @@ export function FinalCta() {
             <div className="relative rounded-3xl p-2 sm:p-4">
               {/* Calendly inline widget — responsive height */}
               <div className="calendly-container">
-                <InlineWidget
-                  url={CALENDLY_URL}
-                  styles={{ width: "100%", height: "100%" }}
-                  pageSettings={{
-                    backgroundColor: "1a1a2e",
-                    textColor: "f5f7fa",
-                    primaryColor: "9fe870",
-                    hideGdprBanner: true,
-                  }}
-                />
+                {isLoading ? (
+                  // État de chargement pendant que PostHog charge les flags
+                  <div className="flex items-center justify-center h-[600px] text-text-secondary">
+                    <div className="text-center">
+                      <div className="animate-spin w-8 h-8 border-2 border-accent-lime border-t-transparent rounded-full mx-auto mb-4" />
+                      <p>Chargement de l&apos;agenda...</p>
+                    </div>
+                  </div>
+                ) : (
+                  <InlineWidget
+                    url={CALENDLY_URL}
+                    styles={{ width: "100%", height: "100%" }}
+                    pageSettings={{
+                      backgroundColor: "1a1a2e",
+                      textColor: "f5f7fa",
+                      primaryColor: "9fe870",
+                      hideGdprBanner: true,
+                    }}
+                    utm={{
+                      utmSource: "website",
+                      utmMedium: "organic",
+                      utmCampaign: "site_vitrine",
+                      utmContent: `prix_${price}`,
+                    }}
+                  />
+                )}
               </div>
 
               {/* Trust badges */}
