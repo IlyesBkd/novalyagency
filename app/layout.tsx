@@ -52,6 +52,8 @@ export const metadata: Metadata = {
   },
 };
 
+const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
+
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="fr" className={inter.variable}>
@@ -61,7 +63,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         </PostHogProvider>
         <SpeedInsights />
         <Analytics />
-        <GoogleTagManager gtmId="GTM-NHSTRCBK" />
+        {gtmId && <GoogleTagManager gtmId={gtmId} />}
       </body>
     </html>
   );

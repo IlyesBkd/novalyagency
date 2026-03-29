@@ -6,12 +6,9 @@ import { ABEcomPriceText } from "../ABEcomPrice";
 
 const CALENDLY_URL = "https://calendly.com/novalyagencyweb/new-meeting";
 
-// Déclaration du type gtag pour TypeScript
-declare global {
-  interface Window {
-    gtag?: (...args: unknown[]) => void;
-  }
-}
+// ── Google Ads Config (from env) ──
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+const GA_CONVERSION_LABEL = process.env.NEXT_PUBLIC_GA_CONVERSION_LABEL;
 
 export function EcomFinalCta() {
   useEffect(() => {
@@ -20,15 +17,13 @@ export function EcomFinalCta() {
       if (e.data?.event !== "calendly.event_scheduled") return;
 
       // ── Action A : Google Ads Conversion ──
-      if (typeof window.gtag !== "undefined") {
-        const adsId = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID;
-        const conversionLabel = process.env.NEXT_PUBLIC_GOOGLE_ADS_CONVERSION_LABEL;
-        if (adsId && conversionLabel) {
-          window.gtag("event", "conversion", {
-            send_to: `${adsId}/${conversionLabel}`,
-          });
-          console.log("[Calendly Ecom] Google Ads conversion tracked");
-        }
+      if (typeof window.gtag === "function" && GA_MEASUREMENT_ID && GA_CONVERSION_LABEL) {
+        window.gtag("event", "conversion", {
+          send_to: `${GA_MEASUREMENT_ID}/${GA_CONVERSION_LABEL}`,
+        });
+        console.log("[Calendly Ecom] Google Ads conversion tracked:", `${GA_MEASUREMENT_ID}/${GA_CONVERSION_LABEL}`);
+      } else if (process.env.NODE_ENV === "development") {
+        console.warn("[Calendly Ecom] Google Ads conversion skipped: gtag not available or env vars missing");
       }
 
       // ── Action B : Discord Notification (via API sécurisée) ──
