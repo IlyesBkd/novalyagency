@@ -26,6 +26,9 @@ export const metadata: Metadata = {
   },
   description:
     "Novaly Agency est une agence web spécialisée dans la création de sites vitrines sur-mesure et de boutiques Shopify performantes. Réservez votre audit stratégique gratuit.",
+  verification: {
+    google: "U2-pbv96Tx5orf25m4_8C9kCNFftPa37gRvW2Rv9sN0",
+  },
   icons: {
     icon: "/favicon.png",
     shortcut: "/favicon.png",
