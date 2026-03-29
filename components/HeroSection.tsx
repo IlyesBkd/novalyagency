@@ -50,7 +50,7 @@ export function HeroSection() {
             }}
           >
             <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-text-primary">
-              Site premium à{" "}
+              Votre site pro à{" "}
               <ABPriceInline />
             </span>
           </h1>
