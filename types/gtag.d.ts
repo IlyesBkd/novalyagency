@@ -23,6 +23,7 @@ declare global {
       (command: "event", action: string, params?: GtagEventParams): void;
       (command: "config", targetId: string, params?: GtagConfigParams): void;
       (command: "js", date: Date): void;
+      (...args: unknown[]): void;
     };
     dataLayer?: unknown[];
   }

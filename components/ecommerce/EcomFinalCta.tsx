@@ -17,13 +17,22 @@ export function EcomFinalCta() {
       if (e.data?.event !== "calendly.event_scheduled") return;
 
       // ── Action A : Google Ads Conversion ──
-      if (typeof window.gtag === "function" && GA_MEASUREMENT_ID && GA_CONVERSION_LABEL) {
+      if (GA_MEASUREMENT_ID && GA_CONVERSION_LABEL) {
+        // Fallback: Si gtag n'est pas défini (AdBlocker ou timing), on le recrée
+        if (typeof window.gtag === "undefined") {
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function (...args: unknown[]) {
+            window.dataLayer?.push(args);
+          };
+          console.log("[Calendly Ecom] gtag fallback initialized");
+        }
+
         window.gtag("event", "conversion", {
           send_to: `${GA_MEASUREMENT_ID}/${GA_CONVERSION_LABEL}`,
         });
         console.log("[Calendly Ecom] Google Ads conversion tracked:", `${GA_MEASUREMENT_ID}/${GA_CONVERSION_LABEL}`);
       } else if (process.env.NODE_ENV === "development") {
-        console.warn("[Calendly Ecom] Google Ads conversion skipped: gtag not available or env vars missing");
+        console.warn("[Calendly Ecom] Google Ads conversion skipped: env vars missing");
       }
 
       // ── Action B : Discord Notification (via API sécurisée) ──

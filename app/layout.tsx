@@ -1,11 +1,15 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
+import Script from "next/script";
 import { Inter } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 import { GoogleTagManager } from "@next/third-parties/google";
 import { PostHogProvider } from "@/components/PostHogProvider";
 import "./globals.css";
+
+// Google Ads Measurement ID (from env)
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 
 const inter = Inter({
   subsets: ["latin"],
@@ -52,18 +56,40 @@ export const metadata: Metadata = {
   },
 };
 
-const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
-
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="fr" className={inter.variable}>
+      <head>
+        {/* Google Ads gtag.js - Script 1: Load the tag */}
+        {GA_MEASUREMENT_ID && (
+          <Script
+            strategy="afterInteractive"
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          />
+        )}
+        {/* Google Ads gtag.js - Script 2: Initialize dataLayer */}
+        {GA_MEASUREMENT_ID && (
+          <Script
+            id="google-ads-init"
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${GA_MEASUREMENT_ID}');
+              `,
+            }}
+          />
+        )}
+      </head>
       <body className={inter.className}>
         <PostHogProvider>
           {children}
         </PostHogProvider>
         <SpeedInsights />
         <Analytics />
-        {gtmId && <GoogleTagManager gtmId={gtmId} />}
+        <GoogleTagManager gtmId="GTM-NHSTRCBK" />
       </body>
     </html>
   );

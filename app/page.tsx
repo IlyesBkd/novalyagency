@@ -11,6 +11,7 @@ import { FooterSection } from "@/components/FooterSection";
 import { SectionCta } from "@/components/SectionCta";
 import { getPortfolioImageNames } from "@/lib/portfolio";
 import { TrackedSection } from "@/components/TrackedSection";
+import { GoogleAdsTrackedSection } from "@/components/GoogleAdsTrackedSection";
 
 const PortfolioSection = dynamic(
   () => import("@/components/PortfolioSection").then((m) => m.PortfolioSection),
@@ -89,9 +90,11 @@ export default function HomePage() {
         <HowItWorks />
       </TrackedSection>
 
-      {/* S7 — L'offre complète */}
+      {/* S7 — L'offre complète (+ micro-conversion Google Ads) */}
       <TrackedSection sectionName="whats-included">
-        <WhatsIncluded />
+        <GoogleAdsTrackedSection sectionName="L'offre complète - Tout est inclus">
+          <WhatsIncluded />
+        </GoogleAdsTrackedSection>
       </TrackedSection>
 
       {/* CTA after S7 */}
