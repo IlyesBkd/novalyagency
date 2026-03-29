@@ -20,26 +20,32 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Novaly Agency | Site Premium à 399€ — Livré en 72h",
+  title: {
+    default: "Novaly Agency | Création de Sites Web Premium & E-commerce",
+    template: "%s | Novaly Agency",
+  },
   description:
-    "Votre site web professionnel 100 % sur mesure, livré en 72h. Design premium, hébergement inclus. 399€ paiement unique. Satisfait ou remboursé.",
+    "Novaly Agency est une agence web spécialisée dans la création de sites vitrines sur-mesure et de boutiques Shopify performantes. Réservez votre audit stratégique gratuit.",
   icons: {
     icon: "/favicon.png",
     shortcut: "/favicon.png",
     apple: "/favicon.png",
   },
   openGraph: {
-    title: "Novaly Agency | Site Premium à 399€ — Livré en 72h",
+    title: "Novaly Agency | Création de Sites Web Premium & E-commerce",
     description:
-      "Site web professionnel 100 % sur mesure, livré en 72h. Design premium, hébergement inclus. Satisfait ou remboursé.",
+      "Novaly Agency est une agence web spécialisée dans la création de sites vitrines sur-mesure et de boutiques Shopify performantes. Réservez votre audit stratégique gratuit.",
     type: "website",
     locale: "fr_FR",
     siteName: "Novaly Agency",
+    images: ["/og-image.jpg"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Novaly Agency | Site Premium à 399€",
-    description: "Site web sur mesure livré en 72h. Satisfait ou remboursé.",
+    title: "Novaly Agency | Création de Sites Web Premium & E-commerce",
+    description:
+      "Agence web spécialisée dans la création de sites vitrines sur-mesure et de boutiques Shopify performantes.",
+    images: ["/og-image.jpg"],
   },
 };
 
