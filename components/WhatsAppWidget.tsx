@@ -2,20 +2,45 @@
 
 import { createPortal } from "react-dom";
 import { useEffect, useState } from "react";
+import { usePostHog } from "posthog-js/react";
 
 const WHATSAPP_PHONE = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || "33756893198";
 
+// ── Google Ads Config (from env) ──
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+const GA_CONVERSION_LABEL = process.env.NEXT_PUBLIC_GA_CONVERSION_LABEL;
+
 export function WhatsAppWidget() {
+  const posthog = usePostHog();
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
 
   const url = `https://wa.me/${WHATSAPP_PHONE.replace(/[^0-9]/g, "")}`;
+
+  // ── Tracking WhatsApp widget click ──
+  const handleClick = () => {
+    // PostHog tracking
+    posthog?.capture("clicked_whatsapp_contact", { location: "floating_widget" });
+
+    // Google Ads conversion tracking
+    if (typeof window !== "undefined" && typeof window.gtag === "function") {
+      if (GA_MEASUREMENT_ID && GA_CONVERSION_LABEL) {
+        window.gtag("event", "conversion", {
+          send_to: `${GA_MEASUREMENT_ID}/${GA_CONVERSION_LABEL}`,
+        });
+        console.log("[WhatsApp Widget] Google Ads conversion tracked");
+      }
+    }
+
+    console.log("[WhatsApp Widget] Click tracked");
+  };
 
   const button = (
     <a
       href={url}
       target="_blank"
       rel="noopener noreferrer"
+      onClick={handleClick}
       aria-label="Nous contacter sur WhatsApp"
       className="fixed bottom-6 right-6 w-14 h-14 rounded-full flex items-center justify-center shadow-lg shadow-black/30 hover:scale-110 hover:shadow-xl transition-all duration-300"
       style={{ backgroundColor: "#25D366", zIndex: 2147483647, isolation: "isolate" }}

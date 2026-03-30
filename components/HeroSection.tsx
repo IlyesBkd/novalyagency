@@ -30,7 +30,7 @@ export function HeroSection() {
               alt="Logo"
               width={320}
               height={160}
-              className="h-20 sm:h-40 md:h-48 lg:h-56 w-auto mx-auto"
+              className="h-28 sm:h-40 md:h-48 lg:h-56 w-auto mx-auto"
               style={{ objectFit: "contain" }}
               priority
             />
