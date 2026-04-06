@@ -17,6 +17,13 @@ export function EcomFinalCta() {
   // Utilise le hook existant pour récupérer le prix affiché
   const { price, isLoading } = useEcomPricingAB();
 
+  // ── Détection mobile/desktop ──
+  const isMobile = (): boolean => {
+    if (typeof window === "undefined") return false;
+    const userAgent = navigator.userAgent || navigator.vendor;
+    return /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(userAgent.toLowerCase());
+  };
+
   // ── Tracking générique pour les boutons de contact ──
   const trackContactClick = (channel: "whatsapp" | "email") => {
     // PostHog tracking
@@ -33,6 +40,24 @@ export function EcomFinalCta() {
     }
 
     console.log(`[${channel}] Contact click tracked (ecom)`);
+  };
+
+  // ── Email click handler avec redirection adaptative ──
+  const handleEmailClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    trackContactClick("email");
+
+    if (isMobile()) {
+      // Mobile: ouvre l'app mail native
+      window.location.href = "mailto:novalyagencyweb@gmail.com?subject=Demande%20de%20création%20de%20boutique%20en%20ligne";
+    } else {
+      // Desktop: ouvre Gmail dans un nouvel onglet
+      window.open(
+        "https://mail.google.com/mail/?view=cm&fs=1&to=novalyagencyweb@gmail.com&su=Demande%20de%20création%20de%20boutique%20en%20ligne",
+        "_blank",
+        "noopener,noreferrer"
+      );
+    }
   };
 
   // ── Tracking Calendly + Google Ads + Discord ──
@@ -156,7 +181,7 @@ export function EcomFinalCta() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 max-w-xs sm:max-w-none mx-auto">
             {/* WhatsApp Button - Star CTA */}
             <a
-              href="https://wa.me/33756893198?text=Bonjour%20Novaly%20Agency%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20la%20cr%C3%A9ation%20d%27une%20boutique%20en%20ligne."
+              href="https://wa.me/33764136623?text=Bonjour%20Novaly%20Agency%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20la%20cr%C3%A9ation%20d%27une%20boutique%20en%20ligne."
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => trackContactClick("whatsapp")}
@@ -171,11 +196,9 @@ export function EcomFinalCta() {
 
             {/* Email Button - Glassmorphism style */}
             <a
-              href="mailto:novalyagencyweb@gmail.com?subject=Demande%20de%20création%20de%20boutique%20en%20ligne"
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => trackContactClick("email")}
-              className="group flex items-center justify-center gap-3 w-full sm:w-auto px-8 py-4 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 text-zinc-200 text-base font-semibold hover:bg-white/10 hover:text-white hover:border-white/20 transition-all duration-300"
+              href="#"
+              onClick={handleEmailClick}
+              className="group flex items-center justify-center gap-3 w-full sm:w-auto px-8 py-4 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 text-zinc-200 text-base font-semibold hover:bg-white/10 hover:text-white hover:border-white/20 transition-all duration-300 cursor-pointer"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <rect width="20" height="16" x="2" y="4" rx="2" />
