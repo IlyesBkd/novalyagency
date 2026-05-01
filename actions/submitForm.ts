@@ -178,7 +178,7 @@ async function sendConfirmationEmail(email: string) {
               <table cellpadding="0" cellspacing="0" style="margin:0 auto;">
                 <tr>
                   <td style="background-color:#a3e635;border-radius:10px;text-align:center;">
-                    <a href="https://wa.me/${(process.env.NEXT_PUBLIC_WHATSAPP_PHONE || "33600000000").replace(/[^0-9]/g, "")}" target="_blank" style="display:inline-block;padding:14px 32px;font-size:14px;font-weight:700;color:#0a0a0a;text-decoration:none;">
+                    <a href="https://wa.me/${(process.env.NEXT_PUBLIC_WHATSAPP_PHONE || "33764136623").replace(/[^0-9]/g, "")}" target="_blank" style="display:inline-block;padding:14px 32px;font-size:14px;font-weight:700;color:#0a0a0a;text-decoration:none;">
                       Nous contacter sur WhatsApp →
                     </a>
                   </td>
