@@ -1,9 +1,8 @@
-import Link from "next/link";
 import { Section } from "../Section";
-import { ABEcomPriceCell } from "../ABEcomPrice";
+import { SmartCta } from "../SmartCta";
 
 const ROWS = [
-  { label: "Prix", novaly: "ab_ecom_price", agence: "5 000 – 15 000€", freelance: "Variable" },
+  { label: "Design gratuit avant paiement", novaly: "check", agence: "cross", freelance: "cross" },
   { label: "Délai de livraison", novaly: "72h", agence: "6 – 12 semaines", freelance: "Inconnu" },
   { label: "Paiement intégré", novaly: "check", agence: "check", freelance: "Parfois" },
   { label: "Design sur mesure", novaly: "check", agence: "check", freelance: "Rarement" },
@@ -28,9 +27,6 @@ function CellValue({ value }: { value: string }) {
         </svg>
       </span>
     );
-  }
-  if (value === "ab_ecom_price") {
-    return <ABEcomPriceCell />;
   }
   return <span>{value}</span>;
 }
@@ -101,18 +97,7 @@ export function EcomComparisonTable() {
         </div>
 
         {/* CTA */}
-        <div className="text-center mt-12 scroll-animate">
-          <Link
-            href="#contact-form"
-            id="cta-plan-ecommerce"
-            className="btn-primary group inline-flex items-center gap-3 px-8 py-4 text-base"
-          >
-            <span>Lancer ma boutique</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform duration-300 group-hover:translate-x-1">
-              <path d="M5 12h14" /><path d="m12 5 7 7-7 7" />
-            </svg>
-          </Link>
-        </div>
+        <SmartCta variant="inline" ctaLabel="Recevoir mon design gratuit" whatsappText="Bonjour Novaly Agency, j'aimerais recevoir un design gratuit de ma future boutique en ligne." />
       </div>
     </Section>
   );

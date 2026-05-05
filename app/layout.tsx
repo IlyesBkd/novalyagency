@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import Script from "next/script";
-import { Inter } from "next/font/google";
+import { Inter, Playfair_Display } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 import { GoogleTagManager } from "@next/third-parties/google";
@@ -15,6 +15,12 @@ const inter = Inter({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-inter",
+});
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-playfair",
 });
 
 export const viewport: Viewport = {
@@ -58,7 +64,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="fr" className={inter.variable}>
+    <html lang="fr" className={`${inter.variable} ${playfair.variable}`}>
       <head>
         {/* Google Ads gtag.js - Script 1: Load the tag */}
         {GA_MEASUREMENT_ID && (

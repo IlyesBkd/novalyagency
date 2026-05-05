@@ -1,5 +1,5 @@
 import { Section } from "./Section";
-import { ABPriceCard, ABCtaButton } from "./ABPrice";
+import { SmartCta } from "./SmartCta";
 
 const INCLUDED_FEATURES = [
   { label: "Site 1 à 3 pages", icon: "globe" },
@@ -61,15 +61,18 @@ export function OffersSection() {
                   <div className="relative">
                     <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-accent-lime/10 border border-accent-lime/20 text-accent-lime text-xs font-semibold uppercase tracking-wider mb-6">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-3 h-3"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/></svg>
-                      Prix unique
+                      Design offert
                     </span>
 
-                    <ABPriceCard />
-                    <p className="text-text-secondary text-sm mb-4 lg:mb-8">Paiement unique — Sans abonnement</p>
+                    <div className="mb-2">
+                      <span className="text-4xl sm:text-5xl lg:text-6xl font-bold text-text-primary leading-none tracking-tight">Design</span>
+                      <span className="block text-3xl sm:text-4xl lg:text-5xl font-bold text-accent-lime mt-1">gratuit</span>
+                    </div>
+                    <p className="text-text-secondary text-sm mb-4 lg:mb-8">Voyez votre futur site avant tout paiement</p>
 
                     {/* Desktop CTA */}
                     <div className="hidden lg:flex lg:flex-col lg:items-start lg:gap-4 w-full">
-                      <ABCtaButton text="Commander mon site" />
+                      <SmartCta variant="inline" ctaLabel="Recevoir mon design gratuit" />
                     </div>
                   </div>
                 </div>
@@ -130,7 +133,7 @@ export function OffersSection() {
 
                   {/* Mobile CTA */}
                   <div className="lg:hidden mt-8 pt-6 border-t border-white/5 flex flex-col items-center gap-4">
-                    <ABCtaButton text="Commander mon site" />
+                    <SmartCta variant="inline" ctaLabel="Recevoir mon design gratuit" />
                   </div>
                 </div>
 

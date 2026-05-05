@@ -62,7 +62,7 @@ export default function HomePage() {
 
       {/* CTA after S2 */}
       <div className="relative z-10 -mt-8 pb-8">
-        <SectionCta text="Être rappelé" />
+        <SectionCta text="Recevoir mon design gratuit" />
       </div>
 
       {/* S3 — Ils nous ont fait confiance + Métiers */}
@@ -82,7 +82,7 @@ export default function HomePage() {
 
       {/* CTA after S5 */}
       <div className="relative z-10 -mt-8 pb-8">
-        <SectionCta text="Demander mon site" />
+        <SectionCta text="Recevoir mon design gratuit" />
       </div>
 
       {/* S6 — Comment ça marche */}
@@ -99,7 +99,7 @@ export default function HomePage() {
 
       {/* CTA after S7 */}
       <div className="relative z-10 -mt-8 pb-8">
-        <SectionCta text="Être rappelé" />
+        <SectionCta text="Recevoir mon design gratuit" />
       </div>
 
       {/* S8 — Offre unique */}

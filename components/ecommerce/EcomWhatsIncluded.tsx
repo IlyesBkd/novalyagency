@@ -1,5 +1,4 @@
 import { Section } from "../Section";
-import { ABEcomPriceText } from "../ABEcomPrice";
 
 const FEATURES = [
   {
@@ -115,7 +114,7 @@ export function EcomWhatsIncluded() {
                 <span className="gradient-text">Prêt à vendre.</span>
               </h2>
               <p className="text-lg text-text-secondary max-w-xl mx-auto">
-                Paiement, catalogue, stocks, SEO — votre boutique est livrée clé en main pour <ABEcomPriceText />.
+                Paiement, catalogue, stocks, SEO — votre boutique clé en main. Design gratuit avant tout paiement.
               </p>
             </div>
 

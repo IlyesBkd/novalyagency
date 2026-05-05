@@ -1,6 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
-import { ABEcomPriceInline, ABEcomCtaButton } from "../ABEcomPrice";
+import { SmartCta } from "../SmartCta";
 
 export function EcomHeroSection() {
   return (
@@ -49,21 +48,23 @@ export function EcomHeroSection() {
             }}
           >
             <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-text-primary">
-              Boutique en ligne à{" "}
-              <ABEcomPriceInline />
+              Votre boutique en ligne
+            </span>
+            <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-accent-lime mt-2">
+              designée gratuitement
             </span>
           </h1>
 
           <p className="text-xl sm:text-3xl md:text-4xl font-semibold text-text-primary mb-2 animate-reveal animate-delay-800">
-            Livrée en <span className="text-accent-lime">72h.</span>
+            Voyez le résultat <span className="text-accent-lime">avant</span> de payer.
           </p>
           <p className="text-base sm:text-xl text-text-secondary mb-6 animate-reveal animate-delay-1200">
-            Paiement intégré. Catalogue produits. Prêt à vendre.
+            On vous envoie un design complet de votre future boutique — 100 % gratuit, sans engagement.
           </p>
 
           {/* CTA */}
           <div className="animate-reveal-scale animate-delay-1500">
-            <ABEcomCtaButton text="Lancer ma boutique" id="cta-plan-ecommerce" className="px-10 py-5 text-xl" />
+            <SmartCta variant="hero" ctaLabel="Recevoir mon design gratuit" whatsappText="Bonjour Novaly Agency, j'aimerais recevoir un design gratuit de ma future boutique en ligne." />
           </div>
 
           {/* Google Avis badge */}

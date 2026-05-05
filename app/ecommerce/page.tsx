@@ -82,7 +82,7 @@ export default function EcommercePage() {
 
       {/* CTA after S2 */}
       <div className="relative z-10 -mt-8 pb-8">
-        <SectionCta text="Lancer ma boutique" />
+        <SectionCta text="Recevoir mon design gratuit" />
       </div>
 
       {/* S3 — Ils nous ont fait confiance */}
@@ -102,7 +102,7 @@ export default function EcommercePage() {
 
       {/* CTA after S5 */}
       <div className="relative z-10 -mt-8 pb-8">
-        <SectionCta text="Lancer ma boutique" />
+        <SectionCta text="Recevoir mon design gratuit" />
       </div>
 
       {/* S6 — Comment ça marche */}
@@ -117,7 +117,7 @@ export default function EcommercePage() {
 
       {/* CTA after S7 */}
       <div className="relative z-10 -mt-8 pb-8">
-        <SectionCta text="Lancer ma boutique" />
+        <SectionCta text="Recevoir mon design gratuit" />
       </div>
 
       {/* S8 — Offre unique */}

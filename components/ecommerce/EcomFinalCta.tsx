@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { InlineWidget } from "react-calendly";
 import { usePostHog } from "posthog-js/react";
 import { Section } from "../Section";
-import { ABEcomPriceText } from "../ABEcomPrice";
+import { SmartCta } from "../SmartCta";
 import { useEcomPricingAB } from "../useEcomPricingAB";
 
 const CALENDLY_URL = "https://calendly.com/novalyagencyweb/new-meeting";
@@ -14,8 +14,7 @@ const GA_CONVERSION_LABEL = process.env.NEXT_PUBLIC_GA_CONVERSION_LABEL;
 
 export function EcomFinalCta() {
   const posthog = usePostHog();
-  // Utilise le hook existant pour récupérer le prix affiché
-  const { price, isLoading } = useEcomPricingAB();
+  const { isLoading } = useEcomPricingAB();
 
   // ── Détection mobile/desktop ──
   const isMobile = (): boolean => {
@@ -105,12 +104,12 @@ export function EcomFinalCta() {
         <div className="text-center mb-16 md:mb-20 scroll-animate">
           <p className="text-accent-lime text-sm uppercase tracking-[0.25em] mb-4 font-medium">Prêt à vendre en ligne ?</p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            <span className="text-text-primary">Réservez</span>
+            <span className="text-text-primary">Recevez</span>
             <br />
-            <span className="gradient-text">votre appel gratuit</span>
+            <span className="gradient-text">votre design gratuit</span>
           </h2>
           <p className="text-lg sm:text-xl text-text-secondary max-w-xl mx-auto">
-            Choisissez un créneau et nous vous rappelons pour lancer votre boutique en ligne.
+            On vous envoie un design complet de votre future boutique — gratuit et sans engagement.
           </p>
         </div>
 
@@ -147,7 +146,7 @@ export function EcomFinalCta() {
                       utmSource: "website",
                       utmMedium: "organic",
                       utmCampaign: "ecommerce",
-                      utmContent: `prix_${price}`,
+                      utmContent: "design_gratuit",
                     }}
                   />
                 )}
@@ -167,46 +166,17 @@ export function EcomFinalCta() {
             <span>Satisfait ou remboursé</span>
           </div>
           <div className="flex items-center gap-1.5 text-text-secondary/60 text-xs">
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-400/70"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
-            <span><ABEcomPriceText /> tout inclus</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-400/70"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
+            <span>Design gratuit avant paiement</span>
           </div>
         </div>
 
         {/* Fallback contact options */}
         <div className="mt-16 pt-12 border-t border-white/10">
           <p className="text-center text-lg md:text-xl font-medium text-zinc-300 mb-8">
-            Vous préférez m&apos;expliquer votre projet par message ?
+            Vous préférez expliquer votre projet par message ?
           </p>
-          
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 max-w-xs sm:max-w-none mx-auto">
-            {/* WhatsApp Button - Star CTA */}
-            <a
-              href="https://wa.me/33764136623?text=Bonjour%20Novaly%20Agency%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20la%20cr%C3%A9ation%20d%27une%20boutique%20en%20ligne."
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => trackContactClick("whatsapp")}
-              className="group flex items-center justify-center gap-3 w-full sm:w-auto px-8 py-4 rounded-2xl bg-green-500/10 border border-green-500/30 text-green-400 text-base font-semibold hover:bg-green-500/20 hover:border-green-500/50 hover:shadow-[0_0_25px_rgba(34,197,94,0.25)] transition-all duration-300"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-green-500">
-                <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21" />
-                <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1" />
-              </svg>
-              <span>Discutons sur WhatsApp</span>
-            </a>
-
-            {/* Email Button - Glassmorphism style */}
-            <a
-              href="#"
-              onClick={handleEmailClick}
-              className="group flex items-center justify-center gap-3 w-full sm:w-auto px-8 py-4 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 text-zinc-200 text-base font-semibold hover:bg-white/10 hover:text-white hover:border-white/20 transition-all duration-300 cursor-pointer"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <rect width="20" height="16" x="2" y="4" rx="2" />
-                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-              </svg>
-              <span>Envoyez-moi un e-mail</span>
-            </a>
-          </div>
+          <SmartCta variant="section" ctaLabel="Recevoir mon design gratuit" whatsappText="Bonjour Novaly Agency, j'aimerais recevoir un design gratuit de ma future boutique en ligne." />
         </div>
       </div>
     </Section>

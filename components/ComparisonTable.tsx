@@ -1,9 +1,8 @@
-import Link from "next/link";
 import { Section } from "./Section";
-import { ABPriceCell } from "./ABPriceCell";
+import { SmartCta } from "./SmartCta";
 
 const ROWS = [
-  { label: "Prix", novaly: "ab_price", agence: "3 000 – 8 000€", freelance: "Variable" },
+  { label: "Design gratuit avant paiement", novaly: "check", agence: "cross", freelance: "cross" },
   { label: "Délai de livraison", novaly: "72h", agence: "4 – 8 semaines", freelance: "Inconnu" },
   { label: "Ingénieur certifié", novaly: "check", agence: "Parfois", freelance: "Rarement" },
   { label: "Maintenance incluse", novaly: "check", agence: "cross", freelance: "cross" },
@@ -27,9 +26,6 @@ function CellValue({ value }: { value: string }) {
         </svg>
       </span>
     );
-  }
-  if (value === "ab_price") {
-    return <ABPriceCell />;
   }
   return <span>{value}</span>;
 }
@@ -100,17 +96,7 @@ export function ComparisonTable() {
         </div>
 
         {/* CTA */}
-        <div className="text-center mt-12 scroll-animate">
-          <Link
-            href="#contact-form"
-            className="btn-primary group inline-flex items-center gap-3 px-8 py-4 text-base"
-          >
-            <span>Demander mon site</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform duration-300 group-hover:translate-x-1">
-              <path d="M5 12h14" /><path d="m12 5 7 7-7 7" />
-            </svg>
-          </Link>
-        </div>
+        <SmartCta variant="inline" ctaLabel="Recevoir mon design gratuit" />
       </div>
     </Section>
   );
