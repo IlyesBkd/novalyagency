@@ -2,8 +2,8 @@
 
 Stratégie minimaliste : **1 seule campagne**, **1 seul groupe d'annonces**, **1 seule annonce**, et des mots-clés exclusivement composés de `agence web` + un nom de ville française.
 
-> **Offre ciblée** : création de **sites web professionnels** (vitrine, e-commerce, landing page…).
-> **Service vendu** : **création de site web sur mesure** — *pas* de SEO, *pas* d'identité de marque, *pas* de branding.
+> **Offre ciblée** : création de **boutiques e-commerce** uniquement.
+> **Service vendu** : **création de site web e-commerce** — *pas* de SEO, *pas* d'identité de marque, *pas* de branding.
 
 ---
 
@@ -564,27 +564,27 @@ Objectif : bloquer **tout ce qui n'est pas la création de boutique e-commerce**
 ## 5. Annonce responsive (RSA) — unique
 
 > Titres et descriptions calibrés sur le contenu réel de la landing page Novaly Agency :
-> Hero = « Votre site web designé gratuitement » / Garantie 72h / Satisfait ou remboursé / Design gratuit avant paiement / 50+ sites livrés / 1196+ avis Google 5.0 / Hébergement + domaine 1 an offert.
+> Hero = « Votre boutique en ligne designée gratuitement » / Garantie 72h / Satisfait ou remboursé / Design gratuit avant paiement / 50+ sites livrés / 1196+ avis Google 5.0 / Hébergement + domaine 1 an offert.
 
 **URL finale** : `https://novalagency.fr` (à adapter)
-**Chemin d'affichage** : `/agence-web/{KeyWord:Ville}`
+**Chemin d'affichage** : `/boutique-en-ligne/{KeyWord:Ville}`
 
 ### Titres (15 max — reprennent les arguments de la page)
 
 | # | Titre (30 car. max) | Source page |
 |---|---|---|
-| 1 | `{KeyWord:Agence Web} — Site Sur Mesure` | Mot-clé dynamique + Hero |
-| 2 | `Votre Site Web Designé Gratuitement` | Hero |
+| 1 | `{KeyWord:Agence Web} — Boutique en Ligne` | Mot-clé dynamique + Hero |
+| 2 | `Votre Boutique en Ligne Clé en Main` | Hero (« Votre boutique en ligne ») |
 | 3 | `Design Gratuit Avant Paiement` | Hero + OffersSection (« Design offert ») |
-| 4 | `Site Pro Livré en 72h` | HowItWorks + GuaranteeSection |
+| 4 | `Boutique E-commerce en 72h` | HowItWorks + GuaranteeSection (« Livraison 72h ») |
 | 5 | `Satisfait ou 100% Remboursé` | GuaranteeSection |
 | 6 | `Novaly Agency — 5.0 sur Google` | CredibilitySection (« 5.0 · +1196 avis ») |
-| 7 | `50+ Sites Livrés` | CredibilitySection |
+| 7 | `50+ Boutiques Livrées` | CredibilitySection |
 | 8 | `Design 100% Sur Mesure` | WhatsIncluded + NouvelleApproche |
 | 9 | `Hébergement + Domaine 1 An Offert` | OffersSection (bonus hébergement) |
 | 10 | `0€ à Payer Pour Voir le Résultat` | Hero (« Voyez le résultat avant de payer ») |
-| 11 | `Site Vitrine ou Boutique E-commerce` | Offre globale |
-| 12 | `Tarif Clair, Zéro Surprise` | NouvelleApproche |
+| 11 | `Création de Boutique E-commerce` | Offre principale |
+| 12 | `Tarif Clair, Zéro Surprise` | NouvelleApproche (« Tarif clair, sans surprise ») |
 | 13 | `Site Rapide, Mobile & Sécurisé` | WhatsIncluded (responsive, SSL, rapide) |
 | 14 | `1 Révision Incluse Après Livraison` | WhatsIncluded + GuaranteeSection |
 | 15 | `Recevez Votre Design Gratuit` | CTA omniprésent |
@@ -593,10 +593,10 @@ Objectif : bloquer **tout ce qui n'est pas la création de boutique e-commerce**
 
 | # | Description | Source page |
 |---|---|---|
-| 1 | `Votre site web designé gratuitement. Voyez le résultat avant de payer. 0 € d'acompte.` | Hero |
-| 2 | `Livraison en 72h, satisfait ou remboursé. 50+ sites livrés, noté 5.0 sur Google (+1196 avis).` | Credibility + Guarantee |
+| 1 | `Votre boutique en ligne designée gratuitement. Voyez le résultat avant de payer. 0 € d'acompte.` | Hero |
+| 2 | `Livraison en 72h, satisfait ou remboursé. 50+ boutiques livrées, noté 5.0 sur Google (+1196 avis).` | Credibility + Guarantee |
 | 3 | `Design sur mesure, hébergement + domaine offerts 1 an. Tarif clair, zéro engagement caché.` | Offers + NouvelleApproche |
-| 4 | `Site vitrine ou e-commerce, rapide, responsive et sécurisé SSL. Bouton WhatsApp & avis inclus.` | WhatsIncluded |
+| 4 | `Site e-commerce rapide, responsive, sécurisé SSL. Formulaire, bouton WhatsApp & avis Google inclus.` | WhatsIncluded |
 
 ### Extensions
 
@@ -606,7 +606,7 @@ Objectif : bloquer **tout ce qui n'est pas la création de boutique e-commerce**
   - `Ce Qui Est Inclus` → #whats-included
   - `Contact WhatsApp` → lien WhatsApp
 - **Accroches** (callout) : Design gratuit · Livraison 72h · Satisfait ou remboursé · +1196 avis Google · Hébergement offert 1 an
-- **Extraits de site** (structured snippets) : Services = Site vitrine, Boutique e-commerce, Landing page, Design sur mesure, Hébergement, Nom de domaine
+- **Extraits de site** (structured snippets) : Services = Boutique e-commerce, Design sur mesure, Hébergement, Nom de domaine, Certificat SSL
 - **Appel** : numéro Novaly Agency
 - **Lieu** : si fiche Google Business
 
