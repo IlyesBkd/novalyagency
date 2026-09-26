@@ -15,6 +15,12 @@ async function setupWebhook() {
     process.exit(1);
   }
 
+  const signingKey = process.env.CALENDLY_WEBHOOK_SIGNING_KEY;
+  if (!signingKey) {
+    console.error("❌ CALENDLY_WEBHOOK_SIGNING_KEY est requis pour créer un webhook signé.");
+    process.exit(1);
+  }
+
   const webhookUrl = `${domain}/api/calendly-webhook`;
 
   console.log("🔧 Configuration du webhook Calendly...");
@@ -51,6 +57,7 @@ async function setupWebhook() {
       events: ["invitee.created"],
       organization: organizationUri,
       scope: "organization",
+      signing_key: signingKey,
     }),
   });
 

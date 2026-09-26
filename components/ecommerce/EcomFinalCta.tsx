@@ -59,10 +59,10 @@ export function EcomFinalCta() {
     }
   };
 
-  // ── Tracking Calendly + Google Ads + Discord ──
+  // ── Suivi des réservations Calendly côté navigateur ──
   useEffect(() => {
     function handleCalendlyEvent(e: MessageEvent) {
-      // Vérifie que c'est bien un événement Calendly de réservation confirmée
+      if (e.origin !== "https://calendly.com") return;
       if (e.data?.event !== "calendly.event_scheduled") return;
 
       // ── Action A : Google Ads Conversion ──
@@ -84,13 +84,6 @@ export function EcomFinalCta() {
         console.warn("[Calendly Ecom] Google Ads conversion skipped: env vars missing");
       }
 
-      // ── Action B : Discord Notification (via API sécurisée) ──
-      fetch("/api/webhooks/discord", { method: "POST" })
-        .then((res) => {
-          if (res.ok) console.log("[Calendly Ecom] Discord notification sent");
-          else console.error("[Calendly Ecom] Discord notification failed");
-        })
-        .catch((err) => console.error("[Calendly Ecom] Discord fetch error:", err));
     }
 
     window.addEventListener("message", handleCalendlyEvent);
