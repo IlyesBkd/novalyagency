@@ -12,6 +12,12 @@ import { SectionCta } from "@/components/SectionCta";
 import { getPortfolioImageNames } from "@/lib/portfolio";
 import { TrackedSection } from "@/components/TrackedSection";
 import { GoogleAdsTrackedSection } from "@/components/GoogleAdsTrackedSection";
+import type { Metadata } from "next";
+
+// Official URL of the home page for search engines.
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 const PortfolioSection = dynamic(
   () => import("@/components/PortfolioSection").then((m) => m.PortfolioSection),

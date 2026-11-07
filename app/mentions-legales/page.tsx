@@ -3,6 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Mentions légales | Novaly Agency",
   description: "Mentions légales du site Novaly Agency",
+  alternates: { canonical: "/mentions-legales" },
 };
 
 export default function MentionsLegales() {

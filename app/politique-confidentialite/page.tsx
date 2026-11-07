@@ -3,6 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Politique de confidentialité | Novaly Agency",
   description: "Politique de confidentialité du site Novaly Agency",
+  alternates: { canonical: "/politique-confidentialite" },
 };
 
 export default function PolitiqueConfidentialite() {

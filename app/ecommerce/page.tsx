@@ -32,6 +32,7 @@ const ScrollAnimateInit = dynamic(
 
 export const metadata: Metadata = {
   title: "Création Boutique en Ligne",
+  alternates: { canonical: "/ecommerce" },
   description:
     "Lancez votre boutique en ligne professionnelle. Paiement intégré, catalogue produits, SEO optimisé. Livraison rapide et accompagnement personnalisé.",
   openGraph: {

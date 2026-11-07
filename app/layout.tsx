@@ -30,6 +30,8 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  // Absolute base for canonical and Open Graph URLs; www is the production domain.
+  metadataBase: new URL("https://www.novalyagency.com"),
   title: {
     default: "Novaly Agency | Création de Sites Web Premium & E-commerce",
     template: "%s | Novaly Agency",
