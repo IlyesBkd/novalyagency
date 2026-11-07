@@ -118,7 +118,7 @@ export default function HomePage() {
         <GuaranteeSection />
       </TrackedSection>
 
-      {/* S10 — Calendly */}
+      {/* S10 — Prise de rendez-vous (Cal.com) */}
       <TrackedSection sectionName="contact-form">
         <FinalCta />
       </TrackedSection>

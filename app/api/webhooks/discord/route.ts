@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 /**
  * POST /api/webhooks/discord
  * Route API sécurisée pour envoyer des notifications Discord
- * Appelée depuis le front-end quand un RDV Calendly est confirmé
+ * Appelée depuis le front-end quand un RDV Cal.com est confirmé
  */
 export async function POST() {
   try {
@@ -21,7 +21,7 @@ export async function POST() {
     const payload = {
       embeds: [
         {
-          title: "🚨 Nouveau Rendez-vous (Calendly)",
+          title: "🚨 Nouveau Rendez-vous (Cal.com)",
           description:
             "Un client vient de valider un créneau sur le site.",
           color: 0x7c3aed, // Violet

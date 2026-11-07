@@ -12,7 +12,7 @@ const GA_CONVERSION_LABEL = process.env.NEXT_PUBLIC_GA_CONVERSION_LABEL;
  * SmartCta — CTA adaptatif mobile/desktop.
  *
  * Mobile  → lien WhatsApp direct (prioritaire).
- * Desktop → 3 options : WhatsApp · Calendly · Email.
+ * Desktop → 3 options : WhatsApp · Réserver un appel (Cal.com) · Email.
  *
  * Variante "inline" pour les SectionCta (petit bouton).
  * Variante "hero" pour le Hero (gros bouton).
@@ -32,6 +32,7 @@ export function SmartCta({
   const posthog = usePostHog();
 
   const waUrl = `${WHATSAPP_URL}?text=${encodeURIComponent(whatsappText)}`;
+  // Le nom d’événement "calendly" est conservé pour garder l’historique PostHog.
   const calendlyUrl = "#contact-form";
   const emailSubject = encodeURIComponent("Demande de design gratuit — Novaly Agency");
 
@@ -181,7 +182,7 @@ export function SmartCta({
             <span>WhatsApp</span>
           </a>
 
-          {/* Calendly */}
+          {/* Réserver un appel (Cal.com) */}
           <a
             href={calendlyUrl}
             onClick={() => trackClick("calendly")}

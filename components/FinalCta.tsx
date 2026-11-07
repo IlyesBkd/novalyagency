@@ -1,12 +1,9 @@
 "use client";
-import { useEffect } from "react";
-import { InlineWidget } from "react-calendly";
+import { CalBooking } from "./CalBooking";
 import { usePostHog } from "posthog-js/react";
 import { Section } from "./Section";
 import { SmartCta } from "./SmartCta";
 import { usePricingAB } from "./usePricingAB";
-
-const CALENDLY_URL = "https://calendly.com/novalyagencyweb/new-meeting";
 
 // ── Google Ads Config (from env) ──
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
@@ -61,43 +58,37 @@ export function FinalCta() {
     }
   };
 
-  // ── Tracking Calendly + Google Ads + Discord ──
-  useEffect(() => {
-    function handleCalendlyEvent(e: MessageEvent) {
-      // Vérifie que c'est bien un événement Calendly de réservation confirmée
-      if (e.data?.event !== "calendly.event_scheduled") return;
+  // ── Réservation confirmée sur Cal.com : PostHog + Google Ads + Discord ──
+  const handleBooked = () => {
+    posthog?.capture("booking_scheduled", { provider: "cal.com", location: "footer" });
 
-      // ── Action A : Google Ads Conversion ──
-      if (GA_MEASUREMENT_ID && GA_CONVERSION_LABEL) {
-        // Fallback: Si gtag n'est pas défini (AdBlocker ou timing), on le recrée
-        if (typeof window.gtag === "undefined") {
-          window.dataLayer = window.dataLayer || [];
-          window.gtag = function (...args: unknown[]) {
-            window.dataLayer?.push(args);
-          };
-          console.log("[Calendly] gtag fallback initialized");
-        }
-
-        window.gtag("event", "conversion", {
-          send_to: `${GA_MEASUREMENT_ID}/${GA_CONVERSION_LABEL}`,
-        });
-        console.log("[Calendly] Google Ads conversion tracked:", `${GA_MEASUREMENT_ID}/${GA_CONVERSION_LABEL}`);
-      } else if (process.env.NODE_ENV === "development") {
-        console.warn("[Calendly] Google Ads conversion skipped: env vars missing");
+    // ── Action A : Google Ads Conversion ──
+    if (GA_MEASUREMENT_ID && GA_CONVERSION_LABEL) {
+      // Fallback: Si gtag n'est pas défini (AdBlocker ou timing), on le recrée
+      if (typeof window.gtag === "undefined") {
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function (...args: unknown[]) {
+          window.dataLayer?.push(args);
+        };
+        console.log("[Cal.com] gtag fallback initialized");
       }
 
-      // ── Action B : Discord Notification (via API sécurisée) ──
-      fetch("/api/webhooks/discord", { method: "POST" })
-        .then((res) => {
-          if (res.ok) console.log("[Calendly] Discord notification sent");
-          else console.error("[Calendly] Discord notification failed");
-        })
-        .catch((err) => console.error("[Calendly] Discord fetch error:", err));
+      window.gtag("event", "conversion", {
+        send_to: `${GA_MEASUREMENT_ID}/${GA_CONVERSION_LABEL}`,
+      });
+      console.log("[Cal.com] Google Ads conversion tracked:", `${GA_MEASUREMENT_ID}/${GA_CONVERSION_LABEL}`);
+    } else if (process.env.NODE_ENV === "development") {
+      console.warn("[Cal.com] Google Ads conversion skipped: env vars missing");
     }
 
-    window.addEventListener("message", handleCalendlyEvent);
-    return () => window.removeEventListener("message", handleCalendlyEvent);
-  }, []);
+    // ── Action B : Discord Notification (via API sécurisée) ──
+    fetch("/api/webhooks/discord", { method: "POST" })
+      .then((res) => {
+        if (res.ok) console.log("[Cal.com] Discord notification sent");
+        else console.error("[Cal.com] Discord notification failed");
+      })
+      .catch((err) => console.error("[Cal.com] Discord fetch error:", err));
+  };
 
   return (
     <Section id="contact-form" glow>
@@ -115,7 +106,7 @@ export function FinalCta() {
           </p>
         </div>
 
-        {/* Calendly widget */}
+        {/* Agenda Cal.com */}
         <div className="scroll-animate-scale" style={{ transitionDelay: "150ms" }}>
           <div className="relative">
             {/* Glow border */}
@@ -124,7 +115,7 @@ export function FinalCta() {
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-2/3 h-px bg-gradient-to-r from-transparent via-accent-lime/50 to-transparent" />
 
             <div className="relative rounded-3xl p-2 sm:p-4">
-              {/* Calendly inline widget — responsive height */}
+              {/* Agenda Cal.com intégré */}
               <div className="w-full overflow-hidden">
                 {isLoading ? (
                   // État de chargement pendant que PostHog charge les flags
@@ -135,22 +126,7 @@ export function FinalCta() {
                     </div>
                   </div>
                 ) : (
-                  <InlineWidget
-                    url={CALENDLY_URL}
-                    styles={{ minWidth: "320px", height: "1000px" }}
-                    pageSettings={{
-                      backgroundColor: "1a1a2e",
-                      textColor: "f5f7fa",
-                      primaryColor: "9fe870",
-                      hideGdprBanner: true,
-                    }}
-                    utm={{
-                      utmSource: "website",
-                      utmMedium: "organic",
-                      utmCampaign: "site_vitrine",
-                      utmContent: "design_gratuit",
-                    }}
-                  />
+                  <CalBooking onBooked={handleBooked} />
                 )}
               </div>
             </div>
