@@ -286,6 +286,40 @@ export async function submitContact(data: {
   }
 }
 
+/* ── Lead magnets: "Votre site en 1 minute" and "Audit gratuit" ── */
+export async function submitMagnetLead(data: {
+  phone: string;
+  source: "instant_demo" | "audit";
+  message: string;
+}): Promise<{ success: boolean; error?: string }> {
+  const phone = (data.phone || "").replace(/[^0-9+]/g, "").slice(0, 16);
+  if (phone.replace(/[^0-9]/g, "").length < 9) {
+    return { success: false, error: "Numéro invalide." };
+  }
+  const source = data.source === "audit" ? "audit" : "instant_demo";
+  const message = (data.message || "").slice(0, 500);
+  try {
+    await ensureTable();
+    await pool.query(
+      `INSERT INTO leads (email, phone, message, source, lead_type, offer_price, created_at)
+       VALUES ($1, $2, $3, $4, $5, $6, NOW())`,
+      ["", phone, message, source, "vitrine", OFFER_PRICES.vitrine]
+    );
+    await notifyDiscord({
+      email: "—",
+      phone,
+      message,
+      source: source === "audit" ? "Audit gratuit" : "Votre site en 1 minute",
+      leadType: "vitrine",
+      offerPrice: OFFER_PRICES.vitrine,
+    }).catch(() => false);
+    return { success: true };
+  } catch (err) {
+    console.error("submitMagnetLead error:", err);
+    return { success: false, error: "Erreur serveur. Veuillez réessayer plus tard." };
+  }
+}
+
 /* ── Submit popup (kept for compatibility) ── */
 export async function submitPopup(data: {
   email: string;

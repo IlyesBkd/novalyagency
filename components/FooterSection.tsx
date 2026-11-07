@@ -18,6 +18,14 @@ export function FooterSection() {
                 Mentions légales
               </Link>
               <span className="opacity-30">|</span>
+              <Link href="/votre-site-en-1-minute" className="hover:text-accent-lime transition-colors">
+                Votre site en 1 minute
+              </Link>
+              <span className="opacity-30">|</span>
+              <Link href="/audit-gratuit" className="hover:text-accent-lime transition-colors">
+                Audit gratuit
+              </Link>
+              <span className="opacity-30">|</span>
               <Link
                 href="/politique-confidentialite"
                 className="hover:text-accent-lime transition-colors"
