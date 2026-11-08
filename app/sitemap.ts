@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/politique-confidentialite`, changeFrequency: "yearly", priority: 0.2 },
     { url: `${SITE}/votre-site-en-1-minute`, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE}/audit-gratuit`, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${SITE}/creation-site-internet`, changeFrequency: "weekly", priority: 0.6 },
     ...allSeoPages().map((p) => ({
       url: `${SITE}/creation-site-internet/${p.slug}`,
       lastModified: p.published,
