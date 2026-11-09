@@ -1,0 +1,85 @@
+{
+  "h1": "Créer le site internet de votre restaurant à Rennes",
+  "faq": [
+    {
+      "a": "C’est utile si la carte peut être tenue à jour. Publiez les plats et les informations que vous pouvez confirmer, et expliquez clairement si le menu varie. Une carte ancienne ou une image illisible peut induire les visiteurs en erreur.",
+      "q": "Faut-il afficher tout le menu sur le site ?"
+    },
+    {
+      "a": "Oui, selon votre organisation : lien vers un outil de réservation, formulaire réellement suivi ou appel téléphonique. Le parcours doit préciser si la réservation est immédiate ou si une confirmation est nécessaire.",
+      "q": "Le site peut-il prendre des réservations ?"
+    },
+    {
+      "a": "Non. Aucun site ne peut garantir une position précise. Des informations exactes, des pages claires et une expérience mobile soignée facilitent la compréhension de votre établissement par les visiteurs, sans garantir un classement.",
+      "q": "Un site garantit-il d’apparaître en premier sur Google ?"
+    },
+    {
+      "a": "La création coûte 399 € en une fois ou 49 €/mois avec un engagement de 12 mois. L’hébergement est inclus la première année, puis coûte 80 €/an.",
+      "q": "Quels sont les tarifs de création et d’hébergement ?"
+    }
+  ],
+  "city": "Rennes",
+  "slug": "restaurant-rennes",
+  "intro": "Sur OpenStreetMap, le relevé du 09/11/2026 recense 621 restaurants, cafés et snacks à Rennes, dont 284 sans site internet indiqué. Pour un restaurant, un site doit aider les personnes qui cherchent où manger à comprendre rapidement votre offre, vérifier les informations pratiques et choisir comment réserver ou commander.",
+  "local": {
+    "date": "2026-11-09",
+    "label": "restaurants, cafés et snacks",
+    "total": 621,
+    "source": "OpenStreetMap",
+    "withoutSite": 284
+  },
+  "title": "Site internet pour restaurant à Rennes",
+  "trade": "restaurant",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-restaurant-rennes/",
+    "video": "https://demo.novalyagency.com/d/seo-restaurant-rennes/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-restaurant-rennes/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes des clients",
+      "paragraphs": [
+        "Les internautes ne tapent pas tous simplement « restaurant Rennes ». Ils peuvent chercher un type de cuisine, un plat, un restaurant ouvert à un moment précis, une formule à emporter ou un endroit où réserver. Les pages et les textes du site doivent donc nommer clairement ce que vous proposez : cuisine, spécialités, repas servis et modalités disponibles. Une formule vague comme « cuisine de qualité » n’explique pas ce que la personne trouvera à table.",
+        "Créez une page d’accueil qui présente le restaurant en quelques lignes, puis donnez à chaque information importante un emplacement évident. Une page de menu détaillée peut répondre à des recherches sur vos plats et permettre de vérifier les ingrédients ou les options alimentaires, si vous êtes en mesure de les confirmer. Indiquez aussi Rennes dans les informations de présentation, sans ajouter de quartiers ou de lieux que vous ne souhaitez pas revendiquer.",
+        "Le site complète votre fiche d’établissement et vos réseaux sociaux : il offre un espace maîtrisé pour publier les informations de référence. Il ne garantit pas une position particulière dans les résultats de recherche. La cohérence entre le site, vos horaires réellement pratiqués et les autres informations publiques aide surtout les visiteurs à ne pas se déplacer sur la base d’un renseignement périmé."
+      ]
+    },
+    {
+      "h2": "Présenter le menu et l’expérience sans ambiguïté",
+      "paragraphs": [
+        "Un menu uniquement affiché en photo ou dans un PDF difficile à lire sur téléphone complique le choix. Préférez du texte sélectionnable, organisé par catégories, avec les noms des plats et leurs descriptions utiles. Si certains plats changent, précisez comment le menu est actualisé. Ne laissez pas en ligne une carte ancienne qui donne l’impression que des plats sont encore disponibles.",
+        "Des photographies peuvent montrer la salle, les plats ou la présentation du lieu, à condition qu’elles correspondent à la réalité. Elles ne remplacent pas les informations écrites : une image ne dit ni les horaires, ni les conditions de réservation, ni si la commande à emporter est proposée. Ajoutez des textes alternatifs descriptifs aux images essentielles et veillez à ce que les pages restent lisibles sur un petit écran.",
+        "Les erreurs fréquentes sont les mêmes informations contradictoires sur plusieurs pages, des horaires incomplets, une carte sans date de mise à jour et des boutons qui ne fonctionnent pas. Évitez aussi les formules qui laissent croire à des options que vous ne proposez pas. Une présentation précise donne au client de quoi décider, sans exagérer l’offre."
+      ]
+    },
+    {
+      "h2": "Faciliter la réservation, la commande et la visite",
+      "paragraphs": [
+        "Choisissez un appel à l’action principal selon votre organisation : réserver une table, appeler, consulter le menu ou commander à emporter. Si vous utilisez un outil de réservation externe, reliez-le avec un bouton explicite et vérifiez régulièrement le parcours sur téléphone. Si les réservations se font par téléphone, rendez le numéro cliquable. N’affichez pas un formulaire qui semble confirmer une réservation s’il ne transmet pas réellement la demande.",
+        "Indiquez l’adresse exacte fournie par le restaurateur, les horaires par jour et les éventuelles modalités de fermeture ou de réservation. Ajoutez un lien vers un itinéraire cartographique si cela correspond à votre établissement. Précisez les services réellement disponibles, comme la vente à emporter, la livraison ou l’accueil de groupes, et expliquez comment en vérifier les conditions.",
+        "Une page contact efficace évite au visiteur de chercher longtemps l’information. Sur mobile, les coordonnées et le bouton d’action doivent être repérables sans parcourir tout le site. Testez les liens, le numéro, le formulaire et l’affichage du menu avant publication, puis après chaque modification importante."
+      ]
+    },
+    {
+      "h2": "Un site adapté au quotidien du restaurant",
+      "paragraphs": [
+        "Un site de restaurant doit pouvoir évoluer avec la carte, les horaires et les consignes de réservation. Prévoyez une façon simple de modifier ces informations, et désignez la personne qui les vérifiera. Une page bien conçue perd son utilité si elle conserve les horaires d’une période passée ou renvoie vers un service qui n’est plus utilisé.",
+        "Notre agence propose une création de site à 399 € en paiement unique, ou à 49 €/mois avec un engagement de 12 mois. Après la première année, l’hébergement coûte 80 €/an. Avant de choisir, vérifiez ce qui est inclus dans l’offre, qui pourra mettre à jour le menu et comment vous récupérerez les accès nécessaires. Le prix ne constitue pas une promesse de visibilité ou de réservations.",
+        "Pour préparer le projet, rassemblez votre carte actuelle, les horaires confirmés, vos coordonnées, les moyens de réservation et les photos que vous avez le droit d’utiliser. Ces éléments permettent de bâtir un site fidèle au fonctionnement réel du restaurant et d’éviter les textes génériques qui pourraient convenir à n’importe quel établissement."
+      ]
+    }
+  ],
+  "checklist": [
+    "Présenter le type de cuisine et les spécialités avec des mots précis.",
+    "Publier un menu lisible sur téléphone et vérifier qu’il est à jour.",
+    "Afficher des horaires confirmés, y compris les jours de fermeture.",
+    "Mettre en évidence un moyen de réserver ou de contacter le restaurant.",
+    "Décrire uniquement les services réellement proposés.",
+    "Vérifier l’adresse, le numéro et les liens d’itinéraire.",
+    "Utiliser des photos conformes à l’établissement et autorisées.",
+    "Tester les boutons, le formulaire et l’affichage mobile avant publication."
+  ],
+  "published": "2026-11-09",
+  "tradeLabel": "restaurant",
+  "description": "Créez un site utile pour votre restaurant à Rennes : menu lisible, horaires à jour, réservation et informations pratiques."
+}

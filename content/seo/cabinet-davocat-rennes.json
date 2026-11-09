@@ -1,0 +1,84 @@
+{
+  "h1": "Créer le site internet de votre cabinet d’avocat à Rennes",
+  "faq": [
+    {
+      "a": "Une page d’accueil, une présentation du cabinet, des pages consacrées aux domaines d’intervention et une page de contact forment une base claire. Les pages doivent refléter les activités réellement exercées.",
+      "q": "Quelles pages prévoir pour un cabinet d’avocat ?"
+    },
+    {
+      "a": "Une page distincte est utile lorsqu’elle permet d’expliquer une activité ou des situations que vous prenez effectivement en charge. Inutile de multiplier les pages pour des domaines qui ne correspondent pas à votre pratique.",
+      "q": "Faut-il créer une page pour chaque domaine du droit ?"
+    },
+    {
+      "a": "Indiquez comment vous contacter, si les rendez-vous sont nécessaires et quelles informations la personne peut préparer. N’affichez que des modalités qui correspondent à votre organisation.",
+      "q": "Que faut-il écrire sur la prise de rendez-vous ?"
+    },
+    {
+      "a": "La formule mensuelle est de 49 €/mois avec un engagement de 12 mois, ou le paiement unique est de 399 €. L’hébergement coûte 80 €/an après la première année.",
+      "q": "Quel est le prix de création du site ?"
+    }
+  ],
+  "city": "Rennes",
+  "slug": "cabinet-davocat-rennes",
+  "intro": "Sur OpenStreetMap (relevé du 09/11/2026), 18 cabinets d’avocats sont recensés à Rennes, dont 11 sans site internet indiqué. Pour un cabinet, un site bien construit aide les personnes qui cherchent un avocat à comprendre vos domaines d’intervention, votre manière de travailler et comment vous contacter.",
+  "local": {
+    "date": "2026-11-09",
+    "label": "cabinets d’avocats",
+    "total": 18,
+    "source": "OpenStreetMap",
+    "withoutSite": 11
+  },
+  "title": "Créer le site d’un cabinet d’avocat à Rennes",
+  "trade": "avocat",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-cabinet-davocat-rennes/",
+    "video": "https://demo.novalyagency.com/d/seo-cabinet-davocat-rennes/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-cabinet-davocat-rennes/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes des justiciables",
+      "paragraphs": [
+        "Une personne qui cherche un avocat formule souvent sa demande avec un domaine précis et une ville : « avocat divorce Rennes », « avocat droit du travail Rennes » ou « avocat droit pénal Rennes ». D’autres cherchent une aide pour une situation particulière, comme une séparation, un licenciement ou une convocation. Ces exemples doivent correspondre à votre activité réelle : mieux vaut ne pas laisser entendre que vous traitez un dossier que vous ne prenez pas en charge.",
+        "Présentez vos compétences avec des mots compréhensibles, puis expliquez les types de situations concernées. Une page dédiée par domaine d’intervention permet de détailler les démarches, les documents utiles et les limites de votre accompagnement. Elle est plus utile qu’une longue liste de spécialités sans explication.",
+        "La ville doit apparaître naturellement dans les titres et les informations de contact, sans répétition artificielle. Indiquez aussi si vous recevez uniquement sur rendez-vous, si un premier échange peut se faire à distance et comment une personne peut vous joindre. Ces détails répondent à des questions pratiques avant même le premier contact."
+      ]
+    },
+    {
+      "h2": "Montrer clairement qui vous êtes et comment vous travaillez",
+      "paragraphs": [
+        "La page d’accueil doit dire immédiatement qu’il s’agit d’un cabinet d’avocat, situer son activité à Rennes et orienter vers les domaines concernés. Une personne qui arrive sur le site ne devrait pas avoir à parcourir plusieurs pages pour trouver un numéro, un formulaire de contact ou les informations sur les rendez-vous.",
+        "Une page de présentation peut exposer votre parcours, vos domaines d’activité et votre approche, avec un ton professionnel et sans promesse de résultat. Expliquez les grandes étapes d’un premier contact : les renseignements à préparer, la façon dont vous évaluez la demande et les modalités pour convenir d’un échange. Ne donnez pas de conseil juridique personnalisé dans un contenu général qui ne tient pas compte du dossier.",
+        "Affichez des coordonnées à jour et vérifiez que le téléphone, l’adresse électronique et le formulaire fonctionnent sur mobile. Si le cabinet reçoit à une adresse précise, indiquez-la clairement. N’ajoutez pas d’informations sur l’accessibilité, les horaires ou les modalités d’accueil qui ne correspondent pas à votre organisation."
+      ]
+    },
+    {
+      "h2": "Éviter les erreurs fréquentes sur un site d’avocat",
+      "paragraphs": [
+        "Une erreur courante consiste à utiliser des formulations trop générales, comme « nous défendons vos droits », sans préciser les dossiers traités. Le visiteur ne sait alors pas si sa demande entre dans le champ du cabinet. À l’inverse, une page qui accumule du vocabulaire juridique sans explication peut décourager une personne déjà confrontée à une situation difficile.",
+        "Évitez les promesses de victoire, les résultats garantis et les formulations qui laissent croire qu’un cas particulier aura nécessairement une issue donnée. Les exemples publiés doivent protéger la confidentialité et ne pas permettre d’identifier une personne. Les témoignages ou avis ne sont pas nécessaires pour expliquer votre pratique ; le contenu doit rester exact, sobre et conforme aux règles professionnelles applicables.",
+        "Pensez aussi aux informations qui vieillissent : domaines d’intervention, coordonnées, horaires affichés et modalités de rendez-vous. Un formulaire qui ne transmet pas les demandes ou une adresse électronique obsolète peut faire perdre un contact. Enfin, évitez les pages copiées les unes sur les autres où seul le nom de la ville change : chaque page doit décrire réellement votre activité."
+      ]
+    },
+    {
+      "h2": "Choisir une formule adaptée à votre cabinet",
+      "paragraphs": [
+        "Le site peut être préparé autour de vos informations réelles : présentation du cabinet, domaines d’intervention, coordonnées et parcours de prise de contact. Avant la mise en ligne, rassemblez les textes à jour, les coordonnées à afficher et les éventuelles photos que vous êtes autorisé à utiliser. Relisez le contenu avec attention, notamment les descriptions de services et les mentions relatives aux rendez-vous.",
+        "Pour la création du site, les formules proposées sont de 49 €/mois avec un engagement de 12 mois, ou de 399 € en paiement unique. Après la première année, l’hébergement est de 80 €/an. Le choix dépend notamment de votre préférence pour un paiement mensuel ou unique ; vérifiez avec l’agence ce qui est inclus dans chaque formule et comment les mises à jour seront gérées.",
+        "Un site utile n’a pas besoin d’en faire trop. Une navigation simple, des pages consacrées à vos activités réelles et un moyen de contact visible constituent une base adaptée aux besoins d’un cabinet. Son contenu doit pouvoir évoluer si vos domaines d’intervention ou vos modalités d’accueil changent."
+      ]
+    }
+  ],
+  "checklist": [
+    "Nom du cabinet, coordonnées et ville correctement affichés.",
+    "Domaines d’intervention décrits avec des termes accessibles et exacts.",
+    "Pages dédiées aux activités réellement exercées.",
+    "Modalités de rendez-vous et de premier contact expliquées.",
+    "Téléphone, adresse électronique et formulaire testés sur mobile.",
+    "Aucune promesse de résultat ni information de dossier identifiable.",
+    "Textes relus pour vérifier leur exactitude et leur actualité."
+  ],
+  "published": "2026-11-09",
+  "tradeLabel": "cabinet d’avocat",
+  "description": "Un site clair pour présenter les domaines d’intervention de votre cabinet d’avocat à Rennes et faciliter les demandes de contact."
+}
