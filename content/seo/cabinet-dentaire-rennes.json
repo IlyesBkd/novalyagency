@@ -1,0 +1,85 @@
+{
+  "h1": "Créer le site internet de votre cabinet dentaire à Rennes",
+  "faq": [
+    {
+      "a": "Une structure utile comprend généralement une page d’accueil, une présentation de l’équipe, des pages consacrées aux soins effectivement proposés, les informations pratiques et une page de contact. Le contenu dépend de l’activité réelle du cabinet.",
+      "q": "Quelles pages prévoir pour un cabinet dentaire ?"
+    },
+    {
+      "a": "Oui, si le cabinet dispose d’un outil adapté et souhaite l’utiliser. Le site peut renvoyer vers votre solution de réservation. Si vous ne prenez pas de rendez-vous en ligne, il doit plutôt indiquer clairement le moyen de contact à privilégier.",
+      "q": "Puis-je prendre des rendez-vous directement sur le site ?"
+    },
+    {
+      "a": "Indiquez uniquement la procédure définie par votre cabinet, par exemple le numéro à appeler et les horaires concernés. Le site ne doit pas laisser croire qu’un formulaire ou un courriel sera traité immédiatement.",
+      "q": "Que faut-il écrire sur les urgences dentaires ?"
+    },
+    {
+      "a": "La formule ponctuelle coûte 399 €. La formule mensuelle est à 49 €/mois avec un engagement de 12 mois. L’hébergement est inclus la première année, puis coûte 80 €/an.",
+      "q": "Combien coûte la création du site ?"
+    }
+  ],
+  "city": "Rennes",
+  "slug": "cabinet-dentaire-rennes",
+  "intro": "Sur OpenStreetMap (relevé du 10/11/2026), 32 cabinets dentaires sont recensés à Rennes, dont 24 sans site internet indiqué. Pour un cabinet, un site utile doit aider les patients à comprendre les soins proposés, à trouver les informations pratiques et à savoir comment prendre contact, sans leur faire croire qu’un rendez-vous est garanti.",
+  "local": {
+    "date": "2026-11-10",
+    "label": "cabinets dentaires",
+    "total": 32,
+    "source": "OpenStreetMap",
+    "withoutSite": 24
+  },
+  "title": "Site internet pour cabinet dentaire à Rennes",
+  "trade": "dentiste",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-cabinet-dentaire-rennes/",
+    "video": "https://demo.novalyagency.com/d/seo-cabinet-dentaire-rennes/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-cabinet-dentaire-rennes/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes des patients",
+      "paragraphs": [
+        "Une personne qui cherche un dentiste à Rennes veut généralement savoir si le cabinet reçoit de nouveaux patients, quels soins sont pratiqués et comment joindre l’équipe. D’autres recherches concernent un besoin précis : détartrage, bilan dentaire, couronne, traitement de carie, extraction ou urgence dentaire. Votre site doit présenter ces informations avec des mots compréhensibles, plutôt que de laisser le visiteur deviner à partir d’une liste de termes médicaux.",
+        "Une page d’accueil peut résumer votre activité et orienter vers des pages distinctes pour les soins réellement proposés. Pour chaque soin, expliquez en quoi consiste la prise en charge, comment se déroule le premier contact et quelles consignes le patient doit suivre avant de venir, si elles s’appliquent. N’ajoutez pas de traitement simplement parce qu’il semble recherché : le contenu doit correspondre aux actes et aux compétences de votre cabinet.",
+        "Les patients peuvent aussi chercher le nom du praticien, l’adresse, les horaires ou le numéro de téléphone. Ces renseignements doivent être faciles à repérer, notamment sur téléphone. Une page de contact claire évite de transformer la recherche d’une information simple en parcours compliqué."
+      ]
+    },
+    {
+      "h2": "Présenter le cabinet et rendre le contact simple",
+      "paragraphs": [
+        "Le site doit permettre de vérifier rapidement que le patient a trouvé le bon cabinet. Indiquez le nom exact du cabinet et des praticiens, l’adresse à Rennes, les horaires, le numéro de téléphone et les modalités de prise de rendez-vous réellement disponibles. Si vous utilisez une plateforme externe, donnez un accès direct et expliquez clairement qu’il s’agit du service utilisé pour réserver. Si les rendez-vous se prennent par téléphone, ne présentez pas un formulaire comme un système de réservation.",
+        "Des photos récentes et authentiques peuvent montrer l’entrée, l’accueil ou les espaces de soins, à condition que leur publication respecte la vie privée des patients et l’accord des personnes reconnaissables. N’employez pas d’images génériques qui feraient croire qu’elles représentent vos locaux. Une courte présentation de l’équipe, avec les rôles de chacun, rend également le fonctionnement du cabinet plus compréhensible.",
+        "Pensez aux questions pratiques : accès au cabinet, modalités d’accueil des personnes à mobilité réduite si vous les connaissez, moyens de paiement acceptés et documents à apporter lors d’une première visite. Ne publiez pas une information incertaine ; mieux vaut l’omettre et inviter le patient à appeler pour la vérifier."
+      ]
+    },
+    {
+      "h2": "Construire un site adapté aux exigences d’un cabinet dentaire",
+      "paragraphs": [
+        "Les informations de santé demandent une attention particulière. Les textes doivent rester exacts, mesurés et relus par le praticien. Évitez les promesses de résultat, les formulations qui banalisent un soin ou les conseils personnalisés à distance. Le site peut expliquer le déroulement général d’une prise en charge, mais il ne remplace ni un examen ni un échange avec un professionnel.",
+        "Les formulaires doivent demander uniquement les informations nécessaires pour répondre à une demande. Évitez d’inciter les visiteurs à transmettre des détails médicaux sensibles dans un formulaire ordinaire ou par courriel. Précisez à quoi sert le formulaire, qui reçoit le message et comment le cabinet peut être contacté autrement. Pour une situation qui nécessite un avis rapide, indiquez le numéro ou la marche à suivre définis par le cabinet ; ne laissez pas entendre qu’un formulaire sera lu immédiatement.",
+        "Sur téléphone, le numéro doit être facile à toucher et le texte lisible sans zoom. Les pages doivent aussi charger correctement, les liens fonctionner et les informations importantes rester accessibles sans chercher dans plusieurs menus. Ces choix sont particulièrement utiles lorsqu’un patient consulte le site au moment de prendre contact."
+      ]
+    },
+    {
+      "h2": "Éviter les erreurs qui rendent le site moins utile",
+      "paragraphs": [
+        "Une erreur fréquente est de présenter tous les soins dans un bloc dense, avec du vocabulaire technique et sans indication sur la manière de joindre le cabinet. À l’inverse, une page très courte qui ne précise ni les horaires ni les modalités de rendez-vous oblige le visiteur à téléphoner pour obtenir des renseignements élémentaires. Organisez les pages selon les questions que vos patients posent réellement à l’accueil.",
+        "Vérifiez aussi la cohérence des coordonnées partout où le cabinet est présenté : nom, adresse, téléphone et horaires doivent correspondre. Les horaires exceptionnels et les fermetures doivent être mis à jour. Un ancien numéro ou un lien de réservation périmé peut faire manquer des demandes et nuire à la confiance.",
+        "Notre agence crée des sites pour petites entreprises. Pour votre cabinet, la création est proposée à 399 €, ou à 49 €/mois avec un engagement de 12 mois. Après la première année, l’hébergement coûte 80 €/an. Le site peut être conçu autour de vos informations et de vos modalités d’accueil ; aucun tarif ne garantit une position sur Google. Avant la mise en ligne, nous validons avec vous les textes, les coordonnées et les accès utiles."
+      ]
+    }
+  ],
+  "checklist": [
+    "Le nom du cabinet, son adresse à Rennes et son numéro de téléphone sont-ils exacts et visibles ?",
+    "Les horaires et les modalités de prise de rendez-vous correspondent-ils au fonctionnement réel du cabinet ?",
+    "Les soins présentés sont-ils bien proposés par les praticiens concernés ?",
+    "Chaque page de soin explique-t-elle les choses dans un langage accessible, sans promesse de résultat ?",
+    "Les photos montrent-elles réellement le cabinet et leur publication respecte-t-elle la vie privée ?",
+    "Le site précise-t-il comment obtenir une réponse en cas de demande urgente, selon les consignes du cabinet ?",
+    "Les formulaires évitent-ils de solliciter des informations médicales sensibles sans nécessité ?",
+    "Les pages, les liens et les coordonnées restent-ils faciles à consulter sur téléphone ?"
+  ],
+  "published": "2026-11-10",
+  "tradeLabel": "cabinet dentaire",
+  "description": "Un site clair pour présenter votre cabinet dentaire à Rennes, vos soins, vos horaires et les informations pratiques recherchées par vos patients."
+}

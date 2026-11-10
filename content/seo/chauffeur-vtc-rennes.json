@@ -1,0 +1,77 @@
+{
+  "h1": "Créer le site internet de votre activité VTC à Rennes",
+  "faq": [
+    {
+      "a": "Oui, selon le fonctionnement choisi. Le site peut proposer un formulaire de demande ou un outil de réservation. Il faut préciser si la demande est confirmée immédiatement ou si le chauffeur doit d’abord vérifier ses disponibilités.",
+      "q": "Un site peut-il permettre de réserver directement un VTC ?"
+    },
+    {
+      "a": "Si vous avez des tarifs fixes et à jour, vous pouvez les présenter avec leurs conditions. Si le prix dépend du trajet ou de l’horaire, expliquez comment obtenir une estimation et quand le tarif sera confirmé.",
+      "q": "Dois-je afficher mes tarifs sur le site ?"
+    },
+    {
+      "a": "Oui. La mise en page est conçue pour s’adapter aux écrans mobiles, afin que les visiteurs puissent lire les informations et vous contacter sans difficulté.",
+      "q": "Le site peut-il être consulté sur téléphone ?"
+    },
+    {
+      "a": "Non. Aucune position ne peut être garantie. Un site clair et pertinent aide à présenter votre activité, mais la visibilité dépend de plusieurs facteurs et peut évoluer.",
+      "q": "La création du site garantit-elle d’apparaître en première position sur Google ?"
+    }
+  ],
+  "city": "Rennes",
+  "slug": "chauffeur-vtc-rennes",
+  "intro": "À Rennes, un site de chauffeur VTC doit aider les passagers à vérifier rapidement les trajets proposés, les conditions de prise en charge et la façon de réserver. Nous créons des sites adaptés à votre activité, avec des informations concrètes plutôt qu’une simple page de présentation.",
+  "title": "Site internet pour chauffeur VTC à Rennes",
+  "trade": "vtc",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-chauffeur-vtc-rennes/",
+    "video": "https://demo.novalyagency.com/d/seo-chauffeur-vtc-rennes/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-chauffeur-vtc-rennes/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches des passagers rennais",
+      "paragraphs": [
+        "Une personne qui cherche un chauffeur VTC veut souvent savoir si vous pouvez assurer son déplacement, combien de temps à l’avance elle doit réserver et comment connaître le prix. Elle peut rechercher un VTC à Rennes, un transfert vers une gare ou un aéroport, un trajet professionnel, une course pour un événement ou une réservation à l’avance. Votre site doit répondre à ces besoins avec des mots simples, sans laisser le visiteur deviner les services que vous proposez.",
+        "Décrivez précisément vos prestations : transferts, déplacements professionnels, trajets privés, mise à disposition ou transport pour un événement, uniquement si vous les assurez réellement. Expliquez les zones où vous prenez en charge les clients et les destinations que vous acceptez. Si votre offre dépend de la distance, de l’horaire ou de la disponibilité, dites-le clairement et indiquez comment demander une estimation.",
+        "Les visiteurs peuvent aussi chercher un véhicule adapté à leur déplacement, la possibilité de transporter des bagages ou les moyens de paiement acceptés. Présentez seulement les équipements et modalités dont vous disposez. Des réponses exactes évitent les demandes incompatibles avec votre service et facilitent la préparation de la course."
+      ]
+    },
+    {
+      "h2": "Montrer les informations utiles avant la réservation",
+      "paragraphs": [
+        "La page d’accueil doit expliquer en quelques lignes qui conduit, où le service est disponible et comment réserver. Placez un bouton d’appel et un accès à la demande de réservation à un endroit facile à repérer sur téléphone. Un passager qui organise un trajet depuis son mobile ne devrait pas avoir à parcourir plusieurs pages pour trouver votre numéro ou comprendre la prochaine étape.",
+        "Une page dédiée aux trajets peut détailler les prises en charge, les destinations possibles et les conditions particulières. Une autre peut présenter le véhicule avec des photos récentes et fidèles : intérieur, coffre et équipements réellement disponibles. Ajoutez, si vous les connaissez, les informations pratiques sur la capacité en passagers et en bagages. N’affichez pas de capacité ou de service que vous ne pouvez pas garantir.",
+        "Expliquez votre fonctionnement pour les réservations : quelles informations transmettre, combien de temps à l’avance contacter le chauffeur, comment la confirmation est donnée et ce qui se passe en cas de changement. Si le tarif n’est pas fixe, indiquez les éléments qui servent à établir le devis et précisez que le montant doit être confirmé avant le trajet. Cette transparence aide le client à décider sans créer de fausse attente."
+      ]
+    },
+    {
+      "h2": "Construire une présence locale fiable",
+      "paragraphs": [
+        "Pour être compris par les moteurs de recherche et par les passagers, utilisez naturellement les expressions liées à votre activité et à Rennes dans les titres, les textes et les informations de contact. Évitez de répéter artificiellement « VTC Rennes » partout : mieux vaut une page utile qui décrit vos trajets réels qu’un texte chargé de mots-clés. Le contenu doit correspondre à votre service, et non à une liste de recherches sans rapport avec votre fonctionnement.",
+        "Indiquez le nom commercial que vous utilisez, un numéro de téléphone joignable et une adresse électronique consultée régulièrement. Si vous affichez des horaires, assurez-vous qu’ils correspondent à vos disponibilités. Une adresse de prise en charge publique ne doit être publiée que si elle est pertinente et que vous êtes autorisé à le faire. Les informations incohérentes entre le site et vos autres supports peuvent semer le doute.",
+        "Un site bien présenté ne garantit pas une position particulière dans Google. Sa qualité dépend notamment de la clarté des contenus, de leur adéquation avec les recherches et de nombreux facteurs extérieurs. L’objectif réaliste est de fournir une page accessible, compréhensible et correctement entretenue, puis d’observer les questions que les clients vous posent pour améliorer les réponses proposées."
+      ]
+    },
+    {
+      "h2": "Éviter les erreurs fréquentes des sites VTC",
+      "paragraphs": [
+        "Une erreur courante consiste à afficher une promesse vague comme « transport partout, à tout moment » sans préciser les conditions de disponibilité. Un chauffeur indépendant ne peut pas nécessairement répondre à chaque demande immédiate. Mieux vaut distinguer les courses sur réservation des demandes de dernière minute et expliquer comment vérifier une disponibilité.",
+        "Un formulaire trop long, un numéro difficile à trouver ou une réservation qui ne confirme pas clairement la demande peuvent faire abandonner le visiteur. Demandez les renseignements nécessaires au devis, par exemple le lieu et l’heure de prise en charge, la destination et le nombre de passagers. Expliquez ensuite si l’envoi du formulaire vaut demande de réservation ou confirmation ferme.",
+        "Évitez aussi les photos génériques qui ne représentent pas votre véhicule, les tarifs périmés et les textes copiés qui décrivent des services que vous n’offrez pas. Vérifiez régulièrement les coordonnées, les horaires, les modalités de paiement et les informations sur les bagages. Nous proposons la création du site à 399 € en paiement unique, ou à 49 €/mois avec un engagement de 12 mois. Après la première année, l’hébergement est facturé 80 €/an."
+      ]
+    }
+  ],
+  "checklist": [
+    "Présenter les trajets VTC réellement proposés à Rennes.",
+    "Indiquer clairement les zones de prise en charge et les conditions de déplacement.",
+    "Afficher un numéro de téléphone facile à utiliser sur mobile.",
+    "Expliquer comment demander un devis et à quel moment la course est confirmée.",
+    "Décrire le véhicule et ses capacités sans exagération.",
+    "Vérifier les tarifs, horaires, moyens de paiement et modalités de réservation.",
+    "Utiliser des photos récentes correspondant au véhicule réellement utilisé."
+  ],
+  "published": "2026-11-10",
+  "tradeLabel": "chauffeur VTC",
+  "description": "Créez un site clair pour présenter vos trajets VTC à Rennes, vos tarifs, vos disponibilités et votre réservation."
+}
