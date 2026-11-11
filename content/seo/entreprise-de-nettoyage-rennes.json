@@ -1,0 +1,84 @@
+{
+  "h1": "Créer le site internet de votre entreprise de nettoyage à Rennes",
+  "faq": [
+    {
+      "a": "Celles que vous réalisez réellement. Décrivez séparément, si besoin, l’entretien régulier de bureaux, le nettoyage de logements, les vitres ou les remises en état, en précisant les limites de chaque service.",
+      "q": "Quelles prestations faut-il présenter sur le site ?"
+    },
+    {
+      "a": "Vous pouvez expliquer les facteurs qui influencent le prix et inviter à demander un devis. Si le coût dépend de la surface, de la fréquence ou de l’état des locaux, évitez d’afficher un tarif présenté comme valable pour toutes les situations.",
+      "q": "Dois-je afficher mes tarifs ?"
+    },
+    {
+      "a": "Non. La création d’un site ne garantit ni une position ni un volume de contacts. Des pages précises et des informations locales cohérentes constituent une base utile, sans résultat de classement assuré.",
+      "q": "Un site internet garantit-il d’apparaître en premier sur Google ?"
+    },
+    {
+      "a": "La formule en paiement unique coûte 399 €. La formule mensuelle coûte 49 €/mois avec un engagement de 12 mois. L’hébergement est inclus la première année, puis coûte 80 €/an.",
+      "q": "Combien coûte la création du site ?"
+    }
+  ],
+  "city": "Rennes",
+  "slug": "entreprise-de-nettoyage-rennes",
+  "intro": "Sur OpenStreetMap (relevé du 11/11/2026), 60 pressings, laveries et entreprises de nettoyage sont recensés à Rennes, dont 41 sans site internet indiqué. Pour une entreprise de nettoyage, un site utile doit aider chaque visiteur à savoir rapidement si vous prenez en charge son besoin, dans quel secteur et comment demander un devis.",
+  "local": {
+    "date": "2026-11-11",
+    "label": "pressings, laveries et entreprises de nettoyage",
+    "total": 60,
+    "source": "OpenStreetMap",
+    "withoutSite": 41
+  },
+  "title": "Site internet pour entreprise de nettoyage à Rennes",
+  "trade": "nettoyage",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-entreprise-de-nettoyage-rennes/",
+    "video": "https://demo.novalyagency.com/d/seo-entreprise-de-nettoyage-rennes/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-entreprise-de-nettoyage-rennes/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes de vos futurs clients",
+      "paragraphs": [
+        "Les personnes qui cherchent une entreprise de nettoyage ne recherchent pas toutes la même prestation. Un particulier peut vouloir un nettoyage après déménagement ou une remise en état avant un état des lieux. Une entreprise peut chercher un prestataire pour l’entretien régulier de ses bureaux, de ses parties communes ou de ses locaux professionnels. Votre site doit nommer ces besoins avec des mots simples, plutôt que de parler seulement de « services de propreté ».",
+        "Présentez les prestations que vous réalisez vraiment : nettoyage de bureaux, entretien de copropriété, nettoyage de vitres, remise en état après travaux ou intervention ponctuelle, par exemple uniquement si ces services font partie de votre activité. Précisez aussi les clients concernés : particuliers, syndics, commerces ou entreprises. À Rennes, indiquez clairement votre zone d’intervention, sans laisser croire que vous vous déplacez partout si ce n’est pas le cas.",
+        "Une page par grande famille de prestations peut aider le visiteur à trouver la bonne information. Décrivez ce qui est compris, ce qui nécessite une visite ou un échange préalable et les situations que vous ne prenez pas en charge. Cette précision évite les demandes inadaptées et donne une première idée sérieuse de votre façon de travailler."
+      ]
+    },
+    {
+      "h2": "Montrer ce qui rassure avant une demande de devis",
+      "paragraphs": [
+        "Confier le nettoyage d’un logement ou de locaux professionnels demande de la confiance. Expliquez comment se déroule une première demande : informations à fournir, éventuelle visite, éléments pris en compte pour établir le devis et manière de confirmer une intervention. Ne donnez pas de tarif standard si le prix dépend de la surface, de l’état des lieux, de la fréquence ou des tâches demandées.",
+        "Présentez votre entreprise sans formules vagues. Indiquez depuis quand vous exercez seulement si cette information est exacte, décrivez votre organisation et expliquez qui intervient chez le client. Si vous utilisez des produits ou du matériel particuliers, précisez-le de façon factuelle. N’affichez pas de certification, d’assurance ou d’engagement écologique que vous ne pouvez pas justifier.",
+        "Des photos réelles de votre matériel ou de chantiers, publiées avec l’autorisation nécessaire, peuvent rendre votre activité plus concrète. Évitez les images génériques qui montrent un résultat ou une équipe sans rapport avec votre entreprise. Si vous ne disposez pas encore de photos adaptées, une présentation claire des méthodes et des prestations est préférable à une mise en scène trompeuse."
+      ]
+    },
+    {
+      "h2": "Faciliter le contact et préparer le référencement local",
+      "paragraphs": [
+        "Les coordonnées doivent être faciles à trouver sur téléphone comme sur ordinateur. Affichez votre numéro, vos horaires de contact et une adresse e-mail professionnelle. Un formulaire de devis doit demander les informations utiles à l’évaluation : type de locaux, prestation souhaitée, fréquence envisagée, surface approximative et moyen de rappel. Limitez les questions qui n’aident pas à traiter la demande.",
+        "Pour être compris par les moteurs de recherche et par les visiteurs, chaque page doit avoir un sujet précis. Le titre et le texte peuvent associer votre métier, la prestation et Rennes lorsque cela correspond à votre activité. Décrivez votre secteur réel plutôt que de répéter la ville artificiellement. Complétez aussi les informations de votre fiche d’établissement et veillez à ce que le nom, le téléphone et les horaires soient cohérents.",
+        "Un site ne garantit pas une place particulière dans les résultats de Google. Le référencement local dépend de plusieurs éléments et demande un suivi régulier. Un contenu exact, des pages utiles et des coordonnées cohérentes constituent une base saine, mais il faut éviter toute promesse de classement ou de nombre de demandes."
+      ]
+    },
+    {
+      "h2": "Choisir une formule adaptée à votre entreprise",
+      "paragraphs": [
+        "Le site doit être simple à mettre à jour lorsque vos prestations, vos horaires ou votre zone d’intervention changent. Avant sa création, rassemblez votre logo si vous en avez un, vos coordonnées, la liste des services proposés et quelques photos autorisées. Cela permet de construire des pages fidèles à votre activité, plutôt que de remplir le site avec des affirmations passe-partout.",
+        "Pour la création de votre site, notre agence propose une formule à 399 € en paiement unique, ou une formule à 49 €/mois avec un engagement de 12 mois. L’hébergement est inclus pendant la première année ; il est ensuite facturé 80 €/an. Avant de choisir, vérifiez le contenu prévu, les modalités de modification et les frais applicables après la période incluse."
+      ]
+    }
+  ],
+  "checklist": [
+    "Nommer précisément les prestations de nettoyage réellement proposées.",
+    "Distinguer les services pour particuliers et ceux destinés aux professionnels.",
+    "Décrire la zone d’intervention autour de Rennes sans l’élargir artificiellement.",
+    "Expliquer les étapes d’une demande de devis et les éléments nécessaires pour l’établir.",
+    "Afficher un numéro de téléphone, des horaires de contact et un formulaire lisible sur mobile.",
+    "Utiliser des photos de l’entreprise ou des interventions avec les autorisations nécessaires.",
+    "Vérifier l’exactitude des mentions sur l’assurance, les produits, les certifications et les engagements.",
+    "Relire les titres, les coordonnées et les horaires pour garantir leur cohérence."
+  ],
+  "published": "2026-11-11",
+  "tradeLabel": "entreprise de nettoyage",
+  "description": "Un site clair pour présenter vos prestations de nettoyage à Rennes, rassurer vos clients et faciliter les demandes de devis."
+}

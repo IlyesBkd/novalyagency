@@ -1,0 +1,85 @@
+{
+  "h1": "Créer le site internet de votre entreprise du bâtiment à Rennes",
+  "faq": [
+    {
+      "a": "Une page d’accueil présentant votre activité, des pages décrivant vos principales prestations, une page de réalisations et une page contact forment une base utile. Ajoutez une page sur votre méthode ou vos garanties si elle apporte des informations vérifiables.",
+      "q": "Quelles pages prévoir pour un artisan du bâtiment ?"
+    },
+    {
+      "a": "Ce n’est pas obligatoire pour expliquer votre activité. Si les travaux varient selon l’état du logement, les mesures et les matériaux, indiquez plutôt comment vous établissez un devis et quelles informations vous devez recueillir.",
+      "q": "Dois-je afficher mes prix de travaux ?"
+    },
+    {
+      "a": "Utilisez des images dont vous avez les droits. Pour illustrer vos propres réalisations, privilégiez vos photos et obtenez l’accord nécessaire avant de montrer un logement identifiable ou des éléments personnels.",
+      "q": "Puis-je utiliser des photos trouvées sur internet ?"
+    },
+    {
+      "a": "Non. La position dans les résultats dépend de plusieurs facteurs et peut évoluer. Un site peut présenter clairement vos prestations et renforcer la cohérence de vos informations, sans garantir une place particulière.",
+      "q": "Un site garantit-il d’apparaître en tête sur Google ?"
+    }
+  ],
+  "city": "Rennes",
+  "slug": "artisan-du-batiment-rennes",
+  "intro": "Sur OpenStreetMap (relevé du 11/11/2026), 27 artisans du bâtiment sont recensés à Rennes, dont 6 sans site internet indiqué. Ce relevé décrit les fiches présentes sur cette plateforme, pas l’ensemble des entreprises ni leur visibilité réelle. Un site bien pensé aide vos futurs clients à comprendre vos spécialités, à vérifier vos informations et à vous contacter pour un projet adapté à votre activité.",
+  "local": {
+    "date": "2026-11-11",
+    "label": "artisans du bâtiment",
+    "total": 27,
+    "source": "OpenStreetMap",
+    "withoutSite": 6
+  },
+  "title": "Site internet pour artisan du bâtiment à Rennes",
+  "trade": "btp",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-artisan-du-batiment-rennes/",
+    "video": "https://demo.novalyagency.com/d/seo-artisan-du-batiment-rennes/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-artisan-du-batiment-rennes/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes de vos futurs clients",
+      "paragraphs": [
+        "Un particulier ne cherche pas toujours un « artisan du bâtiment ». Il peut vouloir faire rénover une salle de bains, reprendre un mur, remplacer des menuiseries, aménager des combles ou trouver une entreprise pour plusieurs travaux dans un logement. Les formulations changent selon le besoin : « entreprise de rénovation à Rennes », « artisan pour refaire une cuisine » ou « devis travaux maison ». Votre site doit reprendre les prestations que vous réalisez réellement, avec des mots compréhensibles pour vos clients.",
+        "Évitez de vous présenter comme spécialiste de tous les travaux si ce n’est pas votre cas. Indiquez clairement les métiers couverts, les types de chantiers acceptés et les limites de votre intervention : travaux intérieurs ou extérieurs, rénovation ou neuf, intervention seul ou en coordination avec d’autres professionnels. Si vous ne réalisez pas les urgences ou certains ouvrages techniques, mieux vaut le dire que de recevoir des demandes inadaptées.",
+        "Pour les recherches locales, affichez Rennes comme ville d’intervention et précisez les autres secteurs uniquement si vous les desservez vraiment. Une adresse complète n’est pas indispensable si vous travaillez chez vos clients ; en revanche, des coordonnées cohérentes et une zone d’intervention explicite évitent les malentendus."
+      ]
+    },
+    {
+      "h2": "Montrer les travaux, les méthodes et les garanties",
+      "paragraphs": [
+        "Une galerie utile ne se limite pas à de belles images. Pour chaque réalisation, expliquez le type de chantier, le besoin de départ, les travaux effectués et les matériaux ou finitions importants. Une photo avant et après peut éclairer le résultat, à condition d’avoir l’autorisation de la personne concernée et de ne pas laisser croire que vous avez réalisé un chantier qui n’est pas le vôtre.",
+        "Présentez aussi votre façon de travailler : première prise de contact, visite ou échange pour comprendre le projet, préparation du devis, organisation du chantier et remise des informations utiles en fin de travaux. N’annoncez pas de délai standard si celui-ci dépend de la saison, des approvisionnements ou de l’ampleur du chantier. Expliquez plutôt comment le délai est évalué pour chaque demande.",
+        "Les visiteurs cherchent à savoir à qui ils confient leur logement. Donnez le nom de l’entreprise, ses coordonnées, ses qualifications lorsqu’elles sont valides et les assurances qui s’appliquent à vos prestations. Si vous mentionnez une garantie, décrivez-la avec précision et vérifiez que votre formulation correspond à vos documents. Une page claire rassure davantage qu’une promesse générale impossible à vérifier."
+      ]
+    },
+    {
+      "h2": "Faciliter la demande de devis sans promettre l’impossible",
+      "paragraphs": [
+        "Un bouton de contact doit rester visible sur mobile et mener à une action simple : appeler, envoyer un message ou transmettre une demande de devis. Le formulaire peut demander le type de travaux, la commune du chantier, le stade du projet et un moyen de réponse. Laissez le visiteur joindre des photos si cela vous aide à comprendre sa demande, sans présenter ces éléments comme un devis définitif.",
+        "Précisez les informations nécessaires avant de chiffrer un chantier : une estimation peut demander une visite, des mesures ou des choix de matériaux. Indiquez aussi les demandes que vous ne traitez pas, afin de ne pas laisser croire qu’un simple message garantit une intervention ou un prix immédiat. Pour la confidentialité, expliquez brièvement l’usage des coordonnées recueillies et ne demandez que les données utiles.",
+        "Le référencement local repose notamment sur des informations justes et des pages réellement utiles, mais aucun site ne peut garantir une place précise dans les résultats Google. Évitez les textes répétitifs qui empilent « artisan bâtiment Rennes » sans expliquer vos prestations. Une page dédiée à vos travaux principaux, des coordonnées identiques partout et des contenus à jour constituent une base plus crédible."
+      ]
+    },
+    {
+      "h2": "Choisir une formule adaptée à votre activité",
+      "paragraphs": [
+        "Le site doit pouvoir évoluer avec votre entreprise : ajouter une spécialité, remplacer des photos, corriger une zone d’intervention ou mettre à jour vos coordonnées. Avant la mise en ligne, vérifiez que vous pouvez relire les textes et valider les images, les mentions d’assurance et les appels à l’action. Un site esthétique mais imprécis sur les prestations risque d’attirer les mauvaises demandes.",
+        "Pour la création, l’agence propose une formule à 399 € ou une formule à 49 €/mois, avec engagement 12 mois. L’hébergement est inclus la première année ; il est ensuite de 80 €/an. Ces tarifs concernent la création et les conditions indiquées : demandez ce qui est inclus dans la réalisation et dans le suivi, notamment pour les modifications ultérieures, avant de choisir.",
+        "Le bon point de départ est un site qui présente votre métier sans ambiguïté, montre des réalisations autorisées et permet de vous joindre facilement. Vous pourrez ensuite enrichir son contenu avec de nouveaux chantiers et des réponses aux questions que vos clients posent souvent."
+      ]
+    }
+  ],
+  "checklist": [
+    "Nom de l’entreprise, téléphone et adresse de contact vérifiés.",
+    "Prestations décrites avec des mots précis, sans compétence revendiquée à tort.",
+    "Rennes et les autres zones d’intervention indiquées uniquement si elles sont desservies.",
+    "Photos de chantiers réels publiées avec les autorisations nécessaires.",
+    "Qualifications et assurances mentionnées seulement si elles sont à jour et pertinentes.",
+    "Formulaire de devis adapté aux informations nécessaires pour étudier un projet.",
+    "Site lisible sur téléphone et bouton de contact facile à repérer.",
+    "Tarifs, délais et garanties formulés sans promesse générale ou trompeuse."
+  ],
+  "published": "2026-11-11",
+  "tradeLabel": "artisan du bâtiment",
+  "description": "Un site clair pour présenter vos travaux, votre zone d’intervention, vos garanties et faciliter les demandes de devis à Rennes."
+}
