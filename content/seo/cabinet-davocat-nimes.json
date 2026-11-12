@@ -1,0 +1,85 @@
+{
+  "h1": "Créer le site internet de votre cabinet d’avocat à Nîmes",
+  "faq": [
+    {
+      "a": "Une page d’accueil, une présentation, des pages adaptées aux domaines réellement traités, ainsi qu’une page de contact et des informations pratiques. La structure dépend de l’activité du cabinet.",
+      "q": "Quelles pages prévoir pour un cabinet d’avocat ?"
+    },
+    {
+      "a": "Oui, avec des informations générales, datées ou vérifiées lorsque nécessaire, et rédigées de façon à ne pas être confondues avec un conseil adapté à une situation individuelle.",
+      "q": "Peut-on expliquer le droit sur le site ?"
+    },
+    {
+      "a": "Il vaut mieux éviter de solliciter des documents sensibles dans un formulaire ordinaire. Indiquez plutôt comment prendre contact et convenir d’un échange adapté.",
+      "q": "Le formulaire peut-il recevoir des pièces de dossier ?"
+    },
+    {
+      "a": "Non. Le site permet de présenter clairement le cabinet et ses services, mais aucun emplacement précis dans les résultats de recherche ne peut être garanti.",
+      "q": "La création du site garantit-elle d’apparaître en tête sur Google ?"
+    }
+  ],
+  "city": "Nîmes",
+  "slug": "cabinet-davocat-nimes",
+  "intro": "À Nîmes, une personne qui cherche un avocat veut rapidement comprendre si le cabinet peut l’accompagner, dans quel domaine et comment le joindre. Sur OpenStreetMap (relevé du 12/11/2026), 3 cabinets d’avocats sont recensés à Nîmes, dont 2 sans site internet indiqué. Un site utile répond à ces questions avec des informations vérifiables, sans promettre un résultat juridique.",
+  "local": {
+    "date": "2026-11-12",
+    "label": "cabinets d’avocats",
+    "total": 3,
+    "source": "OpenStreetMap",
+    "withoutSite": 2
+  },
+  "title": "Créer le site d’un avocat à Nîmes",
+  "trade": "avocat",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-cabinet-davocat-nimes/",
+    "video": "https://demo.novalyagency.com/d/seo-cabinet-davocat-nimes/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-cabinet-davocat-nimes/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes des justiciables",
+      "paragraphs": [
+        "Les recherches ne se limitent pas à « avocat à Nîmes ». Une personne peut chercher un avocat en droit de la famille, en droit du travail, en droit pénal ou en droit immobilier, puis préciser sa ville. Les termes à faire apparaître sur le site dépendent donc des domaines réellement traités par le cabinet. Une liste générale de spécialités, sans explication ni rapport avec votre pratique, risque de désorienter plutôt que d’aider.",
+        "Chaque page de domaine d’intervention doit répondre aux premières questions du visiteur : quelles situations prenez-vous en charge, qui peut vous contacter, quels documents préparer et comment se déroule un premier échange ? Ces indications doivent rester générales et être relues par l’avocat. Elles ne remplacent ni l’analyse d’un dossier ni un conseil juridique personnalisé.",
+        "Le nom de la ville peut apparaître naturellement dans les titres et les textes lorsque cela décrit votre activité. Inutile de répéter « avocat Nîmes » à chaque paragraphe : un contenu clair, précis et exact est plus utile à la personne qui cherche une aide qu’une accumulation de mots-clés."
+      ]
+    },
+    {
+      "h2": "Montrer qui exerce et comment prendre contact",
+      "paragraphs": [
+        "La page d’accueil doit identifier le cabinet sans ambiguïté : nom de l’avocat ou de la structure, domaines d’intervention, adresse professionnelle, téléphone et moyens de contact. Si le cabinet reçoit uniquement sur rendez-vous, indiquez-le clairement. Précisez également les horaires ou les modalités de réponse si ces informations sont à jour. Un bouton d’appel sur mobile et un formulaire court peuvent faciliter le premier contact.",
+        "Une page de présentation peut expliquer le parcours professionnel et la manière dont le cabinet travaille, en restant sobre et factuelle. Indiquez les informations utiles à la prise de décision, sans transformer la page en argumentaire excessif. Évitez les promesses de succès, les résultats garantis et les formulations qui pourraient laisser penser que chaque dossier suit le même déroulement.",
+        "La confidentialité compte dès le premier formulaire. Demandez seulement les renseignements nécessaires pour être recontacté et évitez d’inviter les visiteurs à transmettre en ligne des pièces sensibles ou le récit détaillé d’un litige. Expliquez ce qui se passe après l’envoi et prévoyez une solution de contact adaptée si le formulaire ne convient pas."
+      ]
+    },
+    {
+      "h2": "Éviter les erreurs fréquentes d’un site juridique",
+      "paragraphs": [
+        "Un défaut courant est de présenter une longue liste de domaines sans dire ce que le cabinet fait concrètement dans chacun. À l’inverse, un texte trop affirmatif peut être interprété comme une garantie. Décrivez les types de demandes que vous traitez, les limites de votre intervention et la façon d’obtenir une première orientation, avec une validation attentive du contenu par le professionnel.",
+        "Des coordonnées contradictoires, une adresse ancienne ou un formulaire qui ne fonctionne plus nuisent immédiatement à la confiance. Vérifiez les informations sur toutes les pages et testez les liens, le téléphone et l’envoi de messages. Si une information change, mettez à jour le site plutôt que de laisser subsister une ancienne version.",
+        "Enfin, évitez de publier des éléments identifiants sur des affaires, même pour illustrer votre expérience. Les exemples doivent protéger le secret professionnel et la vie privée. Les avis, témoignages et résultats de dossiers ne sont pas nécessaires pour expliquer votre méthode : des informations pratiques et exactes peuvent aider le visiteur à comprendre si son besoin correspond à l’activité du cabinet."
+      ]
+    },
+    {
+      "h2": "Choisir une formule adaptée au cabinet",
+      "paragraphs": [
+        "Avant la création, définissez les pages nécessaires : accueil, présentation, domaines d’intervention, informations pratiques et contact constituent une base possible, à ajuster selon la taille et l’organisation du cabinet. Préparez les textes, les coordonnées et les éléments visuels que vous êtes autorisé à utiliser. Une structure simple permet de trouver rapidement l’information, y compris sur téléphone.",
+        "Pour la création du site, l’agence propose une formule à 49 €/mois avec engagement de 12 mois, ou une formule à 399 € en paiement unique. Dans les deux cas, l’hébergement est compris la première année ; il coûte ensuite 80 €/an. Il est préférable de confirmer avant le lancement qui met à jour les textes, les horaires et les coordonnées, afin que le site reste fidèle à votre activité.",
+        "La conception du site peut améliorer la lisibilité de vos informations et faciliter la prise de contact, mais elle ne garantit pas une place particulière dans les résultats de recherche. Le contenu doit rester exact et être révisé lorsque vos domaines d’intervention ou vos modalités d’accueil évoluent."
+      ]
+    }
+  ],
+  "checklist": [
+    "Nom du cabinet et identité professionnelle clairement visibles",
+    "Domaines d’intervention décrits sans promesse de résultat",
+    "Adresse à Nîmes et coordonnées vérifiées",
+    "Modalités de rendez-vous et horaires à jour",
+    "Formulaire limité aux informations nécessaires",
+    "Navigation lisible sur téléphone",
+    "Textes relus et validés par l’avocat",
+    "Modalités d’hébergement et de mise à jour clarifiées"
+  ],
+  "published": "2026-11-12",
+  "tradeLabel": "cabinet d’avocat",
+  "description": "Un site clair pour présenter votre cabinet d’avocat à Nîmes, expliquer vos domaines d’intervention et faciliter la prise de contact."
+}
