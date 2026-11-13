@@ -1,0 +1,80 @@
+{
+  "h1": "Un site internet utile pour votre restaurant à Reims",
+  "faq": [
+    {
+      "a": "La formule avec paiement initial coûte 399 €. L’hébergement est inclus pendant la première année, puis coûte 80 €/an. La formule mensuelle est de 49 €/mois avec un engagement de 12 mois.",
+      "q": "Combien coûte la création du site ?"
+    },
+    {
+      "a": "Oui, le menu et les informations pratiques doivent pouvoir être actualisés quand votre offre change. Le fonctionnement prévu pour les modifications est à définir avec l’agence avant le lancement.",
+      "q": "Puis-je modifier le menu après la mise en ligne ?"
+    },
+    {
+      "a": "Le site peut présenter votre méthode de réservation et orienter les clients vers le moyen que vous utilisez. Les modalités doivent être choisies selon votre organisation, sans afficher un service que vous ne proposez pas.",
+      "q": "Le site peut-il prendre les réservations ?"
+    },
+    {
+      "a": "Non. Aucun site ne peut garantir une position précise. Des pages claires, des informations exactes et un menu utile facilitent la compréhension de votre activité, mais les résultats de recherche ne sont pas garantis.",
+      "q": "Le site garantit-il une bonne position sur Google ?"
+    }
+  ],
+  "city": "Reims",
+  "slug": "restaurant-reims",
+  "intro": "Sur OpenStreetMap (relevé du 13/11/2026), 351 restaurants, cafés et snacks sont recensés à Reims, dont 177 sans site internet indiqué. Pour un restaurateur, un site sert d’abord à répondre aux questions concrètes avant la visite : que mange-t-on, où se trouve l’établissement, et comment réserver ou commander ?",
+  "local": {
+    "date": "2026-11-13",
+    "label": "restaurants, cafés et snacks",
+    "total": 351,
+    "source": "OpenStreetMap",
+    "withoutSite": 177
+  },
+  "title": "Créer le site internet de votre restaurant à Reims",
+  "trade": "restaurant",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-restaurant-reims/",
+    "video": "https://demo.novalyagency.com/d/seo-restaurant-reims/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-restaurant-reims/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches des clients",
+      "paragraphs": [
+        "Une personne qui cherche un restaurant à Reims peut préciser le type de cuisine, le moment du repas ou un besoin particulier. Elle veut ensuite vérifier rapidement l’adresse, les horaires, les prix et la possibilité de réserver. Votre site doit reprendre ces informations avec des mots simples et des intitulés compréhensibles, sans obliger le visiteur à parcourir plusieurs pages.",
+        "Présentez clairement votre établissement : cuisine proposée, ambiance, service du midi ou du soir, repas sur place, vente à emporter ou livraison si vous la proposez réellement. Une page d’accueil précise aide le visiteur à savoir si votre restaurant correspond à sa recherche. Les pages et titres doivent décrire votre activité et votre ville naturellement, sans répéter artificiellement les mêmes expressions."
+      ]
+    },
+    {
+      "h2": "Montrer le menu et les informations pratiques",
+      "paragraphs": [
+        "Le menu est souvent la première chose que les clients veulent consulter. Il doit être lisible sur téléphone, à jour et facile à trouver. Indiquez les plats, les accompagnements et les prix tels qu’ils sont proposés dans votre établissement. Si la carte change selon la saison ou les disponibilités, expliquez-le et choisissez une méthode de mise à jour que vous pourrez réellement suivre.",
+        "Ajoutez les horaires, l’adresse complète, un numéro de téléphone cliquable et un itinéraire vers votre établissement. Précisez les moyens de réservation disponibles et le fonctionnement des commandes à emporter ou en livraison, le cas échéant. Des photos récentes de la salle et des plats peuvent aider à se faire une idée, à condition qu’elles représentent bien ce que le client trouvera sur place."
+      ]
+    },
+    {
+      "h2": "Faciliter la réservation et la visite",
+      "paragraphs": [
+        "Le bouton principal doit correspondre à votre façon de travailler : appeler, envoyer une demande ou utiliser un outil de réservation. Si une réservation n’est confirmée qu’après votre réponse, dites-le clairement. Pour les commandes, expliquez comment choisir les plats, transmettre la demande et connaître les modalités de retrait ou de livraison. Un parcours simple évite les appels qui servent seulement à demander une information déjà disponible.",
+        "Pensez aussi aux visiteurs qui consultent le site en déplacement. Le texte doit rester lisible sur un petit écran, les liens importants faciles à toucher et les coordonnées accessibles sans chercher dans le bas d’une longue page. Une carte peut compléter l’adresse, mais elle ne doit pas la remplacer : certains visiteurs préfèrent copier le texte ou appeler pour vérifier leur trajet."
+      ]
+    },
+    {
+      "h2": "Éviter les erreurs fréquentes",
+      "paragraphs": [
+        "Une carte publiée en image ou dans un fichier difficile à lire peut décourager les clients sur téléphone. Évitez également les menus périmés, les horaires différents selon les pages et les photos qui ne correspondent plus à l’offre actuelle. Désignez une personne responsable des mises à jour et vérifiez le site lorsque les jours d’ouverture, les prix ou les services changent.",
+        "Ne présentez pas comme disponibles la réservation en ligne, la livraison ou des options alimentaires que vous ne pouvez pas assurer. Les informations contradictoires nuisent à la confiance et créent des malentendus à l’arrivée. Un site bien organisé peut faciliter la découverte de votre restaurant, mais il ne garantit pas une place précise dans les résultats Google. Son contenu doit d’abord être exact et utile aux clients."
+      ]
+    }
+  ],
+  "checklist": [
+    "Décrire la cuisine et les services réellement proposés.",
+    "Afficher un menu lisible sur téléphone, avec des prix à jour.",
+    "Indiquer l’adresse complète, les horaires et les jours de fermeture.",
+    "Rendre le numéro de téléphone facile à utiliser.",
+    "Expliquer comment réserver, commander ou récupérer un repas.",
+    "Ajouter des photos récentes et fidèles à l’établissement.",
+    "Vérifier que les informations pratiques concordent sur toutes les pages."
+  ],
+  "published": "2026-11-13",
+  "tradeLabel": "restaurant",
+  "description": "Un site clair pour présenter votre restaurant à Reims, vos menus, vos horaires, votre adresse et les options de réservation ou de commande."
+}

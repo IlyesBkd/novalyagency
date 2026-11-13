@@ -1,0 +1,85 @@
+{
+  "h1": "Créer le site internet de votre salon à Rennes",
+  "faq": [
+    {
+      "a": "Une page d’accueil, une présentation du salon, des pages de prestations et une page de contact constituent une base utile. Ajoutez une page de réservation ou des informations sur la prise de rendez-vous si cela correspond à votre fonctionnement.",
+      "q": "Quelles pages prévoir pour un salon de coiffure et beauté ?"
+    },
+    {
+      "a": "Affichez les prix que vous pouvez annoncer clairement. Si un tarif dépend de la longueur des cheveux, du temps nécessaire ou d’un diagnostic, expliquez ce point et indiquez comment demander une estimation avant le rendez-vous.",
+      "q": "Dois-je afficher tous mes tarifs ?"
+    },
+    {
+      "a": "Oui, seulement avec leur accord pour cette utilisation. Privilégiez des photos fidèles à vos prestations et évitez les images récupérées ailleurs ou susceptibles de faire croire à des résultats garantis.",
+      "q": "Puis-je utiliser les photos de mes clientes et clients ?"
+    },
+    {
+      "a": "Non. Aucune position ne peut être garantie. Un site clair et cohérent aide les visiteurs à comprendre vos services et à vous contacter, mais les résultats de recherche dépendent de facteurs qui échappent à l’agence.",
+      "q": "Un site garantit-il d’apparaître en premier sur Google à Rennes ?"
+    }
+  ],
+  "city": "Rennes",
+  "slug": "salon-de-coiffure-et-beaute-rennes",
+  "intro": "Sur OpenStreetMap (relevé du 13/11/2026), 257 salons de coiffure et instituts de beauté sont recensés à Rennes, dont 161 sans site internet indiqué. Pour un salon, un site utile répond vite aux questions concrètes : quelles prestations proposez-vous, où êtes-vous et comment prendre rendez-vous ? Il doit refléter votre activité réelle, sans faire croire à une disponibilité ou à un résultat que vous ne pouvez pas garantir.",
+  "local": {
+    "date": "2026-11-13",
+    "label": "salons de coiffure et instituts de beauté",
+    "total": 257,
+    "source": "OpenStreetMap",
+    "withoutSite": 161
+  },
+  "title": "Site internet pour salon de coiffure à Rennes",
+  "trade": "beaute",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-salon-de-coiffure-et-beaute-rennes/",
+    "video": "https://demo.novalyagency.com/d/seo-salon-de-coiffure-et-beaute-rennes/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-salon-de-coiffure-et-beaute-rennes/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches des futurs clients",
+      "paragraphs": [
+        "Une personne peut chercher un coiffeur à Rennes, un balayage, une coupe homme, une coiffure de mariage ou un institut proposant une épilation. Ces recherches expriment des besoins différents. Votre site doit nommer clairement vos prestations, avec les mots que vos clients comprennent, plutôt que d’aligner des formules vagues comme « révélez votre beauté ». Si vous exercez plusieurs activités, distinguez coiffure et soins esthétiques pour que chacun trouve rapidement le bon service.",
+        "Présentez les informations pratiques sans obliger le visiteur à parcourir vos réseaux sociaux : adresse complète, téléphone, horaires, modalités de rendez-vous et moyens de paiement si vous souhaitez les communiquer. Ajoutez un lien vers une carte pour faciliter l’itinéraire, et vérifiez que l’adresse et les horaires affichés correspondent bien à votre fiche d’établissement. Une personne qui cherche un rendez-vous après le travail doit pouvoir vérifier les horaires d’ouverture en quelques secondes.",
+        "Les demandes locales peuvent aussi être précises : coloration pour cheveux bouclés, soin du visage, manucure ou préparation d’un événement. Ne publiez que les prestations que vous réalisez réellement. Une page dédiée par grande famille de services aide à expliquer ce qui est proposé et à éviter que le visiteur confonde, par exemple, une coloration avec un balayage."
+      ]
+    },
+    {
+      "h2": "Montrer concrètement l’expérience du salon",
+      "paragraphs": [
+        "Les images comptent particulièrement pour un salon de coiffure et de beauté : elles permettent de voir l’ambiance, l’espace d’accueil et, avec l’accord des personnes concernées, des exemples de réalisations. Choisissez des photos nettes et représentatives de votre travail actuel. Évitez les banques d’images qui pourraient faire croire que des personnes ou des résultats montrés correspondent à votre équipe et à vos prestations.",
+        "Décrivez le déroulement des services qui suscitent des questions. Pour une coloration, précisez comment se déroule la prise de rendez-vous et si un échange préalable est nécessaire. Pour un soin, expliquez les étapes ou les précautions utiles. Ne promettez pas un résultat identique pour tout le monde : les cheveux, la peau et les attentes varient. Si le tarif dépend du diagnostic, dites-le et indiquez comment obtenir une estimation.",
+        "Une page « À propos » peut présenter la personne qui accueille les clients, son approche et les spécialités qu’elle souhaite mettre en avant. Gardez un ton naturel et des informations vérifiables. Des témoignages inventés, des qualifications non obtenues ou des photos de réalisations empruntées nuisent à la confiance au lieu de rassurer."
+      ]
+    },
+    {
+      "h2": "Faciliter le rendez-vous sur mobile",
+      "paragraphs": [
+        "Beaucoup de visiteurs consultent un salon depuis leur téléphone. Le numéro doit être facile à toucher, les textes lisibles sans zoom et les boutons de réservation visibles dès le début de la page. Si vous utilisez un outil de réservation, vérifiez qu’il s’ouvre correctement sur mobile et que les prestations proposées correspondent à celles présentées sur le site. Si la prise de rendez-vous se fait par téléphone, dites-le clairement.",
+        "Une erreur fréquente est de cacher les prix, les horaires ou l’adresse derrière plusieurs menus. Une autre consiste à présenter une longue liste de prestations sans expliquer les différences. Organisez les pages par besoin et mettez en évidence les informations qui aident à décider. Pour les prix variables, expliquez ce qui les fait varier, plutôt que d’afficher un tarif qui ne correspondrait pas à certaines situations.",
+        "Le site doit aussi rester simple à mettre à jour. Des horaires de fêtes périmés, un lien de réservation cassé ou une ancienne carte des tarifs donnent une impression d’abandon. Prévoyez une façon facile de modifier les informations courantes et relisez les pages après chaque changement important. Le site peut compléter vos réseaux sociaux, mais les renseignements essentiels ne devraient pas dépendre uniquement d’eux."
+      ]
+    },
+    {
+      "h2": "Préparer un site cohérent avec votre activité",
+      "paragraphs": [
+        "Avant la création, rassemblez les prestations, les tarifs ou leurs conditions, les horaires, les coordonnées et les photos que vous avez le droit de publier. Décidez si vous souhaitez recevoir les demandes par téléphone, par formulaire ou via une plateforme de réservation. Cette préparation évite de bâtir les pages autour d’informations incomplètes et permet de faire apparaître les réponses importantes dès la mise en ligne.",
+        "Pour une agence, les tarifs proposés sont de 49 €/mois avec un engagement de 12 mois, ou 399 € en paiement unique. L’hébergement après la première année est de 80 €/an. Choisissez la formule en fonction de votre préférence de paiement et demandez ce qui est compris dans la création, les modifications et l’accompagnement avant de vous engager.",
+        "Un site bien construit peut présenter clairement votre salon et aider les personnes intéressées à vous contacter. Il ne garantit pas une place précise dans les résultats de Google : la visibilité dépend de nombreux éléments, dont la concurrence et les informations disponibles en ligne. Le bon objectif est d’offrir des pages exactes, accessibles et réellement utiles aux personnes qui cherchent vos services à Rennes."
+      ]
+    }
+  ],
+  "checklist": [
+    "Nom du salon, adresse à Rennes et numéro de téléphone vérifiés.",
+    "Horaires à jour, y compris les fermetures exceptionnelles si elles sont connues.",
+    "Prestations séparées par catégories et décrites avec des mots compréhensibles.",
+    "Tarifs affichés ou explication claire de ce qui fait varier le prix.",
+    "Photos récentes du salon et réalisations publiées avec les autorisations nécessaires.",
+    "Bouton d’appel et accès à la réservation testés sur téléphone.",
+    "Adresse et horaires cohérents entre le site et la fiche d’établissement.",
+    "Aucun résultat, avis, diplôme ou service présenté sans justification réelle."
+  ],
+  "published": "2026-11-13",
+  "tradeLabel": "salon de coiffure et beauté",
+  "description": "Un site clair pour présenter votre salon à Rennes, vos prestations, vos tarifs et les moyens de réserver ou de vous contacter."
+}
