@@ -1,0 +1,84 @@
+{
+  "h1": "Créer le site internet de votre cabinet dentaire à Reims",
+  "faq": [
+    {
+      "a": "Une page d’accueil, une présentation du cabinet et de l’équipe, des pages décrivant les soins effectivement proposés, ainsi qu’une page pratique avec adresse, horaires et contact constituent une base utile. Le contenu dépend de l’activité réelle du cabinet.",
+      "q": "Quelles pages prévoir pour un cabinet dentaire ?"
+    },
+    {
+      "a": "Oui, si le cabinet choisit un formulaire ou un outil de réservation adapté à son organisation. Les consignes doivent préciser si la demande est seulement transmise ou si le rendez-vous est confirmé, afin d’éviter toute ambiguïté.",
+      "q": "Peut-on prendre rendez-vous directement depuis le site ?"
+    },
+    {
+      "a": "Indiquez les consignes validées par le cabinet : numéro à appeler, horaires de réponse et marche à suivre lorsque le cabinet est fermé. N’affirmez pas qu’une prise en charge immédiate est disponible si elle ne l’est pas.",
+      "q": "Que faut-il publier à propos des urgences dentaires ?"
+    },
+    {
+      "a": "Non, une agence ne peut pas garantir une position dans les résultats. Un site bien organisé peut présenter les informations du cabinet et ses soins de façon claire, mais son classement dépend de facteurs qui échappent à toute promesse certaine.",
+      "q": "Le site permettra-t-il d’être premier sur Google à Reims ?"
+    }
+  ],
+  "city": "Reims",
+  "slug": "cabinet-dentaire-reims",
+  "intro": "Sur OpenStreetMap (relevé du 14/11/2026), 106 cabinets dentaires sont recensés à Reims, dont 105 sans site internet indiqué. Pour un cabinet, un site utile doit aider les patients à vérifier les informations pratiques, comprendre les soins proposés et savoir comment demander un rendez-vous.",
+  "local": {
+    "date": "2026-11-14",
+    "label": "cabinets dentaires",
+    "total": 106,
+    "source": "OpenStreetMap",
+    "withoutSite": 105
+  },
+  "title": "Site internet pour cabinet dentaire à Reims",
+  "trade": "dentiste",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-cabinet-dentaire-reims/",
+    "video": "https://demo.novalyagency.com/d/seo-cabinet-dentaire-reims/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-cabinet-dentaire-reims/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes des patients",
+      "paragraphs": [
+        "Une personne qui cherche un dentiste à Reims veut souvent trouver rapidement un cabinet, vérifier ses horaires et savoir comment le contacter. D’autres recherches portent sur un besoin précis : urgence dentaire, contrôle, détartrage, douleur, appareil dentaire ou soins pour enfant. Les pages du site doivent reprendre les termes qui correspondent réellement aux actes pratiqués, sans laisser croire que le cabinet propose des soins qu’il ne réalise pas.",
+        "Une page d’accueil efficace donne tout de suite accès au téléphone, à l’adresse, aux horaires et aux modalités de prise de rendez-vous. Elle peut également orienter vers les pages utiles : présentation du cabinet, équipe, accès et soins. Le visiteur ne devrait pas devoir parcourir plusieurs écrans pour découvrir si le cabinet reçoit de nouveaux patients ou comment joindre le secrétariat.",
+        "Les contenus doivent rester compréhensibles pour des personnes qui ne maîtrisent pas le vocabulaire médical. Expliquez simplement le déroulement d’un premier rendez-vous ou la manière de contacter le cabinet en cas de douleur, sans poser de diagnostic en ligne ni promettre un résultat thérapeutique."
+      ]
+    },
+    {
+      "h2": "Montrer le cabinet et préciser les informations pratiques",
+      "paragraphs": [
+        "Le site doit permettre au patient de se représenter sa visite : présentez les espaces, l’équipe et l’organisation de l’accueil avec des informations vérifiées. Des photographies réelles du cabinet sont généralement plus utiles que des images génériques de sourires ou d’équipements qui ne correspondent pas aux lieux. Si une photo montre une personne identifiable, demandez son accord avant publication.",
+        "Indiquez l’adresse exacte fournie par le cabinet, les horaires à jour, le numéro de téléphone et les consignes d’accès disponibles. N’ajoutez pas de repères géographiques approximatifs ni de modalités de transport non vérifiées. Si l’accès comporte une particularité utile, comme une entrée difficile à repérer ou des conditions d’accessibilité, décrivez-la précisément.",
+        "Les informations doivent être cohérentes sur toutes les pages. Un horaire ancien, un numéro erroné ou une adresse différente selon les écrans peut faire perdre du temps au patient et provoquer des appels inutiles au secrétariat. Prévoyez une façon simple de modifier ces éléments lorsqu’ils changent."
+      ]
+    },
+    {
+      "h2": "Construire des pages de soins précises et responsables",
+      "paragraphs": [
+        "Une page consacrée à un soin doit dire à qui il s’adresse, ce que le cabinet propose réellement et comment prendre contact pour obtenir une information adaptée à sa situation. Pour des sujets comme les implants, l’orthodontie ou le blanchiment, évitez les formulations qui présentent un traitement comme systématique, indolore ou garanti. Les indications dépendent d’un examen et doivent être formulées avec prudence.",
+        "Les questions courantes peuvent trouver leur place dans des réponses courtes : faut-il appeler avant de venir, comment préparer une consultation, que faire si une douleur survient ou comment transmettre une question au cabinet ? Pour une urgence, le site doit expliquer clairement la conduite à suivre et les limites du service, selon les consignes réellement définies par le cabinet. Il ne remplace pas un échange avec un professionnel de santé.",
+        "Évitez de publier des conseils médicaux génériques copiés sur d’autres sites, des tarifs non confirmés ou des photos avant-après sans contexte et sans autorisation appropriée. Un contenu précis, relu par le praticien et mis à jour lorsqu’une information change est plus utile qu’une longue page remplie de termes techniques."
+      ]
+    },
+    {
+      "h2": "Un site lisible sur mobile, avec un budget annoncé",
+      "paragraphs": [
+        "Beaucoup de patients consultent les informations depuis leur téléphone. Les boutons d’appel et de rendez-vous doivent être faciles à toucher, les textes rester lisibles et les pages s’afficher correctement sur petit écran. Le formulaire, s’il est utilisé, doit demander uniquement les renseignements nécessaires et indiquer clairement que son envoi ne vaut pas confirmation de rendez-vous.",
+        "La création du site est proposée à 399 € en paiement unique, ou à 49 €/mois avec un engagement de 12 mois. Après la première année, l’hébergement est facturé 80 €/an. Ces montants concernent la prestation de l’agence ; les modalités exactes, le périmètre de réalisation et les éventuels services supplémentaires doivent être clarifiés avant le démarrage.",
+        "Un site ne garantit pas une place particulière dans les résultats de recherche. Il peut toutefois rendre les informations du cabinet plus accessibles et présenter clairement son activité. Pour faciliter son entretien, désignez une personne chargée de signaler les changements d’horaires, de coordonnées, de soins proposés ou de consignes aux patients."
+      ]
+    }
+  ],
+  "checklist": [
+    "Vérifier l’adresse, le téléphone et les horaires avant la mise en ligne.",
+    "Présenter uniquement les soins et équipements réellement proposés au cabinet.",
+    "Ajouter des photographies autorisées et représentatives des lieux.",
+    "Rendre l’appel téléphonique et la prise de contact faciles sur mobile.",
+    "Expliquer comment demander un rendez-vous et quoi faire en cas de douleur.",
+    "Faire relire les contenus médicaux par le praticien responsable.",
+    "Éviter les promesses de résultat, les tarifs non confirmés et les conseils personnalisés en ligne."
+  ],
+  "published": "2026-11-14",
+  "tradeLabel": "cabinet dentaire",
+  "description": "Un site clair pour présenter votre cabinet dentaire à Reims, faciliter les demandes de rendez-vous et répondre aux questions des patients."
+}
