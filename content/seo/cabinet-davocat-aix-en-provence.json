@@ -1,0 +1,84 @@
+{
+  "h1": "Créer le site internet de votre cabinet d’avocat à Aix-en-Provence",
+  "faq": [
+    {
+      "a": "C’est utile si chaque page apporte des informations distinctes et exactes. Décrivez les sujets que vous traitez réellement, sans multiplier des pages presque identiques uniquement pour répéter le nom de la ville.",
+      "q": "Faut-il créer une page pour chaque domaine du cabinet ?"
+    },
+    {
+      "a": "Vous pouvez expliquer votre manière de présenter les honoraires et les modalités d’établissement d’une convention, si ces informations correspondent à votre pratique. Évitez d’afficher un tarif qui pourrait être compris comme applicable à toute situation.",
+      "q": "Peut-on indiquer des honoraires sur le site ?"
+    },
+    {
+      "a": "Non. Le contenu, la qualité technique et la cohérence des informations peuvent aider les moteurs à comprendre le cabinet, mais aucun prestataire ne peut garantir une position précise.",
+      "q": "Le site peut-il garantir une première place sur Google ?"
+    },
+    {
+      "a": "Rassemblez vos coordonnées, vos domaines d’intervention, une présentation de votre parcours, les modalités de rendez-vous et les textes réglementaires nécessaires. Faites valider les contenus professionnels avant leur publication.",
+      "q": "Que faut-il préparer avant la création du site ?"
+    }
+  ],
+  "city": "Aix-en-Provence",
+  "slug": "cabinet-davocat-aix-en-provence",
+  "intro": "Sur OpenStreetMap (relevé du 16/11/2026), 8 cabinets d’avocats sont recensés à Aix-en-Provence, dont 6 sans site internet indiqué. Pour un cabinet, un site bien conçu permet surtout d’expliquer clairement ses domaines d’intervention, son fonctionnement et la manière de prendre contact, sans promettre de résultat juridique ni de position sur Google.",
+  "local": {
+    "date": "2026-11-16",
+    "label": "cabinets d’avocats",
+    "total": 8,
+    "source": "OpenStreetMap",
+    "withoutSite": 6
+  },
+  "title": "Site internet pour avocat à Aix-en-Provence",
+  "trade": "avocat",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-cabinet-davocat-aix-en-provence/",
+    "video": "https://demo.novalyagency.com/d/seo-cabinet-davocat-aix-en-provence/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-cabinet-davocat-aix-en-provence/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes de vos futurs clients",
+      "paragraphs": [
+        "Une personne qui cherche un avocat ne formule pas toujours sa recherche de la même manière. Elle peut saisir « avocat droit de la famille Aix-en-Provence », « avocat pour licenciement à Aix-en-Provence » ou encore « avocat en droit immobilier ». Ces recherches montrent généralement qu’elle veut comprendre si le cabinet traite son sujet, où il se trouve et comment demander un premier échange. Le site doit répondre à ces questions sans présenter une spécialité que vous n’exercez pas.",
+        "La page d’accueil doit nommer clairement le cabinet, indiquer Aix-en-Provence et résumer les domaines réellement pratiqués. Une page distincte par domaine aide à expliquer les situations concernées avec des termes accessibles : séparation, litige locatif, contestation d’un licenciement ou création d’entreprise, par exemple, uniquement si ces sujets correspondent à votre activité. Évitez les textes génériques qui répètent « avocat expérimenté » sans préciser le type de dossiers traité ni la façon dont vous accompagnez les clients.",
+        "Les visiteurs cherchent aussi des réponses pratiques : faut-il appeler ou écrire, quels documents préparer avant un premier rendez-vous, le cabinet reçoit-il sur place et comment se déroule la prise de contact ? Indiquez uniquement les modalités que vous appliquez vraiment. Un formulaire sobre peut demander un nom, un moyen de réponse et quelques lignes sur la demande, avec un avertissement invitant à ne pas transmettre de pièces sensibles dès le premier message."
+      ]
+    },
+    {
+      "h2": "Présenter le cabinet avec précision et mesure",
+      "paragraphs": [
+        "Un site d’avocat inspire confiance par la clarté de ses informations, pas par des slogans. Présentez votre parcours, vos domaines de pratique, votre mode d’exercice et vos coordonnées de façon vérifiable. Si vous utilisez une appellation de spécialisation ou mentionnez une compétence particulière, vérifiez qu’elle correspond bien à votre situation professionnelle et aux règles applicables à la communication des avocats.",
+        "Les pages consacrées aux services doivent expliquer ce que le cabinet peut étudier, sans laisser croire qu’une issue est garantie. Un texte peut décrire les étapes possibles d’un accompagnement, tout en rappelant que chaque dossier dépend de ses faits et des documents disponibles. Pour une question juridique précise, invitez le visiteur à prendre contact plutôt que de donner sur le site une réponse personnalisée à une situation inconnue.",
+        "La confidentialité mérite une attention particulière. Ne publiez pas d’exemple permettant d’identifier un client ou un dossier, même si certains détails semblent anodins. Faites relire les contenus avant mise en ligne et vérifiez les règles professionnelles et obligations d’information qui s’appliquent au cabinet, notamment pour les mentions légales, les données recueillies par formulaire et les traceurs éventuels."
+      ]
+    },
+    {
+      "h2": "Faciliter la prise de contact depuis Aix-en-Provence",
+      "paragraphs": [
+        "L’adresse, le numéro de téléphone et les horaires doivent être faciles à trouver, y compris sur un téléphone. Si le cabinet reçoit uniquement sur rendez-vous, dites-le clairement. Ajoutez un plan ou un lien d’itinéraire seulement si l’adresse de réception est publique et à jour. Ne mentionnez pas de quartier, de parking ou de transport sans avoir vérifié que l’information est exacte et utile à vos visiteurs.",
+        "Une bonne page contact propose un choix simple : appeler, envoyer un courriel ou remplir un formulaire. Expliquez à quel moment vous répondez si vous pouvez le faire de manière fiable, et précisez qu’un message envoyé par le site ne vaut pas nécessairement acceptation du dossier. Un message de confirmation doit indiquer que la demande a été reçue, sans donner l’impression qu’un conseil juridique a déjà été fourni.",
+        "Le référencement local repose aussi sur la cohérence des informations publiques : même nom de cabinet, même adresse et même numéro sur le site et les fiches que vous gérez. Les titres de pages doivent décrire le contenu, par exemple « Avocat en droit du travail à Aix-en-Provence », si cette pratique correspond à votre activité. Ces choix rendent le site compréhensible pour les visiteurs et les moteurs de recherche, mais ne garantissent aucune position."
+      ]
+    },
+    {
+      "h2": "Un site professionnel, sans complexité inutile",
+      "paragraphs": [
+        "Pour un cabinet, un site utile n’a pas besoin d’effets visuels envahissants. Une navigation courte, une typographie lisible et des pages qui chargent correctement sur mobile permettent aux visiteurs de trouver rapidement les informations essentielles. Évitez les photos de balance de justice ou de marteau si elles ne représentent pas votre cabinet : une image sobre et authentique, ou aucune image décorative, peut être plus adaptée.",
+        "Les textes doivent rester à jour. Une ancienne adresse, un collaborateur qui n’exerce plus au cabinet ou une pratique abandonnée peut induire les visiteurs en erreur. Prévoyez un moyen simple de corriger les coordonnées, les horaires et les contenus. Avant publication, vérifiez également les liens, l’affichage sur téléphone, l’envoi du formulaire et la présence des informations légales.",
+        "L’agence propose la création du site à 399 €, ou une formule à 49 €/mois avec un engagement de 12 mois. L’hébergement après la première année est de 80 €/an. Ces montants concernent la prestation de l’agence ; ils ne constituent pas une estimation des frais propres au cabinet ni une promesse de nouveaux dossiers. Les éléments inclus et le fonctionnement de la formule doivent être clarifiés avant le démarrage."
+      ]
+    }
+  ],
+  "checklist": [
+    "Nom du cabinet et coordonnées identiques sur toutes les pages.",
+    "Domaines d’intervention décrits avec des exemples correspondant à votre pratique.",
+    "Adresse et modalités d’accueil vérifiées avant publication.",
+    "Formulaire limité aux informations nécessaires, avec consigne de ne pas joindre de documents sensibles.",
+    "Aucune promesse de résultat, aucun dossier client identifiable et aucun avis inventé.",
+    "Mentions légales et informations sur les données personnelles contrôlées.",
+    "Pages lisibles sur téléphone, liens testés et coordonnées faciles à trouver."
+  ],
+  "published": "2026-11-16",
+  "tradeLabel": "cabinet d’avocat",
+  "description": "Un site clair pour présenter votre cabinet d’avocat à Aix-en-Provence, vos domaines d’intervention et les moyens de vous contacter."
+}

@@ -1,0 +1,85 @@
+{
+  "h1": "Créer le site internet de votre cabinet d’avocat à Montpellier",
+  "faq": [
+    {
+      "a": "C’est pertinent si le cabinet intervient réellement dans plusieurs matières et peut expliquer chacune clairement. Une page précise et utile vaut mieux qu’une liste de domaines non pratiqués ou des textes copiés d’un modèle.",
+      "q": "Faut-il créer une page pour chaque domaine juridique ?"
+    },
+    {
+      "a": "Il peut présenter des informations générales et expliquer les services du cabinet. Il ne doit pas laisser croire qu’une situation individuelle a été analysée sans échange ni examen des éléments du dossier.",
+      "q": "Le site peut-il donner des conseils juridiques ?"
+    },
+    {
+      "a": "Il faut préserver strictement le secret professionnel et éviter tout élément qui permettrait d’identifier une personne ou une affaire. Faites valider les contenus par le cabinet et privilégiez une présentation générale de ses interventions.",
+      "q": "Peut-on publier des exemples de dossiers traités ?"
+    },
+    {
+      "a": "La création coûte 399 € ou 49 €/mois avec engagement 12 mois. L’hébergement est inclus la première année, puis coûte 80 €/an. La création du site ne garantit pas une position particulière dans Google.",
+      "q": "Quels sont les tarifs de création et d’hébergement ?"
+    }
+  ],
+  "city": "Montpellier",
+  "slug": "cabinet-davocat-montpellier",
+  "intro": "Sur OpenStreetMap (relevé du 16/11/2026), 6 cabinets d’avocats sont recensés à Montpellier, dont 5 sans site internet indiqué. Pour un cabinet, un site utile explique les domaines d’intervention, le fonctionnement des premiers échanges et la façon de prendre contact, sans promettre un résultat juridique ni une place dans Google.",
+  "local": {
+    "date": "2026-11-16",
+    "label": "cabinets d’avocats",
+    "total": 6,
+    "source": "OpenStreetMap",
+    "withoutSite": 5
+  },
+  "title": "Site internet pour avocat à Montpellier",
+  "trade": "avocat",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-cabinet-davocat-montpellier/",
+    "video": "https://demo.novalyagency.com/d/seo-cabinet-davocat-montpellier/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-cabinet-davocat-montpellier/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes des justiciables",
+      "paragraphs": [
+        "Une personne qui cherche un avocat formule souvent sa recherche autour d’un problème précis : avocat en droit de la famille à Montpellier, conseil en droit du travail, avocat en droit immobilier ou assistance après une mise en cause pénale. Ces exemples correspondent à des recherches possibles, pas à des domaines que votre cabinet devrait revendiquer. La page doit nommer uniquement les matières que vous traitez réellement et expliquer clairement les situations dans lesquelles vous pouvez intervenir.",
+        "Les internautes cherchent aussi des réponses pratiques : comment demander un rendez-vous, quels documents préparer, si un premier échange est possible à distance, ou comment le cabinet facture ses honoraires. Le site peut répondre à ces questions sans donner de consultation juridique personnalisée. Indiquez les modalités réellement proposées et précisez que l’analyse d’un dossier dépend de ses éléments propres.",
+        "Une page par domaine d’intervention aide à éviter les descriptions vagues. Pour chaque matière, présentez les types de démarches concernés, votre rôle et les limites de votre intervention. N’ajoutez pas des domaines simplement parce qu’ils semblent recherchés : une information inexacte peut créer de mauvaises attentes et faire perdre du temps au cabinet comme au visiteur."
+      ]
+    },
+    {
+      "h2": "Présenter le cabinet sans ambiguïté",
+      "paragraphs": [
+        "La page d’accueil doit permettre de comprendre rapidement qu’il s’agit d’un cabinet d’avocat, où il exerce à Montpellier et comment le contacter. Le nom professionnel, les coordonnées, les horaires de réponse ou de réception et les modalités de rendez-vous doivent être faciles à trouver. Si l’accueil se fait uniquement sur rendez-vous, dites-le explicitement plutôt que de laisser penser qu’une visite spontanée est possible.",
+        "Présentez les avocats et leurs domaines d’activité avec des informations vérifiables : parcours utile, fonction au sein du cabinet et langues de travail, si elles sont réellement pratiquées. Une photographie professionnelle est possible, mais elle ne remplace pas ces renseignements. Évitez les formulations telles que « meilleur avocat » ou « résultat garanti » : elles peuvent induire le public en erreur et ne conviennent pas à une présentation sérieuse d’une activité juridique.",
+        "La confiance passe aussi par la transparence sur les honoraires et les échanges. Expliquez comment le cabinet communique ses conditions financières et comment une demande est examinée. Ne publiez ni document de dossier, ni détail permettant d’identifier une personne, même si vous pensez avoir supprimé son nom. La confidentialité doit guider les exemples et les contenus du site."
+      ]
+    },
+    {
+      "h2": "Éviter les erreurs fréquentes des sites d’avocats",
+      "paragraphs": [
+        "Une erreur courante consiste à employer des textes juridiques génériques, difficiles à comprendre et sans lien avec les questions des visiteurs. Une autre est de reprendre une longue liste de spécialités sans préciser ce que le cabinet fait concrètement. Préférez des explications accessibles, relues par l’avocat concerné, et distinguez nettement l’information générale du conseil donné après étude d’une situation individuelle.",
+        "Ne transformez pas le formulaire de contact en espace de dépôt libre de pièces sensibles. Demandez seulement les renseignements nécessaires pour répondre à une première prise de contact et indiquez de ne pas transmettre d’informations confidentielles avant que le cabinet ait précisé le canal à utiliser. Une mention sur la confidentialité ne rend pas, à elle seule, tout formulaire approprié pour recevoir des dossiers.",
+        "Enfin, évitez les coordonnées contradictoires, les pages jamais mises à jour et les appels à l’action qui promettent une réponse immédiate si le cabinet ne peut pas la garantir. Vérifiez également que les informations professionnelles et les mentions du site sont cohérentes avec les règles applicables à la profession. Une création web ne remplace pas la validation de ces éléments par le cabinet."
+      ]
+    },
+    {
+      "h2": "Un site adapté au cabinet et facile à maintenir",
+      "paragraphs": [
+        "Le site doit fonctionner sur téléphone : un visiteur doit pouvoir lire les domaines d’intervention, appeler ou envoyer une demande sans zoomer ni chercher longtemps les coordonnées. Un menu simple, des titres explicites et des pages lisibles sont plus utiles qu’une animation décorative. Les images doivent rester sobres et ne pas ralentir inutilement l’affichage.",
+        "Pour améliorer la présence dans les résultats de recherche, chaque page doit décrire une activité réelle et répondre à une intention précise. Le nom de Montpellier peut apparaître naturellement dans les informations du cabinet, sans répétition artificielle. Une création de site ne garantit ni classement ni nombre de contacts : le référencement dépend notamment de la qualité, de la pertinence et de l’évolution des contenus.",
+        "Notre agence propose la création du site à 399 € ou une formule à 49 €/mois avec engagement 12 mois. L’hébergement est inclus durant la première année ; il coûte ensuite 80 €/an. Avant la mise en ligne, le cabinet peut relire les textes pour confirmer que les matières présentées, les coordonnées et les modalités de prise de contact correspondent bien à sa pratique."
+      ]
+    }
+  ],
+  "checklist": [
+    "Nom du cabinet et coordonnées faciles à repérer",
+    "Domaines d’intervention réellement exercés, expliqués en langage clair",
+    "Modalités de rendez-vous et de réponse indiquées sans promesse excessive",
+    "Informations sur les honoraires présentées avec transparence",
+    "Formulaire limité aux renseignements utiles, sans inciter à transmettre des pièces sensibles",
+    "Présentation professionnelle relue et validée par le cabinet",
+    "Affichage lisible sur téléphone et liens de contact vérifiés",
+    "Pages et mentions du site contrôlées avant la mise en ligne"
+  ],
+  "published": "2026-11-16",
+  "tradeLabel": "cabinet d’avocat",
+  "description": "Un site clair pour présenter votre cabinet d’avocat à Montpellier, vos domaines d’intervention et les modalités de prise de contact."
+}
