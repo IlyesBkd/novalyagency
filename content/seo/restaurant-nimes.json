@@ -1,0 +1,85 @@
+{
+  "h1": "Créer le site internet de votre restaurant à Nîmes",
+  "faq": [
+    {
+      "a": "Une page d’accueil, un menu lisible, les informations pratiques et un contact constituent une base adaptée. Les pages supplémentaires doivent répondre à un besoin réel, comme expliquer la vente à emporter ou présenter un menu de groupe.",
+      "q": "Quelles pages prévoir pour un site de restaurant ?"
+    },
+    {
+      "a": "Oui, les informations doivent pouvoir être mises à jour lorsqu’elles changent. Avant la création, précisez qui s’occupera des modifications et à quelle fréquence le menu évolue, afin de retenir une organisation adaptée.",
+      "q": "Puis-je modifier le menu et les horaires ?"
+    },
+    {
+      "a": "Le tarif est de 399 € en paiement unique ou de 49 €/mois avec un engagement de 12 mois. L’hébergement coûte 80 €/an après la première année.",
+      "q": "Combien coûte la création du site ?"
+    },
+    {
+      "a": "Non. Aucun prestataire ne peut garantir une position précise. Le site peut présenter clairement votre offre et vos informations, mais les résultats dépendent notamment de la concurrence et de facteurs que l’agence ne maîtrise pas.",
+      "q": "Le site garantit-il une meilleure position sur Google ?"
+    }
+  ],
+  "city": "Nîmes",
+  "slug": "restaurant-nimes",
+  "intro": "Sur OpenStreetMap (relevé du 17/11/2026), 367 restaurants, cafés et snacks sont recensés à Nîmes, dont 203 sans site internet indiqué. Pour un restaurant, un site utile aide les personnes qui cherchent où manger à comprendre rapidement votre cuisine, vos horaires et comment réserver.",
+  "local": {
+    "date": "2026-11-17",
+    "label": "restaurants, cafés et snacks",
+    "total": 367,
+    "source": "OpenStreetMap",
+    "withoutSite": 203
+  },
+  "title": "Site internet pour restaurant à Nîmes | Création",
+  "trade": "restaurant",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-restaurant-nimes/",
+    "video": "https://demo.novalyagency.com/d/seo-restaurant-nimes/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-restaurant-nimes/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes des clients",
+      "paragraphs": [
+        "Les internautes ne tapent pas tous simplement « restaurant Nîmes ». Certains cherchent une cuisine précise, un restaurant ouvert au moment de leur recherche, une formule pour le déjeuner, un endroit où dîner ou une adresse proposant des plats à emporter. D’autres veulent vérifier le menu avant de choisir. Votre site doit employer les mots qui décrivent réellement votre établissement : type de cuisine, repas servis et services proposés. Inutile d’ajouter des spécialités que vous ne préparez pas pour attirer une recherche qui ne correspond pas à votre offre.",
+        "Une page d’accueil efficace dit d’emblée où se trouve votre restaurant, ce qu’on y mange et comment vous contacter. Elle doit aussi orienter vers les informations essentielles sans obliger le visiteur à parcourir un long texte. Le nom de l’établissement, son adresse à Nîmes, son numéro de téléphone et un accès visible au menu donnent des repères utiles aux personnes qui comparent plusieurs options sur leur téléphone.",
+        "Le site ne remplace pas votre fiche d’établissement sur les services de cartographie et de recherche. Il la complète avec des informations que vous contrôlez et pouvez détailler : une carte à jour, les conditions de réservation, les particularités de votre cuisine et des photos de vos propres plats et de votre salle."
+      ]
+    },
+    {
+      "h2": "Montrer le menu, l’ambiance et les informations pratiques",
+      "paragraphs": [
+        "Le menu est souvent la raison principale de la visite. Présentez les plats avec des intitulés compréhensibles, des descriptions courtes et des prix à jour. Si la carte change selon la saison ou les arrivages, indiquez-le clairement et choisissez une façon simple de la modifier. Une image d’un menu imprimé peut être difficile à lire sur mobile ; une page de menu en texte permet plus facilement de consulter les plats et leurs détails.",
+        "Ajoutez des photographies récentes qui représentent votre établissement tel qu’il est : plats réellement servis, salle, terrasse si vous en avez une, ou devanture. Évitez les images génériques qui pourraient faire croire à une offre ou à un décor différents. Si vous mentionnez des options alimentaires, précisez ce que vous pouvez effectivement proposer et invitez les personnes ayant une question particulière à vous appeler.",
+        "Les horaires doivent être faciles à trouver et cohérents avec ceux affichés ailleurs. Précisez les jours de fermeture, les horaires de service si nécessaire, ainsi que les changements prévus pendant les jours fériés ou les congés. Indiquez l’adresse complète fournie par le restaurant, un lien d’itinéraire et les moyens de contact disponibles. Si les clients peuvent réserver en ligne, le bouton doit mener à un dispositif réellement utilisé et surveillé."
+      ]
+    },
+    {
+      "h2": "Éviter les erreurs fréquentes des sites de restaurant",
+      "paragraphs": [
+        "Une carte périmée crée une mauvaise surprise avant même l’arrivée : plats qui ne sont plus proposés, prix anciens ou horaires qui ne correspondent plus. Désignez une personne responsable des mises à jour et vérifiez les pages après chaque changement de carte ou de service. Si vous ne pouvez pas actualiser un menu quotidiennement, expliquez plutôt comment obtenir la version du jour que de laisser croire qu’une ancienne carte est actuelle.",
+        "Autre problème courant : cacher les informations pratiques derrière des menus compliqués, des animations ou des fenêtres qui s’ouvrent dès l’arrivée. Sur téléphone, un visiteur doit pouvoir appeler, consulter les horaires et trouver le menu sans chercher. Gardez une navigation courte et des boutons explicites, notamment « Voir le menu », « Appeler » et « Réserver » lorsque ces fonctions existent.",
+        "Ne présentez pas comme disponibles la livraison, la réservation, une terrasse ou des régimes particuliers si ce n’est pas le cas. Évitez également les formulations vagues comme « cuisine pour tous » si elles n’aident pas à comprendre votre proposition. Un site honnête décrit l’offre réelle et précise comment poser une question. Enfin, vérifiez que les coordonnées, l’adresse et les horaires sont identiques sur le site et vos autres supports."
+      ]
+    },
+    {
+      "h2": "Un site administrable et adapté à votre activité",
+      "paragraphs": [
+        "La structure dépend de votre fonctionnement. Un restaurant avec service à table peut mettre en avant la carte, les réservations et les horaires ; une activité centrée sur la vente à emporter doit rendre visibles les modalités de commande et de retrait. Le site peut réunir une page d’accueil, une page de menu, une page pratique et un contact, sans ajouter des rubriques qui n’apportent rien à vos clients.",
+        "Notre agence propose la création d’un site au tarif de 399 € en paiement unique, ou de 49 €/mois avec un engagement de 12 mois. Après la première année, l’hébergement coûte 80 €/an. Le choix dépend de votre préférence de paiement et des modalités de suivi souhaitées. Avant le lancement, nous vérifions avec vous les contenus, les coordonnées et les fonctionnalités retenues ; les informations sur les plats et les horaires doivent ensuite rester à jour de votre côté.",
+        "Un site bien construit facilite l’accès à vos informations, mais ne garantit pas une place précise dans les résultats de Google. La visibilité dépend de nombreux éléments, dont la concurrence, la qualité des informations et leur cohérence. Le travail consiste à présenter clairement votre restaurant et à rendre ses pages utiles aux personnes qui recherchent une adresse à Nîmes."
+      ]
+    }
+  ],
+  "checklist": [
+    "Nom du restaurant et description précise de sa cuisine",
+    "Adresse complète à Nîmes et numéro de téléphone vérifiés",
+    "Horaires de service, jours de fermeture et changements exceptionnels",
+    "Menu lisible avec intitulés, prix et date de mise à jour",
+    "Photos récentes de plats réellement servis et de l’établissement",
+    "Modalités exactes de réservation, commande ou vente à emporter",
+    "Informations fiables sur les options alimentaires proposées",
+    "Boutons visibles pour appeler, consulter le menu et demander un itinéraire"
+  ],
+  "published": "2026-11-17",
+  "tradeLabel": "restaurant",
+  "description": "Un site clair pour présenter votre restaurant à Nîmes, vos menus, horaires, accès et moyens de réservation."
+}

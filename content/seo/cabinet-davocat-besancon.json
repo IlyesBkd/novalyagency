@@ -1,0 +1,84 @@
+{
+  "h1": "Créer le site internet de votre cabinet d’avocat à Besançon",
+  "faq": [
+    {
+      "a": "Les domaines d’intervention, la présentation professionnelle, les coordonnées, les modalités de rendez-vous et une explication des honoraires. Le contenu doit correspondre aux services réellement proposés par le cabinet.",
+      "q": "Que faut-il présenter sur le site d’un avocat à Besançon ?"
+    },
+    {
+      "a": "Non. Nous pouvons structurer les pages et rendre les informations claires, mais aucune position dans les résultats ne peut être garantie. Le classement dépend de facteurs qui échappent au contrôle de l’agence.",
+      "q": "Le site peut-il garantir que mon cabinet apparaîtra en premier sur Google ?"
+    },
+    {
+      "a": "La formule mensuelle est à 49 €/mois avec un engagement de 12 mois. Le paiement unique est de 399 €. Après la première année, l’hébergement coûte 80 €/an.",
+      "q": "Quel est le prix de création du site ?"
+    },
+    {
+      "a": "Le formulaire sert à organiser un premier contact. Il est préférable de ne pas y transmettre de documents ni de détails confidentiels avant d’avoir reçu les consignes du cabinet concernant un canal adapté.",
+      "q": "Puis-je demander des renseignements sur un dossier par le formulaire ?"
+    }
+  ],
+  "city": "Besançon",
+  "slug": "cabinet-davocat-besancon",
+  "intro": "Sur OpenStreetMap (relevé du 17/11/2026), 13 cabinets d’avocats sont recensés à Besançon, dont 9 sans site internet indiqué. Pour une personne qui cherche un avocat, un site doit permettre de comprendre rapidement les domaines d’intervention du cabinet et la façon de prendre contact. Nous concevons une présence en ligne adaptée à votre exercice, sans promettre de position dans les résultats Google.",
+  "local": {
+    "date": "2026-11-17",
+    "label": "cabinets d’avocats",
+    "total": 13,
+    "source": "OpenStreetMap",
+    "withoutSite": 9
+  },
+  "title": "Site internet pour avocat à Besançon",
+  "trade": "avocat",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-cabinet-davocat-besancon/",
+    "video": "https://demo.novalyagency.com/d/seo-cabinet-davocat-besancon/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-cabinet-davocat-besancon/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes des personnes qui cherchent un avocat",
+      "paragraphs": [
+        "Les recherches d’un futur client sont souvent précises : avocat en droit de la famille à Besançon, avocat en droit du travail, aide pour un litige locatif ou conseil à une entreprise. Votre site doit reprendre les domaines que vous exercez réellement, avec des explications compréhensibles. Une liste de spécialités sans contexte aide peu à savoir si le cabinet peut répondre à une situation donnée.",
+        "Chaque page de domaine d’intervention peut décrire les types de demandes traitées, les étapes habituelles et les informations à préparer avant un premier échange. Il faut rester prudent : une page générale ne remplace pas l’analyse d’un dossier et ne doit pas laisser croire qu’une issue est garantie. Les contenus doivent correspondre à votre pratique et être validés par vous.",
+        "À Besançon, mentionner clairement la ville et l’aire d’intervention effective aide les visiteurs à vérifier si le cabinet est pertinent pour leur démarche. Il n’est pas utile d’ajouter des lieux que vous ne desservez pas ou des expressions répétées artificiellement. La priorité reste une information exacte, lisible et utile à la personne qui consulte."
+      ]
+    },
+    {
+      "h2": "Présenter le cabinet et faciliter le premier contact",
+      "paragraphs": [
+        "La page d’accueil doit identifier le cabinet, les avocats qui y exercent et leurs domaines d’intervention. Indiquez les coordonnées professionnelles, les horaires de contact et la manière de demander un rendez-vous. Si les consultations se déroulent sur place ou à distance, précisez les modalités réellement proposées. Une adresse et un numéro faciles à repérer évitent au visiteur de chercher ces informations dans plusieurs pages.",
+        "Les honoraires méritent une présentation explicite. Vous pouvez expliquer comment ils sont déterminés, dans quelles conditions une convention d’honoraires est proposée et comment se déroule le premier rendez-vous. Si un tarif précis est communiqué, il doit être à jour et accompagné des conditions utiles. Évitez les formulations floues qui pourraient être comprises comme une consultation gratuite ou comme un coût fixe applicable à tous les dossiers.",
+        "La biographie professionnelle peut mentionner la formation, les fonctions et les langues de travail, à condition que ces informations soient exactes. Une photographie sobre est facultative. Ne publiez pas d’éléments confidentiels sur des affaires, même anonymisés, sans avoir vérifié qu’ils peuvent l’être. Le ton doit informer avec mesure, sans dramatiser les difficultés juridiques ni promettre un résultat."
+      ]
+    },
+    {
+      "h2": "Concevoir un site fiable, lisible et respectueux de la confidentialité",
+      "paragraphs": [
+        "Une personne peut consulter le site depuis un téléphone alors qu’elle cherche simplement le numéro du cabinet ou ses horaires. Le menu doit donc rester simple : présentation, domaines d’intervention, honoraires et contact. Les textes doivent être faciles à lire sur petit écran, avec des titres descriptifs et des boutons explicites. Le site doit aussi fonctionner avec les outils courants de navigation et afficher correctement les informations essentielles.",
+        "Un formulaire de contact ne devrait demander que les renseignements nécessaires pour organiser une prise de contact. Il est préférable d’inviter la personne à ne pas transmettre de pièces ni de détails sensibles avant que le cabinet lui ait indiqué un canal adapté. La page doit expliquer ce qui advient de ses données et permettre de trouver les informations relatives à la confidentialité. La collecte d’informations ne doit pas laisser croire qu’une relation avocat-client est automatiquement établie.",
+        "Les erreurs fréquentes sont les pages génériques copiées d’un autre cabinet, les domaines d’intervention trop nombreux pour être crédibles, les coordonnées incohérentes et les mentions d’honoraires devenues obsolètes. Un site oublié peut également conserver des horaires ou des modalités de rendez-vous qui ne sont plus d’actualité. Prévoir qui relit les contenus et comment les modifier aide à maintenir une information fiable."
+      ]
+    },
+    {
+      "h2": "Un accompagnement web avec un budget annoncé clairement",
+      "paragraphs": [
+        "Nous créons des sites pour les petites entreprises en tenant compte des informations propres à chaque activité. Pour un cabinet d’avocat, le travail consiste notamment à organiser les pages selon vos domaines d’intervention, à rendre vos coordonnées visibles et à préparer une présentation qui respecte votre manière d’exercer. Vous fournissez et validez les informations juridiques et professionnelles ; le site ne se substitue pas à votre contrôle des contenus.",
+        "Deux formules sont proposées : 49 €/mois avec un engagement de 12 mois, ou 399 € en paiement unique. Après la première année, l’hébergement coûte 80 €/an. Ces montants correspondent à la prestation de l’agence ; les besoins particuliers, ajouts ou services non prévus doivent être clarifiés avant le lancement. Aucun tarif ne garantit une place dans Google, car l’affichage dépend de nombreux facteurs extérieurs à l’agence.",
+        "Avant la mise en ligne, vous pouvez vérifier les textes, les coordonnées, l’affichage sur téléphone et le fonctionnement des demandes de contact. Ensuite, les informations importantes, comme les horaires, les honoraires et les domaines exercés, doivent être revues dès qu’elles changent. Un site utile n’est pas seulement une vitrine : il doit donner des renseignements à jour et permettre au visiteur de comprendre la prochaine étape."
+      ]
+    }
+  ],
+  "checklist": [
+    "Décrire précisément les domaines d’intervention réellement exercés.",
+    "Indiquer les coordonnées et modalités de rendez-vous à jour.",
+    "Expliquer clairement le fonctionnement des honoraires.",
+    "Relire chaque texte pour éviter les promesses de résultat.",
+    "Limiter le formulaire aux informations nécessaires au contact.",
+    "Inviter à ne pas envoyer de pièces sensibles par formulaire.",
+    "Vérifier l’affichage et la lisibilité sur téléphone."
+  ],
+  "published": "2026-11-17",
+  "tradeLabel": "cabinet d’avocat",
+  "description": "Un site clair pour présenter votre cabinet d’avocat à Besançon, vos domaines d’intervention, vos honoraires et vos modalités de contact."
+}
