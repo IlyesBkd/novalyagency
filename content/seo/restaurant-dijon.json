@@ -1,0 +1,83 @@
+{
+  "h1": "Un site internet pensé pour votre restaurant à Dijon",
+  "faq": [
+    {
+      "a": "Une présentation, une carte, une page d’informations pratiques et un accès évident à la réservation constituent une base utile. Des pages supplémentaires peuvent présenter un service de groupe ou une offre particulière, uniquement si le restaurant la propose.",
+      "q": "Quelles pages prévoir pour un site de restaurant ?"
+    },
+    {
+      "a": "Cela dépend de l’organisation prévue pour le site. Avant le lancement, demandez comment effectuer les modifications et si elles sont réalisées par vous ou par l’agence. Les horaires et la carte doivent rester cohérents avec le service réellement proposé.",
+      "q": "Puis-je modifier la carte et les horaires ?"
+    },
+    {
+      "a": "Non. Aucun site ne permet de garantir une position précise. Des informations pertinentes et tenues à jour facilitent la compréhension de votre activité, mais les résultats de recherche dépendent de nombreux éléments.",
+      "q": "Le site peut-il garantir une première place sur Google ?"
+    },
+    {
+      "a": "Le tarif est de 399 € au paiement unique ou de 49 €/mois avec un engagement de 12 mois. L’hébergement coûte 80 €/an après la première année.",
+      "q": "Combien coûte la création du site ?"
+    }
+  ],
+  "city": "Dijon",
+  "slug": "restaurant-dijon",
+  "intro": "Sur OpenStreetMap (relevé du 18/11/2026), 501 restaurants, cafés et snacks sont recensés à Dijon, dont 323 sans site internet indiqué. Pour votre établissement, un site clair peut aider les personnes qui cherchent où manger à comprendre votre offre et à trouver les informations utiles avant de venir.",
+  "local": {
+    "date": "2026-11-18",
+    "label": "restaurants, cafés et snacks",
+    "total": 501,
+    "source": "OpenStreetMap",
+    "withoutSite": 323
+  },
+  "title": "Créer le site internet d’un restaurant à Dijon",
+  "trade": "restaurant",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-restaurant-dijon/",
+    "video": "https://demo.novalyagency.com/d/seo-restaurant-dijon/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-restaurant-dijon/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes des clients",
+      "paragraphs": [
+        "Les internautes ne cherchent pas tous simplement « restaurant à Dijon ». Ils peuvent vouloir un restaurant italien, une cuisine végétarienne, un déjeuner, un dîner, une terrasse ou un lieu adapté à un repas en famille. Votre site doit relier ces attentes à votre identité réelle : type de cuisine, ambiance, occasions de visite et modalités de réservation. Mieux vaut décrire précisément ce que vous proposez que d’accumuler des mots-clés qui ne correspondent pas à votre établissement.",
+        "Les recherches liées à la carte sont également importantes. Une personne peut vouloir vérifier si vous servez des plats végétariens, si un menu est proposé ou si la cuisine est ouverte à un moment donné. Présentez ces éléments avec des mots simples et gardez-les à jour. N’affichez pas une offre saisonnière comme si elle était permanente, et indiquez clairement quand une carte peut changer."
+      ]
+    },
+    {
+      "h2": "Montrer la carte, l’ambiance et les informations pratiques",
+      "paragraphs": [
+        "La carte mérite une page lisible sur téléphone, plutôt qu’une photo floue ou un document difficile à agrandir. Vous pouvez présenter les plats, les menus et les prix que vous souhaitez communiquer, avec une indication lorsque la composition varie. Si vous proposez des options végétariennes ou prenez en compte certaines demandes alimentaires, expliquez précisément ce qui est possible et invitez les clients à vous contacter en cas de doute.",
+        "Des photos récentes de la salle, des plats et de la façade aident à se représenter l’expérience, à condition qu’elles reflètent bien le restaurant. Le site doit aussi indiquer l’adresse fournie par l’établissement, les horaires de service, les coordonnées et la façon de réserver. Ajoutez un bouton d’appel sur mobile et, si vous utilisez un outil de réservation, un lien direct vers celui-ci. N’affichez pas de créneaux disponibles que vous ne pouvez pas garantir.",
+        "Une page consacrée aux groupes, aux repas d’entreprise ou à la privatisation peut être utile si vous proposez effectivement ces services. Décrivez les conditions à connaître et le moyen de demander un devis, sans laisser croire qu’une prestation existe si elle n’est pas proposée."
+      ]
+    },
+    {
+      "h2": "Éviter les erreurs fréquentes des sites de restaurant",
+      "paragraphs": [
+        "Une erreur courante consiste à laisser en ligne des horaires dépassés, une ancienne carte ou un numéro qui ne répond plus. Ces informations créent de la confusion au moment où la personne décide de venir. Prévoyez une méthode simple pour mettre à jour le site, notamment lors des changements de saison, des jours de fermeture ou des périodes de congés.",
+        "Évitez aussi de cacher la carte dans une image, de rendre l’adresse difficile à trouver ou de demander plusieurs étapes avant d’afficher les informations essentielles. Sur un écran de téléphone, les visiteurs doivent pouvoir comprendre rapidement le type de cuisine, consulter la carte et choisir comment vous joindre. Les animations lourdes et les photos trop volumineuses peuvent ralentir la consultation : les visuels doivent être soignés, mais optimisés.",
+        "Enfin, ne recopiez pas des descriptions génériques qui pourraient convenir à n’importe quelle table. Parlez de votre cuisine et de votre manière de recevoir sans exagération. Un site bien organisé facilite la découverte et la prise de contact, mais ne garantit pas une position particulière dans les résultats de recherche."
+      ]
+    },
+    {
+      "h2": "Un site adapté à votre façon de travailler",
+      "paragraphs": [
+        "Avant la création, rassemblez les éléments qui décrivent réellement votre activité : carte à jour, horaires, adresse, coordonnées, photos utilisables et consignes de réservation. L’agence peut ensuite organiser les pages autour des questions des clients, avec une présentation adaptée aux mobiles et des liens faciles à repérer. Il reste important que vous puissiez signaler les changements et vérifier le contenu avant sa mise en ligne.",
+        "Pour la création du site, l’offre au paiement unique est de 399 €. L’offre avec abonnement est de 49 €/mois, avec un engagement de 12 mois. Après la première année, l’hébergement est de 80 €/an. Avant de choisir, vérifiez ce qui est inclus dans la prestation et qui effectuera les mises à jour de la carte ou des horaires : ces tâches ne doivent pas être supposées comprises sans confirmation."
+      ]
+    }
+  ],
+  "checklist": [
+    "Présenter clairement le type de cuisine et l’identité du restaurant.",
+    "Publier une carte lisible sur téléphone et signaler les changements.",
+    "Vérifier les horaires de service et les jours de fermeture.",
+    "Afficher l’adresse, les coordonnées et un moyen de réservation direct.",
+    "Utiliser des photos récentes qui correspondent à l’établissement.",
+    "Décrire les options alimentaires et les services réellement proposés.",
+    "Tester les liens, le bouton d’appel et l’affichage mobile.",
+    "Définir qui mettra à jour les informations après la mise en ligne."
+  ],
+  "published": "2026-11-18",
+  "tradeLabel": "restaurant",
+  "description": "Un site de restaurant à Dijon pour présenter la carte, les horaires, les réservations et les informations pratiques sans détour."
+}

@@ -1,0 +1,85 @@
+{
+  "h1": "Créer le site internet de votre cabinet d’avocat à Saint-Étienne",
+  "faq": [
+    {
+      "a": "Commencez par une page de présentation, une page pour chaque domaine réellement traité, une page contact et les informations légales et de confidentialité nécessaires. Le nombre de pages dépend de la pratique du cabinet : mieux vaut quelques contenus précis que des rubriques sans information utile.",
+      "q": "Quelles pages prévoir pour un cabinet d’avocat ?"
+    },
+    {
+      "a": "Le site peut expliquer comment le cabinet fixe et communique ses honoraires, selon ses modalités réelles. N’affichez pas un montant qui ne correspond pas à votre pratique et distinguez clairement les informations générales d’une estimation propre à un dossier.",
+      "q": "Faut-il afficher les honoraires sur le site ?"
+    },
+    {
+      "a": "Il est préférable de limiter le formulaire aux coordonnées et à une demande de rappel. Invitez la personne à ne pas transmettre de pièces ni de détails confidentiels par ce moyen et précisez comment le cabinet souhaite recevoir les informations nécessaires.",
+      "q": "Peut-on demander un résumé du dossier dans le formulaire ?"
+    },
+    {
+      "a": "Non. Un site clair, utile et correctement structuré aide les visiteurs à comprendre l’activité du cabinet, mais aucun emplacement dans les résultats ne peut être garanti. La visibilité dépend de nombreux facteurs et évolue dans le temps.",
+      "q": "Un site garantit-il d’être bien placé sur Google à Saint-Étienne ?"
+    }
+  ],
+  "city": "Saint-Étienne",
+  "slug": "cabinet-davocat-saint-etienne",
+  "intro": "Selon OpenStreetMap (relevé du 18/11/2026), 6 cabinets d’avocats sont recensés à Saint-Étienne, dont 3 sans site internet indiqué. Lorsqu’une personne cherche un avocat, elle veut comprendre rapidement si le cabinet traite son problème, comment le joindre et à quoi s’attendre avant un premier échange. Un site bien organisé peut répondre à ces questions sans promettre un résultat juridique ni remplacer une consultation.",
+  "local": {
+    "date": "2026-11-18",
+    "label": "cabinets d’avocats",
+    "total": 6,
+    "source": "OpenStreetMap",
+    "withoutSite": 3
+  },
+  "title": "Site internet d’avocat à Saint-Étienne",
+  "trade": "avocat",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-cabinet-davocat-saint-etienne/",
+    "video": "https://demo.novalyagency.com/d/seo-cabinet-davocat-saint-etienne/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-cabinet-davocat-saint-etienne/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes des justiciables",
+      "paragraphs": [
+        "Les recherches d’un futur client partent souvent d’une difficulté précise : divorce, séparation, garde d’enfants, licenciement, litige avec un employeur, infraction ou contestation d’une décision. À Saint-Étienne, une page d’accueil qui dit seulement « cabinet d’avocat » ne permet pas de savoir si le professionnel intervient dans le domaine concerné. Le site doit présenter les matières effectivement traitées par le cabinet, avec des mots compréhensibles et des pages distinctes lorsque plusieurs activités sont proposées.",
+        "Une page consacrée au droit de la famille peut expliquer les types de situations accompagnées et les étapes générales d’un premier rendez-vous. Une page en droit du travail peut préciser si le cabinet conseille les salariés, les employeurs, ou les deux, sans laisser planer de doute. Ces exemples ne doivent être publiés que s’ils correspondent à la pratique réelle de l’avocat. Pour une recherche locale, le nom de Saint-Étienne peut figurer naturellement dans les titres, les coordonnées et les textes utiles, sans répétition artificielle ni promesse de classement sur Google.",
+        "Le vocabulaire du site doit rester fidèle aux questions des personnes, mais aussi au périmètre du cabinet. Il vaut mieux expliquer clairement une compétence et ses limites que multiplier les termes juridiques ou laisser croire que l’avocat traite tous les dossiers. Une information précise aide le visiteur à vérifier qu’il s’adresse au bon professionnel avant de transmettre des éléments sensibles."
+      ]
+    },
+    {
+      "h2": "Montrer les informations qui permettent de prendre contact",
+      "paragraphs": [
+        "Le site doit rendre visibles le nom de l’avocat ou du cabinet, l’adresse professionnelle fournie par le cabinet, le numéro de téléphone et les modalités de rendez-vous. Si les consultations se déroulent sur rendez-vous, indiquez-le. Si un formulaire est proposé, limitez les champs aux informations nécessaires pour être recontacté : un formulaire de site n’est pas le bon endroit pour demander un récit détaillé d’un conflit, des pièces de procédure ou des données confidentielles.",
+        "Présentez aussi le fonctionnement du premier contact : faut-il appeler, écrire ou réserver un créneau ? Quels éléments généraux préparer avant le rendez-vous ? La réponse dépend de l’organisation du cabinet, mais une consigne pratique réduit les hésitations. Les honoraires méritent une explication lisible : indiquez les modalités réellement appliquées, par exemple la façon dont le montant est déterminé et quand il est communiqué. N’affichez pas de tarif inventé ou de formule standard qui ne correspond pas à vos pratiques.",
+        "Une présentation professionnelle peut inclure le parcours, les domaines d’intervention et, lorsque c’est pertinent, les langues de travail. Chaque information doit être vérifiable et à jour. Les titres, photographies et éléments graphiques doivent inspirer sérieux sans suggérer une spécialité, une disponibilité ou un résultat qui ne peuvent être garantis."
+      ]
+    },
+    {
+      "h2": "Éviter les erreurs propres à un site d’avocat",
+      "paragraphs": [
+        "Une erreur fréquente consiste à publier des articles juridiques génériques sans préciser leur date, leur champ d’application ou le moment où ils ont été vérifiés. Le droit évolue : une page qui semble répondre à une question peut devenir trompeuse si elle n’est plus à jour. Si le cabinet publie des contenus pratiques, prévoyez une relecture régulière et formulez-les comme des informations générales, pas comme un avis adapté à chaque situation.",
+        "Autre piège : utiliser des formulations telles que « victoire assurée » ou « résultat garanti ». Elles promettent ce qu’un site ne peut honnêtement promettre et ne reflètent pas l’incertitude d’un dossier juridique. Évitez également les témoignages de clients, les dossiers reconnaissables et toute information personnelle publiée sans base appropriée. La confidentialité doit guider les choix de formulaire, d’outils de prise de rendez-vous et de mesure d’audience.",
+        "Enfin, une page lente, difficile à lire sur téléphone ou dotée d’un numéro de contact peu visible peut décourager une personne déjà préoccupée. Testez les boutons, les liens, l’affichage mobile et l’accessibilité des textes. Les mentions légales, la politique de confidentialité et les informations sur les cookies doivent correspondre aux outils réellement utilisés, plutôt que d’être copiées d’un autre site."
+      ]
+    },
+    {
+      "h2": "Choisir une formule de création adaptée au cabinet",
+      "paragraphs": [
+        "Avant de créer le site, rassemblez les informations que le cabinet souhaite rendre publiques : domaines traités, présentation, coordonnées, modalités de rendez-vous et éléments de langage validés. Cette préparation évite de construire des pages sur des hypothèses. Elle permet aussi de distinguer les contenus indispensables au lancement des articles qui pourront être ajoutés ensuite, à condition qu’une personne soit chargée de les maintenir.",
+        "Pour la création du site, notre agence propose une formule à 399 € en paiement unique, ou une formule à 49 €/mois avec un engagement de 12 mois. L’hébergement est inclus pendant la première année ; il est ensuite facturé 80 €/an. Ces montants concernent la prestation de l’agence et l’hébergement indiqué, pas les honoraires du cabinet ni des services juridiques.",
+        "Quel que soit le mode de paiement, demandez un périmètre clair : nombre et rôle des pages, adaptation mobile, mise en place des coordonnées et contenu fourni par le cabinet. Un site utile n’a pas besoin d’accumuler les rubriques. Il doit surtout présenter la pratique réelle, permettre de contacter le cabinet facilement et rester suffisamment simple à mettre à jour."
+      ]
+    }
+  ],
+  "checklist": [
+    "Présenter uniquement les domaines d’intervention réellement exercés.",
+    "Créer des pages compréhensibles pour les principales matières du cabinet.",
+    "Afficher des coordonnées et des modalités de rendez-vous à jour.",
+    "Expliquer les honoraires selon les pratiques effectivement appliquées.",
+    "Éviter toute promesse de résultat ou formulation laissant croire à une garantie.",
+    "Ne pas demander de détails confidentiels dans un formulaire de contact.",
+    "Vérifier régulièrement les contenus juridiques et leur date de mise à jour.",
+    "Tester la lecture sur téléphone, les liens et les informations de confidentialité."
+  ],
+  "published": "2026-11-18",
+  "tradeLabel": "cabinet d’avocat",
+  "description": "Créez un site clair pour votre cabinet d’avocat à Saint-Étienne : domaines d’intervention, honoraires, prise de contact et informations pratiques."
+}
