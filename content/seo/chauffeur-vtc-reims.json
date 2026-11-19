@@ -1,0 +1,78 @@
+{
+  "h1": "Créer le site internet d’un chauffeur VTC à Reims",
+  "faq": [
+    {
+      "a": "Oui, un formulaire peut recueillir les détails du trajet. Indiquez si l’envoi confirme automatiquement la réservation ou si vous devez d’abord vérifier votre disponibilité et répondre au client.",
+      "q": "Un site peut-il permettre de réserver directement un trajet ?"
+    },
+    {
+      "a": "Vous pouvez afficher des prix fixes si leurs conditions sont précises. Si le tarif dépend du parcours ou de la demande, expliquez comment obtenir un devis et les éléments nécessaires pour le calculer.",
+      "q": "Dois-je afficher mes tarifs ?"
+    },
+    {
+      "a": "Indiquez sa capacité, l’espace pour les bagages et les équipements disponibles. Restez factuel et signalez les options uniquement lorsqu’elles peuvent réellement être fournies.",
+      "q": "Quelles informations faut-il présenter sur le véhicule ?"
+    },
+    {
+      "a": "Non. Un site bien renseigné aide les visiteurs à comprendre votre activité, mais aucune position précise dans les résultats ne peut être garantie.",
+      "q": "Le site garantit-il d’apparaître en première position sur Google ?"
+    }
+  ],
+  "city": "Reims",
+  "slug": "chauffeur-vtc-reims",
+  "intro": "À Reims, une personne qui cherche un chauffeur VTC veut surtout savoir si vous prenez son trajet, combien cela coûte et comment réserver. Votre site doit répondre rapidement à ces questions, sans laisser de doute sur vos horaires, vos services ou les conditions de prise en charge.",
+  "title": "Site internet pour chauffeur VTC à Reims",
+  "trade": "vtc",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-chauffeur-vtc-reims/",
+    "video": "https://demo.novalyagency.com/d/seo-chauffeur-vtc-reims/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-chauffeur-vtc-reims/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes des passagers",
+      "paragraphs": [
+        "Les recherches peuvent porter sur un « chauffeur VTC à Reims », une réservation de voiture avec chauffeur, un trajet vers la gare ou un déplacement professionnel. D’autres passagers cherchent un transport pour une soirée, un événement ou un trajet planifié à l’avance. Votre site doit présenter les services que vous proposez réellement, plutôt qu’une liste générique qui pourrait décrire n’importe quel transporteur.",
+        "Précisez si vous acceptez les réservations immédiates ou uniquement sur réservation, si vous travaillez de jour, de nuit ou sur des créneaux définis, et quelles destinations vous desservez. Si vous proposez des transferts vers des gares, des aéroports ou des lieux d’événement, expliquez comment demander un devis et quelles informations fournir. Ne présentez pas comme disponible un service que vous n’assurez pas.",
+        "Une page consacrée à chaque besoin principal peut aider les visiteurs à comprendre votre offre : trajets professionnels, transferts planifiés, transport pour une occasion ou mise à disposition, si ces prestations font partie de votre activité. Pour chaque service, indiquez le déroulement de la réservation et les éventuelles limites, par exemple les horaires ou les zones de prise en charge."
+      ]
+    },
+    {
+      "h2": "Montrer clairement comment réserver et combien cela coûte",
+      "paragraphs": [
+        "La réservation est souvent le point décisif. Placez un bouton d’appel et un moyen de contact visibles sur mobile, puis indiquez les renseignements utiles à transmettre : adresse de départ, destination, date, heure, nombre de passagers et volume approximatif des bagages. Si une demande de réservation ne vaut pas confirmation tant que vous n’avez pas répondu, dites-le clairement.",
+        "Expliquez votre méthode de tarification. Si le prix dépend du parcours, précisez les éléments qui entrent dans le calcul et proposez un formulaire de demande de devis. Si vous affichez des tarifs fixes, indiquez précisément à quels trajets et conditions ils s’appliquent. Évitez les formulations vagues comme « prix imbattables » ou les prix d’appel qui ne correspondent pas aux conditions réelles.",
+        "Présentez aussi les moyens de paiement acceptés, les règles d’annulation et la conduite à tenir en cas de retard ou de changement d’adresse, uniquement si vous avez défini ces modalités. Ces informations réduisent les échanges inutiles et permettent au client de savoir à quoi s’attendre avant de monter à bord."
+      ]
+    },
+    {
+      "h2": "Rassurer sans surcharger la page",
+      "paragraphs": [
+        "Un passager confie son déplacement à une personne qu’il ne connaît pas encore. La page d’accueil doit donc rendre votre activité identifiable : votre nom commercial, votre statut de chauffeur VTC, votre zone de service et un moyen de vous joindre. Ajoutez une courte présentation personnelle, avec des informations exactes sur votre manière de travailler, plutôt qu’un texte publicitaire sans éléments vérifiables.",
+        "Décrivez le véhicule avec précision : capacité en passagers, espace disponible pour les bagages et équipements réellement présents. Une photo récente et fidèle peut aider à se représenter la prestation. N’utilisez pas d’image d’un véhicule différent du vôtre et ne promettez pas une option, comme un siège enfant, si elle n’est pas disponible sur demande.",
+        "Sur une page destinée à une clientèle professionnelle, indiquez les conditions de prise en charge et les moyens de contacter le chauffeur pour organiser un déplacement. Pour les trajets liés à un événement, précisez comment anticiper la réservation et confirmer l’horaire. Gardez les informations importantes accessibles, sans obliger le visiteur à parcourir plusieurs pages pour trouver votre numéro."
+      ]
+    },
+    {
+      "h2": "Éviter les erreurs fréquentes et choisir une formule adaptée",
+      "paragraphs": [
+        "Une erreur fréquente consiste à annoncer une disponibilité permanente alors que les horaires varient. Une autre est de parler de toutes les destinations possibles sans définir les trajets réellement acceptés. Des informations contradictoires entre le site, le formulaire et les coordonnées affichées peuvent aussi faire hésiter un client. Prévoyez une vérification régulière de vos horaires, de vos tarifs et de vos modalités de réservation.",
+        "Le site doit rester facile à utiliser sur téléphone : texte lisible, bouton d’appel bien visible et formulaire court. Testez l’envoi d’une demande et vérifiez que les coordonnées sont exactes. Évitez les formulaires qui réclament des renseignements inutiles avant même de préciser le trajet. Une page claire facilite la prise de contact, mais ne garantit pas une position donnée dans les résultats de recherche.",
+        "Pour la création du site, notre formule est à 49 €/mois avec un engagement de 12 mois, ou à 399 € en paiement unique. Après la première année, l’hébergement est facturé 80 €/an. Ces tarifs concernent la création et les conditions annoncées par l’agence ; ils ne correspondent ni à vos tarifs de transport ni à une garantie de visibilité. Avant de choisir, vérifiez que le périmètre du site répond à vos besoins : pages de services, formulaire et présentation de votre activité."
+      ]
+    }
+  ],
+  "checklist": [
+    "Nom commercial, activité VTC et zone de prise en charge clairement indiqués",
+    "Services présentés uniquement s’ils sont réellement proposés",
+    "Modalités de réservation et délai de confirmation expliqués",
+    "Informations demandées pour établir un devis précis",
+    "Tarifs, conditions et moyens de paiement présentés sans ambiguïté",
+    "Téléphone et formulaire faciles à utiliser sur mobile",
+    "Description et photos fidèles au véhicule et à ses équipements",
+    "Horaires, coordonnées et conditions vérifiés régulièrement"
+  ],
+  "published": "2026-11-19",
+  "tradeLabel": "chauffeur VTC",
+  "description": "Créez un site clair pour présenter vos trajets VTC à Reims, vos tarifs, vos disponibilités et vos modalités de réservation."
+}

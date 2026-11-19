@@ -1,0 +1,81 @@
+{
+  "h1": "Créer le site internet de votre cabinet d’avocat à Toulouse",
+  "faq": [
+    {
+      "a": "Un socle utile comprend une page d’accueil, une présentation du cabinet, les domaines d’intervention, les informations pratiques et un moyen de contact. Si plusieurs activités répondent à des recherches différentes, des pages séparées peuvent les expliquer plus clairement. Le nombre de pages dépend de votre pratique et des informations que vous pouvez tenir à jour.",
+      "q": "Quelles pages prévoir pour un cabinet d’avocat ?"
+    },
+    {
+      "a": "Ce n’est pas indispensable. Vous pouvez expliquer des démarches générales ou répondre à des questions fréquentes, à condition de vérifier les informations et de préciser qu’une page ne remplace pas l’analyse d’un dossier individuel. Évitez les délais ou règles susceptibles d’être périmés si vous ne pouvez pas les actualiser.",
+      "q": "Faut-il publier des conseils juridiques sur le site ?"
+    },
+    {
+      "a": "Non. Un site bien structuré aide les visiteurs à comprendre votre activité et à vous contacter, mais il ne garantit ni un volume de demandes ni une position dans les résultats de recherche. Les résultats dépendent de facteurs que le site seul ne maîtrise pas.",
+      "q": "Le site peut-il garantir des appels ou une position sur Google ?"
+    },
+    {
+      "a": "Rassemblez votre présentation, les domaines que vous souhaitez mettre en avant, vos coordonnées validées et les modalités de rendez-vous. Préparez aussi les éléments visuels que vous avez le droit d’utiliser. Les textes juridiques et les informations relatives au cabinet doivent être relus et approuvés avant leur mise en ligne.",
+      "q": "Que faut-il préparer avant la création du site ?"
+    }
+  ],
+  "city": "Toulouse",
+  "slug": "cabinet-davocat-toulouse",
+  "intro": "À Toulouse, les personnes qui cherchent un avocat veulent comprendre rapidement si le cabinet intervient dans leur situation et comment le contacter. Sur OpenStreetMap, 19 cabinets d’avocats sont recensés à Toulouse, dont 14 sans site internet indiqué (relevé du 19/11/2026).",
+  "local": {
+    "date": "2026-11-19",
+    "label": "cabinets d’avocats",
+    "total": 19,
+    "source": "OpenStreetMap",
+    "withoutSite": 14
+  },
+  "title": "Site internet pour avocat à Toulouse",
+  "trade": "avocat",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-cabinet-davocat-toulouse/",
+    "video": "https://demo.novalyagency.com/d/seo-cabinet-davocat-toulouse/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-cabinet-davocat-toulouse/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes de vos futurs clients",
+      "paragraphs": [
+        "Une personne qui tape « avocat droit du travail Toulouse » ou « avocat divorce Toulouse » cherche généralement une réponse pratique : le cabinet traite-t-il ce type de dossier, où se trouve-t-il et comment demander un premier échange ? Votre site doit répondre à ces questions sans obliger le visiteur à parcourir plusieurs pages. Présentez vos domaines d’intervention avec des mots compréhensibles, puis précisez les types de situations que vous acceptez effectivement de traiter.",
+        "Évitez une liste de compétences trop générale, ou des expressions juridiques que seuls les professionnels comprennent. Expliquez, par exemple, si vous accompagnez un salarié dans un conflit lié à son contrat ou si vous conseillez une entreprise sur ses obligations. Ces exemples doivent correspondre à votre pratique réelle : une page précise et sincère aide le lecteur à évaluer la pertinence d’une prise de contact, sans lui laisser croire qu’un résultat est garanti."
+      ]
+    },
+    {
+      "h2": "Montrer le fonctionnement du cabinet, pas seulement son adresse",
+      "paragraphs": [
+        "La page d’accueil peut présenter votre nom, votre qualité d’avocat, vos principaux domaines d’intervention à Toulouse et une façon simple de vous joindre. Une page distincte par domaine utile permet ensuite d’expliquer les démarches possibles, les documents qu’il peut être pertinent de préparer et les limites d’une première prise de contact. Indiquez clairement si les rendez-vous se prennent par téléphone, par formulaire ou selon une autre modalité réellement proposée par le cabinet.",
+        "Rendez visibles les informations pratiques qui évitent les hésitations : adresse exacte fournie par le cabinet, horaires s’ils sont à jour, numéro de téléphone et modalités d’accès que vous pouvez confirmer. Une photo professionnelle peut humaniser la présentation, mais n’est pas indispensable. Si vous publiez des informations juridiques, datez-les et vérifiez-les : une page obsolète sur une procédure ou un délai peut induire le lecteur en erreur."
+      ]
+    },
+    {
+      "h2": "Traiter avec soin la confidentialité et les règles de la profession",
+      "paragraphs": [
+        "Un formulaire de contact ne doit pas inciter une personne à raconter tout son dossier ni à transmettre spontanément des pièces sensibles. Demandez seulement les renseignements nécessaires pour répondre à une première demande et expliquez comment le cabinet traite les données transmises. Ajoutez une information claire sur la confidentialité et la protection des données, adaptée au fonctionnement réel du site. Pour une situation urgente, indiquez une consigne appropriée plutôt que de laisser entendre que le formulaire sera lu immédiatement.",
+        "La présentation du cabinet doit rester exacte, mesurée et compatible avec les règles professionnelles applicables aux avocats. Ne transformez pas une expérience particulière en promesse de succès et n’affichez pas de témoignages de clients dans une page conçue comme une publicité. Avant publication, vérifiez les formulations, les titres, les visuels et les informations de contact avec les règles de votre ordre. Une agence peut structurer et rédiger le site, mais vous restez la personne la mieux placée pour valider le contenu juridique."
+      ]
+    },
+    {
+      "h2": "Un site lisible sur mobile et simple à faire évoluer",
+      "paragraphs": [
+        "De nombreux visiteurs consulteront votre site depuis un téléphone, parfois au moment où ils cherchent une réponse rapide. Les coordonnées et le bouton de contact doivent donc rester faciles à trouver, les textes doivent être lisibles sans zoom et les pages ne doivent pas être encombrées d’effets décoratifs. Un menu réduit aux rubriques utiles aide à distinguer les domaines d’intervention, la présentation du cabinet et les informations pratiques.",
+        "Pour la création, notre agence propose une formule à 49 €/mois avec un engagement de 12 mois, ou une création à 399 €. L’hébergement est facturé 80 €/an après la 1re année. Avant de choisir, demandez ce qui est compris dans la réalisation, qui fournit les textes et les images, et comment les corrections ou mises à jour sont organisées. Ces points doivent être définis selon votre besoin, plutôt que supposés inclus dans un tarif."
+      ]
+    }
+  ],
+  "checklist": [
+    "Présenter clairement les domaines d’intervention réellement exercés.",
+    "Employer des formulations que comprend une personne qui ne connaît pas le vocabulaire juridique.",
+    "Indiquer les coordonnées et modalités de rendez-vous vérifiées par le cabinet.",
+    "Créer des pages utiles pour les sujets traités, sans ajouter de compétences fictives.",
+    "Limiter les renseignements demandés par le formulaire de contact.",
+    "Expliquer le traitement des données et éviter de solliciter des pièces sensibles inutilement.",
+    "Vérifier les contenus juridiques, les informations pratiques et les règles professionnelles avant publication.",
+    "Tester la lecture sur téléphone et la facilité à joindre le cabinet."
+  ],
+  "published": "2026-11-19",
+  "tradeLabel": "cabinet d’avocat",
+  "description": "Un site clair pour présenter votre activité d’avocat à Toulouse, expliquer vos domaines d’intervention et faciliter la prise de contact."
+}
