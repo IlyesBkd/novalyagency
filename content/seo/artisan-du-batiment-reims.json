@@ -1,0 +1,85 @@
+{
+  "h1": "Un site utile pour votre activité d’artisan du bâtiment à Reims",
+  "faq": [
+    {
+      "a": "Préparez vos coordonnées, une description de vos prestations, votre zone d’intervention et les informations professionnelles que vous souhaitez publier. Des photos de chantiers peuvent aussi illustrer votre travail, à condition d’avoir le droit de les utiliser. Si certains contenus manquent, définissez avec l’agence ce qui doit être rédigé ou fourni avant la mise en ligne.",
+      "q": "Quelles informations faut-il prévoir pour créer le site ?"
+    },
+    {
+      "a": "Une page générale peut convenir si votre activité est très ciblée. Si vous réalisez des travaux différents, des pages ou rubriques séparées aident les visiteurs à comprendre ce que vous faites. Elles doivent décrire des prestations réelles et ne pas répéter artificiellement la même expression pour attirer des recherches sans rapport.",
+      "q": "Dois-je présenter tous mes travaux sur une seule page ?"
+    },
+    {
+      "a": "Non, aucune position ne peut être promise. Le site permet de présenter clairement votre entreprise et de rendre vos informations accessibles en ligne, mais la visibilité dépend de plusieurs facteurs extérieurs. Méfiez-vous des engagements de classement garantis.",
+      "q": "Le site va-t-il me placer en première position sur Google ?"
+    },
+    {
+      "a": "La création coûte 399 € en paiement unique, ou 49 €/mois avec engagement 12 mois. L’hébergement est compris la première année, puis coûte 80 €/an. Demandez à l’agence de préciser le contenu inclus dans la création et les éventuels travaux hors périmètre.",
+      "q": "Quel est le coût de la création et de l’hébergement ?"
+    }
+  ],
+  "city": "Reims",
+  "slug": "artisan-du-batiment-reims",
+  "intro": "Sur OpenStreetMap (relevé du 21/11/2026), 20 artisans du bâtiment sont recensés à Reims, dont 9 sans site internet indiqué. Pour un artisan, un site bien construit permet surtout d’expliquer précisément ses prestations, de montrer son travail et de faciliter les demandes de devis, sans promettre une position particulière sur Google.",
+  "local": {
+    "date": "2026-11-21",
+    "label": "artisans du bâtiment",
+    "total": 20,
+    "source": "OpenStreetMap",
+    "withoutSite": 9
+  },
+  "title": "Créer le site d’un artisan du bâtiment à Reims",
+  "trade": "btp",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-artisan-du-batiment-reims/",
+    "video": "https://demo.novalyagency.com/d/seo-artisan-du-batiment-reims/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-artisan-du-batiment-reims/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes de vos futurs clients",
+      "paragraphs": [
+        "Les personnes qui cherchent un artisan ne saisissent pas toujours le même mot. Elles peuvent rechercher « artisan rénovation Reims », « entreprise de maçonnerie à Reims » ou décrire directement leur besoin : refaire une salle de bains, réparer un mur, poser un carrelage ou rénover une pièce. Votre site doit reprendre les prestations que vous réalisez réellement, avec des termes compréhensibles plutôt qu’une liste de métiers trop générale.",
+        "Une page d’accueil ne suffit pas toujours à présenter plusieurs spécialités. Si vous proposez des travaux distincts, consacrez une page ou une partie bien identifiée à chacun : nature de l’intervention, matériaux ou techniques utilisés, étapes habituelles et limites de votre prestation. Cela aide le visiteur à savoir s’il peut vous contacter pour son projet. N’ajoutez pas de service simplement parce qu’il semble recherché : une demande qui ne correspond pas à votre savoir-faire fait perdre du temps aux deux parties.",
+        "Indiquez clairement que vous intervenez à Reims et précisez votre zone de déplacement uniquement si vous pouvez réellement vous y rendre. Évitez d’énumérer des lieux où vous ne travaillez pas ou de laisser entendre que vous couvrez toute une région si ce n’est pas le cas. Un texte fidèle à votre activité est plus utile qu’une page remplie de répétitions de mots-clés."
+      ]
+    },
+    {
+      "h2": "Montrer les travaux et expliquer votre façon de travailler",
+      "paragraphs": [
+        "Pour choisir un artisan, un prospect veut visualiser le résultat et comprendre à qui il confie son chantier. Des photos récentes de vos réalisations, accompagnées d’une légende précise, rendent votre présentation plus parlante : type de travaux, problème traité, matériaux retenus et résultat visible. Ne présentez pas une image illustrative comme s’il s’agissait d’un chantier que vous avez réalisé. Demandez l’accord nécessaire avant de publier des photos prises chez un client et veillez à ne pas dévoiler d’informations privées.",
+        "Présentez ensuite le déroulement d’une demande : premier échange, informations utiles à transmettre, visite éventuelle, préparation du devis et organisation du chantier. Expliquez ce qui peut modifier le prix ou le délai, sans donner de montant indicatif si vous ne pouvez pas l’assumer pour tous les cas. Le visiteur saura ainsi quoi préparer et comprendra que le devis dépend de la nature réelle des travaux.",
+        "Ajoutez vos coordonnées, vos horaires de contact et un bouton ou formulaire de demande facilement repérable. Pour recevoir une demande exploitable, le formulaire peut inviter la personne à préciser le type de travaux, l’adresse du chantier, ses disponibilités et à joindre des photos si elles sont pertinentes. Ne rendez pas ces informations plus compliquées que nécessaire : un prospect doit pouvoir vous écrire sans remplir un long questionnaire."
+      ]
+    },
+    {
+      "h2": "Rassurer sans exagérer ni masquer les limites",
+      "paragraphs": [
+        "Les visiteurs cherchent des signes concrets de sérieux. Présentez votre identité professionnelle, vos domaines d’intervention et, lorsque cela s’applique, vos qualifications ou assurances avec des informations vérifiables et à jour. Ne revendiquez pas un label, une spécialité ou une couverture d’assurance qui ne correspond pas exactement à votre situation. Si un document est montré sur le site, vérifiez qu’il est encore valable et que sa publication ne révèle pas de données personnelles inutiles.",
+        "Une erreur fréquente dans le bâtiment consiste à écrire « tous travaux » sans détailler ce que cela recouvre. Cette formule ne permet pas au client de savoir si vous prenez en charge son chantier, et peut créer des attentes que vous ne pourrez pas satisfaire. Décrivez plutôt vos interventions habituelles, les travaux que vous sous-traitez le cas échéant et ceux que vous ne réalisez pas. La précision filtre les demandes inadaptées avant même le premier appel.",
+        "Évitez aussi les photos floues, les pages copiées d’un autre métier, les coordonnées contradictoires et les promesses de résultat impossibles à garantir. Le site doit rester cohérent avec vos devis, vos échanges et votre manière de travailler. Un contenu relu à intervalles réguliers permet de corriger une prestation arrêtée, un numéro changé ou une information devenue obsolète."
+      ]
+    },
+    {
+      "h2": "Un site simple à gérer, avec un budget annoncé clairement",
+      "paragraphs": [
+        "Le site doit fonctionner sur téléphone : beaucoup de prospects consultent une page entre deux tâches ou cherchent un numéro à appeler rapidement. Les coordonnées et la demande de devis doivent rester faciles à trouver, les textes lisibles et les images suffisamment légères pour ne pas ralentir l’affichage. Prévoyez aussi un moyen de modifier vos prestations ou vos photos lorsque votre activité évolue.",
+        "Pour la création, notre agence propose un paiement unique de 399 € ou une formule à 49 €/mois avec engagement 12 mois. L’hébergement est compris pendant la première année ; il est ensuite facturé 80 €/an. Ces tarifs concernent la prestation de l’agence. Avant de démarrer, précisez ensemble les pages prévues, les éléments que vous devez fournir et les éventuelles demandes qui sortent du périmètre convenu.",
+        "La création d’un site ne garantit pas que votre entreprise apparaîtra en première position sur Google ni qu’elle recevra un nombre déterminé de demandes. Un site bien renseigné donne toutefois aux internautes des informations utiles pour évaluer votre activité et vous contacter. Ses résultats dépendent aussi de facteurs que l’agence ne peut pas garantir, notamment la concurrence et l’évolution des recherches."
+      ]
+    }
+  ],
+  "checklist": [
+    "Décrire les travaux que vous réalisez réellement et ceux que vous ne prenez pas en charge.",
+    "Créer une présentation distincte pour chaque prestation importante.",
+    "Mentionner Reims et délimiter votre zone de déplacement sans l’exagérer.",
+    "Ajouter des photos authentiques et obtenir l’accord nécessaire avant leur publication.",
+    "Vérifier que qualifications, assurances et informations professionnelles sont exactes.",
+    "Rendre le téléphone et la demande de devis faciles à trouver sur mobile.",
+    "Demander les précisions utiles au chantier sans compliquer le formulaire.",
+    "Relire régulièrement les coordonnées, horaires et prestations affichés."
+  ],
+  "published": "2026-11-21",
+  "tradeLabel": "artisan du bâtiment",
+  "description": "Un site clair pour présenter vos travaux, rassurer vos prospects à Reims et faciliter les demandes de devis."
+}

@@ -1,0 +1,84 @@
+{
+  "h1": "Créer le site internet de votre cabinet d’avocat à Toulon",
+  "faq": [
+    {
+      "a": "Présentez uniquement les activités que vous exercez réellement. Expliquez les situations prises en charge et indiquez clairement les limites de votre intervention.",
+      "q": "Quels domaines de droit faut-il présenter sur le site ?"
+    },
+    {
+      "a": "Vous pouvez expliquer votre méthode de travail de façon générale, mais évitez toute information permettant d’identifier un client ou de dévoiler des éléments confidentiels.",
+      "q": "Puis-je publier des exemples de dossiers traités ?"
+    },
+    {
+      "a": "Non. Aucun résultat de classement ne peut être garanti. Le site peut toutefois présenter clairement votre activité, vos coordonnées et des contenus utiles aux personnes qui recherchent un avocat.",
+      "q": "Le site peut-il garantir une première place sur Google à Toulon ?"
+    },
+    {
+      "a": "La création est proposée à 399 € ou à 49 €/mois avec un engagement de 12 mois. Après la première année, l’hébergement coûte 80 €/an.",
+      "q": "Quel est le tarif de création et que coûte l’hébergement ensuite ?"
+    }
+  ],
+  "city": "Toulon",
+  "slug": "cabinet-davocat-toulon",
+  "intro": "Sur OpenStreetMap (relevé du 21/11/2026), 5 cabinets d’avocats sont recensés à Toulon, dont 5 sans site internet indiqué. Pour une personne qui cherche un avocat, un site doit permettre de comprendre rapidement les domaines d’intervention du cabinet, son fonctionnement et la façon de prendre contact.",
+  "local": {
+    "date": "2026-11-21",
+    "label": "cabinets d’avocats",
+    "total": 5,
+    "source": "OpenStreetMap",
+    "withoutSite": 5
+  },
+  "title": "Site internet pour avocat à Toulon",
+  "trade": "avocat",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-cabinet-davocat-toulon/",
+    "video": "https://demo.novalyagency.com/d/seo-cabinet-davocat-toulon/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-cabinet-davocat-toulon/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches des personnes qui cherchent un avocat",
+      "paragraphs": [
+        "Un visiteur peut rechercher « avocat à Toulon », mais aussi associer la ville à une situation précise : séparation, succession, litige au travail, conflit commercial ou procédure pénale. Ces exemples ne doivent apparaître sur votre site que s’ils correspondent réellement à votre activité. Une page qui prétend traiter toutes les affaires risque de laisser le visiteur dans le doute sur votre expérience et sur la nature de l’aide proposée.",
+        "Présentez chaque domaine de compétence avec des mots compréhensibles. Expliquez les types de situations que vous prenez en charge, les premières étapes possibles et les informations utiles à préparer avant un rendez-vous. Le contenu doit décrire votre pratique réelle, sans laisser croire qu’une issue est garantie ni transformer une information générale en conseil personnalisé.",
+        "Le nom de la ville peut figurer naturellement dans le titre de la page d’accueil, les coordonnées et les pages dédiées à vos activités. Évitez de répéter « avocat Toulon » dans chaque phrase : cela nuit à la lecture et n’aide pas une personne à déterminer si votre cabinet correspond à son besoin."
+      ]
+    },
+    {
+      "h2": "Montrer clairement votre pratique et votre cadre de travail",
+      "paragraphs": [
+        "La page d’accueil doit identifier le cabinet, présenter les domaines effectivement traités et proposer une prochaine étape claire : appeler, écrire ou demander un rendez-vous. Un visiteur doit pouvoir distinguer ce qui relève d’une consultation, d’un premier échange ou d’une simple demande de disponibilité. N’annoncez pas un délai de réponse si vous ne pouvez pas le tenir.",
+        "Une page « Le cabinet » peut présenter votre parcours, votre inscription professionnelle et votre manière de travailler, avec des informations exactes et à jour. Si vous exercez seul, dites-le simplement ; si plusieurs avocats interviennent, expliquez leurs rôles sans rendre l’organisation artificiellement complexe. Une photographie professionnelle est utile si elle vous représente réellement et reste récente.",
+        "Affichez des coordonnées vérifiables, les modalités de prise de rendez-vous et les informations pratiques que vous souhaitez communiquer. Si vous recevez uniquement sur rendez-vous, indiquez-le. Si certains échanges doivent rester confidentiels, proposez un canal adapté et évitez d’inviter les visiteurs à transmettre des pièces sensibles dans un formulaire ordinaire."
+      ]
+    },
+    {
+      "h2": "Éviter les erreurs fréquentes sur un site d’avocat",
+      "paragraphs": [
+        "Une erreur courante consiste à employer uniquement des formulations juridiques ou des intitulés de spécialité sans expliquer ce qu’ils recouvrent. Une personne confrontée à un problème concret ne sait pas toujours quelle branche du droit choisir. Décrivez les situations concernées avec des termes accessibles, puis précisez les limites de votre intervention et les cas que vous ne traitez pas.",
+        "Des pages copiées d’un modèle peuvent aussi créer des incohérences : spécialités qui ne sont pas les vôtres, ancienne adresse, numéro inutilisé ou promesse de disponibilité permanente. Relisez chaque page à partir de votre pratique et supprimez toute affirmation impossible à vérifier. Ne publiez pas de témoignages ou de dossiers permettant d’identifier des clients ; la discrétion est particulièrement importante pour un cabinet juridique.",
+        "Enfin, ne faites pas du formulaire la seule manière de vous joindre. Une personne peut consulter le site sur un téléphone, vouloir appeler directement ou avoir besoin de savoir si le cabinet reçoit sur rendez-vous. Vérifiez les boutons de contact, les liens et l’affichage mobile. Un site soigné ne garantit pas une position particulière sur Google : il sert d’abord à présenter des informations utiles et cohérentes."
+      ]
+    },
+    {
+      "h2": "Un site adapté au cabinet, avec un tarif annoncé clairement",
+      "paragraphs": [
+        "La structure du site dépend de votre organisation : un cabinet centré sur une activité peut avoir besoin d’une présentation concise, tandis que plusieurs domaines d’intervention nécessitent des pages distinctes. Dans les deux cas, les textes doivent être relus par vous, notamment pour vérifier les domaines annoncés, les coordonnées, les horaires et les modalités de rendez-vous. L’agence peut mettre en forme ces informations sans inventer votre expertise ni vos engagements.",
+        "Pour la création, l’agence propose une formule à 399 € ou une formule à 49 €/mois avec un engagement de 12 mois. Après la première année, l’hébergement est facturé 80 €/an. Avant de choisir, demandez ce qui est compris dans la création, qui fournit et valide les textes, et comment les modifications ultérieures sont traitées. Ces précisions évitent de confondre le tarif affiché avec des prestations qui n’ont pas été annoncées."
+      ]
+    }
+  ],
+  "checklist": [
+    "Nom du cabinet, adresse et coordonnées à jour.",
+    "Domaines d’intervention décrits avec des termes compréhensibles et exacts.",
+    "Modalités de rendez-vous et disponibilité présentées sans promesse excessive.",
+    "Parcours et informations professionnelles vérifiés avant publication.",
+    "Formulaire limité aux renseignements nécessaires, sans demande de pièces sensibles.",
+    "Pages relues pour retirer les anciens horaires, adresses ou activités non exercées.",
+    "Boutons d’appel et de contact testés sur téléphone.",
+    "Tarif, durée d’engagement et coût d’hébergement expliqués avant la commande."
+  ],
+  "published": "2026-11-21",
+  "tradeLabel": "cabinet d’avocat",
+  "description": "Un site clair pour présenter votre cabinet d’avocat à Toulon, vos domaines d’intervention et les moyens de vous contacter."
+}
