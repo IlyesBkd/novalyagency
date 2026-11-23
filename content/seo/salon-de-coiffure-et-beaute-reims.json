@@ -1,0 +1,84 @@
+{
+  "h1": "Créer le site internet de votre salon de coiffure et beauté à Reims",
+  "faq": [
+    {
+      "a": "Prévoyez une page d’accueil, une présentation des prestations et des tarifs, une galerie de réalisations, ainsi qu’une page pratique avec l’adresse, les horaires et les moyens de réservation. Regroupez les soins de beauté et les services de coiffure de façon compréhensible, sans présenter une prestation que vous ne proposez pas.",
+      "q": "Quelles pages prévoir pour le site d’un salon de coiffure et beauté ?"
+    },
+    {
+      "a": "Oui, si vous pouvez donner un tarif clair pour la prestation décrite. Lorsque le prix dépend de critères comme la longueur des cheveux ou la technique utilisée, expliquez ces critères et indiquez comment demander une estimation. Cela aide le visiteur à comprendre ce qu’il réserve.",
+      "q": "Faut-il afficher les prix des coupes et des soins ?"
+    },
+    {
+      "a": "Oui, si vous utilisez un service de réservation adapté à votre organisation. Le bouton doit mener directement au bon outil, et les noms des prestations, leurs descriptions et les disponibilités doivent être cohérents avec le site. Testez régulièrement le parcours sur mobile.",
+      "q": "Puis-je intégrer la réservation en ligne ?"
+    },
+    {
+      "a": "Non. La création d’un site ne permet pas de garantir une position dans les résultats. Des informations locales exactes, des pages utiles et un site entretenu peuvent aider les internautes et les moteurs à comprendre votre activité, mais le classement dépend de plusieurs facteurs.",
+      "q": "La création d’un site garantit-elle d’apparaître en tête sur Google ?"
+    }
+  ],
+  "city": "Reims",
+  "slug": "salon-de-coiffure-et-beaute-reims",
+  "intro": "Sur OpenStreetMap, un relevé du 23/11/2026 recense à Reims 159 salons de coiffure et instituts de beauté, dont 107 sans site internet indiqué. Pour un salon, un site utile aide les personnes qui cherchent une coupe, une coloration ou un soin à comprendre votre offre et à savoir comment réserver.",
+  "local": {
+    "date": "2026-11-23",
+    "label": "salons de coiffure et instituts de beauté",
+    "total": 159,
+    "source": "OpenStreetMap",
+    "withoutSite": 107
+  },
+  "title": "Site internet pour salon de coiffure à Reims",
+  "trade": "beaute",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-salon-de-coiffure-et-beaute-reims/",
+    "video": "https://demo.novalyagency.com/d/seo-salon-de-coiffure-et-beaute-reims/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-salon-de-coiffure-et-beaute-reims/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes de vos futurs clients",
+      "paragraphs": [
+        "Les recherches d’un client sont souvent précises : coupe femme, coupe homme, balayage, coloration, brushing, coiffure de cérémonie, soin du visage ou manucure. Votre site doit nommer les prestations que vous proposez réellement, plutôt que de se limiter à une formule générale comme « salon de beauté ». Une page claire par grande famille de services permet de trouver rapidement la bonne information.",
+        "Associez Reims au nom de votre activité dans les éléments importants du site, notamment le titre de la page d’accueil et les textes de présentation. Indiquez votre adresse complète, vos horaires et les moyens de vous contacter. Ces informations doivent être cohérentes avec celles affichées sur vos autres supports. Cela aide les personnes à vérifier qu’elles ont trouvé le bon établissement, sans garantir une position particulière dans les résultats de recherche.",
+        "Décrivez aussi les situations auxquelles vos prestations répondent : entretien d’une couleur, préparation d’un événement ou recherche d’un soin adapté. Restez fidèle à vos compétences et à ce que vous réalisez sur place. Des termes précis sont plus utiles qu’une accumulation de mots-clés sans explication."
+      ]
+    },
+    {
+      "h2": "Montrer le résultat attendu et le déroulement d’un rendez-vous",
+      "paragraphs": [
+        "Dans les métiers de la coiffure et de la beauté, les photos aident à se représenter le résultat. Choisissez des images nettes et récentes de vos réalisations, avec l’accord des personnes photographiées. Présentez-les par type de prestation : coupes, couleurs, coiffures ou soins. Une galerie désordonnée, composée d’images génériques ou trop retouchées, risque au contraire de donner une idée fausse de votre travail.",
+        "Expliquez simplement le déroulement des services qui nécessitent une préparation ou un échange préalable. Pour une coloration, précisez comment demander conseil et si un diagnostic est proposé avant de confirmer la prestation. Pour une coiffure de cérémonie, indiquez comment parler de la date, du style souhaité et des essais éventuels. Ne laissez pas les visiteurs deviner ce qui est compris dans le tarif ou la durée.",
+        "Affichez les prix quand vous pouvez les communiquer clairement. Si le montant dépend de la longueur des cheveux, de la technique ou du temps nécessaire, dites-le et expliquez comment obtenir une estimation. Une grille confuse ou des tarifs présentés sans préciser le contenu de chaque prestation peuvent créer des attentes différentes de ce que vous proposez."
+      ]
+    },
+    {
+      "h2": "Faciliter la réservation sur mobile",
+      "paragraphs": [
+        "Une personne qui consulte votre site veut souvent agir tout de suite. Rendez visibles le téléphone, l’adresse et le bouton de réservation, en particulier sur mobile. Si vous utilisez un outil de prise de rendez-vous, reliez-le directement à la page de réservation et vérifiez que les prestations proposées correspondent bien à celles décrites sur le site.",
+        "Indiquez les règles utiles avant la réservation : faut-il appeler pour une prestation particulière, peut-on modifier un rendez-vous en ligne, et comment prévenir en cas d’empêchement ? Présentez seulement les conditions que votre salon applique réellement. Des consignes absentes ou dispersées peuvent entraîner des appels évitables et des incompréhensions.",
+        "La navigation doit rester simple : accueil, prestations, tarifs, galerie et accès au salon sont des rubriques faciles à repérer. Évitez de cacher les informations pratiques derrière plusieurs menus ou de faire commencer une vidéo automatiquement. Les textes doivent être lisibles sur un petit écran, et les images optimisées pour que les pages chargent correctement."
+      ]
+    },
+    {
+      "h2": "Un site entretenu, fidèle à votre salon",
+      "paragraphs": [
+        "Les erreurs fréquentes sont souvent liées aux informations qui ne suivent plus la réalité : anciens horaires, prestations abandonnées, tarifs dépassés ou lien de réservation inactif. Prévoyez une méthode simple pour actualiser vos contenus, par exemple lorsqu’une offre change ou que vous fermez à une période donnée. Un site à jour évite de faire déplacer ou appeler un client pour rien.",
+        "La présentation doit correspondre à votre activité. Un salon qui propose principalement des coupes et des couleurs n’a pas besoin de se présenter comme un institut proposant des soins qu’il ne réalise pas. De même, ne publiez pas des photos d’un autre établissement en laissant croire qu’il s’agit de vos créations. Une description exacte inspire davantage confiance qu’une promesse vague.",
+        "Pour la création d’un site par notre agence, les formules indiquées sont de 49 €/mois avec un engagement de 12 mois, ou 399 € en paiement ponctuel. Après la première année, l’hébergement est facturé 80 €/an. Le choix dépend notamment de votre préférence entre un paiement mensuel engagé et un règlement initial ; vérifiez les modalités prévues avant de choisir."
+      ]
+    }
+  ],
+  "checklist": [
+    "Nom du salon, adresse à Reims, téléphone et horaires visibles.",
+    "Prestations décrites avec des intitulés précis et réellement proposés.",
+    "Tarifs expliqués, y compris les cas où un devis ou un diagnostic est nécessaire.",
+    "Photos récentes de vos réalisations, publiées avec les autorisations requises.",
+    "Lien de réservation testé sur téléphone et informations de contact fonctionnelles.",
+    "Conditions de rendez-vous et consignes utiles présentées clairement.",
+    "Pages lisibles sur mobile, sans menus compliqués ni images trop lourdes."
+  ],
+  "published": "2026-11-23",
+  "tradeLabel": "salon de coiffure et beauté",
+  "description": "Un site clair pour présenter vos prestations, vos tarifs et vos disponibilités, et faciliter la prise de rendez-vous à Reims."
+}

@@ -1,0 +1,85 @@
+{
+  "h1": "Créer le site internet de votre restaurant à Toulon",
+  "faq": [
+    {
+      "a": "Prévoyez au minimum une page d’accueil, une carte, une page d’informations pratiques et un moyen de réservation ou de contact. Ajoutez une présentation de l’établissement si elle apporte des informations utiles aux clients.",
+      "q": "Quelles pages prévoir pour le site d’un restaurant ?"
+    },
+    {
+      "a": "Oui, si elle peut être tenue à jour. Indiquez les plats et les prix de manière lisible. Si l’offre change régulièrement, expliquez ce qui varie et précisez comment consulter la proposition actuelle.",
+      "q": "Dois-je afficher toute ma carte sur le site ?"
+    },
+    {
+      "a": "Non. Personne ne peut garantir une position précise dans les résultats. Un site clair, accessible et cohérent avec l’activité aide les visiteurs à comprendre l’offre, mais ne garantit pas un classement.",
+      "q": "Puis-je garantir que mon restaurant sera en première position sur Google ?"
+    },
+    {
+      "a": "La formule avec paiement initial coûte 399 €, ou vous pouvez choisir 49 €/mois avec un engagement de 12 mois. Après la première année, l’hébergement coûte 80 €/an.",
+      "q": "Combien coûte la création du site ?"
+    }
+  ],
+  "city": "Toulon",
+  "slug": "restaurant-toulon",
+  "intro": "Sur OpenStreetMap (relevé du 23/11/2026), 326 restaurants, cafés et snacks sont recensés à Toulon, dont 255 sans site internet indiqué. Pour un restaurateur, un site clair aide les personnes qui cherchent où manger à vérifier la carte, les horaires et les modalités de réservation avant de se déplacer. Il doit répondre à leurs questions sans les obliger à fouiller dans plusieurs pages.",
+  "local": {
+    "date": "2026-11-23",
+    "label": "restaurants, cafés et snacks",
+    "total": 326,
+    "source": "OpenStreetMap",
+    "withoutSite": 255
+  },
+  "title": "Créer le site d’un restaurant à Toulon",
+  "trade": "restaurant",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-restaurant-toulon/",
+    "video": "https://demo.novalyagency.com/d/seo-restaurant-toulon/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-restaurant-toulon/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes des clients",
+      "paragraphs": [
+        "Les internautes ne cherchent pas tous la même chose. Certains veulent consulter le menu du jour, d’autres vérifier si le restaurant propose une cuisine végétarienne, un menu enfant ou des plats à emporter. D’autres encore tapent une recherche associant le type de cuisine et Toulon, ou veulent simplement savoir si l’établissement est ouvert le soir. Le site doit reprendre ces informations avec des mots simples, dans des pages faciles à comprendre.",
+        "Une page d’accueil efficace indique rapidement le nom du restaurant, le style de cuisine, les moments de service et l’action à effectuer pour réserver ou appeler. La carte mérite une page dédiée, lisible sur téléphone et mise à jour dès qu’un plat ou un tarif change. Une photo peut donner une idée de l’ambiance ou d’un plat, mais elle ne remplace ni la description de la cuisine ni les informations pratiques.",
+        "Le contenu doit correspondre à la réalité de l’établissement. Si la réservation se fait uniquement par téléphone, le site doit le dire clairement. Si les plats à emporter sont proposés seulement certains jours, cette condition doit être visible. Une formulation précise évite les attentes erronées et les appels consacrés à des informations que le site aurait pu expliquer."
+      ]
+    },
+    {
+      "h2": "Présenter la carte, l’ambiance et les informations utiles",
+      "paragraphs": [
+        "La carte est souvent la page que les futurs clients veulent consulter avant toute autre chose. Présentez les catégories de façon ordonnée, avec le nom des plats, une description compréhensible et les prix. Signalez les options alimentaires uniquement si elles sont réellement disponibles. Une mention vague comme « produits frais » ne renseigne pas sur le contenu d’un plat ; une description concrète aide davantage à choisir.",
+        "Les photographies doivent représenter ce que le restaurant sert et l’expérience qu’il propose : salle, terrasse si elle existe, plats ou présentation de la carte. Des images cohérentes et récentes inspirent plus confiance qu’une galerie générique ou des photos anciennes. Si un plat varie selon les arrivages, expliquez-le plutôt que de laisser croire que la photo représente une proposition permanente.",
+        "Rassemblez les horaires, l’adresse, le numéro de téléphone et les consignes de réservation dans un endroit facile à trouver. Précisez les jours de fermeture et les éventuelles différences entre les services du midi et du soir. Si une réservation en ligne est disponible, le bouton doit mener au bon outil. Si le restaurant accueille des groupes ou organise des repas privés, indiquez comment demander les conditions, sans laisser croire qu’une prestation existe si elle n’est pas proposée."
+      ]
+    },
+    {
+      "h2": "Éviter les erreurs propres aux sites de restaurant",
+      "paragraphs": [
+        "Une erreur fréquente consiste à publier la carte sous forme d’image floue ou de document difficile à lire sur un téléphone. Le visiteur doit pouvoir agrandir sans perdre la qualité, chercher un plat et comprendre les tarifs. Une carte accessible sous forme de texte est généralement plus pratique à consulter et plus simple à corriger qu’une image remplacée à chaque changement.",
+        "Autre problème : laisser en ligne des horaires, un menu ou une formule qui ne sont plus d’actualité. Un changement de service, une fermeture exceptionnelle ou une offre saisonnière doit être répercuté sur le site. Il faut aussi vérifier les informations affichées dans les outils de réservation et les autres fiches en ligne afin d’éviter que le client trouve des indications contradictoires.",
+        "Évitez les pages qui commencent par une longue histoire sans dire où se trouve le restaurant, ce qu’il sert ou comment le joindre. Une présentation de l’équipe ou de l’origine du projet peut apporter du contexte, mais elle ne doit pas repousser les informations pratiques. Enfin, ne promettez pas un résultat garanti dans les moteurs de recherche : un site bien structuré facilite la compréhension de l’offre, sans garantir une position."
+      ]
+    },
+    {
+      "h2": "Un site simple à administrer et adapté au téléphone",
+      "paragraphs": [
+        "La plupart des consultations doivent permettre de lire la carte et de trouver les coordonnées sur un écran étroit, sans zoom ni défilement horizontal. Les boutons « Appeler » et « Réserver » doivent être visibles et fonctionner. Vérifiez également que les liens vers les réseaux sociaux ou un service de réservation sont corrects et ne renvoient pas vers une ancienne page.",
+        "Pour un restaurateur, l’intérêt d’un site ne se limite pas à sa mise en ligne. Il faut pouvoir modifier une fermeture, corriger un prix ou remplacer un menu sans reconstruire toute la page. Avant de publier, rassemblez les textes, les photos autorisées, la carte à jour et les règles de réservation. Cette préparation réduit les oublis et permet de construire un site fidèle au fonctionnement réel du restaurant.",
+        "Notre agence propose la création du site à 399 € ou une formule à 49 €/mois avec un engagement de 12 mois. L’hébergement après la première année est de 80 €/an. Le choix dépend de votre préférence entre un paiement initial et un règlement mensuel ; demandez le détail des prestations incluses avant de valider le projet."
+      ]
+    }
+  ],
+  "checklist": [
+    "Le nom du restaurant et son type de cuisine sont compréhensibles dès la page d’accueil.",
+    "La carte est lisible sur téléphone et présente des informations à jour.",
+    "Les prix et les éventuelles options alimentaires correspondent à l’offre réelle.",
+    "Les horaires, jours de fermeture, adresse et numéro de téléphone sont exacts.",
+    "Les modalités de réservation, de commande ou de vente à emporter sont explicites.",
+    "Les photos montrent réellement l’établissement et ses plats.",
+    "Les boutons et liens de contact ont été testés sur mobile.",
+    "Les changements de menu ou d’horaires peuvent être répercutés facilement."
+  ],
+  "published": "2026-11-23",
+  "tradeLabel": "restaurant",
+  "description": "Un site de restaurant à Toulon pour présenter votre carte, vos horaires et vos réservations clairement sur mobile."
+}
