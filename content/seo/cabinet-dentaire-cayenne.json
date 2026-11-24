@@ -1,0 +1,85 @@
+{
+  "h1": "Créer le site internet de votre cabinet dentaire à Cayenne",
+  "faq": [
+    {
+      "a": "Une présentation du cabinet, une page sur les soins, une page consacrée à l’équipe si vous le souhaitez, puis une page regroupant accès, horaires et contact constituent une base claire. Les pages doivent refléter votre activité réelle.",
+      "q": "Quelles pages prévoir pour un cabinet dentaire ?"
+    },
+    {
+      "a": "Vous pouvez publier les informations tarifaires que le cabinet est en mesure de confirmer et de maintenir à jour. Pour un acte dont le coût dépend de la situation du patient, expliquez comment obtenir une information adaptée plutôt que d’afficher un montant imprécis.",
+      "q": "Faut-il afficher les tarifs des soins ?"
+    },
+    {
+      "a": "Oui, si le cabinet utilise un outil de réservation approprié. Le site peut alors orienter le patient vers cet outil. Si les rendez-vous sont gérés par téléphone, affichez plutôt un numéro facilement accessible.",
+      "q": "Le site peut-il permettre de prendre rendez-vous en ligne ?"
+    },
+    {
+      "a": "Non. Aucun positionnement précis ne peut être garanti. Un site bien structuré, des coordonnées cohérentes et des informations utiles peuvent aider les patients à comprendre votre activité, mais les résultats de recherche dépendent de facteurs qui échappent à l’agence.",
+      "q": "La création du site garantit-elle une meilleure position sur Google ?"
+    }
+  ],
+  "city": "Cayenne",
+  "slug": "cabinet-dentaire-cayenne",
+  "intro": "Sur OpenStreetMap (relevé du 24/11/2026), 6 cabinets dentaires sont recensés à Cayenne, dont 6 sans site internet indiqué. Un site utile aide les patients à comprendre les soins proposés, à préparer leur prise de contact et à trouver les informations pratiques du cabinet.",
+  "local": {
+    "date": "2026-11-24",
+    "label": "cabinets dentaires",
+    "total": 6,
+    "source": "OpenStreetMap",
+    "withoutSite": 6
+  },
+  "title": "Site internet pour dentiste à Cayenne",
+  "trade": "dentiste",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-cabinet-dentaire-cayenne/",
+    "video": "https://demo.novalyagency.com/d/seo-cabinet-dentaire-cayenne/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-cabinet-dentaire-cayenne/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes des patients",
+      "paragraphs": [
+        "Une personne qui cherche un dentiste veut souvent savoir comment joindre le cabinet, où il se trouve, quels sont ses horaires et s’il reçoit de nouveaux patients. D’autres recherches portent sur un besoin précis : détartrage, contrôle dentaire, douleur, soin d’une carie, prothèse ou urgence dentaire à Cayenne. Votre site doit répondre clairement à ces questions, sans laisser croire que chaque soin est disponible si ce n’est pas le cas.",
+        "Présentez les actes réellement pratiqués avec des explications simples. Une page consacrée aux soins peut distinguer les consultations de prévention, les traitements et les équipements, si ces éléments correspondent à votre activité. Évitez les listes de termes médicaux sans explication : le patient doit comprendre ce que vous proposez et savoir comment demander un rendez-vous.",
+        "Les personnes qui cherchent un cabinet dentaire à Cayenne peuvent aussi comparer les informations avant d’appeler. Une présentation sobre de l’équipe, de l’approche du cabinet et du déroulement d’une première consultation peut les rassurer, sans avis fabriqué ni promesse de résultat."
+      ]
+    },
+    {
+      "h2": "Montrer les informations qui facilitent la prise de contact",
+      "paragraphs": [
+        "L’adresse complète, le numéro de téléphone et les horaires doivent être faciles à repérer sur mobile. Ajoutez un bouton d’appel cliquable et, si le cabinet utilise un outil de réservation, un lien direct vers celui-ci. Si les rendez-vous se prennent uniquement par téléphone, indiquez-le plutôt que de présenter un formulaire comme un système de réservation.",
+        "Expliquez comment accéder au cabinet avec les informations que vous pouvez confirmer : adresse, entrée, indications utiles et modalités d’accès. N’ajoutez pas de stationnement, d’accès adapté ou de transport à proximité sans vérifier ces renseignements. Une carte peut aider, mais elle ne remplace pas une adresse écrite et lisible.",
+        "Précisez la marche à suivre en cas de douleur ou de demande urgente, selon l’organisation réelle du cabinet. Indiquez les moments où appeler, les limites de disponibilité et la conduite à tenir lorsque le cabinet est fermé. Ne présentez pas le cabinet comme un service d’urgence permanent si ce n’est pas le cas."
+      ]
+    },
+    {
+      "h2": "Éviter les erreurs fréquentes des sites dentaires",
+      "paragraphs": [
+        "Une erreur fréquente consiste à afficher uniquement le nom du cabinet et une photo, sans expliquer les soins, les horaires ni la manière de prendre rendez-vous. Une autre est de recopier des descriptions médicales difficiles à comprendre. Écrivez pour le patient : nommez le soin, décrivez brièvement son objectif et invitez la personne à contacter le cabinet pour savoir s’il correspond à sa situation.",
+        "Évitez aussi les informations contradictoires entre les pages, la fiche d’établissement et les documents remis aux patients. Un ancien numéro, des horaires périmés ou une adresse imprécise peuvent conduire à des appels manqués et à des déplacements inutiles. Prévoyez une méthode simple pour mettre à jour ces éléments lorsqu’ils changent.",
+        "Les photos doivent représenter le cabinet ou l’équipe avec leur accord. Ne publiez pas d’image identifiable d’un patient sans autorisation appropriée. Pour les formulaires, demandez uniquement les renseignements nécessaires à la prise de contact et ne sollicitez pas le récit détaillé d’un problème de santé dans un champ non sécurisé."
+      ]
+    },
+    {
+      "h2": "Un site conçu pour votre pratique à Cayenne",
+      "paragraphs": [
+        "La structure peut rester simple : accueil, soins, équipe, accès et contact. Chaque page doit aider à accomplir une tâche précise. La page d’accueil présente le cabinet et ses informations essentielles ; la page des soins décrit les actes proposés ; la page d’accès rassemble l’adresse, les horaires et les consignes de contact.",
+        "Pour faciliter la compréhension par les moteurs de recherche et par les patients, utilisez le nom de la ville de façon naturelle dans les titres et les textes, par exemple dans une page présentant le cabinet dentaire à Cayenne. Cela ne garantit pas une place particulière dans Google : la visibilité dépend de plusieurs facteurs et ne peut pas être promise. Les informations exactes et un contenu réellement utile constituent une base plus honnête que la répétition artificielle de mots-clés.",
+        "L’agence propose la création du site à 399 € en paiement unique, ou à 49 €/mois avec un engagement de 12 mois. Après la première année, l’hébergement coûte 80 €/an. Le contenu doit être validé par le cabinet, notamment pour les actes présentés, les modalités d’accueil et les informations relatives aux patients."
+      ]
+    }
+  ],
+  "checklist": [
+    "Le nom du cabinet et la ville de Cayenne sont présentés clairement.",
+    "L’adresse complète et les horaires correspondent aux informations actuelles.",
+    "Le numéro de téléphone est visible et utilisable depuis un téléphone mobile.",
+    "Les soins décrits sont réellement proposés par le cabinet.",
+    "La prise de rendez-vous et la conduite à tenir en cas d’urgence sont expliquées sans ambiguïté.",
+    "Les informations d’accès sont vérifiées et ne mentionnent pas de services supposés.",
+    "Les photos et les formulaires respectent la confidentialité des patients.",
+    "Une personne du cabinet sait comment corriger les horaires ou les coordonnées en cas de changement."
+  ],
+  "published": "2026-11-24",
+  "tradeLabel": "cabinet dentaire",
+  "description": "Créez un site clair pour votre cabinet dentaire à Cayenne : soins, accès, horaires et prise de contact, sans promesse de positionnement."
+}

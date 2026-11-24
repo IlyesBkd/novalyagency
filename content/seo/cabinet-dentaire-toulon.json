@@ -1,0 +1,84 @@
+{
+  "h1": "Créer le site internet de votre cabinet dentaire à Toulon",
+  "faq": [
+    {
+      "a": "Une structure utile comprend généralement une page d’accueil, une présentation du cabinet, une page sur les soins réellement pratiqués et une page de contact. Selon le fonctionnement du cabinet, les modalités de rendez-vous peuvent être expliquées sur la page de contact ou dans une page dédiée.",
+      "q": "Quelles pages prévoir pour un cabinet dentaire ?"
+    },
+    {
+      "a": "Affichez uniquement des informations tarifaires que le cabinet peut confirmer et tenir à jour. Si les frais varient selon la situation du patient ou l’acte envisagé, expliquez qu’un échange avec le cabinet est nécessaire plutôt que de publier une indication ambiguë.",
+      "q": "Faut-il afficher les tarifs des soins ?"
+    },
+    {
+      "a": "Oui, si le cabinet utilise un outil adapté. Le site peut orienter clairement vers cet outil ; il faut préciser que la demande suit les modalités de la plateforme et vérifier que les informations affichées restent correctes.",
+      "q": "Le site peut-il prendre des rendez-vous en ligne ?"
+    },
+    {
+      "a": "Non. Aucun site ne peut garantir une position précise. Des informations locales complètes, des pages utiles et des coordonnées cohérentes donnent une base claire, mais les résultats de recherche dépendent de nombreux éléments.",
+      "q": "Un site internet garantit-il d’apparaître en tête sur Google ?"
+    }
+  ],
+  "city": "Toulon",
+  "slug": "cabinet-dentaire-toulon",
+  "intro": "Sur OpenStreetMap (relevé du 24/11/2026), 3 cabinets dentaires sont recensés à Toulon, dont 3 sans site internet indiqué. Pour un cabinet, un site utile répond aux questions pratiques avant le premier appel : quels soins sont proposés, comment prendre rendez-vous et que faire en cas de besoin urgent ?",
+  "local": {
+    "date": "2026-11-24",
+    "label": "cabinets dentaires",
+    "total": 3,
+    "source": "OpenStreetMap",
+    "withoutSite": 3
+  },
+  "title": "Site internet pour cabinet dentaire à Toulon",
+  "trade": "dentiste",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-cabinet-dentaire-toulon/",
+    "video": "https://demo.novalyagency.com/d/seo-cabinet-dentaire-toulon/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-cabinet-dentaire-toulon/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches des patients à Toulon",
+      "paragraphs": [
+        "Les personnes qui cherchent un dentiste formulent souvent leur besoin de manière concrète : « cabinet dentaire à Toulon », « dentiste près de moi », « urgence dentaire à Toulon » ou le nom d’un soin suivi de la ville. Ces recherches ne disent pas toutes la même chose. Certaines personnes veulent vérifier les horaires et appeler, d’autres cherchent à savoir si le cabinet prend en charge un type de soin ou s’il faut demander un rendez-vous.",
+        "Le site doit donc donner des réponses faciles à repérer, plutôt que répéter une liste de mots-clés. Présentez clairement l’adresse du cabinet, les horaires, le numéro de téléphone et la façon de demander un rendez-vous. Si la prise de rendez-vous se fait sur une plateforme externe, indiquez-le sans laisser croire que le rendez-vous est confirmé directement sur le site.",
+        "Une page locale bien renseignée aide aussi les moteurs de recherche à comprendre où se trouve le cabinet et quelle activité il présente. Cela ne garantit aucune place particulière dans les résultats. L’objectif est d’abord que les informations soient exactes, cohérentes et utiles aux patients qui consultent la page."
+      ]
+    },
+    {
+      "h2": "Montrer les soins sans créer de confusion",
+      "paragraphs": [
+        "Les visiteurs veulent savoir si le cabinet propose le type de prise en charge qu’ils recherchent. Une page « Soins » peut distinguer les consultations courantes des autres actes réellement pratiqués au cabinet. N’affichez pas des soins uniquement parce qu’ils sont populaires dans les recherches : chaque information doit correspondre à l’activité et aux compétences de l’équipe.",
+        "Expliquez les actes avec des mots simples. Un patient ne devrait pas avoir à interpréter une succession de termes techniques pour comprendre le sujet de la page. Présentez le déroulement général lorsqu’il est pertinent, mais évitez les diagnostics à distance, les résultats garantis et les conseils personnalisés qui nécessitent une consultation.",
+        "Les photographies doivent représenter le cabinet ou l’équipe avec leur accord et rester actuelles. Une image générique de sourire ne remplace pas une présentation réelle. Si vous montrez du matériel ou des espaces, veillez à ne pas laisser entendre qu’un équipement ou un service est disponible s’il ne l’est pas."
+      ]
+    },
+    {
+      "h2": "Concevoir un parcours simple sur téléphone",
+      "paragraphs": [
+        "Une personne peut consulter le site depuis son téléphone au moment où elle cherche les coordonnées du cabinet. Le numéro doit être facile à trouver et, si possible, utilisable d’un appui pour lancer l’appel. L’adresse doit être écrite clairement et accompagnée d’un accès à un itinéraire, sans supposer que tous les visiteurs connaissent déjà le secteur.",
+        "Placez les informations essentielles près du début de la page : activité, localisation, horaires et contact. Une page d’accueil qui commence par un long texte institutionnel retarde les réponses attendues. Prévoyez aussi une page de contact lisible, avec les modalités de rendez-vous et les indications utiles pour joindre le cabinet.",
+        "Pensez à l’accessibilité : texte assez lisible, contraste suffisant, liens explicites et formulaires courts. Ne demandez pas de détails médicaux sensibles dans un formulaire général. Pour une demande de rendez-vous, recueillez seulement les renseignements nécessaires et expliquez ce qui se passe après l’envoi."
+      ]
+    },
+    {
+      "h2": "Éviter les erreurs propres aux sites dentaires",
+      "paragraphs": [
+        "Une erreur fréquente est de publier des horaires, un numéro ou des informations de prise en charge qui ne sont plus à jour. Une autre consiste à employer des promesses de résultat ou des formulations qui peuvent être comprises comme une garantie médicale. Le site doit informer sur l’activité du cabinet, pas remplacer l’échange avec le praticien.",
+        "Évitez également les pages presque identiques qui changent seulement le nom de la ville, les listes de soins non vérifiées et les photos empruntées sans autorisation. Une page utile apporte des précisions propres au cabinet : son fonctionnement, ses coordonnées exactes et les services effectivement proposés.",
+        "Pour la création du site, nos tarifs sont de 49 €/mois avec un engagement de 12 mois, ou de 399 € en paiement ponctuel. Après la première année, l’hébergement est de 80 €/an. Le choix dépend de votre préférence de paiement ; avant de lancer le projet, clarifiez le contenu attendu, les éléments à fournir et la personne chargée de vérifier les informations médicales et pratiques."
+      ]
+    }
+  ],
+  "checklist": [
+    "Vérifier l’adresse, le téléphone et les horaires avant publication.",
+    "Présenter uniquement les soins réellement proposés au cabinet.",
+    "Rendre l’appel et la demande de rendez-vous faciles depuis un téléphone.",
+    "Expliquer clairement si la prise de rendez-vous passe par un service externe.",
+    "Utiliser des textes compréhensibles, sans promesse de résultat médical.",
+    "Obtenir l’accord nécessaire pour les photos de l’équipe et du cabinet.",
+    "Éviter de recueillir des informations médicales sensibles dans un formulaire général."
+  ],
+  "published": "2026-11-24",
+  "tradeLabel": "cabinet dentaire",
+  "description": "Un site clair pour présenter votre cabinet dentaire à Toulon, vos soins, vos horaires et les moyens de vous contacter."
+}
