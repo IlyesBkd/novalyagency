@@ -1,0 +1,85 @@
+{
+  "h1": "Créer le site internet de votre cabinet d’avocat à Lyon",
+  "faq": [
+    {
+      "a": "Une structure utile comprend généralement une présentation du cabinet, une page par domaine d’intervention, les modalités de contact et les informations pratiques. Le contenu doit refléter les services réellement proposés et répondre aux questions fréquentes des personnes concernées.",
+      "q": "Quelles pages prévoir pour un cabinet d’avocat ?"
+    },
+    {
+      "a": "Oui, à condition de présenter ces contenus comme une information générale et de ne pas laisser croire qu’ils constituent un conseil adapté à chaque lecteur. Rappelez que l’analyse dépend des faits et des pièces du dossier, et vérifiez régulièrement que les textes restent à jour.",
+      "q": "Puis-je expliquer des questions juridiques sur mon site ?"
+    },
+    {
+      "a": "Vous pouvez expliquer votre mode de facturation et les informations utiles à la compréhension des honoraires. Le contenu doit être exact, lisible et cohérent avec les modalités réellement appliquées par le cabinet. Une situation particulière peut nécessiter un échange préalable.",
+      "q": "Faut-il afficher les honoraires en ligne ?"
+    },
+    {
+      "a": "La formule mensuelle est de 49 €/mois avec un engagement de 12 mois. La formule en paiement unique est de 399 €. L’hébergement est inclus la première année, puis coûte 80 €/an.",
+      "q": "Quel est le prix de création du site ?"
+    }
+  ],
+  "city": "Lyon",
+  "slug": "cabinet-davocat-lyon",
+  "intro": "Sur OpenStreetMap (relevé du 25/11/2026), 32 cabinets d’avocats sont recensés à Lyon, dont 20 sans site internet indiqué. Pour être utile à vos futurs clients, votre site doit expliquer clairement vos domaines d’intervention, votre façon de travailler et comment prendre contact, sans promettre un résultat juridique.",
+  "local": {
+    "date": "2026-11-25",
+    "label": "cabinets d’avocats",
+    "total": 32,
+    "source": "OpenStreetMap",
+    "withoutSite": 20
+  },
+  "title": "Site internet pour avocat à Lyon",
+  "trade": "avocat",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-cabinet-davocat-lyon/",
+    "video": "https://demo.novalyagency.com/d/seo-cabinet-davocat-lyon/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-cabinet-davocat-lyon/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes de vos futurs clients",
+      "paragraphs": [
+        "Une personne qui cherche un avocat formule souvent sa demande à partir d’un problème : séparation, licenciement, litige avec un bailleur, création d’entreprise ou contestation d’une décision. À Lyon, les internautes peuvent aussi rechercher un avocat par domaine de compétence et par ville. Votre site doit donc reprendre les termes que vos clients comprennent, plutôt que de se limiter à une présentation générale du cabinet.",
+        "Présentez séparément les matières que vous traitez réellement. Pour chacune, expliquez les situations concernées, les premières étapes possibles et les documents qu’il peut être utile de préparer avant un rendez-vous. Distinguez bien l’information générale d’un conseil adapté à un dossier : une page web ne remplace pas l’analyse d’un avocat.",
+        "N’ajoutez pas une spécialité simplement parce qu’elle semble recherchée. Les informations publiées doivent correspondre à votre pratique et rester à jour. Une page précise sur vos interventions sera plus utile qu’une longue liste de domaines que le cabinet ne prend pas en charge."
+      ]
+    },
+    {
+      "h2": "Montrer le cabinet et faciliter le premier contact",
+      "paragraphs": [
+        "La page d’accueil doit permettre de comprendre rapidement qui exerce, quels dossiers le cabinet accepte et quelle est la prochaine étape pour joindre l’avocat. Indiquez le nom professionnel, les coordonnées, les modalités de prise de rendez-vous et les informations pratiques utiles pour une visite. Ne mentionnez pas d’adresse ou de lieu d’accueil qui n’a pas été confirmé.",
+        "Une page consacrée à l’avocat peut présenter son parcours, ses domaines d’activité et les langues de travail, si ces informations sont exactes. Des portraits professionnels ou des images du cabinet peuvent rendre la présentation plus personnelle, mais ils ne doivent pas détourner l’attention des renseignements essentiels. Évitez les formulations qui laissent entendre qu’un résultat est garanti ou qu’un dossier est accepté avant examen.",
+        "Expliquez aussi comment se déroule le premier échange : prise de contact, informations à transmettre et éventuelles modalités de rendez-vous. Si le cabinet communique sur ses honoraires, rendez cette information facile à trouver et précisez ce qui est inclus ou à confirmer. Un formulaire doit demander uniquement les renseignements nécessaires et inviter à ne pas y inscrire de détails confidentiels inutiles."
+      ]
+    },
+    {
+      "h2": "Éviter les erreurs fréquentes des sites d’avocats",
+      "paragraphs": [
+        "Un défaut courant est de publier des pages remplies de termes juridiques sans expliquer ce qu’ils signifient pour le lecteur. Définissez les notions utiles en langage simple, tout en restant prudent sur les réponses : la solution dépend des faits, des pièces et des délais propres à chaque situation.",
+        "Autre erreur : afficher des informations contradictoires sur les domaines traités, les horaires, les coordonnées ou les honoraires. Vérifiez ces éléments sur chaque page, y compris dans le pied de page. Une adresse électronique qui n’est plus consultée ou un formulaire qui ne fonctionne pas peut empêcher une demande de rendez-vous d’aboutir.",
+        "La communication d’un avocat est encadrée : le contenu doit rester digne, sincère et ne pas induire en erreur. Évitez les comparaisons non vérifiables, les affirmations de succès, les formulations agressives et les garanties de résultat. Avant publication, faites relire les textes au regard des règles professionnelles applicables à votre situation."
+      ]
+    },
+    {
+      "h2": "Prévoir un site simple à consulter et à faire évoluer",
+      "paragraphs": [
+        "De nombreux visiteurs consulteront votre site sur téléphone, parfois au moment où ils cherchent rapidement un moyen de joindre un professionnel. Les menus doivent être lisibles, les coordonnées faciles à repérer et les pages suffisamment légères pour s’afficher correctement. Vérifiez aussi que les liens de contact fonctionnent et que les textes restent compréhensibles sur un petit écran.",
+        "Un site utile ne se limite pas à sa mise en ligne. Prévoyez qui modifiera les informations lorsqu’un domaine d’intervention, une modalité de rendez-vous ou un tarif change. Les pages doivent être relues régulièrement, et les mentions relatives aux données personnelles doivent correspondre aux formulaires et outils réellement utilisés.",
+        "Pour la création du site, notre agence propose une formule à 49 €/mois avec un engagement de 12 mois, ou une création en paiement unique à 399 €. L’hébergement est inclus la première année ; il est ensuite facturé 80 €/an. Avant de choisir, vérifiez que le périmètre de création correspond aux pages et fonctionnalités dont votre cabinet a besoin."
+      ]
+    }
+  ],
+  "checklist": [
+    "Le nom du cabinet et les coordonnées sont cohérents sur toutes les pages.",
+    "Les domaines d’intervention décrivent uniquement la pratique réelle de l’avocat.",
+    "Chaque page explique les situations traitées en termes compréhensibles.",
+    "Le site ne promet ni résultat juridique ni acceptation automatique d’un dossier.",
+    "Les modalités de rendez-vous et les informations sur les honoraires sont claires.",
+    "Le formulaire demande peu de données et invite à ne pas transmettre d’informations confidentielles inutiles.",
+    "Les pages, liens, coordonnées et mentions relatives aux données sont vérifiés avant publication.",
+    "Le site reste lisible sur téléphone et peut être mis à jour par une personne désignée."
+  ],
+  "published": "2026-11-25",
+  "tradeLabel": "cabinet d’avocat",
+  "description": "Un site clair pour présenter votre cabinet d’avocat à Lyon, vos domaines d’intervention, vos honoraires et les moyens de vous contacter."
+}

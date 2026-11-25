@@ -1,0 +1,84 @@
+{
+  "h1": "Créer le site internet de votre cabinet d’avocat à Nantes",
+  "faq": [
+    {
+      "a": "Une structure utile comprend généralement une page d’accueil, une présentation du cabinet, des pages consacrées aux domaines exercés, des informations pratiques et une page de contact. Le nombre et le contenu des pages dépendent de votre activité réelle ; mieux vaut éviter de créer des pages sans information spécifique à apporter.",
+      "q": "Quelles pages prévoir pour un cabinet d’avocat à Nantes ?"
+    },
+    {
+      "a": "Vous pouvez présenter vos modalités d’honoraires de façon claire, en veillant à ce que les informations soient exactes et à jour. Si le montant dépend de la nature du dossier ou du travail nécessaire, expliquez cette variation plutôt que d’afficher un tarif qui pourrait être compris comme applicable à toutes les situations.",
+      "q": "Puis-je afficher mes honoraires sur mon site ?"
+    },
+    {
+      "a": "Oui, s’il sert à organiser une prise de contact sans demander un récit détaillé du dossier ni des pièces confidentielles. Indiquez les informations à fournir et précisez que l’envoi d’un message ne vaut pas acceptation du dossier ni consultation juridique.",
+      "q": "Un formulaire de contact est-il adapté à un cabinet d’avocat ?"
+    },
+    {
+      "a": "Non. La création d’un site ne permet pas de garantir une position dans les résultats de Google. Des pages pertinentes, des coordonnées cohérentes et des informations à jour aident les visiteurs à comprendre votre activité, mais le classement dépend aussi des décisions des moteurs de recherche.",
+      "q": "La création du site garantit-elle une bonne position sur Google ?"
+    }
+  ],
+  "city": "Nantes",
+  "slug": "cabinet-davocat-nantes",
+  "intro": "Sur OpenStreetMap, le relevé du 25/11/2026 recense 54 cabinets d’avocats à Nantes, dont 14 sans site internet indiqué. Un site bien conçu aide les personnes qui cherchent un avocat à comprendre vos domaines d’intervention, votre façon de travailler et comment vous contacter, sans promettre de résultat judiciaire.",
+  "local": {
+    "date": "2026-11-25",
+    "label": "cabinets d’avocats",
+    "total": 54,
+    "source": "OpenStreetMap",
+    "withoutSite": 14
+  },
+  "title": "Site internet pour avocat à Nantes | Création web",
+  "trade": "avocat",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-cabinet-davocat-nantes/",
+    "video": "https://demo.novalyagency.com/d/seo-cabinet-davocat-nantes/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-cabinet-davocat-nantes/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes de vos futurs clients",
+      "paragraphs": [
+        "Une personne ne cherche pas seulement « avocat Nantes ». Elle peut saisir « avocat divorce Nantes », « avocat droit du travail Nantes », « avocat pénal Nantes » ou « avocat succession Nantes ». Les pages de votre site doivent répondre aux domaines que vous exercez réellement, avec des explications compréhensibles et des informations adaptées à votre pratique. Il vaut mieux décrire précisément vos compétences que d’afficher une longue liste de spécialités qui ne correspondrait pas à votre activité.",
+        "Une page par domaine pertinent permet d’expliquer les situations que vous accompagnez, les premières étapes possibles et les documents qu’il peut être utile de préparer. Par exemple, une page consacrée au droit du travail peut distinguer les questions d’exécution du contrat, de rupture et de contentieux, si ces sujets font bien partie de votre activité. Elle ne doit pas laisser croire que chaque dossier suit le même parcours ni qu’une issue est garantie.",
+        "Le contenu doit aussi aider une personne à savoir si elle s’adresse au bon cabinet : particuliers ou entreprises, intervention en conseil ou en contentieux, modalités de rendez-vous et éventuelles limites de votre champ d’intervention. Les mots employés doivent rester accessibles, sans réduire une situation juridique complexe à une réponse automatique."
+      ]
+    },
+    {
+      "h2": "Présenter votre cabinet avec clarté et mesure",
+      "paragraphs": [
+        "La page d’accueil doit identifier immédiatement le cabinet, sa localisation à Nantes, les domaines exercés et le moyen de demander un rendez-vous. Une page « À propos » peut présenter le parcours professionnel, les diplômes ou les fonctions que vous souhaitez rendre publics. Chaque élément biographique doit être vérifiable et formulé sans titre ni spécialité que vous ne pouvez pas revendiquer.",
+        "Indiquez comment se déroule une première prise de contact : appel, formulaire ou rendez-vous, ainsi que les horaires et les modalités pratiques que vous êtes en mesure de tenir à jour. Si vous communiquez vos honoraires ou vos modes de facturation, présentez-les de manière lisible et précisez les conditions applicables. Évitez les formulations qui laissent entendre qu’un premier échange est nécessairement gratuit si ce n’est pas le cas.",
+        "Pour inspirer confiance, le site n’a pas besoin de témoignages inventés, de promesses de succès ou de superlatifs. Une présentation sobre, des informations cohérentes et des réponses utiles sont plus adaptées à la relation entre un avocat et une personne qui expose une difficulté parfois sensible."
+      ]
+    },
+    {
+      "h2": "Protéger la confidentialité et éviter les erreurs fréquentes",
+      "paragraphs": [
+        "Un formulaire de contact doit demander seulement les informations nécessaires pour reprendre contact. Évitez d’inviter les internautes à raconter en détail un litige ou à transmettre spontanément des pièces sensibles par un formulaire ordinaire. Expliquez que la prise de contact ne signifie pas, à elle seule, que le cabinet accepte le dossier, et indiquez un moyen approprié pour convenir d’un échange confidentiel.",
+        "Parmi les erreurs fréquentes des sites de cabinets, on trouve les pages trop générales, les domaines affichés sans explication, les coordonnées difficiles à trouver et les informations pratiques périmées. Un texte copié sur un autre cabinet peut aussi ne pas refléter votre activité ou votre manière de traiter les demandes. Relisez chaque page avec une question simple : une personne qui ne connaît pas le droit comprend-elle ce que vous faites et la prochaine étape à suivre ?",
+        "La communication d’un avocat doit rester digne, loyale et compatible avec les règles professionnelles applicables. Avant publication, vérifiez notamment les mentions, les titres, les références à vos domaines d’exercice et les modalités de collecte des demandes. Le site ne remplace pas une consultation et ne doit pas présenter une information générale comme un avis adapté à chaque situation."
+      ]
+    },
+    {
+      "h2": "Un site simple à consulter et facile à maintenir",
+      "paragraphs": [
+        "Les visiteurs consultent souvent un site depuis leur téléphone, parfois au moment où ils cherchent rapidement un numéro ou un formulaire. Les coordonnées doivent donc être visibles, les pages faciles à parcourir et les boutons suffisamment explicites. Une navigation courte peut séparer l’accueil, le cabinet, les domaines d’intervention, les informations pratiques et la prise de contact.",
+        "Le référencement local commence par des informations exactes et cohérentes : nom du cabinet, adresse professionnelle si elle doit être publiée, téléphone et horaires. Les titres et textes doivent correspondre aux prestations réellement proposées à Nantes, sans répétition artificielle du nom de la ville ni garantie de position sur Google. Les moteurs de recherche décident de leur classement ; une agence ne peut pas promettre une place précise.",
+        "Nous proposons la création du site à 399 € en paiement unique, ou à 49 €/mois avec un engagement de 12 mois. Après la première année, l’hébergement est facturé 80 €/an. Le choix dépend de votre préférence entre règlement initial et mensualités ; le contenu, les coordonnées et les informations professionnelles restent à valider par le cabinet avant mise en ligne."
+      ]
+    }
+  ],
+  "checklist": [
+    "Décrire uniquement les domaines d’intervention effectivement exercés.",
+    "Prévoir une page utile pour chaque domaine pertinent, avec des explications accessibles.",
+    "Afficher clairement le nom du cabinet, ses coordonnées et les modalités de rendez-vous.",
+    "Présenter les honoraires et conditions de facturation sans ambiguïté, si vous les publiez.",
+    "Limiter les formulaires aux informations nécessaires et éviter la collecte de pièces sensibles.",
+    "Vérifier les titres, références et mentions au regard des règles professionnelles applicables.",
+    "Relire les pages sur téléphone et contrôler régulièrement les informations pratiques."
+  ],
+  "published": "2026-11-25",
+  "tradeLabel": "cabinet d’avocat",
+  "description": "Un site clair pour présenter votre cabinet d’avocat à Nantes, vos domaines d’intervention, vos honoraires et vos modalités de contact."
+}
