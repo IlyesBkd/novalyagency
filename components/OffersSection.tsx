@@ -104,7 +104,7 @@ export function OffersSection() {
                         <p className="text-text-secondary text-xs leading-relaxed">Votre site en ligne 24h/24 avec votre propre adresse<br />(ex: votreentreprise.fr)</p>
                       </div>
                       <div className="bg-dark-800/60 border border-white/10 rounded-lg px-4 py-3">
-                        <p className="text-text-primary text-sm font-medium text-center mb-1">Puis 150 €/an à partir de la 2e année</p>
+                        <p className="text-text-primary text-sm font-medium text-center mb-1">Puis 80 €/an à partir de la 2e année</p>
                         <p className="text-text-secondary text-xs text-center opacity-70">Frais de renouvellement pour maintenir votre site actif</p>
                       </div>
                     </div>
