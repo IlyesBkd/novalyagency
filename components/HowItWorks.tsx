@@ -50,7 +50,7 @@ export function HowItWorks() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
             <span className="text-text-primary">3 étapes.</span>
             <br />
-            <span className="gradient-text">48 heures.</span>
+            <span className="gradient-text">72 heures.</span>
           </h2>
         </div>
 

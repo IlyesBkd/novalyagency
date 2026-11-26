@@ -68,7 +68,8 @@ export function OffersSection() {
                       <span className="text-4xl sm:text-5xl lg:text-6xl font-bold text-text-primary leading-none tracking-tight">Design</span>
                       <span className="block text-3xl sm:text-4xl lg:text-5xl font-bold text-accent-lime mt-1">gratuit</span>
                     </div>
-                    <p className="text-text-secondary text-sm mb-4 lg:mb-8">Voyez votre futur site avant tout paiement</p>
+                    <p className="text-text-secondary text-sm mb-3">Voyez votre futur site avant tout paiement</p>
+                    <p className="text-text-primary text-base font-semibold mb-4 lg:mb-8">Puis <span className="text-accent-lime">399 €</span> une fois, ou <span className="text-accent-lime">49 €/mois</span> <span className="text-text-secondary text-sm font-normal">(engagement 12 mois)</span></p>
 
                     {/* Desktop CTA */}
                     <div className="hidden lg:flex lg:flex-col lg:items-start lg:gap-4 w-full">
