@@ -1,0 +1,85 @@
+{
+  "h1": "Un site internet pour votre cabinet d’avocat à Dijon",
+  "faq": [
+    {
+      "a": "Une présentation du cabinet, une page pour chaque domaine d’intervention réellement proposé et une page de contact constituent une base utile. Selon son fonctionnement, le cabinet peut aussi détailler les rendez-vous, les honoraires et les modalités d’accès.",
+      "q": "Quelles pages prévoir pour un cabinet d’avocat ?"
+    },
+    {
+      "a": "Le site peut expliquer comment le cabinet aborde les honoraires et à quel moment les modalités sont précisées. Tout montant publié doit être exact, compréhensible et validé par l’avocat ; évitez de présenter une estimation comme valable pour chaque dossier.",
+      "q": "Faut-il afficher les honoraires sur le site ?"
+    },
+    {
+      "a": "Non. La création d’un site ne garantit aucune position dans les résultats. Des pages utiles et des coordonnées cohérentes facilitent la compréhension de l’offre par les visiteurs, mais le classement dépend de facteurs que l’agence ne peut pas garantir.",
+      "q": "Un site garantit-il une bonne position sur Google ?"
+    },
+    {
+      "a": "La formule en paiement unique coûte 399 €. La formule mensuelle est à 49 €/mois avec un engagement de 12 mois. L’hébergement coûte 80 €/an après la première année.",
+      "q": "Quel est le prix de création du site ?"
+    }
+  ],
+  "city": "Dijon",
+  "slug": "cabinet-davocat-dijon",
+  "intro": "Sur OpenStreetMap (relevé du 26/11/2026), 14 cabinets d’avocats sont recensés à Dijon, dont 10 sans site internet indiqué. Pour une personne qui cherche un avocat, un site utile doit répondre rapidement à des questions concrètes : le cabinet traite-t-il son type de dossier, où se trouve-t-il et comment demander un premier échange ?",
+  "local": {
+    "date": "2026-11-26",
+    "label": "cabinets d’avocats",
+    "total": 14,
+    "source": "OpenStreetMap",
+    "withoutSite": 10
+  },
+  "title": "Créer le site d’un cabinet d’avocat à Dijon",
+  "trade": "avocat",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-cabinet-davocat-dijon/",
+    "video": "https://demo.novalyagency.com/d/seo-cabinet-davocat-dijon/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-cabinet-davocat-dijon/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches des futurs clients",
+      "paragraphs": [
+        "Les recherches d’un justiciable sont souvent précises : « avocat divorce Dijon », « avocat droit du travail Dijon » ou encore « avocat succession Dijon ». Ces exemples ne sont pertinents que si le cabinet exerce réellement dans ces domaines. Le contenu doit refléter les compétences et les services effectivement proposés, sans laisser croire qu’un avocat traite tous les types de litiges.",
+        "Une page d’accueil peut présenter le cabinet en quelques lignes, puis orienter vers une page par domaine d’intervention. Sur chacune, expliquez les situations concernées, les premières démarches utiles et les éléments à préparer pour le rendez-vous. Évitez de transformer une page en cours de droit : le visiteur veut surtout comprendre si sa demande relève de votre activité et quelle est la prochaine étape.",
+        "Employez des mots compréhensibles par les clients, tout en nommant correctement les procédures et les matières juridiques. Une page consacrée au divorce, par exemple, peut distinguer les sujets traités par le cabinet sans garantir un résultat ni donner l’impression qu’une situation complexe se résout de façon identique pour tout le monde."
+      ]
+    },
+    {
+      "h2": "Présenter le cabinet avec des informations vérifiables",
+      "paragraphs": [
+        "Un futur client doit pouvoir identifier l’avocat et vérifier les informations essentielles avant de prendre contact. Prévoyez une présentation professionnelle exacte, les domaines d’activité, l’adresse communiquée par le cabinet, les horaires ou modalités de réception et des moyens de contact à jour. Si les consultations se font uniquement sur rendez-vous, dites-le clairement.",
+        "La page de contact doit permettre d’agir sans hésitation : numéro de téléphone cliquable sur mobile, adresse électronique et indications d’accès utiles. Une carte peut aider à localiser le cabinet, mais elle ne remplace pas une adresse écrite. N’ajoutez pas de quartier, de stationnement ou de transport sans avoir vérifié que ces renseignements sont pertinents et exacts.",
+        "Expliquez aussi, avec prudence, comment se déroule une première prise de contact et comment les honoraires sont abordés. Ne présentez pas une estimation comme un tarif définitif si elle dépend du dossier. Pour les questions d’honoraires, de confidentialité et de communication, faites valider les textes par le cabinet au regard des règles professionnelles applicables."
+      ]
+    },
+    {
+      "h2": "Éviter les erreurs fréquentes des sites d’avocats",
+      "paragraphs": [
+        "Une erreur courante consiste à publier une liste de spécialités trop large, ou à employer des intitulés qui ne correspondent pas à l’activité réelle. Cela attire des demandes mal orientées et déçoit les personnes qui cherchent une compétence précise. Mieux vaut une présentation resserrée, relue par l’avocat, qu’une accumulation de mots-clés sans explication.",
+        "Évitez également les promesses de victoire, les formulations qui garantissent une issue ou les comparaisons invérifiables. Ne publiez ni témoignage attribué à un client, ni détail permettant d’identifier une personne ou son dossier sans autorisation et vérification appropriées. Le secret professionnel et la discrétion sont particulièrement importants dans la communication d’un cabinet.",
+        "Enfin, un site qui affiche un ancien numéro, une adresse périmée ou une page de contact défectueuse nuit à la confiance. Vérifiez les informations après chaque changement et testez le formulaire. Celui-ci ne devrait demander que les renseignements nécessaires à une première prise de contact ; indiquez aux visiteurs de ne pas transmettre de pièces sensibles avant d’avoir reçu les consignes du cabinet."
+      ]
+    },
+    {
+      "h2": "Créer un site lisible, pratique et facile à maintenir",
+      "paragraphs": [
+        "La structure doit fonctionner sur téléphone comme sur ordinateur. Utilisez des titres explicites, des paragraphes courts et un menu limité aux pages utiles : présentation, domaines d’intervention, honoraires ou fonctionnement, accès et contact. Le bouton de contact doit rester facile à trouver, sans masquer les informations essentielles.",
+        "Chaque page doit avoir un objectif distinct. Une page sur le droit du travail ne doit pas reprendre simplement le texte de la page d’accueil : elle doit préciser les demandes effectivement traitées par le cabinet et inviter le visiteur à exposer brièvement sa situation par un canal adapté. Relisez aussi les textes pour éviter le jargon inutile et les informations juridiques devenues inexactes.",
+        "Notre agence propose la création du site à 399 € en paiement unique, ou à 49 €/mois avec un engagement de 12 mois. Après la première année, l’hébergement est facturé 80 €/an. Ces tarifs concernent la création et l’hébergement selon la formule choisie ; les demandes particulières, la rédaction juridique ou les services tiers doivent être discutés avant le démarrage."
+      ]
+    }
+  ],
+  "checklist": [
+    "Les domaines présentés correspondent aux activités réellement exercées.",
+    "Les pages décrivent des demandes concrètes sans promettre d’issue favorable.",
+    "L’identité professionnelle et les coordonnées sont exactes et à jour.",
+    "Les modalités de rendez-vous et le fonctionnement des honoraires sont expliqués avec prudence.",
+    "Le formulaire demande peu d’informations et avertit de ne pas joindre de pièces sensibles.",
+    "Aucun dossier, client ou témoignage n’est identifiable dans les contenus publiés.",
+    "Le site et ses moyens de contact sont testés sur téléphone.",
+    "Les textes sont relus par le cabinet avant leur mise en ligne."
+  ],
+  "published": "2026-11-26",
+  "tradeLabel": "cabinet d’avocat",
+  "description": "Un site clair pour présenter votre cabinet d’avocat à Dijon, vos domaines d’intervention et les moyens de vous contacter."
+}
