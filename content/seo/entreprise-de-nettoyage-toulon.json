@@ -1,0 +1,79 @@
+{
+  "h1": "Créer le site internet de votre entreprise de nettoyage à Toulon",
+  "faq": [
+    {
+      "a": "Présentez seulement les services que vous réalisez, par exemple l’entretien de bureaux, le nettoyage de vitres ou la remise en état. Décrivez pour chacun les tâches incluses, les types de locaux concernés et les éventuelles limites.",
+      "q": "Quelles prestations faut-il présenter sur le site ?"
+    },
+    {
+      "a": "Vous pouvez expliquer les critères qui influencent le prix, comme la surface, l’état des lieux et la fréquence. Si vous ne pouvez pas proposer un tarif fiable sans ces éléments, invitez le client à demander un devis plutôt que d’afficher un prix trompeur.",
+      "q": "Faut-il afficher les tarifs de nettoyage ?"
+    },
+    {
+      "a": "Demandez les coordonnées nécessaires pour répondre, le type de locaux, la prestation souhaitée et une description du besoin. Pour une estimation plus pertinente, le prospect peut aussi préciser la surface ou la fréquence envisagée.",
+      "q": "Quelles informations demander dans le formulaire ?"
+    },
+    {
+      "a": "Non. Un contenu précis et des informations cohérentes facilitent la compréhension de votre activité, mais personne ne peut garantir une position donnée. Les résultats dépendent de facteurs qui échappent au contrôle de l’agence.",
+      "q": "Le site peut-il garantir une bonne position sur Google ?"
+    }
+  ],
+  "city": "Toulon",
+  "slug": "entreprise-de-nettoyage-toulon",
+  "intro": "Sur OpenStreetMap (relevé du 27/11/2026), 3 pressings, laveries et entreprises de nettoyage sont recensés à Toulon, dont 3 sans site internet indiqué. Pour une entreprise de nettoyage, un site utile doit surtout préciser les prestations, les types de locaux pris en charge et la façon de demander un devis.",
+  "local": {
+    "date": "2026-11-27",
+    "label": "pressings, laveries et entreprises de nettoyage",
+    "total": 3,
+    "source": "OpenStreetMap",
+    "withoutSite": 3
+  },
+  "title": "Site internet pour entreprise de nettoyage à Toulon",
+  "trade": "nettoyage",
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes de vos clients",
+      "paragraphs": [
+        "Une personne qui cherche une entreprise de nettoyage à Toulon veut généralement comprendre rapidement si vous pouvez intervenir chez elle ou dans ses locaux. Elle peut rechercher un nettoyage de bureaux, un entretien de copropriété, un ménage après travaux, un nettoyage de vitres ou une remise en état. Le site doit employer les mots qui décrivent réellement vos services, plutôt que de s’en tenir à une formule vague comme « propreté et services ».",
+        "Présentez séparément les prestations que vous proposez. Pour chaque service, expliquez ce qui est inclus, le type de lieu concerné et les limites éventuelles. Par exemple, indiquez si le nettoyage après travaux comprend l’évacuation des résidus, si le lavage des vitres est accessible en hauteur ou si l’entretien des parties communes peut être organisé selon un planning défini.",
+        "Les clients cherchent aussi à savoir si vous travaillez pour les particuliers, les professionnels ou les deux. Précisez les secteurs que vous acceptez sans citer de lieux où vous n’intervenez pas. Si vous réalisez une visite avant de chiffrer une mission, dites-le clairement. Cela évite les demandes qui ne correspondent pas à votre activité et permet aux prospects de prendre contact avec une attente réaliste."
+      ]
+    },
+    {
+      "h2": "Montrer votre méthode et le résultat attendu",
+      "paragraphs": [
+        "Le nettoyage repose sur des tâches concrètes : dépoussiérage, lavage des sols, désinfection de surfaces ou entretien des sanitaires. Expliquez votre méthode avec des exemples adaptés à vos contrats. Pour des bureaux, précisez les espaces concernés et les horaires possibles. Pour une remise en état, décrivez les étapes prévues et ce qui doit être accessible avant votre venue.",
+        "Des photos authentiques de votre matériel ou de vos interventions peuvent aider à comprendre votre travail, à condition d’avoir l’autorisation de les publier. Évitez les images génériques qui donnent une impression trompeuse, ainsi que les photos de locaux clients sans accord. Si vous présentez un avant-après, veillez à ce que les images montrent bien une prestation que vous avez réalisée et ne laissent pas croire qu’un résultat identique est garanti dans tous les cas.",
+        "Présentez aussi les éléments qui comptent dans le choix d’un prestataire : types de produits utilisés, consignes particulières, gestion des clés ou organisation des interventions, uniquement si vous pouvez réellement les assurer. Pour un site destiné aux entreprises, un exemple de demande de devis peut inviter le prospect à préciser la surface, la nature des locaux, la fréquence souhaitée et les tâches attendues. Ces renseignements facilitent l’échange sans remplacer l’évaluation du chantier."
+      ]
+    },
+    {
+      "h2": "Éviter les défauts fréquents des sites de nettoyage",
+      "paragraphs": [
+        "Une erreur fréquente consiste à présenter une longue liste de services sans expliquer ce qu’ils recouvrent. Le nettoyage de fin de chantier, l’entretien régulier et le nettoyage ponctuel ne répondent pas aux mêmes besoins. Des pages distinctes, avec un texte précis pour chaque prestation, aident le visiteur à se repérer et à comprendre si son besoin entre dans votre offre.",
+        "Autre problème : afficher un formulaire de contact sans demander les informations utiles. Un formulaire trop court peut provoquer des échanges incomplets ; un formulaire trop compliqué peut décourager. Demandez le nom, un moyen de réponse, le type de lieu, la prestation souhaitée et quelques détails utiles. Évitez de réclamer des informations personnelles qui ne servent pas à traiter la demande.",
+        "Ne publiez pas de tarifs présentés comme universels si le coût dépend de la surface, de l’état des locaux ou de la fréquence. Vous pouvez expliquer les critères de calcul et proposer une demande de devis. Enfin, vérifiez que le numéro de téléphone fonctionne, que l’adresse électronique est consultée et que les boutons d’action restent lisibles sur mobile. Une page qui mentionne une intervention ou une disponibilité que vous n’assurez plus doit être mise à jour."
+      ]
+    },
+    {
+      "h2": "Un site pensé pour être simple à utiliser",
+      "paragraphs": [
+        "La page d’accueil doit annoncer votre activité, votre zone d’intervention à Toulon et les principales prestations. Rendez le téléphone et la demande de devis faciles à trouver. Une page dédiée à chaque service peut ensuite détailler les tâches, le déroulement et les informations à transmettre. Ajoutez une page de présentation pour expliquer votre façon de travailler, sans inventer d’ancienneté, de qualifications ou de garanties.",
+        "Sur téléphone, les visiteurs doivent pouvoir lire les textes sans zoomer et accéder aux coordonnées sans chercher dans un menu complexe. Les images doivent être légères et pertinentes. Un site accessible ne se limite pas à son apparence : les titres doivent être compréhensibles, les liens explicites et les formulaires accompagnés d’indications claires.",
+        "Notre agence propose une création à 399 € ou une formule à 49 €/mois avec engagement de 12 mois. L’hébergement est inclus durant la première année ; il coûte ensuite 80 €/an. Avant le lancement, relisez les prestations, les coordonnées et les conditions d’intervention afin que le contenu corresponde à votre activité réelle. Un site bien renseigné aide les clients à vous évaluer, sans pouvoir garantir une place précise dans les résultats de recherche."
+      ]
+    }
+  ],
+  "checklist": [
+    "Nommer clairement les services de nettoyage réellement proposés à Toulon.",
+    "Distinguer les besoins des particuliers de ceux des entreprises.",
+    "Décrire les tâches incluses et les limites de chaque prestation.",
+    "Indiquer les informations nécessaires pour préparer un devis.",
+    "Utiliser uniquement des photos dont vous avez le droit de vous servir.",
+    "Vérifier le téléphone, le courriel et le formulaire de contact.",
+    "Lire les pages sur un téléphone et corriger les contenus dépassés."
+  ],
+  "published": "2026-11-27",
+  "tradeLabel": "entreprise de nettoyage",
+  "description": "Un site clair pour présenter vos prestations de nettoyage à Toulon, rassurer vos futurs clients et faciliter les demandes de devis."
+}

@@ -1,0 +1,84 @@
+{
+  "h1": "Créer le site internet de votre salon à Toulon",
+  "faq": [
+    {
+      "a": "Celles que le salon propose effectivement : par exemple coupe, brushing, coloration, coiffure de cérémonie ou soins de beauté. Décrivez chaque service avec des termes précis et des informations vérifiables.",
+      "q": "Quelles prestations faut-il présenter sur le site ?"
+    },
+    {
+      "a": "Une grille claire aide les visiteurs à préparer leur rendez-vous. Si le prix dépend d’un diagnostic ou du travail nécessaire, expliquez ce qui le fait varier et comment demander une estimation.",
+      "q": "Dois-je afficher tous mes tarifs ?"
+    },
+    {
+      "a": "Oui, si vous utilisez un outil de réservation adapté et que les disponibilités sont tenues à jour. Sinon, indiquez clairement comment vous contacter pour convenir d’un rendez-vous.",
+      "q": "Le site peut-il prendre des rendez-vous en ligne ?"
+    },
+    {
+      "a": "La création coûte 399 € une fois ou 49 €/mois avec un engagement de 12 mois. L’hébergement est compris la première année, puis coûte 80 €/an.",
+      "q": "Combien coûte la création et l’hébergement ?"
+    }
+  ],
+  "city": "Toulon",
+  "slug": "salon-de-coiffure-et-beaute-toulon",
+  "intro": "Sur OpenStreetMap (relevé du 27/11/2026), 1 salons de coiffure et instituts de beauté sont recensés à Toulon, dont 1 sans site internet indiqué. Pour un salon, le site doit répondre vite aux questions concrètes : quelles prestations sont proposées, à quel prix, et comment réserver ?",
+  "local": {
+    "date": "2026-11-27",
+    "label": "salons de coiffure et instituts de beauté",
+    "total": 1,
+    "source": "OpenStreetMap",
+    "withoutSite": 1
+  },
+  "title": "Site internet pour salon de coiffure à Toulon",
+  "trade": "beaute",
+  "example": {
+    "url": "https://demo.novalyagency.com/d/seo-salon-de-coiffure-et-beaute-toulon/",
+    "video": "https://demo.novalyagency.com/d/seo-salon-de-coiffure-et-beaute-toulon/video.mp4",
+    "poster": "https://demo.novalyagency.com/d/seo-salon-de-coiffure-et-beaute-toulon/og.png"
+  },
+  "sections": [
+    {
+      "h2": "Répondre aux recherches des clients du salon",
+      "paragraphs": [
+        "Une personne qui cherche un coiffeur à Toulon peut préciser sa demande : coupe femme, coupe homme, coloration, balayage, brushing, coiffure de cérémonie ou soin esthétique. Le vocabulaire de votre site doit reprendre les prestations que vous réalisez réellement, avec des pages ou des rubriques compréhensibles. Une liste vague comme « nos services » aide moins qu’un intitulé explicite associé à une description utile.",
+        "Les clients veulent aussi savoir où se trouve le salon, quand il est ouvert et comment obtenir un rendez-vous. Affichez l’adresse communiquée par votre établissement, les horaires à jour, le téléphone et un moyen de réservation fonctionnel. Si vous acceptez les demandes par téléphone plutôt que les réservations en ligne, dites-le simplement : inutile de laisser croire qu’un créneau peut être choisi sur le site.",
+        "Les recherches locales ne justifient pas de répéter le nom de Toulon à chaque phrase. Présentez votre activité avec naturel, précisez la zone que vous desservez seulement si vous l’avez définie, et gardez les informations cohérentes entre le site et vos autres supports. Aucun site ne peut garantir une position particulière dans les résultats de Google."
+      ]
+    },
+    {
+      "h2": "Montrer le résultat et expliquer les prestations",
+      "paragraphs": [
+        "Pour choisir un salon, voir le travail compte autant que lire une description. Des photos récentes de coupes, de couleurs ou de coiffures réalisées dans votre établissement donnent une idée de votre style. Utilisez des images dont vous avez les droits et demandez l’accord des personnes reconnaissables. Évitez les photos génériques qui pourraient laisser penser qu’il s’agit de votre équipe ou de vos réalisations.",
+        "Chaque prestation mérite une explication adaptée : ce qui est compris, les cheveux ou besoins concernés, et les éléments qui peuvent faire varier le tarif ou la durée. Pour une coloration, par exemple, précisez si un diagnostic préalable est nécessaire et comment obtenir une estimation. Pour les soins de beauté proposés au salon, décrivez les étapes utiles et les éventuelles consignes avant le rendez-vous.",
+        "Une grille tarifaire doit être lisible sur téléphone et actualisée dès qu’un prix change. Si un devis dépend de la longueur des cheveux, du travail à effectuer ou d’un diagnostic, indiquez-le clairement au lieu d’afficher un prix présenté comme universel. Cette transparence évite les malentendus au moment de la réservation."
+      ]
+    },
+    {
+      "h2": "Éviter les défauts fréquents d’un site de salon",
+      "paragraphs": [
+        "Un problème courant est de mettre en avant une belle page d’accueil sans donner les informations pratiques. Si l’adresse est cachée, si les horaires sont anciens ou si le bouton d’appel ne fonctionne pas sur mobile, le visiteur doit chercher ailleurs. Testez le site depuis un téléphone et vérifiez que l’on peut trouver rapidement le contact, les prestations et les tarifs.",
+        "Autre erreur : mélanger coiffure et beauté dans une seule rubrique sans expliquer ce que recouvre chaque service. Organisez les contenus selon les demandes réelles de votre clientèle et ne présentez pas une prestation que le salon ne propose pas. Si plusieurs membres de l’équipe ont des spécialités distinctes, vous pouvez les présenter avec leur accord et des informations vérifiées.",
+        "Les promotions oubliées, les photos anciennes et les horaires de jours fériés laissés en ligne nuisent à la confiance. Prévoyez une méthode simple pour mettre à jour le contenu, et retirez toute offre terminée. Les avis ne doivent pas être inventés ou affichés sans autorisation ; mieux vaut laisser les visiteurs consulter les plateformes où ils sont publiés."
+      ]
+    },
+    {
+      "h2": "Un site adapté au quotidien de votre salon",
+      "paragraphs": [
+        "La structure peut rester simple : une page d’accueil qui présente le salon, une rubrique détaillée pour les prestations, une page pratique avec adresse et horaires, puis un contact ou un accès à la réservation. Les informations essentielles doivent rester faciles à repérer, même pour une personne qui consulte le site entre deux déplacements.",
+        "L’agence propose la création du site à 399 € en paiement unique, ou 49 €/mois avec un engagement de 12 mois. L’hébergement est compris pendant la première année ; il coûte ensuite 80 €/an. Ces montants concernent la prestation de l’agence, pas les tarifs de coiffure ou de beauté de votre salon.",
+        "Avant la mise en ligne, relisez chaque prestation, chaque tarif et chaque coordonnée. Vérifiez aussi les liens de réservation et l’affichage des photos sur mobile. Un site utile n’a pas besoin d’effets compliqués : il doit présenter fidèlement votre salon, faciliter la prise de contact et permettre aux clients de comprendre ce qu’ils peuvent réserver."
+      ]
+    }
+  ],
+  "checklist": [
+    "Présenter les prestations de coiffure et de beauté réellement proposées.",
+    "Afficher une grille tarifaire à jour et expliquer les prix variables.",
+    "Vérifier l’adresse, les horaires et le numéro de téléphone.",
+    "Rendre la réservation ou la demande de rendez-vous facile à trouver.",
+    "Choisir des photos authentiques et autorisées.",
+    "Tester les boutons, liens et textes sur téléphone.",
+    "Retirer les promotions terminées et corriger les informations périmées."
+  ],
+  "published": "2026-11-27",
+  "tradeLabel": "salon de coiffure et beauté",
+  "description": "Un site clair pour présenter votre salon à Toulon, vos prestations, vos tarifs et la prise de rendez-vous."
+}
