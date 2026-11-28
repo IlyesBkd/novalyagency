@@ -1,0 +1,79 @@
+{
+  "h1": "Un site internet adapté à votre activité d’artisan du bâtiment à Toulon",
+  "faq": [
+    {
+      "a": "Une page d’accueil présentant votre activité, des pages détaillées pour vos prestations principales, une galerie de réalisations, une page de présentation et une page de contact constituent une base utile. Le contenu doit correspondre à vos compétences et aux chantiers que vous acceptez.",
+      "q": "Quelles pages prévoir pour un artisan du bâtiment ?"
+    },
+    {
+      "a": "Pas nécessairement. Si le coût dépend du chantier, expliquez les éléments qui influencent le devis et comment demander une estimation. N’affichez un tarif que s’il correspond à une offre réelle, définie et compréhensible.",
+      "q": "Faut-il afficher un prix pour les travaux ?"
+    },
+    {
+      "a": "Oui, si vous êtes autorisé à les publier et si elles illustrent fidèlement votre travail. Demandez l’accord des personnes concernées lorsque nécessaire, et évitez de montrer des éléments privés ou des adresses identifiables.",
+      "q": "Puis-je utiliser des photos de mes chantiers ?"
+    },
+    {
+      "a": "Non. Aucun site ne peut garantir une position précise. Des informations utiles, exactes et bien organisées aident les visiteurs à comprendre votre activité, mais les résultats dépendent de facteurs que l’agence ne maîtrise pas entièrement.",
+      "q": "Le site garantit-il d’apparaître en première position sur Google ?"
+    }
+  ],
+  "city": "Toulon",
+  "slug": "artisan-du-batiment-toulon",
+  "intro": "Sur OpenStreetMap, le relevé du 28/11/2026 recense 5 artisans du bâtiment à Toulon, dont 4 sans site internet indiqué. Pour un professionnel, un site bien renseigné permet de présenter précisément les travaux proposés et de faciliter la prise de contact, sans garantir une position particulière sur Google.",
+  "local": {
+    "date": "2026-11-28",
+    "label": "artisans du bâtiment",
+    "total": 5,
+    "source": "OpenStreetMap",
+    "withoutSite": 4
+  },
+  "title": "Créer le site d’un artisan du bâtiment à Toulon",
+  "trade": "btp",
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes de vos futurs clients",
+      "paragraphs": [
+        "Une personne qui cherche un artisan ne tape pas toujours « artisan du bâtiment ». Elle peut rechercher un type d’intervention précis, comme une rénovation de salle de bains, la pose d’un revêtement, des travaux de maçonnerie ou une réparation. Ce sont des exemples de demandes : votre site doit reprendre uniquement les prestations que vous réalisez réellement. Une liste vague de services risque de laisser le visiteur dans le doute sur votre savoir-faire.",
+        "Pour chaque prestation, expliquez en termes simples ce que vous prenez en charge, le type de chantier concerné et les limites éventuelles de votre intervention. Précisez si vous travaillez pour des particuliers, des professionnels ou les deux, et si vous intervenez sur du neuf, de la rénovation ou du dépannage, selon votre activité. Une page consacrée à chaque spécialité utile donne des réponses plus claires qu’un unique paragraphe rempli de termes généraux.",
+        "Toulon doit apparaître naturellement dans les informations du site, notamment dans le titre de la page d’accueil et les coordonnées. Si vous vous déplacez aussi ailleurs, indiquez les communes concernées seulement après les avoir définies. Inutile d’énumérer des secteurs où vous ne prenez pas de chantiers : une zone d’intervention exacte évite les demandes incompatibles et aide le visiteur à savoir s’il peut vous contacter."
+      ]
+    },
+    {
+      "h2": "Montrer le travail, pas seulement l’annoncer",
+      "paragraphs": [
+        "Dans le bâtiment, les photos sont souvent plus parlantes qu’une longue présentation. Montrez des réalisations représentatives de vos prestations : le problème traité, les travaux effectués et le résultat visible. Ajoutez une légende descriptive, sans exagérer votre rôle ni laisser entendre que chaque chantier se déroule dans les mêmes conditions. Demandez l’autorisation nécessaire avant de publier des images, et vérifiez qu’elles ne révèlent pas d’informations personnelles ou l’adresse d’un client.",
+        "La page de présentation peut préciser votre façon de travailler : comment vous étudiez une demande, ce que vous vérifiez avant d’établir un devis et comment se déroule le premier échange. Mentionnez vos assurances, certifications ou qualifications uniquement si elles sont valides et pertinentes pour les prestations affichées. Si une assurance concerne seulement certains travaux, formulez-le sans ambiguïté plutôt que de laisser croire qu’elle couvre tout.",
+        "Un devis dépend du chantier, des matériaux, de l’accès et de l’état du support. Évitez donc d’afficher un tarif approximatif qui pourrait être pris pour un prix ferme. Expliquez plutôt les éléments utiles pour demander une estimation et indiquez clairement si le déplacement ou le devis est payant, gratuit ou soumis à conditions, selon votre pratique réelle."
+      ]
+    },
+    {
+      "h2": "Faciliter le contact et éviter les erreurs fréquentes",
+      "paragraphs": [
+        "Un visiteur doit pouvoir vous joindre sans chercher longtemps. Affichez un numéro de téléphone lisible, les horaires où vous répondez et un formulaire court. Demandez les informations utiles à l’étude de la demande : nature des travaux, adresse ou commune du chantier, délai envisagé et photos si elles peuvent aider. Prévoyez une confirmation après l’envoi du formulaire et expliquez que la demande ne vaut pas acceptation d’un chantier.",
+        "Une erreur fréquente consiste à présenter trop de métiers à la fois, sans préciser les compétences réellement maîtrisées. Une autre est de reprendre des photos trouvées ailleurs, ou d’utiliser des images qui ne correspondent pas aux services proposés. Évitez également les promesses de délais, de prix ou de résultats que vous ne pouvez pas confirmer avant d’avoir examiné le projet. Un site honnête filtre mieux les demandes et prépare une conversation plus utile.",
+        "Le site doit être lisible sur téléphone : les clients peuvent le consulter au moment de comparer des artisans ou de préparer un appel. Vérifiez que les boutons de contact fonctionnent, que les images ne ralentissent pas l’affichage et que les textes restent faciles à lire. Les pages doivent aussi être entretenues : mettez à jour les prestations, les coordonnées et les informations réglementaires lorsqu’elles évoluent."
+      ]
+    },
+    {
+      "h2": "Un site professionnel, avec un budget clairement annoncé",
+      "paragraphs": [
+        "Notre agence propose la création d’un site à 399 € ou une formule à 49 €/mois avec engagement 12 mois. Après la première année, l’hébergement est facturé 80 €/an. Ces montants concernent la création et l’hébergement indiqués ici ; toute demande particulière ou prestation supplémentaire doit être clarifiée avant de démarrer. Vous savez ainsi ce qui est inclus dans l’offre et pouvez choisir le mode de paiement adapté.",
+        "Avant la réalisation, rassemblez vos textes, vos coordonnées, les prestations à mettre en avant et des photos de chantiers que vous êtes autorisé à publier. L’agence peut ensuite organiser ces éléments dans des pages compréhensibles, avec une structure adaptée à votre activité. Le site ne remplace ni le suivi des demandes ni la qualité des travaux : il sert à informer, rassurer par des éléments vérifiables et donner un moyen simple de vous contacter.",
+        "Un bon contenu local n’est pas une répétition du nom de la ville. Il explique ce que vous faites réellement à Toulon, pour quels types de projets et selon quelles conditions. Gardez les informations précises et relisez-les avant publication. Les textes ne peuvent pas garantir une visibilité donnée, mais ils peuvent éviter les malentendus et mieux répondre aux questions qu’un prospect se pose avant de choisir un artisan."
+      ]
+    }
+  ],
+  "checklist": [
+    "Décrire uniquement les prestations réellement proposées.",
+    "Préciser les types de chantiers acceptés et les limites de votre intervention.",
+    "Indiquer Toulon et définir honnêtement la zone de déplacement.",
+    "Publier des photos de réalisations autorisées et légendées.",
+    "Vérifier les mentions relatives aux assurances et qualifications.",
+    "Afficher un téléphone, des horaires de réponse et un formulaire fonctionnel.",
+    "Expliquer les informations nécessaires pour étudier une demande de devis."
+  ],
+  "published": "2026-11-28",
+  "tradeLabel": "artisan du bâtiment",
+  "description": "Un site clair pour présenter vos travaux, vos réalisations et vos coordonnées aux clients qui cherchent un artisan du bâtiment à Toulon."
+}

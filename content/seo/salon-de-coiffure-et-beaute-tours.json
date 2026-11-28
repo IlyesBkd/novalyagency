@@ -1,0 +1,77 @@
+{
+  "h1": "Créer le site internet de votre salon de coiffure et beauté à Tours",
+  "faq": [
+    {
+      "a": "Présentez les services que le salon réalise effectivement : coiffure, coloration, soins ou prestations beauté selon votre activité. Pour chacune, expliquez ce qui est compris et indiquez les conditions utiles avant une réservation.",
+      "q": "Quelles prestations faut-il présenter sur le site ?"
+    },
+    {
+      "a": "Affichez les prix disponibles et expliquez clairement les cas où le montant dépend d’un diagnostic, de la longueur des cheveux ou de la technique choisie. Le visiteur doit savoir comment obtenir une estimation avant de venir.",
+      "q": "Faut-il afficher tous les tarifs ?"
+    },
+    {
+      "a": "Non. La création d’un site ne garantit pas une position dans les résultats. Des pages précises et des informations cohérentes rendent le site plus compréhensible, mais le classement dépend de nombreux facteurs.",
+      "q": "Le site peut-il garantir une bonne position sur Google à Tours ?"
+    },
+    {
+      "a": "La création coûte 399 € en paiement unique ou 49 €/mois avec un engagement de 12 mois. L’hébergement est inclus la première année, puis coûte 80 €/an.",
+      "q": "Combien coûte la création et l’hébergement ?"
+    }
+  ],
+  "city": "Tours",
+  "slug": "salon-de-coiffure-et-beaute-tours",
+  "intro": "À Tours, un salon de coiffure ou de beauté doit permettre de comprendre rapidement quelles prestations il propose et comment réserver. Sur OpenStreetMap (relevé du 28/11/2026), 4 salons de coiffure et instituts de beauté sont recensés à Tours, dont 3 sans site internet indiqué.",
+  "local": {
+    "date": "2026-11-28",
+    "label": "salons de coiffure et instituts de beauté",
+    "total": 4,
+    "source": "OpenStreetMap",
+    "withoutSite": 3
+  },
+  "title": "Site internet pour salon de beauté à Tours",
+  "trade": "beaute",
+  "sections": [
+    {
+      "h2": "Répondre aux recherches concrètes de vos futurs clients",
+      "paragraphs": [
+        "Une personne qui cherche un salon ne veut pas seulement trouver un nom : elle veut savoir si l’établissement réalise la prestation souhaitée, combien de temps prévoir et comment obtenir un rendez-vous. Votre site doit donc nommer clairement vos services, par exemple coupe, brushing, coloration, soin du visage, épilation ou manucure, uniquement si vous les proposez réellement. Des intitulés précis aident aussi les visiteurs à reconnaître la page qui répond à leur besoin.",
+        "À Tours, les recherches peuvent associer une prestation et la ville, comme « coiffeur à Tours » ou « institut de beauté à Tours ». Elles peuvent aussi préciser une technique, un type de soin ou une demande pratique. Organisez vos contenus autour de votre activité réelle plutôt que de répéter le nom de la ville dans chaque phrase. Une présentation naturelle, des titres explicites et des informations à jour rendent le site plus utile, sans garantir une position particulière sur Google."
+      ]
+    },
+    {
+      "h2": "Montrer ce qui se passe réellement au salon",
+      "paragraphs": [
+        "La page d’accueil doit annoncer clairement le nom du salon, son activité et son adresse à Tours, puis orienter vers les prestations et la prise de rendez-vous. Une photo authentique de l’espace ou du travail réalisé peut aider à se représenter l’ambiance et le résultat attendu. Utilisez seulement des images que vous avez le droit de publier, et veillez à ce qu’elles correspondent aux services et à l’équipe actuels.",
+        "Pour chaque prestation importante, expliquez ce qu’elle comprend et à qui elle s’adresse. Pour une coloration, indiquez les options réellement disponibles et la façon dont le tarif est établi. Pour un soin, précisez les étapes utiles sans employer de termes médicaux si le salon n’est pas habilité à les utiliser. Si les prix varient selon la longueur des cheveux, la technique ou le temps nécessaire, dites-le clairement et invitez la personne à demander un devis avant le rendez-vous.",
+        "Ajoutez les horaires, l’adresse, le téléphone et un moyen de réserver. Si la réservation se fait par téléphone ou par une plateforme externe, le bouton doit mener au bon endroit et fonctionner sur mobile."
+      ]
+    },
+    {
+      "h2": "Éviter les erreurs qui font hésiter avant de réserver",
+      "paragraphs": [
+        "Une erreur fréquente consiste à présenter les prestations avec des mots vagues, comme « beauté » ou « soins personnalisés », sans préciser ce qui est effectivement proposé. Une autre est d’afficher des tarifs incomplets, une ancienne grille ou des conditions difficiles à comprendre. Si une consultation est nécessaire avant une prestation, expliquez-le au lieu de laisser le visiteur deviner le prix final.",
+        "Les informations pratiques doivent rester cohérentes partout sur le site. Des horaires différents selon les pages, un numéro erroné ou une adresse absente compliquent la prise de contact. Évitez également les photos génériques qui ne montrent pas votre salon, les promotions périmées et les formulaires trop longs. Un visiteur venu sur téléphone doit pouvoir appeler ou réserver sans chercher dans plusieurs menus.",
+        "Ne publiez pas de promesses de résultat identique pour tous : les cheveux, la peau et les attentes varient. Décrivez plutôt votre méthode, les limites éventuelles et les informations à communiquer avant le rendez-vous. Cette précision aide à instaurer une relation claire dès le premier contact."
+      ]
+    },
+    {
+      "h2": "Un site simple à faire évoluer avec votre activité",
+      "paragraphs": [
+        "Les prestations, les horaires et les tarifs peuvent changer. Prévoyez une organisation qui permette de corriger ces informations sans refaire toutes les pages. Une structure adaptée peut comprendre une présentation du salon, une page dédiée aux prestations, une page pratique pour l’accès et les contacts, ainsi qu’un accès visible à la réservation.",
+        "L’agence peut créer votre site pour 399 € en paiement unique, ou pour 49 €/mois avec un engagement de 12 mois. L’hébergement est inclus pendant la première année ; il coûte ensuite 80 €/an. Ces montants concernent la création et l’hébergement selon la formule choisie, pas les prestations du salon. Avant la mise en ligne, vérifiez les textes, les tarifs, les coordonnées et le fonctionnement des liens de réservation."
+      ]
+    }
+  ],
+  "checklist": [
+    "Nom du salon, activité et adresse à Tours clairement visibles.",
+    "Liste des prestations réellement proposées, avec des intitulés compréhensibles.",
+    "Tarifs à jour et explication des éventuelles variations de prix.",
+    "Horaires et numéro de téléphone vérifiés.",
+    "Lien de réservation testé sur téléphone.",
+    "Photos authentiques et autorisées, correspondant au salon actuel.",
+    "Informations sur les consultations ou précautions nécessaires avant certaines prestations."
+  ],
+  "published": "2026-11-28",
+  "tradeLabel": "salon de coiffure et beauté",
+  "description": "Un site clair pour présenter votre salon à Tours, vos prestations, vos tarifs et faciliter les demandes de rendez-vous."
+}
